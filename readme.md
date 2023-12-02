@@ -17,9 +17,9 @@ Race Calendar Function:
 - Season
 - Gender
 - Category
-- First_Cycling_Race_ID
+- First Cycling Race ID
 - Race_Name
-- Race Nationality (Code)
+- First Cycling Race Nationality ID
 - UCI Race Category
 - Stage Race Boolean
 - Start Date
@@ -30,16 +30,16 @@ Race Result Functionality (One Day + GC for Stage Races):
 - Season
 - Gender
 - Category
-- First_Cycling_Race_ID
+- First Cycling Race ID
 - Race Name
 - Stage
 - Bib Number
-- First_Cycling_Rider_ID
-- First_Cycling_Team_ID
+- First Cycling Rider ID
+- First Cycling Team ID
 - Position
 
 Team Details Functionality:
 - Season
-- First_Cycling_Team_ID
+- First Cycling Team ID
 - Team Name
 - UCI Division
