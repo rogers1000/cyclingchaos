@@ -1,3 +1,5 @@
+library(tidyverse)
+
 calendar_function <- function() {
   calendar_csv <- read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/CyclingChaos_RaceCalendar.csv') |>
     mutate(race_id = as.character(race_id)) |>
