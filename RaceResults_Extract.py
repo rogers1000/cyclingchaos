@@ -8,13 +8,13 @@ import time
 from datetime import timedelta
 from tqdm import tqdm
 from bs4 import BeautifulSoup
-from google.colab import files
+# from google.colab import files
 import os
 import re
 from time import sleep
 # from google.colab import drive
 from random import randrange
-data_table.enable_dataframe_formatter()
+# data_table.enable_dataframe_formatter()
 
 
 ### Bring data relevant from Calendar DF
