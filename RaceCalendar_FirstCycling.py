@@ -1,3 +1,5 @@
+### Importing Packages ###
+
 import pandas as pd
 import numpy as np
 import requests
@@ -16,7 +18,10 @@ from random import randrange
 data_table.enable_dataframe_formatter()
 drive.mount('drive')
 
+### Men's Road Calendar ###
+
 month = 0
+# Change depending on Season
 season = 2023
 
 month_extract = 0
@@ -27,18 +32,14 @@ current_month = datetime.now().month
 
 current_month_range_adj = np.where(current_month < 12,current_month,12)
 
-# current_month_range_adj = 1
-
 mens_road_calendar_df = pd.DataFrame(columns=['season','gender','race_id','race_name','category','race_nationality','uci_race_classification','stage_race_boolean','start_date','end_date'])
 
 for month_extract in tqdm(range(1,
                                 # 3
                                 12
                                 )):
-  # sleep_time = randrange(4.5,5.5)
   season = np.where(month == 12,int(season)+1,season)
   month = np.where(month < 12,month + 1,1)
-  # month = 1
   month_str = np.where(month < 10,'0'+str(month),str(month))
   time.sleep(5)
   url = 'https://firstcycling.com/race.php?y='+str(season)+'&t=2&m='+str(month_str)
@@ -77,8 +78,11 @@ for month_extract in tqdm(range(1,
             # ,'test0':test0
         }, ignore_index=True)
 
+### Women's Road Calendar ###
+
 month = 0
 
+# Change depending on Season extracting
 season = 2023
 
 month_extract = 0
@@ -88,8 +92,6 @@ month_str = np.where(month < 10,'0'+str(month),str(month))
 current_month = datetime.now().month
 
 current_month_range_adj = np.where(current_month < 12,current_month,12)
-
-# current_month_range_adj = 1
 
 womens_road_calendar_df = pd.DataFrame(columns=['season','gender','race_id','race_name','category','race_nationality','uci_race_classification','stage_race_boolean','start_date','end_date'])
 
@@ -139,7 +141,16 @@ for month_extract in tqdm(range(1,
             # ,'test0':test0
         }, ignore_index=True)
 
+### Putting final steps of calendar together ###
+
 calendar_df = pd.concat([mens_road_calendar_df,womens_road_calendar_df], ignore_index = True)
 
 calendar_df = calendar_df.drop_duplicates(subset = 'first_cycling_race_id')
+
+calendar_df['race_tag'] = np.where(calendar_df['first_cycling_race_id'].isin(['8','11','5','4','24','13853',]),'Monument',
+                                   np.where(calendar_df['first_cycling_race_id'].isin(['13','17','23','15687','9058','9064']),'Grand Tour',
+                                   np.where(calendar_df['first_cycling_race_id'].isin(['53','84','116','47','7','75','56','77']),'Cobbled Classic',
+                                            '')))
+
+
 
