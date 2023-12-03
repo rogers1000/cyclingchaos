@@ -44,6 +44,10 @@ Phase 3 Rider Details:
 - Top 10s
 - Race Days
 
+Phase 3 Nationality Details:
+- First Cycling Nationality ID
+- Nationality
+
 Phase 4 Race Calendar:
 - Individual Stages
 - Number of Race Days
