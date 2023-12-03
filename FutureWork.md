@@ -1,12 +1,8 @@
 A place to put my planned work across a multiple iteration release schedule:
 
 Phase 1 Rider Details:
-- Season
 - First Cycling Rider ID
-- First Name
-- Last Name
-- Full Name
-- First Cycling Team ID
+- Rider Name
 
 Phase 2 Race Calendar:
 - Build Function in R to load table from csv
