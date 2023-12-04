@@ -4,18 +4,6 @@ Phase 1 Rider Details:
 - First Cycling Rider ID
 - Rider Name
 
-Phase 2 Race Calendar:
-- Build Function in R to load table from csv
-
-Phase 2 Race Results:
-- Build Function in R to load table from csv
-
-Phase 2 Team Details:
-- Build Function in R to load table from csv
-
-Phase 2 Rider Details:
-- Build Function in R to load table from csv
-
 Phase 3 Race Calendar:
 - Race Winner
 - Race Winner's team
