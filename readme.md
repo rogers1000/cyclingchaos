@@ -6,8 +6,8 @@ A cycling data package built by CyclingChaos (CyclingChaos.co.uk) where you will
 - Rider Details
 
 Currently there is a four phase iteration delivery process:
-- Phase 1 is basics
-- Phase 2 is building package
+- Phase 1 is basics (done)
+- Phase 2 is building basic package functions (done)
 - Phase 3 is adding data capability
 - Phase 4 is adding data capability
 
@@ -24,9 +24,9 @@ Race Calendar Function:
 - Stage Race Boolean
 - Start Date
 - End Date
-- Race Tag
+- Race Tags
 
-Race Result Functionality (One Day + GC for Stage Races):
+Race Result Function (One Day + GC for Stage Races):
 - Season
 - Gender
 - Category
@@ -38,7 +38,7 @@ Race Result Functionality (One Day + GC for Stage Races):
 - First Cycling Team ID
 - Position
 
-Team Details Functionality:
+Team Details Function
 - Season
 - First Cycling Team ID
 - Team Name
@@ -48,4 +48,4 @@ Race Results Pivot Table Functionality:
 - Dynamic Season Filter
 - Dyanmic Gender Filter
 - Dynamic Pivot Slicer (Team or Rider)
-- Dynanic Race Tag Filter (Monuments, Big7 One Day Races, World Tour, Cobbled Classics, Ardennes, Cobbles Opening Weekend, Grand Tours)
+- Dynanic Race Tag Filter (For example: Monuments, Big7 One Day Races, World Tour, Cobbled Classics, Ardennes, Cobbles Opening Weekend, Grand Tours)
