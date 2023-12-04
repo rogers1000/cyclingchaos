@@ -42,12 +42,11 @@ Phase 3 Nationality Details:
 - First Cycling Nationality ID
 - Nationality
 
+Phase 3 FantasyFives:
+- CSV Teams Import
+- Custom Races
+- Dream Team
+
 Phase 4 Race Calendar:
 - How the Race was Won? (One Day Races)
 - Elevation
-
-Phase 4 Race Results:
-- Stage Results
-- How the Stage was Won?
-- FantasyFives
-
