@@ -1,0 +1,3697 @@
+season,first_cycling_race_id,stage_number,distance,stage_profile_category,route
+2023,677,1,182,Smaakupert,Bilbao- Bilbao
+2023,677,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,677,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,677,4,181.8,Flatt,Dax-Nogaro
+2023,677,5,162.7,Fjell,Pau-Laruns
+2023,677,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,677,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,677,8,200.7,Smaakupert,Liburne-Limoges
+2023,677,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,677,10,167.2,Smaakupert,Vulcania-Issoire
+2023,677,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,677,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,677,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,677,14,150.4,Fjell,Annemasse-Morzine
+2023,677,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,677,16,22.4,Tempo,Passy-Combloux
+2023,677,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,677,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,677,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,677,20,133.5,Fjell,Belfort-Le Markstein
+2023,677,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,456,1,182,Smaakupert,Bilbao- Bilbao
+2023,456,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,456,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,456,4,181.8,Flatt,Dax-Nogaro
+2023,456,5,162.7,Fjell,Pau-Laruns
+2023,456,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,456,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,456,8,200.7,Smaakupert,Liburne-Limoges
+2023,456,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,456,10,167.2,Smaakupert,Vulcania-Issoire
+2023,456,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,456,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,456,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,456,14,150.4,Fjell,Annemasse-Morzine
+2023,456,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,456,16,22.4,Tempo,Passy-Combloux
+2023,456,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,456,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,456,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,456,20,133.5,Fjell,Belfort-Le Markstein
+2023,456,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,454,1,182,Smaakupert,Bilbao- Bilbao
+2023,454,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,454,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,454,4,181.8,Flatt,Dax-Nogaro
+2023,454,5,162.7,Fjell,Pau-Laruns
+2023,454,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,454,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,454,8,200.7,Smaakupert,Liburne-Limoges
+2023,454,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,454,10,167.2,Smaakupert,Vulcania-Issoire
+2023,454,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,454,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,454,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,454,14,150.4,Fjell,Annemasse-Morzine
+2023,454,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,454,16,22.4,Tempo,Passy-Combloux
+2023,454,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,454,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,454,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,454,20,133.5,Fjell,Belfort-Le Markstein
+2023,454,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,1,1,182,Smaakupert,Bilbao- Bilbao
+2023,1,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,1,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,1,4,181.8,Flatt,Dax-Nogaro
+2023,1,5,162.7,Fjell,Pau-Laruns
+2023,1,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,1,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,1,8,200.7,Smaakupert,Liburne-Limoges
+2023,1,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,1,10,167.2,Smaakupert,Vulcania-Issoire
+2023,1,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,1,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,1,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,1,14,150.4,Fjell,Annemasse-Morzine
+2023,1,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,1,16,22.4,Tempo,Passy-Combloux
+2023,1,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,1,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,1,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,1,20,133.5,Fjell,Belfort-Le Markstein
+2023,1,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,5247,1,182,Smaakupert,Bilbao- Bilbao
+2023,5247,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,5247,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,5247,4,181.8,Flatt,Dax-Nogaro
+2023,5247,5,162.7,Fjell,Pau-Laruns
+2023,5247,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,5247,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,5247,8,200.7,Smaakupert,Liburne-Limoges
+2023,5247,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,5247,10,167.2,Smaakupert,Vulcania-Issoire
+2023,5247,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,5247,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,5247,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,5247,14,150.4,Fjell,Annemasse-Morzine
+2023,5247,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,5247,16,22.4,Tempo,Passy-Combloux
+2023,5247,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,5247,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,5247,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,5247,20,133.5,Fjell,Belfort-Le Markstein
+2023,5247,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,117,1,182,Smaakupert,Bilbao- Bilbao
+2023,117,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,117,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,117,4,181.8,Flatt,Dax-Nogaro
+2023,117,5,162.7,Fjell,Pau-Laruns
+2023,117,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,117,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,117,8,200.7,Smaakupert,Liburne-Limoges
+2023,117,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,117,10,167.2,Smaakupert,Vulcania-Issoire
+2023,117,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,117,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,117,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,117,14,150.4,Fjell,Annemasse-Morzine
+2023,117,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,117,16,22.4,Tempo,Passy-Combloux
+2023,117,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,117,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,117,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,117,20,133.5,Fjell,Belfort-Le Markstein
+2023,117,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,460,1,182,Smaakupert,Bilbao- Bilbao
+2023,460,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,460,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,460,4,181.8,Flatt,Dax-Nogaro
+2023,460,5,162.7,Fjell,Pau-Laruns
+2023,460,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,460,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,460,8,200.7,Smaakupert,Liburne-Limoges
+2023,460,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,460,10,167.2,Smaakupert,Vulcania-Issoire
+2023,460,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,460,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,460,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,460,14,150.4,Fjell,Annemasse-Morzine
+2023,460,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,460,16,22.4,Tempo,Passy-Combloux
+2023,460,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,460,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,460,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,460,20,133.5,Fjell,Belfort-Le Markstein
+2023,460,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,868,1,182,Smaakupert,Bilbao- Bilbao
+2023,868,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,868,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,868,4,181.8,Flatt,Dax-Nogaro
+2023,868,5,162.7,Fjell,Pau-Laruns
+2023,868,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,868,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,868,8,200.7,Smaakupert,Liburne-Limoges
+2023,868,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,868,10,167.2,Smaakupert,Vulcania-Issoire
+2023,868,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,868,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,868,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,868,14,150.4,Fjell,Annemasse-Morzine
+2023,868,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,868,16,22.4,Tempo,Passy-Combloux
+2023,868,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,868,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,868,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,868,20,133.5,Fjell,Belfort-Le Markstein
+2023,868,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,11406,1,182,Smaakupert,Bilbao- Bilbao
+2023,11406,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,11406,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,11406,4,181.8,Flatt,Dax-Nogaro
+2023,11406,5,162.7,Fjell,Pau-Laruns
+2023,11406,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,11406,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,11406,8,200.7,Smaakupert,Liburne-Limoges
+2023,11406,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,11406,10,167.2,Smaakupert,Vulcania-Issoire
+2023,11406,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,11406,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,11406,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,11406,14,150.4,Fjell,Annemasse-Morzine
+2023,11406,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,11406,16,22.4,Tempo,Passy-Combloux
+2023,11406,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,11406,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,11406,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,11406,20,133.5,Fjell,Belfort-Le Markstein
+2023,11406,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,13738,1,182,Smaakupert,Bilbao- Bilbao
+2023,13738,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,13738,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,13738,4,181.8,Flatt,Dax-Nogaro
+2023,13738,5,162.7,Fjell,Pau-Laruns
+2023,13738,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,13738,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,13738,8,200.7,Smaakupert,Liburne-Limoges
+2023,13738,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,13738,10,167.2,Smaakupert,Vulcania-Issoire
+2023,13738,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,13738,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,13738,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,13738,14,150.4,Fjell,Annemasse-Morzine
+2023,13738,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,13738,16,22.4,Tempo,Passy-Combloux
+2023,13738,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,13738,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,13738,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,13738,20,133.5,Fjell,Belfort-Le Markstein
+2023,13738,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,319,1,182,Smaakupert,Bilbao- Bilbao
+2023,319,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,319,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,319,4,181.8,Flatt,Dax-Nogaro
+2023,319,5,162.7,Fjell,Pau-Laruns
+2023,319,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,319,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,319,8,200.7,Smaakupert,Liburne-Limoges
+2023,319,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,319,10,167.2,Smaakupert,Vulcania-Issoire
+2023,319,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,319,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,319,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,319,14,150.4,Fjell,Annemasse-Morzine
+2023,319,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,319,16,22.4,Tempo,Passy-Combloux
+2023,319,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,319,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,319,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,319,20,133.5,Fjell,Belfort-Le Markstein
+2023,319,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,106,1,182,Smaakupert,Bilbao- Bilbao
+2023,106,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,106,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,106,4,181.8,Flatt,Dax-Nogaro
+2023,106,5,162.7,Fjell,Pau-Laruns
+2023,106,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,106,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,106,8,200.7,Smaakupert,Liburne-Limoges
+2023,106,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,106,10,167.2,Smaakupert,Vulcania-Issoire
+2023,106,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,106,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,106,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,106,14,150.4,Fjell,Annemasse-Morzine
+2023,106,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,106,16,22.4,Tempo,Passy-Combloux
+2023,106,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,106,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,106,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,106,20,133.5,Fjell,Belfort-Le Markstein
+2023,106,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,57,1,182,Smaakupert,Bilbao- Bilbao
+2023,57,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,57,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,57,4,181.8,Flatt,Dax-Nogaro
+2023,57,5,162.7,Fjell,Pau-Laruns
+2023,57,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,57,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,57,8,200.7,Smaakupert,Liburne-Limoges
+2023,57,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,57,10,167.2,Smaakupert,Vulcania-Issoire
+2023,57,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,57,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,57,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,57,14,150.4,Fjell,Annemasse-Morzine
+2023,57,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,57,16,22.4,Tempo,Passy-Combloux
+2023,57,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,57,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,57,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,57,20,133.5,Fjell,Belfort-Le Markstein
+2023,57,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,110,1,182,Smaakupert,Bilbao- Bilbao
+2023,110,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,110,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,110,4,181.8,Flatt,Dax-Nogaro
+2023,110,5,162.7,Fjell,Pau-Laruns
+2023,110,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,110,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,110,8,200.7,Smaakupert,Liburne-Limoges
+2023,110,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,110,10,167.2,Smaakupert,Vulcania-Issoire
+2023,110,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,110,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,110,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,110,14,150.4,Fjell,Annemasse-Morzine
+2023,110,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,110,16,22.4,Tempo,Passy-Combloux
+2023,110,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,110,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,110,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,110,20,133.5,Fjell,Belfort-Le Markstein
+2023,110,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,107,1,182,Smaakupert,Bilbao- Bilbao
+2023,107,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,107,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,107,4,181.8,Flatt,Dax-Nogaro
+2023,107,5,162.7,Fjell,Pau-Laruns
+2023,107,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,107,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,107,8,200.7,Smaakupert,Liburne-Limoges
+2023,107,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,107,10,167.2,Smaakupert,Vulcania-Issoire
+2023,107,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,107,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,107,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,107,14,150.4,Fjell,Annemasse-Morzine
+2023,107,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,107,16,22.4,Tempo,Passy-Combloux
+2023,107,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,107,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,107,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,107,20,133.5,Fjell,Belfort-Le Markstein
+2023,107,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,111,1,182,Smaakupert,Bilbao- Bilbao
+2023,111,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,111,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,111,4,181.8,Flatt,Dax-Nogaro
+2023,111,5,162.7,Fjell,Pau-Laruns
+2023,111,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,111,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,111,8,200.7,Smaakupert,Liburne-Limoges
+2023,111,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,111,10,167.2,Smaakupert,Vulcania-Issoire
+2023,111,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,111,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,111,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,111,14,150.4,Fjell,Annemasse-Morzine
+2023,111,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,111,16,22.4,Tempo,Passy-Combloux
+2023,111,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,111,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,111,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,111,20,133.5,Fjell,Belfort-Le Markstein
+2023,111,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,450,1,182,Smaakupert,Bilbao- Bilbao
+2023,450,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,450,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,450,4,181.8,Flatt,Dax-Nogaro
+2023,450,5,162.7,Fjell,Pau-Laruns
+2023,450,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,450,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,450,8,200.7,Smaakupert,Liburne-Limoges
+2023,450,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,450,10,167.2,Smaakupert,Vulcania-Issoire
+2023,450,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,450,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,450,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,450,14,150.4,Fjell,Annemasse-Morzine
+2023,450,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,450,16,22.4,Tempo,Passy-Combloux
+2023,450,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,450,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,450,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,450,20,133.5,Fjell,Belfort-Le Markstein
+2023,450,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9800,1,182,Smaakupert,Bilbao- Bilbao
+2023,9800,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9800,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9800,4,181.8,Flatt,Dax-Nogaro
+2023,9800,5,162.7,Fjell,Pau-Laruns
+2023,9800,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9800,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9800,8,200.7,Smaakupert,Liburne-Limoges
+2023,9800,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9800,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9800,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9800,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9800,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9800,14,150.4,Fjell,Annemasse-Morzine
+2023,9800,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9800,16,22.4,Tempo,Passy-Combloux
+2023,9800,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9800,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9800,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9800,20,133.5,Fjell,Belfort-Le Markstein
+2023,9800,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,16526,1,182,Smaakupert,Bilbao- Bilbao
+2023,16526,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,16526,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,16526,4,181.8,Flatt,Dax-Nogaro
+2023,16526,5,162.7,Fjell,Pau-Laruns
+2023,16526,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,16526,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,16526,8,200.7,Smaakupert,Liburne-Limoges
+2023,16526,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,16526,10,167.2,Smaakupert,Vulcania-Issoire
+2023,16526,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,16526,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,16526,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,16526,14,150.4,Fjell,Annemasse-Morzine
+2023,16526,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,16526,16,22.4,Tempo,Passy-Combloux
+2023,16526,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,16526,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,16526,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,16526,20,133.5,Fjell,Belfort-Le Markstein
+2023,16526,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,16525,1,182,Smaakupert,Bilbao- Bilbao
+2023,16525,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,16525,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,16525,4,181.8,Flatt,Dax-Nogaro
+2023,16525,5,162.7,Fjell,Pau-Laruns
+2023,16525,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,16525,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,16525,8,200.7,Smaakupert,Liburne-Limoges
+2023,16525,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,16525,10,167.2,Smaakupert,Vulcania-Issoire
+2023,16525,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,16525,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,16525,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,16525,14,150.4,Fjell,Annemasse-Morzine
+2023,16525,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,16525,16,22.4,Tempo,Passy-Combloux
+2023,16525,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,16525,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,16525,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,16525,20,133.5,Fjell,Belfort-Le Markstein
+2023,16525,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,2,1,182,Smaakupert,Bilbao- Bilbao
+2023,2,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,2,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,2,4,181.8,Flatt,Dax-Nogaro
+2023,2,5,162.7,Fjell,Pau-Laruns
+2023,2,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,2,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,2,8,200.7,Smaakupert,Liburne-Limoges
+2023,2,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,2,10,167.2,Smaakupert,Vulcania-Issoire
+2023,2,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,2,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,2,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,2,14,150.4,Fjell,Annemasse-Morzine
+2023,2,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,2,16,22.4,Tempo,Passy-Combloux
+2023,2,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,2,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,2,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,2,20,133.5,Fjell,Belfort-Le Markstein
+2023,2,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,3,1,182,Smaakupert,Bilbao- Bilbao
+2023,3,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,3,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,3,4,181.8,Flatt,Dax-Nogaro
+2023,3,5,162.7,Fjell,Pau-Laruns
+2023,3,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,3,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,3,8,200.7,Smaakupert,Liburne-Limoges
+2023,3,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,3,10,167.2,Smaakupert,Vulcania-Issoire
+2023,3,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,3,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,3,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,3,14,150.4,Fjell,Annemasse-Morzine
+2023,3,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,3,16,22.4,Tempo,Passy-Combloux
+2023,3,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,3,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,3,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,3,20,133.5,Fjell,Belfort-Le Markstein
+2023,3,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,465,1,182,Smaakupert,Bilbao- Bilbao
+2023,465,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,465,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,465,4,181.8,Flatt,Dax-Nogaro
+2023,465,5,162.7,Fjell,Pau-Laruns
+2023,465,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,465,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,465,8,200.7,Smaakupert,Liburne-Limoges
+2023,465,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,465,10,167.2,Smaakupert,Vulcania-Issoire
+2023,465,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,465,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,465,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,465,14,150.4,Fjell,Annemasse-Morzine
+2023,465,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,465,16,22.4,Tempo,Passy-Combloux
+2023,465,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,465,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,465,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,465,20,133.5,Fjell,Belfort-Le Markstein
+2023,465,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,276,1,182,Smaakupert,Bilbao- Bilbao
+2023,276,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,276,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,276,4,181.8,Flatt,Dax-Nogaro
+2023,276,5,162.7,Fjell,Pau-Laruns
+2023,276,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,276,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,276,8,200.7,Smaakupert,Liburne-Limoges
+2023,276,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,276,10,167.2,Smaakupert,Vulcania-Issoire
+2023,276,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,276,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,276,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,276,14,150.4,Fjell,Annemasse-Morzine
+2023,276,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,276,16,22.4,Tempo,Passy-Combloux
+2023,276,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,276,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,276,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,276,20,133.5,Fjell,Belfort-Le Markstein
+2023,276,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,132,1,182,Smaakupert,Bilbao- Bilbao
+2023,132,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,132,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,132,4,181.8,Flatt,Dax-Nogaro
+2023,132,5,162.7,Fjell,Pau-Laruns
+2023,132,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,132,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,132,8,200.7,Smaakupert,Liburne-Limoges
+2023,132,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,132,10,167.2,Smaakupert,Vulcania-Issoire
+2023,132,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,132,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,132,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,132,14,150.4,Fjell,Annemasse-Morzine
+2023,132,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,132,16,22.4,Tempo,Passy-Combloux
+2023,132,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,132,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,132,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,132,20,133.5,Fjell,Belfort-Le Markstein
+2023,132,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,844,1,182,Smaakupert,Bilbao- Bilbao
+2023,844,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,844,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,844,4,181.8,Flatt,Dax-Nogaro
+2023,844,5,162.7,Fjell,Pau-Laruns
+2023,844,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,844,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,844,8,200.7,Smaakupert,Liburne-Limoges
+2023,844,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,844,10,167.2,Smaakupert,Vulcania-Issoire
+2023,844,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,844,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,844,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,844,14,150.4,Fjell,Annemasse-Morzine
+2023,844,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,844,16,22.4,Tempo,Passy-Combloux
+2023,844,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,844,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,844,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,844,20,133.5,Fjell,Belfort-Le Markstein
+2023,844,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,14,1,182,Smaakupert,Bilbao- Bilbao
+2023,14,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,14,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,14,4,181.8,Flatt,Dax-Nogaro
+2023,14,5,162.7,Fjell,Pau-Laruns
+2023,14,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,14,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,14,8,200.7,Smaakupert,Liburne-Limoges
+2023,14,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,14,10,167.2,Smaakupert,Vulcania-Issoire
+2023,14,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,14,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,14,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,14,14,150.4,Fjell,Annemasse-Morzine
+2023,14,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,14,16,22.4,Tempo,Passy-Combloux
+2023,14,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,14,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,14,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,14,20,133.5,Fjell,Belfort-Le Markstein
+2023,14,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,114,1,182,Smaakupert,Bilbao- Bilbao
+2023,114,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,114,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,114,4,181.8,Flatt,Dax-Nogaro
+2023,114,5,162.7,Fjell,Pau-Laruns
+2023,114,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,114,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,114,8,200.7,Smaakupert,Liburne-Limoges
+2023,114,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,114,10,167.2,Smaakupert,Vulcania-Issoire
+2023,114,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,114,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,114,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,114,14,150.4,Fjell,Annemasse-Morzine
+2023,114,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,114,16,22.4,Tempo,Passy-Combloux
+2023,114,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,114,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,114,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,114,20,133.5,Fjell,Belfort-Le Markstein
+2023,114,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,340,1,182,Smaakupert,Bilbao- Bilbao
+2023,340,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,340,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,340,4,181.8,Flatt,Dax-Nogaro
+2023,340,5,162.7,Fjell,Pau-Laruns
+2023,340,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,340,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,340,8,200.7,Smaakupert,Liburne-Limoges
+2023,340,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,340,10,167.2,Smaakupert,Vulcania-Issoire
+2023,340,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,340,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,340,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,340,14,150.4,Fjell,Annemasse-Morzine
+2023,340,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,340,16,22.4,Tempo,Passy-Combloux
+2023,340,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,340,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,340,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,340,20,133.5,Fjell,Belfort-Le Markstein
+2023,340,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,288,1,182,Smaakupert,Bilbao- Bilbao
+2023,288,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,288,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,288,4,181.8,Flatt,Dax-Nogaro
+2023,288,5,162.7,Fjell,Pau-Laruns
+2023,288,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,288,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,288,8,200.7,Smaakupert,Liburne-Limoges
+2023,288,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,288,10,167.2,Smaakupert,Vulcania-Issoire
+2023,288,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,288,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,288,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,288,14,150.4,Fjell,Annemasse-Morzine
+2023,288,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,288,16,22.4,Tempo,Passy-Combloux
+2023,288,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,288,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,288,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,288,20,133.5,Fjell,Belfort-Le Markstein
+2023,288,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,17278,1,182,Smaakupert,Bilbao- Bilbao
+2023,17278,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,17278,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,17278,4,181.8,Flatt,Dax-Nogaro
+2023,17278,5,162.7,Fjell,Pau-Laruns
+2023,17278,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,17278,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,17278,8,200.7,Smaakupert,Liburne-Limoges
+2023,17278,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,17278,10,167.2,Smaakupert,Vulcania-Issoire
+2023,17278,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,17278,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,17278,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,17278,14,150.4,Fjell,Annemasse-Morzine
+2023,17278,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,17278,16,22.4,Tempo,Passy-Combloux
+2023,17278,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,17278,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,17278,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,17278,20,133.5,Fjell,Belfort-Le Markstein
+2023,17278,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,507,1,182,Smaakupert,Bilbao- Bilbao
+2023,507,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,507,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,507,4,181.8,Flatt,Dax-Nogaro
+2023,507,5,162.7,Fjell,Pau-Laruns
+2023,507,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,507,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,507,8,200.7,Smaakupert,Liburne-Limoges
+2023,507,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,507,10,167.2,Smaakupert,Vulcania-Issoire
+2023,507,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,507,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,507,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,507,14,150.4,Fjell,Annemasse-Morzine
+2023,507,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,507,16,22.4,Tempo,Passy-Combloux
+2023,507,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,507,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,507,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,507,20,133.5,Fjell,Belfort-Le Markstein
+2023,507,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,6,1,182,Smaakupert,Bilbao- Bilbao
+2023,6,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,6,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,6,4,181.8,Flatt,Dax-Nogaro
+2023,6,5,162.7,Fjell,Pau-Laruns
+2023,6,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,6,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,6,8,200.7,Smaakupert,Liburne-Limoges
+2023,6,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,6,10,167.2,Smaakupert,Vulcania-Issoire
+2023,6,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,6,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,6,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,6,14,150.4,Fjell,Annemasse-Morzine
+2023,6,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,6,16,22.4,Tempo,Passy-Combloux
+2023,6,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,6,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,6,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,6,20,133.5,Fjell,Belfort-Le Markstein
+2023,6,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,217,1,182,Smaakupert,Bilbao- Bilbao
+2023,217,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,217,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,217,4,181.8,Flatt,Dax-Nogaro
+2023,217,5,162.7,Fjell,Pau-Laruns
+2023,217,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,217,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,217,8,200.7,Smaakupert,Liburne-Limoges
+2023,217,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,217,10,167.2,Smaakupert,Vulcania-Issoire
+2023,217,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,217,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,217,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,217,14,150.4,Fjell,Annemasse-Morzine
+2023,217,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,217,16,22.4,Tempo,Passy-Combloux
+2023,217,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,217,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,217,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,217,20,133.5,Fjell,Belfort-Le Markstein
+2023,217,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,293,1,182,Smaakupert,Bilbao- Bilbao
+2023,293,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,293,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,293,4,181.8,Flatt,Dax-Nogaro
+2023,293,5,162.7,Fjell,Pau-Laruns
+2023,293,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,293,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,293,8,200.7,Smaakupert,Liburne-Limoges
+2023,293,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,293,10,167.2,Smaakupert,Vulcania-Issoire
+2023,293,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,293,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,293,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,293,14,150.4,Fjell,Annemasse-Morzine
+2023,293,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,293,16,22.4,Tempo,Passy-Combloux
+2023,293,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,293,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,293,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,293,20,133.5,Fjell,Belfort-Le Markstein
+2023,293,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,11248,1,182,Smaakupert,Bilbao- Bilbao
+2023,11248,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,11248,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,11248,4,181.8,Flatt,Dax-Nogaro
+2023,11248,5,162.7,Fjell,Pau-Laruns
+2023,11248,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,11248,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,11248,8,200.7,Smaakupert,Liburne-Limoges
+2023,11248,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,11248,10,167.2,Smaakupert,Vulcania-Issoire
+2023,11248,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,11248,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,11248,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,11248,14,150.4,Fjell,Annemasse-Morzine
+2023,11248,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,11248,16,22.4,Tempo,Passy-Combloux
+2023,11248,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,11248,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,11248,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,11248,20,133.5,Fjell,Belfort-Le Markstein
+2023,11248,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,294,1,182,Smaakupert,Bilbao- Bilbao
+2023,294,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,294,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,294,4,181.8,Flatt,Dax-Nogaro
+2023,294,5,162.7,Fjell,Pau-Laruns
+2023,294,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,294,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,294,8,200.7,Smaakupert,Liburne-Limoges
+2023,294,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,294,10,167.2,Smaakupert,Vulcania-Issoire
+2023,294,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,294,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,294,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,294,14,150.4,Fjell,Annemasse-Morzine
+2023,294,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,294,16,22.4,Tempo,Passy-Combloux
+2023,294,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,294,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,294,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,294,20,133.5,Fjell,Belfort-Le Markstein
+2023,294,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,62,1,182,Smaakupert,Bilbao- Bilbao
+2023,62,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,62,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,62,4,181.8,Flatt,Dax-Nogaro
+2023,62,5,162.7,Fjell,Pau-Laruns
+2023,62,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,62,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,62,8,200.7,Smaakupert,Liburne-Limoges
+2023,62,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,62,10,167.2,Smaakupert,Vulcania-Issoire
+2023,62,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,62,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,62,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,62,14,150.4,Fjell,Annemasse-Morzine
+2023,62,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,62,16,22.4,Tempo,Passy-Combloux
+2023,62,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,62,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,62,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,62,20,133.5,Fjell,Belfort-Le Markstein
+2023,62,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9018,1,182,Smaakupert,Bilbao- Bilbao
+2023,9018,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9018,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9018,4,181.8,Flatt,Dax-Nogaro
+2023,9018,5,162.7,Fjell,Pau-Laruns
+2023,9018,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9018,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9018,8,200.7,Smaakupert,Liburne-Limoges
+2023,9018,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9018,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9018,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9018,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9018,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9018,14,150.4,Fjell,Annemasse-Morzine
+2023,9018,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9018,16,22.4,Tempo,Passy-Combloux
+2023,9018,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9018,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9018,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9018,20,133.5,Fjell,Belfort-Le Markstein
+2023,9018,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,82,1,182,Smaakupert,Bilbao- Bilbao
+2023,82,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,82,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,82,4,181.8,Flatt,Dax-Nogaro
+2023,82,5,162.7,Fjell,Pau-Laruns
+2023,82,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,82,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,82,8,200.7,Smaakupert,Liburne-Limoges
+2023,82,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,82,10,167.2,Smaakupert,Vulcania-Issoire
+2023,82,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,82,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,82,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,82,14,150.4,Fjell,Annemasse-Morzine
+2023,82,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,82,16,22.4,Tempo,Passy-Combloux
+2023,82,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,82,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,82,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,82,20,133.5,Fjell,Belfort-Le Markstein
+2023,82,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,12,1,182,Smaakupert,Bilbao- Bilbao
+2023,12,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,12,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,12,4,181.8,Flatt,Dax-Nogaro
+2023,12,5,162.7,Fjell,Pau-Laruns
+2023,12,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,12,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,12,8,200.7,Smaakupert,Liburne-Limoges
+2023,12,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,12,10,167.2,Smaakupert,Vulcania-Issoire
+2023,12,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,12,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,12,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,12,14,150.4,Fjell,Annemasse-Morzine
+2023,12,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,12,16,22.4,Tempo,Passy-Combloux
+2023,12,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,12,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,12,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,12,20,133.5,Fjell,Belfort-Le Markstein
+2023,12,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,239,1,182,Smaakupert,Bilbao- Bilbao
+2023,239,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,239,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,239,4,181.8,Flatt,Dax-Nogaro
+2023,239,5,162.7,Fjell,Pau-Laruns
+2023,239,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,239,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,239,8,200.7,Smaakupert,Liburne-Limoges
+2023,239,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,239,10,167.2,Smaakupert,Vulcania-Issoire
+2023,239,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,239,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,239,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,239,14,150.4,Fjell,Annemasse-Morzine
+2023,239,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,239,16,22.4,Tempo,Passy-Combloux
+2023,239,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,239,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,239,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,239,20,133.5,Fjell,Belfort-Le Markstein
+2023,239,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,153,1,182,Smaakupert,Bilbao- Bilbao
+2023,153,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,153,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,153,4,181.8,Flatt,Dax-Nogaro
+2023,153,5,162.7,Fjell,Pau-Laruns
+2023,153,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,153,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,153,8,200.7,Smaakupert,Liburne-Limoges
+2023,153,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,153,10,167.2,Smaakupert,Vulcania-Issoire
+2023,153,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,153,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,153,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,153,14,150.4,Fjell,Annemasse-Morzine
+2023,153,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,153,16,22.4,Tempo,Passy-Combloux
+2023,153,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,153,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,153,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,153,20,133.5,Fjell,Belfort-Le Markstein
+2023,153,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,314,1,182,Smaakupert,Bilbao- Bilbao
+2023,314,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,314,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,314,4,181.8,Flatt,Dax-Nogaro
+2023,314,5,162.7,Fjell,Pau-Laruns
+2023,314,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,314,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,314,8,200.7,Smaakupert,Liburne-Limoges
+2023,314,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,314,10,167.2,Smaakupert,Vulcania-Issoire
+2023,314,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,314,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,314,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,314,14,150.4,Fjell,Annemasse-Morzine
+2023,314,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,314,16,22.4,Tempo,Passy-Combloux
+2023,314,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,314,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,314,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,314,20,133.5,Fjell,Belfort-Le Markstein
+2023,314,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,6156,1,182,Smaakupert,Bilbao- Bilbao
+2023,6156,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,6156,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,6156,4,181.8,Flatt,Dax-Nogaro
+2023,6156,5,162.7,Fjell,Pau-Laruns
+2023,6156,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,6156,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,6156,8,200.7,Smaakupert,Liburne-Limoges
+2023,6156,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,6156,10,167.2,Smaakupert,Vulcania-Issoire
+2023,6156,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,6156,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,6156,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,6156,14,150.4,Fjell,Annemasse-Morzine
+2023,6156,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,6156,16,22.4,Tempo,Passy-Combloux
+2023,6156,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,6156,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,6156,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,6156,20,133.5,Fjell,Belfort-Le Markstein
+2023,6156,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,513,1,182,Smaakupert,Bilbao- Bilbao
+2023,513,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,513,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,513,4,181.8,Flatt,Dax-Nogaro
+2023,513,5,162.7,Fjell,Pau-Laruns
+2023,513,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,513,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,513,8,200.7,Smaakupert,Liburne-Limoges
+2023,513,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,513,10,167.2,Smaakupert,Vulcania-Issoire
+2023,513,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,513,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,513,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,513,14,150.4,Fjell,Annemasse-Morzine
+2023,513,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,513,16,22.4,Tempo,Passy-Combloux
+2023,513,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,513,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,513,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,513,20,133.5,Fjell,Belfort-Le Markstein
+2023,513,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,3672,1,182,Smaakupert,Bilbao- Bilbao
+2023,3672,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,3672,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,3672,4,181.8,Flatt,Dax-Nogaro
+2023,3672,5,162.7,Fjell,Pau-Laruns
+2023,3672,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,3672,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,3672,8,200.7,Smaakupert,Liburne-Limoges
+2023,3672,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,3672,10,167.2,Smaakupert,Vulcania-Issoire
+2023,3672,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,3672,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,3672,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,3672,14,150.4,Fjell,Annemasse-Morzine
+2023,3672,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,3672,16,22.4,Tempo,Passy-Combloux
+2023,3672,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,3672,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,3672,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,3672,20,133.5,Fjell,Belfort-Le Markstein
+2023,3672,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,13,1,182,Smaakupert,Bilbao- Bilbao
+2023,13,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,13,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,13,4,181.8,Flatt,Dax-Nogaro
+2023,13,5,162.7,Fjell,Pau-Laruns
+2023,13,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,13,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,13,8,200.7,Smaakupert,Liburne-Limoges
+2023,13,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,13,10,167.2,Smaakupert,Vulcania-Issoire
+2023,13,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,13,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,13,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,13,14,150.4,Fjell,Annemasse-Morzine
+2023,13,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,13,16,22.4,Tempo,Passy-Combloux
+2023,13,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,13,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,13,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,13,20,133.5,Fjell,Belfort-Le Markstein
+2023,13,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,765,1,182,Smaakupert,Bilbao- Bilbao
+2023,765,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,765,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,765,4,181.8,Flatt,Dax-Nogaro
+2023,765,5,162.7,Fjell,Pau-Laruns
+2023,765,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,765,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,765,8,200.7,Smaakupert,Liburne-Limoges
+2023,765,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,765,10,167.2,Smaakupert,Vulcania-Issoire
+2023,765,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,765,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,765,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,765,14,150.4,Fjell,Annemasse-Morzine
+2023,765,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,765,16,22.4,Tempo,Passy-Combloux
+2023,765,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,765,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,765,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,765,20,133.5,Fjell,Belfort-Le Markstein
+2023,765,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,17336,1,182,Smaakupert,Bilbao- Bilbao
+2023,17336,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,17336,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,17336,4,181.8,Flatt,Dax-Nogaro
+2023,17336,5,162.7,Fjell,Pau-Laruns
+2023,17336,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,17336,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,17336,8,200.7,Smaakupert,Liburne-Limoges
+2023,17336,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,17336,10,167.2,Smaakupert,Vulcania-Issoire
+2023,17336,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,17336,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,17336,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,17336,14,150.4,Fjell,Annemasse-Morzine
+2023,17336,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,17336,16,22.4,Tempo,Passy-Combloux
+2023,17336,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,17336,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,17336,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,17336,20,133.5,Fjell,Belfort-Le Markstein
+2023,17336,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,175,1,182,Smaakupert,Bilbao- Bilbao
+2023,175,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,175,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,175,4,181.8,Flatt,Dax-Nogaro
+2023,175,5,162.7,Fjell,Pau-Laruns
+2023,175,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,175,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,175,8,200.7,Smaakupert,Liburne-Limoges
+2023,175,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,175,10,167.2,Smaakupert,Vulcania-Issoire
+2023,175,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,175,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,175,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,175,14,150.4,Fjell,Annemasse-Morzine
+2023,175,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,175,16,22.4,Tempo,Passy-Combloux
+2023,175,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,175,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,175,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,175,20,133.5,Fjell,Belfort-Le Markstein
+2023,175,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,67,1,182,Smaakupert,Bilbao- Bilbao
+2023,67,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,67,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,67,4,181.8,Flatt,Dax-Nogaro
+2023,67,5,162.7,Fjell,Pau-Laruns
+2023,67,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,67,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,67,8,200.7,Smaakupert,Liburne-Limoges
+2023,67,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,67,10,167.2,Smaakupert,Vulcania-Issoire
+2023,67,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,67,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,67,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,67,14,150.4,Fjell,Annemasse-Morzine
+2023,67,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,67,16,22.4,Tempo,Passy-Combloux
+2023,67,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,67,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,67,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,67,20,133.5,Fjell,Belfort-Le Markstein
+2023,67,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,16532,1,182,Smaakupert,Bilbao- Bilbao
+2023,16532,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,16532,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,16532,4,181.8,Flatt,Dax-Nogaro
+2023,16532,5,162.7,Fjell,Pau-Laruns
+2023,16532,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,16532,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,16532,8,200.7,Smaakupert,Liburne-Limoges
+2023,16532,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,16532,10,167.2,Smaakupert,Vulcania-Issoire
+2023,16532,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,16532,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,16532,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,16532,14,150.4,Fjell,Annemasse-Morzine
+2023,16532,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,16532,16,22.4,Tempo,Passy-Combloux
+2023,16532,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,16532,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,16532,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,16532,20,133.5,Fjell,Belfort-Le Markstein
+2023,16532,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,919,1,182,Smaakupert,Bilbao- Bilbao
+2023,919,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,919,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,919,4,181.8,Flatt,Dax-Nogaro
+2023,919,5,162.7,Fjell,Pau-Laruns
+2023,919,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,919,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,919,8,200.7,Smaakupert,Liburne-Limoges
+2023,919,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,919,10,167.2,Smaakupert,Vulcania-Issoire
+2023,919,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,919,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,919,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,919,14,150.4,Fjell,Annemasse-Morzine
+2023,919,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,919,16,22.4,Tempo,Passy-Combloux
+2023,919,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,919,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,919,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,919,20,133.5,Fjell,Belfort-Le Markstein
+2023,919,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,341,1,182,Smaakupert,Bilbao- Bilbao
+2023,341,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,341,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,341,4,181.8,Flatt,Dax-Nogaro
+2023,341,5,162.7,Fjell,Pau-Laruns
+2023,341,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,341,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,341,8,200.7,Smaakupert,Liburne-Limoges
+2023,341,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,341,10,167.2,Smaakupert,Vulcania-Issoire
+2023,341,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,341,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,341,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,341,14,150.4,Fjell,Annemasse-Morzine
+2023,341,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,341,16,22.4,Tempo,Passy-Combloux
+2023,341,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,341,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,341,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,341,20,133.5,Fjell,Belfort-Le Markstein
+2023,341,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,7657,1,182,Smaakupert,Bilbao- Bilbao
+2023,7657,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,7657,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,7657,4,181.8,Flatt,Dax-Nogaro
+2023,7657,5,162.7,Fjell,Pau-Laruns
+2023,7657,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,7657,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,7657,8,200.7,Smaakupert,Liburne-Limoges
+2023,7657,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,7657,10,167.2,Smaakupert,Vulcania-Issoire
+2023,7657,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,7657,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,7657,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,7657,14,150.4,Fjell,Annemasse-Morzine
+2023,7657,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,7657,16,22.4,Tempo,Passy-Combloux
+2023,7657,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,7657,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,7657,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,7657,20,133.5,Fjell,Belfort-Le Markstein
+2023,7657,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,315,1,182,Smaakupert,Bilbao- Bilbao
+2023,315,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,315,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,315,4,181.8,Flatt,Dax-Nogaro
+2023,315,5,162.7,Fjell,Pau-Laruns
+2023,315,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,315,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,315,8,200.7,Smaakupert,Liburne-Limoges
+2023,315,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,315,10,167.2,Smaakupert,Vulcania-Issoire
+2023,315,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,315,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,315,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,315,14,150.4,Fjell,Annemasse-Morzine
+2023,315,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,315,16,22.4,Tempo,Passy-Combloux
+2023,315,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,315,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,315,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,315,20,133.5,Fjell,Belfort-Le Markstein
+2023,315,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,10674,1,182,Smaakupert,Bilbao- Bilbao
+2023,10674,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,10674,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,10674,4,181.8,Flatt,Dax-Nogaro
+2023,10674,5,162.7,Fjell,Pau-Laruns
+2023,10674,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,10674,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,10674,8,200.7,Smaakupert,Liburne-Limoges
+2023,10674,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,10674,10,167.2,Smaakupert,Vulcania-Issoire
+2023,10674,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,10674,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,10674,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,10674,14,150.4,Fjell,Annemasse-Morzine
+2023,10674,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,10674,16,22.4,Tempo,Passy-Combloux
+2023,10674,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,10674,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,10674,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,10674,20,133.5,Fjell,Belfort-Le Markstein
+2023,10674,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,343,1,182,Smaakupert,Bilbao- Bilbao
+2023,343,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,343,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,343,4,181.8,Flatt,Dax-Nogaro
+2023,343,5,162.7,Fjell,Pau-Laruns
+2023,343,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,343,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,343,8,200.7,Smaakupert,Liburne-Limoges
+2023,343,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,343,10,167.2,Smaakupert,Vulcania-Issoire
+2023,343,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,343,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,343,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,343,14,150.4,Fjell,Annemasse-Morzine
+2023,343,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,343,16,22.4,Tempo,Passy-Combloux
+2023,343,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,343,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,343,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,343,20,133.5,Fjell,Belfort-Le Markstein
+2023,343,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,7767,1,182,Smaakupert,Bilbao- Bilbao
+2023,7767,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,7767,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,7767,4,181.8,Flatt,Dax-Nogaro
+2023,7767,5,162.7,Fjell,Pau-Laruns
+2023,7767,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,7767,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,7767,8,200.7,Smaakupert,Liburne-Limoges
+2023,7767,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,7767,10,167.2,Smaakupert,Vulcania-Issoire
+2023,7767,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,7767,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,7767,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,7767,14,150.4,Fjell,Annemasse-Morzine
+2023,7767,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,7767,16,22.4,Tempo,Passy-Combloux
+2023,7767,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,7767,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,7767,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,7767,20,133.5,Fjell,Belfort-Le Markstein
+2023,7767,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,250,1,182,Smaakupert,Bilbao- Bilbao
+2023,250,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,250,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,250,4,181.8,Flatt,Dax-Nogaro
+2023,250,5,162.7,Fjell,Pau-Laruns
+2023,250,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,250,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,250,8,200.7,Smaakupert,Liburne-Limoges
+2023,250,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,250,10,167.2,Smaakupert,Vulcania-Issoire
+2023,250,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,250,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,250,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,250,14,150.4,Fjell,Annemasse-Morzine
+2023,250,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,250,16,22.4,Tempo,Passy-Combloux
+2023,250,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,250,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,250,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,250,20,133.5,Fjell,Belfort-Le Markstein
+2023,250,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,4008,1,182,Smaakupert,Bilbao- Bilbao
+2023,4008,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,4008,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,4008,4,181.8,Flatt,Dax-Nogaro
+2023,4008,5,162.7,Fjell,Pau-Laruns
+2023,4008,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,4008,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,4008,8,200.7,Smaakupert,Liburne-Limoges
+2023,4008,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,4008,10,167.2,Smaakupert,Vulcania-Issoire
+2023,4008,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,4008,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,4008,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,4008,14,150.4,Fjell,Annemasse-Morzine
+2023,4008,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,4008,16,22.4,Tempo,Passy-Combloux
+2023,4008,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,4008,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,4008,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,4008,20,133.5,Fjell,Belfort-Le Markstein
+2023,4008,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,71,1,182,Smaakupert,Bilbao- Bilbao
+2023,71,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,71,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,71,4,181.8,Flatt,Dax-Nogaro
+2023,71,5,162.7,Fjell,Pau-Laruns
+2023,71,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,71,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,71,8,200.7,Smaakupert,Liburne-Limoges
+2023,71,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,71,10,167.2,Smaakupert,Vulcania-Issoire
+2023,71,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,71,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,71,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,71,14,150.4,Fjell,Annemasse-Morzine
+2023,71,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,71,16,22.4,Tempo,Passy-Combloux
+2023,71,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,71,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,71,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,71,20,133.5,Fjell,Belfort-Le Markstein
+2023,71,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,552,1,182,Smaakupert,Bilbao- Bilbao
+2023,552,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,552,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,552,4,181.8,Flatt,Dax-Nogaro
+2023,552,5,162.7,Fjell,Pau-Laruns
+2023,552,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,552,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,552,8,200.7,Smaakupert,Liburne-Limoges
+2023,552,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,552,10,167.2,Smaakupert,Vulcania-Issoire
+2023,552,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,552,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,552,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,552,14,150.4,Fjell,Annemasse-Morzine
+2023,552,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,552,16,22.4,Tempo,Passy-Combloux
+2023,552,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,552,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,552,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,552,20,133.5,Fjell,Belfort-Le Markstein
+2023,552,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,386,1,182,Smaakupert,Bilbao- Bilbao
+2023,386,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,386,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,386,4,181.8,Flatt,Dax-Nogaro
+2023,386,5,162.7,Fjell,Pau-Laruns
+2023,386,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,386,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,386,8,200.7,Smaakupert,Liburne-Limoges
+2023,386,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,386,10,167.2,Smaakupert,Vulcania-Issoire
+2023,386,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,386,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,386,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,386,14,150.4,Fjell,Annemasse-Morzine
+2023,386,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,386,16,22.4,Tempo,Passy-Combloux
+2023,386,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,386,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,386,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,386,20,133.5,Fjell,Belfort-Le Markstein
+2023,386,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,345,1,182,Smaakupert,Bilbao- Bilbao
+2023,345,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,345,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,345,4,181.8,Flatt,Dax-Nogaro
+2023,345,5,162.7,Fjell,Pau-Laruns
+2023,345,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,345,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,345,8,200.7,Smaakupert,Liburne-Limoges
+2023,345,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,345,10,167.2,Smaakupert,Vulcania-Issoire
+2023,345,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,345,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,345,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,345,14,150.4,Fjell,Annemasse-Morzine
+2023,345,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,345,16,22.4,Tempo,Passy-Combloux
+2023,345,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,345,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,345,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,345,20,133.5,Fjell,Belfort-Le Markstein
+2023,345,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,473,1,182,Smaakupert,Bilbao- Bilbao
+2023,473,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,473,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,473,4,181.8,Flatt,Dax-Nogaro
+2023,473,5,162.7,Fjell,Pau-Laruns
+2023,473,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,473,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,473,8,200.7,Smaakupert,Liburne-Limoges
+2023,473,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,473,10,167.2,Smaakupert,Vulcania-Issoire
+2023,473,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,473,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,473,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,473,14,150.4,Fjell,Annemasse-Morzine
+2023,473,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,473,16,22.4,Tempo,Passy-Combloux
+2023,473,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,473,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,473,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,473,20,133.5,Fjell,Belfort-Le Markstein
+2023,473,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,502,1,182,Smaakupert,Bilbao- Bilbao
+2023,502,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,502,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,502,4,181.8,Flatt,Dax-Nogaro
+2023,502,5,162.7,Fjell,Pau-Laruns
+2023,502,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,502,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,502,8,200.7,Smaakupert,Liburne-Limoges
+2023,502,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,502,10,167.2,Smaakupert,Vulcania-Issoire
+2023,502,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,502,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,502,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,502,14,150.4,Fjell,Annemasse-Morzine
+2023,502,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,502,16,22.4,Tempo,Passy-Combloux
+2023,502,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,502,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,502,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,502,20,133.5,Fjell,Belfort-Le Markstein
+2023,502,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,15,1,182,Smaakupert,Bilbao- Bilbao
+2023,15,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,15,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,15,4,181.8,Flatt,Dax-Nogaro
+2023,15,5,162.7,Fjell,Pau-Laruns
+2023,15,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,15,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,15,8,200.7,Smaakupert,Liburne-Limoges
+2023,15,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,15,10,167.2,Smaakupert,Vulcania-Issoire
+2023,15,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,15,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,15,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,15,14,150.4,Fjell,Annemasse-Morzine
+2023,15,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,15,16,22.4,Tempo,Passy-Combloux
+2023,15,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,15,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,15,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,15,20,133.5,Fjell,Belfort-Le Markstein
+2023,15,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,5228,1,182,Smaakupert,Bilbao- Bilbao
+2023,5228,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,5228,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,5228,4,181.8,Flatt,Dax-Nogaro
+2023,5228,5,162.7,Fjell,Pau-Laruns
+2023,5228,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,5228,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,5228,8,200.7,Smaakupert,Liburne-Limoges
+2023,5228,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,5228,10,167.2,Smaakupert,Vulcania-Issoire
+2023,5228,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,5228,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,5228,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,5228,14,150.4,Fjell,Annemasse-Morzine
+2023,5228,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,5228,16,22.4,Tempo,Passy-Combloux
+2023,5228,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,5228,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,5228,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,5228,20,133.5,Fjell,Belfort-Le Markstein
+2023,5228,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,18950,1,182,Smaakupert,Bilbao- Bilbao
+2023,18950,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,18950,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,18950,4,181.8,Flatt,Dax-Nogaro
+2023,18950,5,162.7,Fjell,Pau-Laruns
+2023,18950,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,18950,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,18950,8,200.7,Smaakupert,Liburne-Limoges
+2023,18950,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,18950,10,167.2,Smaakupert,Vulcania-Issoire
+2023,18950,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,18950,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,18950,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,18950,14,150.4,Fjell,Annemasse-Morzine
+2023,18950,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,18950,16,22.4,Tempo,Passy-Combloux
+2023,18950,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,18950,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,18950,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,18950,20,133.5,Fjell,Belfort-Le Markstein
+2023,18950,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,213,1,182,Smaakupert,Bilbao- Bilbao
+2023,213,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,213,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,213,4,181.8,Flatt,Dax-Nogaro
+2023,213,5,162.7,Fjell,Pau-Laruns
+2023,213,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,213,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,213,8,200.7,Smaakupert,Liburne-Limoges
+2023,213,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,213,10,167.2,Smaakupert,Vulcania-Issoire
+2023,213,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,213,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,213,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,213,14,150.4,Fjell,Annemasse-Morzine
+2023,213,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,213,16,22.4,Tempo,Passy-Combloux
+2023,213,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,213,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,213,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,213,20,133.5,Fjell,Belfort-Le Markstein
+2023,213,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,14005,1,182,Smaakupert,Bilbao- Bilbao
+2023,14005,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,14005,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,14005,4,181.8,Flatt,Dax-Nogaro
+2023,14005,5,162.7,Fjell,Pau-Laruns
+2023,14005,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,14005,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,14005,8,200.7,Smaakupert,Liburne-Limoges
+2023,14005,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,14005,10,167.2,Smaakupert,Vulcania-Issoire
+2023,14005,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,14005,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,14005,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,14005,14,150.4,Fjell,Annemasse-Morzine
+2023,14005,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,14005,16,22.4,Tempo,Passy-Combloux
+2023,14005,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,14005,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,14005,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,14005,20,133.5,Fjell,Belfort-Le Markstein
+2023,14005,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,2119,1,182,Smaakupert,Bilbao- Bilbao
+2023,2119,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,2119,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,2119,4,181.8,Flatt,Dax-Nogaro
+2023,2119,5,162.7,Fjell,Pau-Laruns
+2023,2119,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,2119,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,2119,8,200.7,Smaakupert,Liburne-Limoges
+2023,2119,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,2119,10,167.2,Smaakupert,Vulcania-Issoire
+2023,2119,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,2119,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,2119,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,2119,14,150.4,Fjell,Annemasse-Morzine
+2023,2119,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,2119,16,22.4,Tempo,Passy-Combloux
+2023,2119,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,2119,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,2119,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,2119,20,133.5,Fjell,Belfort-Le Markstein
+2023,2119,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,20012,1,182,Smaakupert,Bilbao- Bilbao
+2023,20012,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,20012,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,20012,4,181.8,Flatt,Dax-Nogaro
+2023,20012,5,162.7,Fjell,Pau-Laruns
+2023,20012,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,20012,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,20012,8,200.7,Smaakupert,Liburne-Limoges
+2023,20012,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,20012,10,167.2,Smaakupert,Vulcania-Issoire
+2023,20012,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,20012,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,20012,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,20012,14,150.4,Fjell,Annemasse-Morzine
+2023,20012,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,20012,16,22.4,Tempo,Passy-Combloux
+2023,20012,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,20012,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,20012,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,20012,20,133.5,Fjell,Belfort-Le Markstein
+2023,20012,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,226,1,182,Smaakupert,Bilbao- Bilbao
+2023,226,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,226,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,226,4,181.8,Flatt,Dax-Nogaro
+2023,226,5,162.7,Fjell,Pau-Laruns
+2023,226,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,226,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,226,8,200.7,Smaakupert,Liburne-Limoges
+2023,226,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,226,10,167.2,Smaakupert,Vulcania-Issoire
+2023,226,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,226,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,226,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,226,14,150.4,Fjell,Annemasse-Morzine
+2023,226,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,226,16,22.4,Tempo,Passy-Combloux
+2023,226,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,226,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,226,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,226,20,133.5,Fjell,Belfort-Le Markstein
+2023,226,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,16,1,182,Smaakupert,Bilbao- Bilbao
+2023,16,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,16,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,16,4,181.8,Flatt,Dax-Nogaro
+2023,16,5,162.7,Fjell,Pau-Laruns
+2023,16,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,16,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,16,8,200.7,Smaakupert,Liburne-Limoges
+2023,16,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,16,10,167.2,Smaakupert,Vulcania-Issoire
+2023,16,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,16,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,16,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,16,14,150.4,Fjell,Annemasse-Morzine
+2023,16,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,16,16,22.4,Tempo,Passy-Combloux
+2023,16,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,16,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,16,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,16,20,133.5,Fjell,Belfort-Le Markstein
+2023,16,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,235,1,182,Smaakupert,Bilbao- Bilbao
+2023,235,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,235,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,235,4,181.8,Flatt,Dax-Nogaro
+2023,235,5,162.7,Fjell,Pau-Laruns
+2023,235,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,235,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,235,8,200.7,Smaakupert,Liburne-Limoges
+2023,235,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,235,10,167.2,Smaakupert,Vulcania-Issoire
+2023,235,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,235,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,235,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,235,14,150.4,Fjell,Annemasse-Morzine
+2023,235,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,235,16,22.4,Tempo,Passy-Combloux
+2023,235,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,235,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,235,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,235,20,133.5,Fjell,Belfort-Le Markstein
+2023,235,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,211,1,182,Smaakupert,Bilbao- Bilbao
+2023,211,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,211,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,211,4,181.8,Flatt,Dax-Nogaro
+2023,211,5,162.7,Fjell,Pau-Laruns
+2023,211,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,211,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,211,8,200.7,Smaakupert,Liburne-Limoges
+2023,211,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,211,10,167.2,Smaakupert,Vulcania-Issoire
+2023,211,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,211,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,211,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,211,14,150.4,Fjell,Annemasse-Morzine
+2023,211,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,211,16,22.4,Tempo,Passy-Combloux
+2023,211,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,211,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,211,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,211,20,133.5,Fjell,Belfort-Le Markstein
+2023,211,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,60,1,182,Smaakupert,Bilbao- Bilbao
+2023,60,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,60,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,60,4,181.8,Flatt,Dax-Nogaro
+2023,60,5,162.7,Fjell,Pau-Laruns
+2023,60,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,60,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,60,8,200.7,Smaakupert,Liburne-Limoges
+2023,60,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,60,10,167.2,Smaakupert,Vulcania-Issoire
+2023,60,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,60,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,60,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,60,14,150.4,Fjell,Annemasse-Morzine
+2023,60,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,60,16,22.4,Tempo,Passy-Combloux
+2023,60,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,60,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,60,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,60,20,133.5,Fjell,Belfort-Le Markstein
+2023,60,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,212,1,182,Smaakupert,Bilbao- Bilbao
+2023,212,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,212,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,212,4,181.8,Flatt,Dax-Nogaro
+2023,212,5,162.7,Fjell,Pau-Laruns
+2023,212,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,212,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,212,8,200.7,Smaakupert,Liburne-Limoges
+2023,212,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,212,10,167.2,Smaakupert,Vulcania-Issoire
+2023,212,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,212,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,212,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,212,14,150.4,Fjell,Annemasse-Morzine
+2023,212,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,212,16,22.4,Tempo,Passy-Combloux
+2023,212,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,212,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,212,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,212,20,133.5,Fjell,Belfort-Le Markstein
+2023,212,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,14426,1,182,Smaakupert,Bilbao- Bilbao
+2023,14426,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,14426,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,14426,4,181.8,Flatt,Dax-Nogaro
+2023,14426,5,162.7,Fjell,Pau-Laruns
+2023,14426,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,14426,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,14426,8,200.7,Smaakupert,Liburne-Limoges
+2023,14426,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,14426,10,167.2,Smaakupert,Vulcania-Issoire
+2023,14426,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,14426,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,14426,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,14426,14,150.4,Fjell,Annemasse-Morzine
+2023,14426,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,14426,16,22.4,Tempo,Passy-Combloux
+2023,14426,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,14426,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,14426,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,14426,20,133.5,Fjell,Belfort-Le Markstein
+2023,14426,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,86,1,182,Smaakupert,Bilbao- Bilbao
+2023,86,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,86,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,86,4,181.8,Flatt,Dax-Nogaro
+2023,86,5,162.7,Fjell,Pau-Laruns
+2023,86,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,86,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,86,8,200.7,Smaakupert,Liburne-Limoges
+2023,86,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,86,10,167.2,Smaakupert,Vulcania-Issoire
+2023,86,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,86,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,86,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,86,14,150.4,Fjell,Annemasse-Morzine
+2023,86,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,86,16,22.4,Tempo,Passy-Combloux
+2023,86,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,86,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,86,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,86,20,133.5,Fjell,Belfort-Le Markstein
+2023,86,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,257,1,182,Smaakupert,Bilbao- Bilbao
+2023,257,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,257,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,257,4,181.8,Flatt,Dax-Nogaro
+2023,257,5,162.7,Fjell,Pau-Laruns
+2023,257,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,257,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,257,8,200.7,Smaakupert,Liburne-Limoges
+2023,257,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,257,10,167.2,Smaakupert,Vulcania-Issoire
+2023,257,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,257,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,257,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,257,14,150.4,Fjell,Annemasse-Morzine
+2023,257,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,257,16,22.4,Tempo,Passy-Combloux
+2023,257,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,257,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,257,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,257,20,133.5,Fjell,Belfort-Le Markstein
+2023,257,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,17,1,182,Smaakupert,Bilbao- Bilbao
+2023,17,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,17,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,17,4,181.8,Flatt,Dax-Nogaro
+2023,17,5,162.7,Fjell,Pau-Laruns
+2023,17,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,17,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,17,8,200.7,Smaakupert,Liburne-Limoges
+2023,17,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,17,10,167.2,Smaakupert,Vulcania-Issoire
+2023,17,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,17,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,17,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,17,14,150.4,Fjell,Annemasse-Morzine
+2023,17,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,17,16,22.4,Tempo,Passy-Combloux
+2023,17,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,17,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,17,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,17,20,133.5,Fjell,Belfort-Le Markstein
+2023,17,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,38,1,182,Smaakupert,Bilbao- Bilbao
+2023,38,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,38,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,38,4,181.8,Flatt,Dax-Nogaro
+2023,38,5,162.7,Fjell,Pau-Laruns
+2023,38,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,38,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,38,8,200.7,Smaakupert,Liburne-Limoges
+2023,38,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,38,10,167.2,Smaakupert,Vulcania-Issoire
+2023,38,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,38,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,38,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,38,14,150.4,Fjell,Annemasse-Morzine
+2023,38,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,38,16,22.4,Tempo,Passy-Combloux
+2023,38,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,38,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,38,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,38,20,133.5,Fjell,Belfort-Le Markstein
+2023,38,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,258,1,182,Smaakupert,Bilbao- Bilbao
+2023,258,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,258,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,258,4,181.8,Flatt,Dax-Nogaro
+2023,258,5,162.7,Fjell,Pau-Laruns
+2023,258,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,258,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,258,8,200.7,Smaakupert,Liburne-Limoges
+2023,258,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,258,10,167.2,Smaakupert,Vulcania-Issoire
+2023,258,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,258,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,258,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,258,14,150.4,Fjell,Annemasse-Morzine
+2023,258,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,258,16,22.4,Tempo,Passy-Combloux
+2023,258,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,258,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,258,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,258,20,133.5,Fjell,Belfort-Le Markstein
+2023,258,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,127,1,182,Smaakupert,Bilbao- Bilbao
+2023,127,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,127,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,127,4,181.8,Flatt,Dax-Nogaro
+2023,127,5,162.7,Fjell,Pau-Laruns
+2023,127,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,127,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,127,8,200.7,Smaakupert,Liburne-Limoges
+2023,127,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,127,10,167.2,Smaakupert,Vulcania-Issoire
+2023,127,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,127,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,127,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,127,14,150.4,Fjell,Annemasse-Morzine
+2023,127,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,127,16,22.4,Tempo,Passy-Combloux
+2023,127,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,127,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,127,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,127,20,133.5,Fjell,Belfort-Le Markstein
+2023,127,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,229,1,182,Smaakupert,Bilbao- Bilbao
+2023,229,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,229,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,229,4,181.8,Flatt,Dax-Nogaro
+2023,229,5,162.7,Fjell,Pau-Laruns
+2023,229,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,229,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,229,8,200.7,Smaakupert,Liburne-Limoges
+2023,229,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,229,10,167.2,Smaakupert,Vulcania-Issoire
+2023,229,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,229,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,229,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,229,14,150.4,Fjell,Annemasse-Morzine
+2023,229,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,229,16,22.4,Tempo,Passy-Combloux
+2023,229,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,229,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,229,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,229,20,133.5,Fjell,Belfort-Le Markstein
+2023,229,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,398,1,182,Smaakupert,Bilbao- Bilbao
+2023,398,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,398,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,398,4,181.8,Flatt,Dax-Nogaro
+2023,398,5,162.7,Fjell,Pau-Laruns
+2023,398,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,398,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,398,8,200.7,Smaakupert,Liburne-Limoges
+2023,398,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,398,10,167.2,Smaakupert,Vulcania-Issoire
+2023,398,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,398,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,398,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,398,14,150.4,Fjell,Annemasse-Morzine
+2023,398,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,398,16,22.4,Tempo,Passy-Combloux
+2023,398,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,398,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,398,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,398,20,133.5,Fjell,Belfort-Le Markstein
+2023,398,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,703,1,182,Smaakupert,Bilbao- Bilbao
+2023,703,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,703,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,703,4,181.8,Flatt,Dax-Nogaro
+2023,703,5,162.7,Fjell,Pau-Laruns
+2023,703,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,703,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,703,8,200.7,Smaakupert,Liburne-Limoges
+2023,703,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,703,10,167.2,Smaakupert,Vulcania-Issoire
+2023,703,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,703,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,703,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,703,14,150.4,Fjell,Annemasse-Morzine
+2023,703,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,703,16,22.4,Tempo,Passy-Combloux
+2023,703,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,703,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,703,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,703,20,133.5,Fjell,Belfort-Le Markstein
+2023,703,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,20780,1,182,Smaakupert,Bilbao- Bilbao
+2023,20780,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,20780,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,20780,4,181.8,Flatt,Dax-Nogaro
+2023,20780,5,162.7,Fjell,Pau-Laruns
+2023,20780,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,20780,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,20780,8,200.7,Smaakupert,Liburne-Limoges
+2023,20780,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,20780,10,167.2,Smaakupert,Vulcania-Issoire
+2023,20780,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,20780,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,20780,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,20780,14,150.4,Fjell,Annemasse-Morzine
+2023,20780,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,20780,16,22.4,Tempo,Passy-Combloux
+2023,20780,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,20780,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,20780,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,20780,20,133.5,Fjell,Belfort-Le Markstein
+2023,20780,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,193,1,182,Smaakupert,Bilbao- Bilbao
+2023,193,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,193,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,193,4,181.8,Flatt,Dax-Nogaro
+2023,193,5,162.7,Fjell,Pau-Laruns
+2023,193,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,193,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,193,8,200.7,Smaakupert,Liburne-Limoges
+2023,193,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,193,10,167.2,Smaakupert,Vulcania-Issoire
+2023,193,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,193,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,193,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,193,14,150.4,Fjell,Annemasse-Morzine
+2023,193,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,193,16,22.4,Tempo,Passy-Combloux
+2023,193,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,193,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,193,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,193,20,133.5,Fjell,Belfort-Le Markstein
+2023,193,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,230,1,182,Smaakupert,Bilbao- Bilbao
+2023,230,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,230,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,230,4,181.8,Flatt,Dax-Nogaro
+2023,230,5,162.7,Fjell,Pau-Laruns
+2023,230,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,230,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,230,8,200.7,Smaakupert,Liburne-Limoges
+2023,230,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,230,10,167.2,Smaakupert,Vulcania-Issoire
+2023,230,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,230,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,230,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,230,14,150.4,Fjell,Annemasse-Morzine
+2023,230,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,230,16,22.4,Tempo,Passy-Combloux
+2023,230,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,230,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,230,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,230,20,133.5,Fjell,Belfort-Le Markstein
+2023,230,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,563,1,182,Smaakupert,Bilbao- Bilbao
+2023,563,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,563,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,563,4,181.8,Flatt,Dax-Nogaro
+2023,563,5,162.7,Fjell,Pau-Laruns
+2023,563,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,563,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,563,8,200.7,Smaakupert,Liburne-Limoges
+2023,563,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,563,10,167.2,Smaakupert,Vulcania-Issoire
+2023,563,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,563,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,563,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,563,14,150.4,Fjell,Annemasse-Morzine
+2023,563,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,563,16,22.4,Tempo,Passy-Combloux
+2023,563,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,563,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,563,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,563,20,133.5,Fjell,Belfort-Le Markstein
+2023,563,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,85,1,182,Smaakupert,Bilbao- Bilbao
+2023,85,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,85,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,85,4,181.8,Flatt,Dax-Nogaro
+2023,85,5,162.7,Fjell,Pau-Laruns
+2023,85,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,85,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,85,8,200.7,Smaakupert,Liburne-Limoges
+2023,85,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,85,10,167.2,Smaakupert,Vulcania-Issoire
+2023,85,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,85,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,85,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,85,14,150.4,Fjell,Annemasse-Morzine
+2023,85,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,85,16,22.4,Tempo,Passy-Combloux
+2023,85,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,85,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,85,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,85,20,133.5,Fjell,Belfort-Le Markstein
+2023,85,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,15209,1,182,Smaakupert,Bilbao- Bilbao
+2023,15209,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,15209,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,15209,4,181.8,Flatt,Dax-Nogaro
+2023,15209,5,162.7,Fjell,Pau-Laruns
+2023,15209,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,15209,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,15209,8,200.7,Smaakupert,Liburne-Limoges
+2023,15209,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,15209,10,167.2,Smaakupert,Vulcania-Issoire
+2023,15209,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,15209,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,15209,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,15209,14,150.4,Fjell,Annemasse-Morzine
+2023,15209,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,15209,16,22.4,Tempo,Passy-Combloux
+2023,15209,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,15209,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,15209,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,15209,20,133.5,Fjell,Belfort-Le Markstein
+2023,15209,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,385,1,182,Smaakupert,Bilbao- Bilbao
+2023,385,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,385,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,385,4,181.8,Flatt,Dax-Nogaro
+2023,385,5,162.7,Fjell,Pau-Laruns
+2023,385,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,385,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,385,8,200.7,Smaakupert,Liburne-Limoges
+2023,385,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,385,10,167.2,Smaakupert,Vulcania-Issoire
+2023,385,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,385,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,385,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,385,14,150.4,Fjell,Annemasse-Morzine
+2023,385,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,385,16,22.4,Tempo,Passy-Combloux
+2023,385,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,385,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,385,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,385,20,133.5,Fjell,Belfort-Le Markstein
+2023,385,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,19,1,182,Smaakupert,Bilbao- Bilbao
+2023,19,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,19,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,19,4,181.8,Flatt,Dax-Nogaro
+2023,19,5,162.7,Fjell,Pau-Laruns
+2023,19,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,19,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,19,8,200.7,Smaakupert,Liburne-Limoges
+2023,19,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,19,10,167.2,Smaakupert,Vulcania-Issoire
+2023,19,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,19,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,19,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,19,14,150.4,Fjell,Annemasse-Morzine
+2023,19,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,19,16,22.4,Tempo,Passy-Combloux
+2023,19,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,19,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,19,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,19,20,133.5,Fjell,Belfort-Le Markstein
+2023,19,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,63,1,182,Smaakupert,Bilbao- Bilbao
+2023,63,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,63,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,63,4,181.8,Flatt,Dax-Nogaro
+2023,63,5,162.7,Fjell,Pau-Laruns
+2023,63,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,63,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,63,8,200.7,Smaakupert,Liburne-Limoges
+2023,63,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,63,10,167.2,Smaakupert,Vulcania-Issoire
+2023,63,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,63,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,63,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,63,14,150.4,Fjell,Annemasse-Morzine
+2023,63,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,63,16,22.4,Tempo,Passy-Combloux
+2023,63,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,63,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,63,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,63,20,133.5,Fjell,Belfort-Le Markstein
+2023,63,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,20021,1,182,Smaakupert,Bilbao- Bilbao
+2023,20021,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,20021,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,20021,4,181.8,Flatt,Dax-Nogaro
+2023,20021,5,162.7,Fjell,Pau-Laruns
+2023,20021,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,20021,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,20021,8,200.7,Smaakupert,Liburne-Limoges
+2023,20021,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,20021,10,167.2,Smaakupert,Vulcania-Issoire
+2023,20021,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,20021,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,20021,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,20021,14,150.4,Fjell,Annemasse-Morzine
+2023,20021,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,20021,16,22.4,Tempo,Passy-Combloux
+2023,20021,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,20021,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,20021,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,20021,20,133.5,Fjell,Belfort-Le Markstein
+2023,20021,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,586,1,182,Smaakupert,Bilbao- Bilbao
+2023,586,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,586,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,586,4,181.8,Flatt,Dax-Nogaro
+2023,586,5,162.7,Fjell,Pau-Laruns
+2023,586,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,586,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,586,8,200.7,Smaakupert,Liburne-Limoges
+2023,586,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,586,10,167.2,Smaakupert,Vulcania-Issoire
+2023,586,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,586,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,586,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,586,14,150.4,Fjell,Annemasse-Morzine
+2023,586,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,586,16,22.4,Tempo,Passy-Combloux
+2023,586,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,586,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,586,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,586,20,133.5,Fjell,Belfort-Le Markstein
+2023,586,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,566,1,182,Smaakupert,Bilbao- Bilbao
+2023,566,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,566,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,566,4,181.8,Flatt,Dax-Nogaro
+2023,566,5,162.7,Fjell,Pau-Laruns
+2023,566,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,566,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,566,8,200.7,Smaakupert,Liburne-Limoges
+2023,566,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,566,10,167.2,Smaakupert,Vulcania-Issoire
+2023,566,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,566,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,566,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,566,14,150.4,Fjell,Annemasse-Morzine
+2023,566,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,566,16,22.4,Tempo,Passy-Combloux
+2023,566,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,566,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,566,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,566,20,133.5,Fjell,Belfort-Le Markstein
+2023,566,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,197,1,182,Smaakupert,Bilbao- Bilbao
+2023,197,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,197,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,197,4,181.8,Flatt,Dax-Nogaro
+2023,197,5,162.7,Fjell,Pau-Laruns
+2023,197,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,197,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,197,8,200.7,Smaakupert,Liburne-Limoges
+2023,197,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,197,10,167.2,Smaakupert,Vulcania-Issoire
+2023,197,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,197,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,197,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,197,14,150.4,Fjell,Annemasse-Morzine
+2023,197,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,197,16,22.4,Tempo,Passy-Combloux
+2023,197,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,197,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,197,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,197,20,133.5,Fjell,Belfort-Le Markstein
+2023,197,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,192,1,182,Smaakupert,Bilbao- Bilbao
+2023,192,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,192,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,192,4,181.8,Flatt,Dax-Nogaro
+2023,192,5,162.7,Fjell,Pau-Laruns
+2023,192,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,192,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,192,8,200.7,Smaakupert,Liburne-Limoges
+2023,192,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,192,10,167.2,Smaakupert,Vulcania-Issoire
+2023,192,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,192,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,192,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,192,14,150.4,Fjell,Annemasse-Morzine
+2023,192,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,192,16,22.4,Tempo,Passy-Combloux
+2023,192,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,192,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,192,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,192,20,133.5,Fjell,Belfort-Le Markstein
+2023,192,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,191,1,182,Smaakupert,Bilbao- Bilbao
+2023,191,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,191,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,191,4,181.8,Flatt,Dax-Nogaro
+2023,191,5,162.7,Fjell,Pau-Laruns
+2023,191,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,191,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,191,8,200.7,Smaakupert,Liburne-Limoges
+2023,191,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,191,10,167.2,Smaakupert,Vulcania-Issoire
+2023,191,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,191,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,191,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,191,14,150.4,Fjell,Annemasse-Morzine
+2023,191,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,191,16,22.4,Tempo,Passy-Combloux
+2023,191,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,191,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,191,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,191,20,133.5,Fjell,Belfort-Le Markstein
+2023,191,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,32,1,182,Smaakupert,Bilbao- Bilbao
+2023,32,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,32,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,32,4,181.8,Flatt,Dax-Nogaro
+2023,32,5,162.7,Fjell,Pau-Laruns
+2023,32,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,32,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,32,8,200.7,Smaakupert,Liburne-Limoges
+2023,32,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,32,10,167.2,Smaakupert,Vulcania-Issoire
+2023,32,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,32,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,32,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,32,14,150.4,Fjell,Annemasse-Morzine
+2023,32,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,32,16,22.4,Tempo,Passy-Combloux
+2023,32,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,32,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,32,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,32,20,133.5,Fjell,Belfort-Le Markstein
+2023,32,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,259,1,182,Smaakupert,Bilbao- Bilbao
+2023,259,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,259,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,259,4,181.8,Flatt,Dax-Nogaro
+2023,259,5,162.7,Fjell,Pau-Laruns
+2023,259,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,259,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,259,8,200.7,Smaakupert,Liburne-Limoges
+2023,259,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,259,10,167.2,Smaakupert,Vulcania-Issoire
+2023,259,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,259,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,259,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,259,14,150.4,Fjell,Annemasse-Morzine
+2023,259,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,259,16,22.4,Tempo,Passy-Combloux
+2023,259,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,259,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,259,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,259,20,133.5,Fjell,Belfort-Le Markstein
+2023,259,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,391,1,182,Smaakupert,Bilbao- Bilbao
+2023,391,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,391,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,391,4,181.8,Flatt,Dax-Nogaro
+2023,391,5,162.7,Fjell,Pau-Laruns
+2023,391,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,391,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,391,8,200.7,Smaakupert,Liburne-Limoges
+2023,391,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,391,10,167.2,Smaakupert,Vulcania-Issoire
+2023,391,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,391,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,391,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,391,14,150.4,Fjell,Annemasse-Morzine
+2023,391,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,391,16,22.4,Tempo,Passy-Combloux
+2023,391,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,391,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,391,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,391,20,133.5,Fjell,Belfort-Le Markstein
+2023,391,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,44,1,182,Smaakupert,Bilbao- Bilbao
+2023,44,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,44,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,44,4,181.8,Flatt,Dax-Nogaro
+2023,44,5,162.7,Fjell,Pau-Laruns
+2023,44,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,44,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,44,8,200.7,Smaakupert,Liburne-Limoges
+2023,44,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,44,10,167.2,Smaakupert,Vulcania-Issoire
+2023,44,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,44,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,44,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,44,14,150.4,Fjell,Annemasse-Morzine
+2023,44,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,44,16,22.4,Tempo,Passy-Combloux
+2023,44,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,44,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,44,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,44,20,133.5,Fjell,Belfort-Le Markstein
+2023,44,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,187,1,182,Smaakupert,Bilbao- Bilbao
+2023,187,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,187,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,187,4,181.8,Flatt,Dax-Nogaro
+2023,187,5,162.7,Fjell,Pau-Laruns
+2023,187,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,187,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,187,8,200.7,Smaakupert,Liburne-Limoges
+2023,187,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,187,10,167.2,Smaakupert,Vulcania-Issoire
+2023,187,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,187,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,187,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,187,14,150.4,Fjell,Annemasse-Morzine
+2023,187,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,187,16,22.4,Tempo,Passy-Combloux
+2023,187,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,187,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,187,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,187,20,133.5,Fjell,Belfort-Le Markstein
+2023,187,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,36,1,182,Smaakupert,Bilbao- Bilbao
+2023,36,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,36,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,36,4,181.8,Flatt,Dax-Nogaro
+2023,36,5,162.7,Fjell,Pau-Laruns
+2023,36,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,36,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,36,8,200.7,Smaakupert,Liburne-Limoges
+2023,36,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,36,10,167.2,Smaakupert,Vulcania-Issoire
+2023,36,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,36,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,36,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,36,14,150.4,Fjell,Annemasse-Morzine
+2023,36,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,36,16,22.4,Tempo,Passy-Combloux
+2023,36,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,36,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,36,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,36,20,133.5,Fjell,Belfort-Le Markstein
+2023,36,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,21,1,182,Smaakupert,Bilbao- Bilbao
+2023,21,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,21,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,21,4,181.8,Flatt,Dax-Nogaro
+2023,21,5,162.7,Fjell,Pau-Laruns
+2023,21,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,21,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,21,8,200.7,Smaakupert,Liburne-Limoges
+2023,21,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,21,10,167.2,Smaakupert,Vulcania-Issoire
+2023,21,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,21,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,21,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,21,14,150.4,Fjell,Annemasse-Morzine
+2023,21,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,21,16,22.4,Tempo,Passy-Combloux
+2023,21,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,21,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,21,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,21,20,133.5,Fjell,Belfort-Le Markstein
+2023,21,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,20013,1,182,Smaakupert,Bilbao- Bilbao
+2023,20013,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,20013,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,20013,4,181.8,Flatt,Dax-Nogaro
+2023,20013,5,162.7,Fjell,Pau-Laruns
+2023,20013,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,20013,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,20013,8,200.7,Smaakupert,Liburne-Limoges
+2023,20013,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,20013,10,167.2,Smaakupert,Vulcania-Issoire
+2023,20013,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,20013,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,20013,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,20013,14,150.4,Fjell,Annemasse-Morzine
+2023,20013,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,20013,16,22.4,Tempo,Passy-Combloux
+2023,20013,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,20013,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,20013,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,20013,20,133.5,Fjell,Belfort-Le Markstein
+2023,20013,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,955,1,182,Smaakupert,Bilbao- Bilbao
+2023,955,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,955,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,955,4,181.8,Flatt,Dax-Nogaro
+2023,955,5,162.7,Fjell,Pau-Laruns
+2023,955,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,955,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,955,8,200.7,Smaakupert,Liburne-Limoges
+2023,955,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,955,10,167.2,Smaakupert,Vulcania-Issoire
+2023,955,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,955,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,955,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,955,14,150.4,Fjell,Annemasse-Morzine
+2023,955,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,955,16,22.4,Tempo,Passy-Combloux
+2023,955,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,955,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,955,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,955,20,133.5,Fjell,Belfort-Le Markstein
+2023,955,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,23,1,182,Smaakupert,Bilbao- Bilbao
+2023,23,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,23,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,23,4,181.8,Flatt,Dax-Nogaro
+2023,23,5,162.7,Fjell,Pau-Laruns
+2023,23,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,23,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,23,8,200.7,Smaakupert,Liburne-Limoges
+2023,23,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,23,10,167.2,Smaakupert,Vulcania-Issoire
+2023,23,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,23,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,23,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,23,14,150.4,Fjell,Annemasse-Morzine
+2023,23,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,23,16,22.4,Tempo,Passy-Combloux
+2023,23,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,23,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,23,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,23,20,133.5,Fjell,Belfort-Le Markstein
+2023,23,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,434,1,182,Smaakupert,Bilbao- Bilbao
+2023,434,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,434,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,434,4,181.8,Flatt,Dax-Nogaro
+2023,434,5,162.7,Fjell,Pau-Laruns
+2023,434,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,434,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,434,8,200.7,Smaakupert,Liburne-Limoges
+2023,434,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,434,10,167.2,Smaakupert,Vulcania-Issoire
+2023,434,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,434,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,434,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,434,14,150.4,Fjell,Annemasse-Morzine
+2023,434,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,434,16,22.4,Tempo,Passy-Combloux
+2023,434,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,434,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,434,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,434,20,133.5,Fjell,Belfort-Le Markstein
+2023,434,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,538,1,182,Smaakupert,Bilbao- Bilbao
+2023,538,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,538,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,538,4,181.8,Flatt,Dax-Nogaro
+2023,538,5,162.7,Fjell,Pau-Laruns
+2023,538,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,538,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,538,8,200.7,Smaakupert,Liburne-Limoges
+2023,538,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,538,10,167.2,Smaakupert,Vulcania-Issoire
+2023,538,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,538,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,538,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,538,14,150.4,Fjell,Annemasse-Morzine
+2023,538,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,538,16,22.4,Tempo,Passy-Combloux
+2023,538,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,538,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,538,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,538,20,133.5,Fjell,Belfort-Le Markstein
+2023,538,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,15096,1,182,Smaakupert,Bilbao- Bilbao
+2023,15096,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,15096,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,15096,4,181.8,Flatt,Dax-Nogaro
+2023,15096,5,162.7,Fjell,Pau-Laruns
+2023,15096,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,15096,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,15096,8,200.7,Smaakupert,Liburne-Limoges
+2023,15096,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,15096,10,167.2,Smaakupert,Vulcania-Issoire
+2023,15096,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,15096,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,15096,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,15096,14,150.4,Fjell,Annemasse-Morzine
+2023,15096,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,15096,16,22.4,Tempo,Passy-Combloux
+2023,15096,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,15096,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,15096,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,15096,20,133.5,Fjell,Belfort-Le Markstein
+2023,15096,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,10675,1,182,Smaakupert,Bilbao- Bilbao
+2023,10675,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,10675,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,10675,4,181.8,Flatt,Dax-Nogaro
+2023,10675,5,162.7,Fjell,Pau-Laruns
+2023,10675,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,10675,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,10675,8,200.7,Smaakupert,Liburne-Limoges
+2023,10675,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,10675,10,167.2,Smaakupert,Vulcania-Issoire
+2023,10675,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,10675,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,10675,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,10675,14,150.4,Fjell,Annemasse-Morzine
+2023,10675,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,10675,16,22.4,Tempo,Passy-Combloux
+2023,10675,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,10675,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,10675,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,10675,20,133.5,Fjell,Belfort-Le Markstein
+2023,10675,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,45,1,182,Smaakupert,Bilbao- Bilbao
+2023,45,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,45,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,45,4,181.8,Flatt,Dax-Nogaro
+2023,45,5,162.7,Fjell,Pau-Laruns
+2023,45,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,45,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,45,8,200.7,Smaakupert,Liburne-Limoges
+2023,45,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,45,10,167.2,Smaakupert,Vulcania-Issoire
+2023,45,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,45,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,45,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,45,14,150.4,Fjell,Annemasse-Morzine
+2023,45,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,45,16,22.4,Tempo,Passy-Combloux
+2023,45,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,45,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,45,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,45,20,133.5,Fjell,Belfort-Le Markstein
+2023,45,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,401,1,182,Smaakupert,Bilbao- Bilbao
+2023,401,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,401,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,401,4,181.8,Flatt,Dax-Nogaro
+2023,401,5,162.7,Fjell,Pau-Laruns
+2023,401,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,401,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,401,8,200.7,Smaakupert,Liburne-Limoges
+2023,401,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,401,10,167.2,Smaakupert,Vulcania-Issoire
+2023,401,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,401,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,401,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,401,14,150.4,Fjell,Annemasse-Morzine
+2023,401,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,401,16,22.4,Tempo,Passy-Combloux
+2023,401,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,401,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,401,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,401,20,133.5,Fjell,Belfort-Le Markstein
+2023,401,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9699,1,182,Smaakupert,Bilbao- Bilbao
+2023,9699,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9699,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9699,4,181.8,Flatt,Dax-Nogaro
+2023,9699,5,162.7,Fjell,Pau-Laruns
+2023,9699,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9699,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9699,8,200.7,Smaakupert,Liburne-Limoges
+2023,9699,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9699,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9699,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9699,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9699,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9699,14,150.4,Fjell,Annemasse-Morzine
+2023,9699,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9699,16,22.4,Tempo,Passy-Combloux
+2023,9699,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9699,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9699,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9699,20,133.5,Fjell,Belfort-Le Markstein
+2023,9699,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,20020,1,182,Smaakupert,Bilbao- Bilbao
+2023,20020,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,20020,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,20020,4,181.8,Flatt,Dax-Nogaro
+2023,20020,5,162.7,Fjell,Pau-Laruns
+2023,20020,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,20020,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,20020,8,200.7,Smaakupert,Liburne-Limoges
+2023,20020,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,20020,10,167.2,Smaakupert,Vulcania-Issoire
+2023,20020,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,20020,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,20020,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,20020,14,150.4,Fjell,Annemasse-Morzine
+2023,20020,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,20020,16,22.4,Tempo,Passy-Combloux
+2023,20020,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,20020,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,20020,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,20020,20,133.5,Fjell,Belfort-Le Markstein
+2023,20020,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,4048,1,182,Smaakupert,Bilbao- Bilbao
+2023,4048,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,4048,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,4048,4,181.8,Flatt,Dax-Nogaro
+2023,4048,5,162.7,Fjell,Pau-Laruns
+2023,4048,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,4048,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,4048,8,200.7,Smaakupert,Liburne-Limoges
+2023,4048,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,4048,10,167.2,Smaakupert,Vulcania-Issoire
+2023,4048,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,4048,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,4048,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,4048,14,150.4,Fjell,Annemasse-Morzine
+2023,4048,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,4048,16,22.4,Tempo,Passy-Combloux
+2023,4048,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,4048,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,4048,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,4048,20,133.5,Fjell,Belfort-Le Markstein
+2023,4048,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,16578,1,182,Smaakupert,Bilbao- Bilbao
+2023,16578,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,16578,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,16578,4,181.8,Flatt,Dax-Nogaro
+2023,16578,5,162.7,Fjell,Pau-Laruns
+2023,16578,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,16578,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,16578,8,200.7,Smaakupert,Liburne-Limoges
+2023,16578,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,16578,10,167.2,Smaakupert,Vulcania-Issoire
+2023,16578,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,16578,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,16578,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,16578,14,150.4,Fjell,Annemasse-Morzine
+2023,16578,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,16578,16,22.4,Tempo,Passy-Combloux
+2023,16578,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,16578,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,16578,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,16578,20,133.5,Fjell,Belfort-Le Markstein
+2023,16578,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,380,1,182,Smaakupert,Bilbao- Bilbao
+2023,380,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,380,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,380,4,181.8,Flatt,Dax-Nogaro
+2023,380,5,162.7,Fjell,Pau-Laruns
+2023,380,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,380,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,380,8,200.7,Smaakupert,Liburne-Limoges
+2023,380,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,380,10,167.2,Smaakupert,Vulcania-Issoire
+2023,380,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,380,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,380,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,380,14,150.4,Fjell,Annemasse-Morzine
+2023,380,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,380,16,22.4,Tempo,Passy-Combloux
+2023,380,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,380,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,380,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,380,20,133.5,Fjell,Belfort-Le Markstein
+2023,380,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,242,1,182,Smaakupert,Bilbao- Bilbao
+2023,242,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,242,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,242,4,181.8,Flatt,Dax-Nogaro
+2023,242,5,162.7,Fjell,Pau-Laruns
+2023,242,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,242,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,242,8,200.7,Smaakupert,Liburne-Limoges
+2023,242,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,242,10,167.2,Smaakupert,Vulcania-Issoire
+2023,242,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,242,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,242,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,242,14,150.4,Fjell,Annemasse-Morzine
+2023,242,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,242,16,22.4,Tempo,Passy-Combloux
+2023,242,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,242,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,242,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,242,20,133.5,Fjell,Belfort-Le Markstein
+2023,242,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,37,1,182,Smaakupert,Bilbao- Bilbao
+2023,37,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,37,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,37,4,181.8,Flatt,Dax-Nogaro
+2023,37,5,162.7,Fjell,Pau-Laruns
+2023,37,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,37,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,37,8,200.7,Smaakupert,Liburne-Limoges
+2023,37,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,37,10,167.2,Smaakupert,Vulcania-Issoire
+2023,37,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,37,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,37,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,37,14,150.4,Fjell,Annemasse-Morzine
+2023,37,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,37,16,22.4,Tempo,Passy-Combloux
+2023,37,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,37,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,37,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,37,20,133.5,Fjell,Belfort-Le Markstein
+2023,37,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,16539,1,182,Smaakupert,Bilbao- Bilbao
+2023,16539,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,16539,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,16539,4,181.8,Flatt,Dax-Nogaro
+2023,16539,5,162.7,Fjell,Pau-Laruns
+2023,16539,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,16539,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,16539,8,200.7,Smaakupert,Liburne-Limoges
+2023,16539,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,16539,10,167.2,Smaakupert,Vulcania-Issoire
+2023,16539,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,16539,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,16539,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,16539,14,150.4,Fjell,Annemasse-Morzine
+2023,16539,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,16539,16,22.4,Tempo,Passy-Combloux
+2023,16539,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,16539,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,16539,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,16539,20,133.5,Fjell,Belfort-Le Markstein
+2023,16539,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,128,1,182,Smaakupert,Bilbao- Bilbao
+2023,128,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,128,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,128,4,181.8,Flatt,Dax-Nogaro
+2023,128,5,162.7,Fjell,Pau-Laruns
+2023,128,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,128,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,128,8,200.7,Smaakupert,Liburne-Limoges
+2023,128,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,128,10,167.2,Smaakupert,Vulcania-Issoire
+2023,128,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,128,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,128,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,128,14,150.4,Fjell,Annemasse-Morzine
+2023,128,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,128,16,22.4,Tempo,Passy-Combloux
+2023,128,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,128,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,128,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,128,20,133.5,Fjell,Belfort-Le Markstein
+2023,128,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,672,1,182,Smaakupert,Bilbao- Bilbao
+2023,672,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,672,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,672,4,181.8,Flatt,Dax-Nogaro
+2023,672,5,162.7,Fjell,Pau-Laruns
+2023,672,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,672,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,672,8,200.7,Smaakupert,Liburne-Limoges
+2023,672,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,672,10,167.2,Smaakupert,Vulcania-Issoire
+2023,672,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,672,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,672,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,672,14,150.4,Fjell,Annemasse-Morzine
+2023,672,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,672,16,22.4,Tempo,Passy-Combloux
+2023,672,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,672,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,672,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,672,20,133.5,Fjell,Belfort-Le Markstein
+2023,672,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,773,1,182,Smaakupert,Bilbao- Bilbao
+2023,773,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,773,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,773,4,181.8,Flatt,Dax-Nogaro
+2023,773,5,162.7,Fjell,Pau-Laruns
+2023,773,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,773,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,773,8,200.7,Smaakupert,Liburne-Limoges
+2023,773,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,773,10,167.2,Smaakupert,Vulcania-Issoire
+2023,773,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,773,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,773,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,773,14,150.4,Fjell,Annemasse-Morzine
+2023,773,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,773,16,22.4,Tempo,Passy-Combloux
+2023,773,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,773,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,773,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,773,20,133.5,Fjell,Belfort-Le Markstein
+2023,773,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,20781,1,182,Smaakupert,Bilbao- Bilbao
+2023,20781,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,20781,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,20781,4,181.8,Flatt,Dax-Nogaro
+2023,20781,5,162.7,Fjell,Pau-Laruns
+2023,20781,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,20781,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,20781,8,200.7,Smaakupert,Liburne-Limoges
+2023,20781,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,20781,10,167.2,Smaakupert,Vulcania-Issoire
+2023,20781,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,20781,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,20781,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,20781,14,150.4,Fjell,Annemasse-Morzine
+2023,20781,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,20781,16,22.4,Tempo,Passy-Combloux
+2023,20781,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,20781,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,20781,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,20781,20,133.5,Fjell,Belfort-Le Markstein
+2023,20781,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,445,1,182,Smaakupert,Bilbao- Bilbao
+2023,445,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,445,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,445,4,181.8,Flatt,Dax-Nogaro
+2023,445,5,162.7,Fjell,Pau-Laruns
+2023,445,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,445,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,445,8,200.7,Smaakupert,Liburne-Limoges
+2023,445,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,445,10,167.2,Smaakupert,Vulcania-Issoire
+2023,445,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,445,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,445,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,445,14,150.4,Fjell,Annemasse-Morzine
+2023,445,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,445,16,22.4,Tempo,Passy-Combloux
+2023,445,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,445,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,445,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,445,20,133.5,Fjell,Belfort-Le Markstein
+2023,445,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,139,1,182,Smaakupert,Bilbao- Bilbao
+2023,139,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,139,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,139,4,181.8,Flatt,Dax-Nogaro
+2023,139,5,162.7,Fjell,Pau-Laruns
+2023,139,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,139,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,139,8,200.7,Smaakupert,Liburne-Limoges
+2023,139,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,139,10,167.2,Smaakupert,Vulcania-Issoire
+2023,139,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,139,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,139,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,139,14,150.4,Fjell,Annemasse-Morzine
+2023,139,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,139,16,22.4,Tempo,Passy-Combloux
+2023,139,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,139,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,139,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,139,20,133.5,Fjell,Belfort-Le Markstein
+2023,139,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,18945,1,182,Smaakupert,Bilbao- Bilbao
+2023,18945,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,18945,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,18945,4,181.8,Flatt,Dax-Nogaro
+2023,18945,5,162.7,Fjell,Pau-Laruns
+2023,18945,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,18945,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,18945,8,200.7,Smaakupert,Liburne-Limoges
+2023,18945,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,18945,10,167.2,Smaakupert,Vulcania-Issoire
+2023,18945,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,18945,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,18945,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,18945,14,150.4,Fjell,Annemasse-Morzine
+2023,18945,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,18945,16,22.4,Tempo,Passy-Combloux
+2023,18945,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,18945,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,18945,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,18945,20,133.5,Fjell,Belfort-Le Markstein
+2023,18945,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,152,1,182,Smaakupert,Bilbao- Bilbao
+2023,152,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,152,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,152,4,181.8,Flatt,Dax-Nogaro
+2023,152,5,162.7,Fjell,Pau-Laruns
+2023,152,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,152,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,152,8,200.7,Smaakupert,Liburne-Limoges
+2023,152,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,152,10,167.2,Smaakupert,Vulcania-Issoire
+2023,152,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,152,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,152,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,152,14,150.4,Fjell,Annemasse-Morzine
+2023,152,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,152,16,22.4,Tempo,Passy-Combloux
+2023,152,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,152,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,152,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,152,20,133.5,Fjell,Belfort-Le Markstein
+2023,152,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,7591,1,182,Smaakupert,Bilbao- Bilbao
+2023,7591,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,7591,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,7591,4,181.8,Flatt,Dax-Nogaro
+2023,7591,5,162.7,Fjell,Pau-Laruns
+2023,7591,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,7591,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,7591,8,200.7,Smaakupert,Liburne-Limoges
+2023,7591,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,7591,10,167.2,Smaakupert,Vulcania-Issoire
+2023,7591,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,7591,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,7591,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,7591,14,150.4,Fjell,Annemasse-Morzine
+2023,7591,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,7591,16,22.4,Tempo,Passy-Combloux
+2023,7591,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,7591,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,7591,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,7591,20,133.5,Fjell,Belfort-Le Markstein
+2023,7591,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,18951,1,182,Smaakupert,Bilbao- Bilbao
+2023,18951,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,18951,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,18951,4,181.8,Flatt,Dax-Nogaro
+2023,18951,5,162.7,Fjell,Pau-Laruns
+2023,18951,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,18951,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,18951,8,200.7,Smaakupert,Liburne-Limoges
+2023,18951,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,18951,10,167.2,Smaakupert,Vulcania-Issoire
+2023,18951,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,18951,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,18951,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,18951,14,150.4,Fjell,Annemasse-Morzine
+2023,18951,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,18951,16,22.4,Tempo,Passy-Combloux
+2023,18951,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,18951,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,18951,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,18951,20,133.5,Fjell,Belfort-Le Markstein
+2023,18951,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,446,1,182,Smaakupert,Bilbao- Bilbao
+2023,446,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,446,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,446,4,181.8,Flatt,Dax-Nogaro
+2023,446,5,162.7,Fjell,Pau-Laruns
+2023,446,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,446,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,446,8,200.7,Smaakupert,Liburne-Limoges
+2023,446,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,446,10,167.2,Smaakupert,Vulcania-Issoire
+2023,446,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,446,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,446,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,446,14,150.4,Fjell,Annemasse-Morzine
+2023,446,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,446,16,22.4,Tempo,Passy-Combloux
+2023,446,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,446,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,446,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,446,20,133.5,Fjell,Belfort-Le Markstein
+2023,446,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,595,1,182,Smaakupert,Bilbao- Bilbao
+2023,595,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,595,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,595,4,181.8,Flatt,Dax-Nogaro
+2023,595,5,162.7,Fjell,Pau-Laruns
+2023,595,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,595,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,595,8,200.7,Smaakupert,Liburne-Limoges
+2023,595,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,595,10,167.2,Smaakupert,Vulcania-Issoire
+2023,595,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,595,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,595,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,595,14,150.4,Fjell,Annemasse-Morzine
+2023,595,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,595,16,22.4,Tempo,Passy-Combloux
+2023,595,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,595,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,595,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,595,20,133.5,Fjell,Belfort-Le Markstein
+2023,595,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9080,1,182,Smaakupert,Bilbao- Bilbao
+2023,9080,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9080,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9080,4,181.8,Flatt,Dax-Nogaro
+2023,9080,5,162.7,Fjell,Pau-Laruns
+2023,9080,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9080,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9080,8,200.7,Smaakupert,Liburne-Limoges
+2023,9080,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9080,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9080,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9080,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9080,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9080,14,150.4,Fjell,Annemasse-Morzine
+2023,9080,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9080,16,22.4,Tempo,Passy-Combloux
+2023,9080,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9080,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9080,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9080,20,133.5,Fjell,Belfort-Le Markstein
+2023,9080,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,18130,1,182,Smaakupert,Bilbao- Bilbao
+2023,18130,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,18130,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,18130,4,181.8,Flatt,Dax-Nogaro
+2023,18130,5,162.7,Fjell,Pau-Laruns
+2023,18130,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,18130,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,18130,8,200.7,Smaakupert,Liburne-Limoges
+2023,18130,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,18130,10,167.2,Smaakupert,Vulcania-Issoire
+2023,18130,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,18130,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,18130,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,18130,14,150.4,Fjell,Annemasse-Morzine
+2023,18130,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,18130,16,22.4,Tempo,Passy-Combloux
+2023,18130,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,18130,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,18130,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,18130,20,133.5,Fjell,Belfort-Le Markstein
+2023,18130,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9189,1,182,Smaakupert,Bilbao- Bilbao
+2023,9189,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9189,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9189,4,181.8,Flatt,Dax-Nogaro
+2023,9189,5,162.7,Fjell,Pau-Laruns
+2023,9189,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9189,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9189,8,200.7,Smaakupert,Liburne-Limoges
+2023,9189,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9189,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9189,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9189,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9189,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9189,14,150.4,Fjell,Annemasse-Morzine
+2023,9189,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9189,16,22.4,Tempo,Passy-Combloux
+2023,9189,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9189,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9189,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9189,20,133.5,Fjell,Belfort-Le Markstein
+2023,9189,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,17279,1,182,Smaakupert,Bilbao- Bilbao
+2023,17279,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,17279,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,17279,4,181.8,Flatt,Dax-Nogaro
+2023,17279,5,162.7,Fjell,Pau-Laruns
+2023,17279,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,17279,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,17279,8,200.7,Smaakupert,Liburne-Limoges
+2023,17279,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,17279,10,167.2,Smaakupert,Vulcania-Issoire
+2023,17279,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,17279,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,17279,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,17279,14,150.4,Fjell,Annemasse-Morzine
+2023,17279,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,17279,16,22.4,Tempo,Passy-Combloux
+2023,17279,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,17279,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,17279,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,17279,20,133.5,Fjell,Belfort-Le Markstein
+2023,17279,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,19315,1,182,Smaakupert,Bilbao- Bilbao
+2023,19315,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,19315,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,19315,4,181.8,Flatt,Dax-Nogaro
+2023,19315,5,162.7,Fjell,Pau-Laruns
+2023,19315,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,19315,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,19315,8,200.7,Smaakupert,Liburne-Limoges
+2023,19315,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,19315,10,167.2,Smaakupert,Vulcania-Issoire
+2023,19315,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,19315,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,19315,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,19315,14,150.4,Fjell,Annemasse-Morzine
+2023,19315,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,19315,16,22.4,Tempo,Passy-Combloux
+2023,19315,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,19315,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,19315,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,19315,20,133.5,Fjell,Belfort-Le Markstein
+2023,19315,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,18932,1,182,Smaakupert,Bilbao- Bilbao
+2023,18932,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,18932,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,18932,4,181.8,Flatt,Dax-Nogaro
+2023,18932,5,162.7,Fjell,Pau-Laruns
+2023,18932,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,18932,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,18932,8,200.7,Smaakupert,Liburne-Limoges
+2023,18932,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,18932,10,167.2,Smaakupert,Vulcania-Issoire
+2023,18932,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,18932,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,18932,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,18932,14,150.4,Fjell,Annemasse-Morzine
+2023,18932,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,18932,16,22.4,Tempo,Passy-Combloux
+2023,18932,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,18932,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,18932,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,18932,20,133.5,Fjell,Belfort-Le Markstein
+2023,18932,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9548,1,182,Smaakupert,Bilbao- Bilbao
+2023,9548,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9548,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9548,4,181.8,Flatt,Dax-Nogaro
+2023,9548,5,162.7,Fjell,Pau-Laruns
+2023,9548,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9548,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9548,8,200.7,Smaakupert,Liburne-Limoges
+2023,9548,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9548,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9548,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9548,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9548,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9548,14,150.4,Fjell,Annemasse-Morzine
+2023,9548,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9548,16,22.4,Tempo,Passy-Combloux
+2023,9548,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9548,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9548,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9548,20,133.5,Fjell,Belfort-Le Markstein
+2023,9548,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9549,1,182,Smaakupert,Bilbao- Bilbao
+2023,9549,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9549,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9549,4,181.8,Flatt,Dax-Nogaro
+2023,9549,5,162.7,Fjell,Pau-Laruns
+2023,9549,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9549,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9549,8,200.7,Smaakupert,Liburne-Limoges
+2023,9549,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9549,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9549,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9549,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9549,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9549,14,150.4,Fjell,Annemasse-Morzine
+2023,9549,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9549,16,22.4,Tempo,Passy-Combloux
+2023,9549,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9549,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9549,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9549,20,133.5,Fjell,Belfort-Le Markstein
+2023,9549,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9460,1,182,Smaakupert,Bilbao- Bilbao
+2023,9460,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9460,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9460,4,181.8,Flatt,Dax-Nogaro
+2023,9460,5,162.7,Fjell,Pau-Laruns
+2023,9460,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9460,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9460,8,200.7,Smaakupert,Liburne-Limoges
+2023,9460,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9460,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9460,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9460,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9460,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9460,14,150.4,Fjell,Annemasse-Morzine
+2023,9460,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9460,16,22.4,Tempo,Passy-Combloux
+2023,9460,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9460,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9460,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9460,20,133.5,Fjell,Belfort-Le Markstein
+2023,9460,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9058,1,182,Smaakupert,Bilbao- Bilbao
+2023,9058,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9058,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9058,4,181.8,Flatt,Dax-Nogaro
+2023,9058,5,162.7,Fjell,Pau-Laruns
+2023,9058,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9058,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9058,8,200.7,Smaakupert,Liburne-Limoges
+2023,9058,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9058,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9058,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9058,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9058,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9058,14,150.4,Fjell,Annemasse-Morzine
+2023,9058,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9058,16,22.4,Tempo,Passy-Combloux
+2023,9058,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9058,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9058,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9058,20,133.5,Fjell,Belfort-Le Markstein
+2023,9058,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,10433,1,182,Smaakupert,Bilbao- Bilbao
+2023,10433,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,10433,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,10433,4,181.8,Flatt,Dax-Nogaro
+2023,10433,5,162.7,Fjell,Pau-Laruns
+2023,10433,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,10433,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,10433,8,200.7,Smaakupert,Liburne-Limoges
+2023,10433,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,10433,10,167.2,Smaakupert,Vulcania-Issoire
+2023,10433,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,10433,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,10433,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,10433,14,150.4,Fjell,Annemasse-Morzine
+2023,10433,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,10433,16,22.4,Tempo,Passy-Combloux
+2023,10433,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,10433,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,10433,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,10433,20,133.5,Fjell,Belfort-Le Markstein
+2023,10433,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,14244,1,182,Smaakupert,Bilbao- Bilbao
+2023,14244,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,14244,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,14244,4,181.8,Flatt,Dax-Nogaro
+2023,14244,5,162.7,Fjell,Pau-Laruns
+2023,14244,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,14244,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,14244,8,200.7,Smaakupert,Liburne-Limoges
+2023,14244,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,14244,10,167.2,Smaakupert,Vulcania-Issoire
+2023,14244,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,14244,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,14244,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,14244,14,150.4,Fjell,Annemasse-Morzine
+2023,14244,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,14244,16,22.4,Tempo,Passy-Combloux
+2023,14244,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,14244,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,14244,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,14244,20,133.5,Fjell,Belfort-Le Markstein
+2023,14244,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9427,1,182,Smaakupert,Bilbao- Bilbao
+2023,9427,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9427,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9427,4,181.8,Flatt,Dax-Nogaro
+2023,9427,5,162.7,Fjell,Pau-Laruns
+2023,9427,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9427,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9427,8,200.7,Smaakupert,Liburne-Limoges
+2023,9427,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9427,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9427,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9427,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9427,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9427,14,150.4,Fjell,Annemasse-Morzine
+2023,9427,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9427,16,22.4,Tempo,Passy-Combloux
+2023,9427,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9427,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9427,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9427,20,133.5,Fjell,Belfort-Le Markstein
+2023,9427,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,10428,1,182,Smaakupert,Bilbao- Bilbao
+2023,10428,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,10428,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,10428,4,181.8,Flatt,Dax-Nogaro
+2023,10428,5,162.7,Fjell,Pau-Laruns
+2023,10428,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,10428,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,10428,8,200.7,Smaakupert,Liburne-Limoges
+2023,10428,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,10428,10,167.2,Smaakupert,Vulcania-Issoire
+2023,10428,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,10428,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,10428,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,10428,14,150.4,Fjell,Annemasse-Morzine
+2023,10428,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,10428,16,22.4,Tempo,Passy-Combloux
+2023,10428,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,10428,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,10428,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,10428,20,133.5,Fjell,Belfort-Le Markstein
+2023,10428,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9810,1,182,Smaakupert,Bilbao- Bilbao
+2023,9810,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9810,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9810,4,181.8,Flatt,Dax-Nogaro
+2023,9810,5,162.7,Fjell,Pau-Laruns
+2023,9810,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9810,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9810,8,200.7,Smaakupert,Liburne-Limoges
+2023,9810,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9810,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9810,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9810,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9810,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9810,14,150.4,Fjell,Annemasse-Morzine
+2023,9810,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9810,16,22.4,Tempo,Passy-Combloux
+2023,9810,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9810,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9810,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9810,20,133.5,Fjell,Belfort-Le Markstein
+2023,9810,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9912,1,182,Smaakupert,Bilbao- Bilbao
+2023,9912,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9912,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9912,4,181.8,Flatt,Dax-Nogaro
+2023,9912,5,162.7,Fjell,Pau-Laruns
+2023,9912,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9912,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9912,8,200.7,Smaakupert,Liburne-Limoges
+2023,9912,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9912,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9912,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9912,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9912,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9912,14,150.4,Fjell,Annemasse-Morzine
+2023,9912,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9912,16,22.4,Tempo,Passy-Combloux
+2023,9912,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9912,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9912,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9912,20,133.5,Fjell,Belfort-Le Markstein
+2023,9912,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9054,1,182,Smaakupert,Bilbao- Bilbao
+2023,9054,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9054,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9054,4,181.8,Flatt,Dax-Nogaro
+2023,9054,5,162.7,Fjell,Pau-Laruns
+2023,9054,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9054,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9054,8,200.7,Smaakupert,Liburne-Limoges
+2023,9054,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9054,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9054,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9054,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9054,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9054,14,150.4,Fjell,Annemasse-Morzine
+2023,9054,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9054,16,22.4,Tempo,Passy-Combloux
+2023,9054,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9054,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9054,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9054,20,133.5,Fjell,Belfort-Le Markstein
+2023,9054,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,16502,1,182,Smaakupert,Bilbao- Bilbao
+2023,16502,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,16502,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,16502,4,181.8,Flatt,Dax-Nogaro
+2023,16502,5,162.7,Fjell,Pau-Laruns
+2023,16502,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,16502,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,16502,8,200.7,Smaakupert,Liburne-Limoges
+2023,16502,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,16502,10,167.2,Smaakupert,Vulcania-Issoire
+2023,16502,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,16502,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,16502,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,16502,14,150.4,Fjell,Annemasse-Morzine
+2023,16502,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,16502,16,22.4,Tempo,Passy-Combloux
+2023,16502,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,16502,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,16502,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,16502,20,133.5,Fjell,Belfort-Le Markstein
+2023,16502,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,15071,1,182,Smaakupert,Bilbao- Bilbao
+2023,15071,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,15071,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,15071,4,181.8,Flatt,Dax-Nogaro
+2023,15071,5,162.7,Fjell,Pau-Laruns
+2023,15071,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,15071,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,15071,8,200.7,Smaakupert,Liburne-Limoges
+2023,15071,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,15071,10,167.2,Smaakupert,Vulcania-Issoire
+2023,15071,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,15071,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,15071,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,15071,14,150.4,Fjell,Annemasse-Morzine
+2023,15071,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,15071,16,22.4,Tempo,Passy-Combloux
+2023,15071,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,15071,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,15071,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,15071,20,133.5,Fjell,Belfort-Le Markstein
+2023,15071,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9913,1,182,Smaakupert,Bilbao- Bilbao
+2023,9913,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9913,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9913,4,181.8,Flatt,Dax-Nogaro
+2023,9913,5,162.7,Fjell,Pau-Laruns
+2023,9913,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9913,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9913,8,200.7,Smaakupert,Liburne-Limoges
+2023,9913,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9913,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9913,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9913,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9913,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9913,14,150.4,Fjell,Annemasse-Morzine
+2023,9913,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9913,16,22.4,Tempo,Passy-Combloux
+2023,9913,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9913,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9913,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9913,20,133.5,Fjell,Belfort-Le Markstein
+2023,9913,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,16505,1,182,Smaakupert,Bilbao- Bilbao
+2023,16505,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,16505,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,16505,4,181.8,Flatt,Dax-Nogaro
+2023,16505,5,162.7,Fjell,Pau-Laruns
+2023,16505,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,16505,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,16505,8,200.7,Smaakupert,Liburne-Limoges
+2023,16505,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,16505,10,167.2,Smaakupert,Vulcania-Issoire
+2023,16505,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,16505,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,16505,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,16505,14,150.4,Fjell,Annemasse-Morzine
+2023,16505,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,16505,16,22.4,Tempo,Passy-Combloux
+2023,16505,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,16505,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,16505,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,16505,20,133.5,Fjell,Belfort-Le Markstein
+2023,16505,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,14577,1,182,Smaakupert,Bilbao- Bilbao
+2023,14577,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,14577,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,14577,4,181.8,Flatt,Dax-Nogaro
+2023,14577,5,162.7,Fjell,Pau-Laruns
+2023,14577,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,14577,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,14577,8,200.7,Smaakupert,Liburne-Limoges
+2023,14577,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,14577,10,167.2,Smaakupert,Vulcania-Issoire
+2023,14577,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,14577,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,14577,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,14577,14,150.4,Fjell,Annemasse-Morzine
+2023,14577,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,14577,16,22.4,Tempo,Passy-Combloux
+2023,14577,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,14577,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,14577,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,14577,20,133.5,Fjell,Belfort-Le Markstein
+2023,14577,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9064,1,182,Smaakupert,Bilbao- Bilbao
+2023,9064,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9064,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9064,4,181.8,Flatt,Dax-Nogaro
+2023,9064,5,162.7,Fjell,Pau-Laruns
+2023,9064,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9064,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9064,8,200.7,Smaakupert,Liburne-Limoges
+2023,9064,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9064,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9064,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9064,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9064,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9064,14,150.4,Fjell,Annemasse-Morzine
+2023,9064,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9064,16,22.4,Tempo,Passy-Combloux
+2023,9064,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9064,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9064,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9064,20,133.5,Fjell,Belfort-Le Markstein
+2023,9064,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9904,1,182,Smaakupert,Bilbao- Bilbao
+2023,9904,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9904,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9904,4,181.8,Flatt,Dax-Nogaro
+2023,9904,5,162.7,Fjell,Pau-Laruns
+2023,9904,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9904,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9904,8,200.7,Smaakupert,Liburne-Limoges
+2023,9904,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9904,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9904,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9904,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9904,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9904,14,150.4,Fjell,Annemasse-Morzine
+2023,9904,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9904,16,22.4,Tempo,Passy-Combloux
+2023,9904,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9904,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9904,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9904,20,133.5,Fjell,Belfort-Le Markstein
+2023,9904,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,15687,1,182,Smaakupert,Bilbao- Bilbao
+2023,15687,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,15687,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,15687,4,181.8,Flatt,Dax-Nogaro
+2023,15687,5,162.7,Fjell,Pau-Laruns
+2023,15687,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,15687,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,15687,8,200.7,Smaakupert,Liburne-Limoges
+2023,15687,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,15687,10,167.2,Smaakupert,Vulcania-Issoire
+2023,15687,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,15687,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,15687,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,15687,14,150.4,Fjell,Annemasse-Morzine
+2023,15687,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,15687,16,22.4,Tempo,Passy-Combloux
+2023,15687,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,15687,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,15687,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,15687,20,133.5,Fjell,Belfort-Le Markstein
+2023,15687,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,10106,1,182,Smaakupert,Bilbao- Bilbao
+2023,10106,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,10106,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,10106,4,181.8,Flatt,Dax-Nogaro
+2023,10106,5,162.7,Fjell,Pau-Laruns
+2023,10106,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,10106,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,10106,8,200.7,Smaakupert,Liburne-Limoges
+2023,10106,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,10106,10,167.2,Smaakupert,Vulcania-Issoire
+2023,10106,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,10106,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,10106,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,10106,14,150.4,Fjell,Annemasse-Morzine
+2023,10106,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,10106,16,22.4,Tempo,Passy-Combloux
+2023,10106,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,10106,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,10106,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,10106,20,133.5,Fjell,Belfort-Le Markstein
+2023,10106,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,16504,1,182,Smaakupert,Bilbao- Bilbao
+2023,16504,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,16504,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,16504,4,181.8,Flatt,Dax-Nogaro
+2023,16504,5,162.7,Fjell,Pau-Laruns
+2023,16504,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,16504,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,16504,8,200.7,Smaakupert,Liburne-Limoges
+2023,16504,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,16504,10,167.2,Smaakupert,Vulcania-Issoire
+2023,16504,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,16504,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,16504,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,16504,14,150.4,Fjell,Annemasse-Morzine
+2023,16504,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,16504,16,22.4,Tempo,Passy-Combloux
+2023,16504,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,16504,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,16504,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,16504,20,133.5,Fjell,Belfort-Le Markstein
+2023,16504,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,15688,1,182,Smaakupert,Bilbao- Bilbao
+2023,15688,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,15688,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,15688,4,181.8,Flatt,Dax-Nogaro
+2023,15688,5,162.7,Fjell,Pau-Laruns
+2023,15688,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,15688,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,15688,8,200.7,Smaakupert,Liburne-Limoges
+2023,15688,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,15688,10,167.2,Smaakupert,Vulcania-Issoire
+2023,15688,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,15688,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,15688,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,15688,14,150.4,Fjell,Annemasse-Morzine
+2023,15688,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,15688,16,22.4,Tempo,Passy-Combloux
+2023,15688,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,15688,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,15688,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,15688,20,133.5,Fjell,Belfort-Le Markstein
+2023,15688,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9914,1,182,Smaakupert,Bilbao- Bilbao
+2023,9914,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9914,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9914,4,181.8,Flatt,Dax-Nogaro
+2023,9914,5,162.7,Fjell,Pau-Laruns
+2023,9914,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9914,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9914,8,200.7,Smaakupert,Liburne-Limoges
+2023,9914,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9914,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9914,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9914,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9914,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9914,14,150.4,Fjell,Annemasse-Morzine
+2023,9914,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9914,16,22.4,Tempo,Passy-Combloux
+2023,9914,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9914,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9914,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9914,20,133.5,Fjell,Belfort-Le Markstein
+2023,9914,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,18940,1,182,Smaakupert,Bilbao- Bilbao
+2023,18940,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,18940,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,18940,4,181.8,Flatt,Dax-Nogaro
+2023,18940,5,162.7,Fjell,Pau-Laruns
+2023,18940,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,18940,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,18940,8,200.7,Smaakupert,Liburne-Limoges
+2023,18940,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,18940,10,167.2,Smaakupert,Vulcania-Issoire
+2023,18940,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,18940,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,18940,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,18940,14,150.4,Fjell,Annemasse-Morzine
+2023,18940,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,18940,16,22.4,Tempo,Passy-Combloux
+2023,18940,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,18940,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,18940,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,18940,20,133.5,Fjell,Belfort-Le Markstein
+2023,18940,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9906,1,182,Smaakupert,Bilbao- Bilbao
+2023,9906,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9906,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9906,4,181.8,Flatt,Dax-Nogaro
+2023,9906,5,162.7,Fjell,Pau-Laruns
+2023,9906,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9906,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9906,8,200.7,Smaakupert,Liburne-Limoges
+2023,9906,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9906,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9906,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9906,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9906,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9906,14,150.4,Fjell,Annemasse-Morzine
+2023,9906,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9906,16,22.4,Tempo,Passy-Combloux
+2023,9906,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9906,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9906,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9906,20,133.5,Fjell,Belfort-Le Markstein
+2023,9906,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,9066,1,182,Smaakupert,Bilbao- Bilbao
+2023,9066,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,9066,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,9066,4,181.8,Flatt,Dax-Nogaro
+2023,9066,5,162.7,Fjell,Pau-Laruns
+2023,9066,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,9066,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,9066,8,200.7,Smaakupert,Liburne-Limoges
+2023,9066,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,9066,10,167.2,Smaakupert,Vulcania-Issoire
+2023,9066,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,9066,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,9066,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,9066,14,150.4,Fjell,Annemasse-Morzine
+2023,9066,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,9066,16,22.4,Tempo,Passy-Combloux
+2023,9066,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,9066,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,9066,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,9066,20,133.5,Fjell,Belfort-Le Markstein
+2023,9066,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,13609,1,182,Smaakupert,Bilbao- Bilbao
+2023,13609,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,13609,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,13609,4,181.8,Flatt,Dax-Nogaro
+2023,13609,5,162.7,Fjell,Pau-Laruns
+2023,13609,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,13609,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,13609,8,200.7,Smaakupert,Liburne-Limoges
+2023,13609,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,13609,10,167.2,Smaakupert,Vulcania-Issoire
+2023,13609,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,13609,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,13609,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,13609,14,150.4,Fjell,Annemasse-Morzine
+2023,13609,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,13609,16,22.4,Tempo,Passy-Combloux
+2023,13609,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,13609,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,13609,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,13609,20,133.5,Fjell,Belfort-Le Markstein
+2023,13609,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
+2023,16500,1,182,Smaakupert,Bilbao- Bilbao
+2023,16500,2,207.3,Smaakupert,Vitoria-Gasteiz- San Sebastian
+2023,16500,3,193.5,Flatt,Amorebieta-Etxano-Bayonne
+2023,16500,4,181.8,Flatt,Dax-Nogaro
+2023,16500,5,162.7,Fjell,Pau-Laruns
+2023,16500,6,144.9,Fjell-MF,Tarbes-Cauterets-Cambasque
+2023,16500,7,169.9,Flatt,Mont-de-Marsan-Bordeaux
+2023,16500,8,200.7,Smaakupert,Liburne-Limoges
+2023,16500,9,182.4,Fjell-MF,Saint-Léonard-de-Noblat-Puy de Dôme
+2023,16500,10,167.2,Smaakupert,Vulcania-Issoire
+2023,16500,11,179.3,Flatt,Clermont-Ferrand-Moulins
+2023,16500,12,168,Smaakupert,Roanne-Belleville-en-Beaujolais
+2023,16500,13,137.8,Fjell-MF,Châtillon-sur-Chalaronne-Grand Colombier
+2023,16500,14,150.4,Fjell,Annemasse-Morzine
+2023,16500,15,179,Fjell-MF,Les Gets-Saint Gervais Mont-Blanc
+2023,16500,16,22.4,Tempo,Passy-Combloux
+2023,16500,17,165.7,Fjell,Saint Gervais Mont-Blanc-Courchevel
+2023,16500,18,184.9,Smaakupert,Moûtiers-Bourg-en-Bresse
+2023,16500,19,172.8,Flatt,Moirans-en-Montagne-Poligny
+2023,16500,20,133.5,Fjell,Belfort-Le Markstein
+2023,16500,21,115.1,Flatt,Saint-Quentin-en-Yvelines-Paris
