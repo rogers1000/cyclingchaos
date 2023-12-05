@@ -1,1 +1,1194 @@
-
+index,season,first_cycling_race_id,position,first_cycling_rider_id,gc_time,stage,gc_time_leader,bib_number,first_cycling_team_id,team_name_invitational,gender,race_name,category,race_nationality,uci_race_classification,stage_race_boolean,start_date,end_date
+0,2023,677,1,44684,NaN,GC,10:07:43,14 ,34594,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+1,2023,677,2,185119,NaN,GC,+ 04,176 ,None,Chile,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+2,2023,677,3,31291,NaN,GC,+ 08,21 ,34593,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+3,2023,677,4,46432,NaN,GC,+ 09,164 ,34693,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+4,2023,677,5,130983,NaN,GC,+ 12,72 ,34614,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+5,2023,677,6,35273,NaN,GC,+ 12,26 ,34593,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+6,2023,677,7,40223,NaN,GC,+ 23,12 ,34594,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+7,2023,677,8,6424,NaN,GC,+ 29,22 ,34593,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+8,2023,677,9,23091,NaN,GC,+ 35,2 ,34592,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+9,2023,677,10,72955,NaN,GC,+ 36,32 ,34591,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+10,2023,677,11,23070,NaN,GC,+ 37,11 ,34594,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+11,2023,677,12,12347,NaN,GC,+ 41,46 ,34590,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+12,2023,677,13,88846,NaN,GC,+ 41,51 ,34589,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+13,2023,677,14,111717,NaN,GC,+ 42,193 ,None,Venezuela,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+14,2023,677,15,18161,NaN,GC,+ 43,61 ,34658,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+15,2023,677,16,9495,NaN,GC,+ 43,31 ,34591,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+16,2023,677,17,123177,NaN,GC,+ 43,131 ,34701,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+17,2023,677,18,180404,NaN,GC,+ 43,171 ,None,Chile,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+18,2023,677,19,8600,NaN,GC,+ 43,23 ,34593,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+19,2023,677,20,75666,NaN,GC,+ 43,202 ,None,Uruguay,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+20,2023,677,21,14836,NaN,GC,+ 43,33 ,34591,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+21,2023,677,22,30181,NaN,GC,+ 43,154 ,None,Peru,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+22,2023,677,23,5671,NaN,GC,+ 43,185 ,34375,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+23,2023,677,24,75665,NaN,GC,+ 43,201 ,None,Uruguay,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+24,2023,677,25,103992,NaN,GC,+ 43,3 ,34592,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+25,2023,677,26,54974,NaN,GC,+ 43,151 ,None,Peru,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+26,2023,677,27,57025,NaN,GC,+ 43,204 ,None,Uruguay,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+27,2023,677,28,31292,NaN,GC,+ 43,41 ,34590,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+28,2023,677,29,206319,NaN,GC,+ 43,145 ,34699,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+29,2023,677,30,43905,NaN,GC,+ 43,91 ,34616,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+30,2023,677,31,57450,NaN,GC,+ 43,17 ,34594,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+31,2023,677,32,111668,NaN,GC,+ 43,52 ,34589,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+32,2023,677,33,107569,NaN,GC,+ 01:08,186 ,34375,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+33,2023,677,34,191798,NaN,GC,+ 01:14,182 ,34375,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+34,2023,677,35,47321,NaN,GC,+ 01:18,34 ,34591,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+35,2023,677,36,84388,NaN,GC,+ 01:22,162 ,34693,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+36,2023,677,37,25650,NaN,GC,+ 01:44,191 ,None,Venezuela,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+37,2023,677,38,45700,NaN,GC,+ 01:44,175 ,None,Chile,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+38,2023,677,39,82730,NaN,GC,+ 02:00,196 ,None,Venezuela,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+39,2023,677,40,55559,NaN,GC,+ 02:27,5 ,34592,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+40,2023,677,41,104926,NaN,GC,+ 02:37,65 ,34658,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+41,2023,677,42,73908,NaN,GC,+ 02:43,63 ,34658,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+42,2023,677,43,35434,NaN,GC,+ 02:43,205 ,None,Uruguay,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+43,2023,677,44,34593,NaN,GC,+ 02:43,192 ,None,Venezuela,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+44,2023,677,45,43914,NaN,GC,+ 02:48,42 ,34590,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+45,2023,677,46,54915,NaN,GC,+ 03:04,194 ,None,Venezuela,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+46,2023,677,47,23099,NaN,GC,+ 03:05,153 ,None,Peru,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+47,2023,677,48,82649,NaN,GC,+ 03:20,53 ,34589,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+48,2023,677,49,34568,NaN,GC,+ 03:22,103 ,34696,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+49,2023,677,50,74958,NaN,GC,+ 03:22,93 ,34616,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+50,2023,677,51,73238,NaN,GC,+ 04:16,54 ,34589,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+51,2023,677,52,202681,NaN,GC,+ 04:27,156 ,None,Peru,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+52,2023,677,53,138976,NaN,GC,+ 04:41,136 ,34701,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+53,2023,677,54,62780,NaN,GC,+ 05:45,44 ,34590,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+54,2023,677,55,45900,NaN,GC,+ 05:47,203 ,None,Uruguay,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+55,2023,677,56,43877,NaN,GC,+ 06:36,94 ,34616,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+56,2023,677,57,83419,NaN,GC,+ 07:10,76 ,34614,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+57,2023,677,58,58638,NaN,GC,+ 07:16,134 ,34701,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+58,2023,677,59,48892,NaN,GC,+ 07:19,15 ,34594,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+59,2023,677,60,164728,NaN,GC,+ 07:24,4 ,34592,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+60,2023,677,61,37206,NaN,GC,+ 07:30,56 ,34589,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+61,2023,677,62,76345,NaN,GC,+ 07:46,85 ,34615,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+62,2023,677,63,49703,NaN,GC,+ 07:51,74 ,34614,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+63,2023,677,64,14806,NaN,GC,+ 08:18,161 ,34693,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+64,2023,677,65,206315,NaN,GC,+ 09:18,106 ,34696,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+65,2023,677,66,35761,NaN,GC,+ 09:22,81 ,34615,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+66,2023,677,67,88843,NaN,GC,+ 09:34,35 ,34591,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+67,2023,677,68,16572,NaN,GC,+ 09:34,24 ,34593,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+68,2023,677,69,189623,NaN,GC,+ 09:56,112 ,34700,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+69,2023,677,70,132728,NaN,GC,+ 10:12,183 ,34375,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+70,2023,677,71,51374,NaN,GC,+ 10:22,166 ,34693,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+71,2023,677,72,58456,NaN,GC,+ 10:46,64 ,34658,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+72,2023,677,73,16748,NaN,GC,+ 10:58,174 ,None,Chile,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+73,2023,677,74,49071,NaN,GC,+ 12:07,163 ,34693,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+74,2023,677,75,87353,NaN,GC,+ 12:30,101 ,34696,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+75,2023,677,76,59700,NaN,GC,+ 13:18,146 ,34699,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+76,2023,677,77,116513,NaN,GC,+ 15:19,173 ,None,Chile,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+77,2023,677,78,167226,NaN,GC,+ 15:36,142 ,34699,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+78,2023,677,79,43924,NaN,GC,+ 15:52,92 ,34616,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+79,2023,677,80,110398,NaN,GC,+ 17:36,125 ,34697,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+80,2023,677,81,8517,NaN,GC,+ 18:08,165 ,34693,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+81,2023,677,82,77092,NaN,GC,+ 18:55,114 ,34700,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+82,2023,677,83,187532,NaN,GC,+ 19:54,124 ,34697,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+83,2023,677,84,33706,NaN,GC,+ 25:07,133 ,34701,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+84,2023,677,85,54571,NaN,GC,+ 26:15,122 ,34697,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+85,2023,677,86,110950,NaN,GC,+ 30:28,36 ,34591,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+86,2023,677,87,104675,NaN,GC,+ 32:07,181 ,34375,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+87,2023,677,88,43886,NaN,GC,+ 36:42,135 ,34701,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+88,2023,677,DNF,56640,NaN,GC,,6 ,34592,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+89,2023,677,DNF,43956,NaN,GC,,1 ,34592,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+90,2023,677,DNF,206316,NaN,GC,,115 ,34700,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+91,2023,677,DNF,191957,NaN,GC,,111 ,34700,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+92,2023,677,DNF,190260,NaN,GC,,113 ,34700,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+93,2023,677,DNF,192894,NaN,GC,,116 ,34700,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+94,2023,677,DNF,180405,NaN,GC,,172 ,None,Chile,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+95,2023,677,DNF,48974,NaN,GC,,25 ,34593,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+96,2023,677,DNF,73685,NaN,GC,,132 ,34701,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+97,2023,677,DNF,112501,NaN,GC,,95 ,34616,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+98,2023,677,DNF,65143,NaN,GC,,96 ,34616,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+99,2023,677,DNF,25098,NaN,GC,,45 ,34590,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+100,2023,677,DNF,33675,NaN,GC,,43 ,34590,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+101,2023,677,DNF,82655,NaN,GC,,73 ,34614,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+102,2023,677,DNF,43879,NaN,GC,,75 ,34614,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+103,2023,677,DNF,35763,NaN,GC,,71 ,34614,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+104,2023,677,DNF,43917,NaN,GC,,121 ,34697,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+105,2023,677,DNF,206317,NaN,GC,,126 ,34697,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+106,2023,677,DNF,196753,NaN,GC,,123 ,34697,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+107,2023,677,DNF,50717,NaN,GC,,16 ,34594,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+108,2023,677,DNF,72957,NaN,GC,,104 ,34696,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+109,2023,677,DNF,61823,NaN,GC,,105 ,34696,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+110,2023,677,DNF,45420,NaN,GC,,102 ,34696,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+111,2023,677,DNF,123101,NaN,GC,,84 ,34615,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+112,2023,677,DNF,43913,NaN,GC,,82 ,34615,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+113,2023,677,DNF,196729,NaN,GC,,86 ,34615,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+114,2023,677,DNF,56001,NaN,GC,,83 ,34615,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+115,2023,677,DNF,43900,NaN,GC,,55 ,34589,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+116,2023,677,DNF,181009,NaN,GC,,155 ,None,Peru,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+117,2023,677,DNF,72926,NaN,GC,,152 ,None,Peru,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+118,2023,677,DNF,88476,NaN,GC,,184 ,34375,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+119,2023,677,DNF,111672,NaN,GC,,62 ,34658,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+120,2023,677,DNF,78072,NaN,GC,,66 ,34658,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+121,2023,677,DNF,6567,NaN,GC,,141 ,34699,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+122,2023,677,DNF,206318,NaN,GC,,144 ,34699,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+123,2023,677,DNF,196728,NaN,GC,,143 ,34699,None,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+124,2023,677,DNF,74618,NaN,GC,,206 ,None,Uruguay,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+125,2023,677,DNF,30063,NaN,GC,,195 ,None,Venezuela,Men,Giro del Sol San Juan,Road,AR,2.2,Stage Race,2023/01/06,2023/01/08
+126,2023,456,1,10962,NaN,GC,14:05:32,5 ,33369,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+127,2023,456,2,165421,NaN,GC,+ 05,6 ,33369,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+128,2023,456,3,33469,NaN,GC,+ 11,55 ,34154,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+129,2023,456,4,108085,NaN,GC,+ 20,41 ,34149,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+130,2023,456,5,60909,NaN,GC,+ 36,82 ,34338,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+131,2023,456,6,107446,NaN,GC,+ 36,21 ,None,New Zealand,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+132,2023,456,7,46141,NaN,GC,+ 42,105 ,34370,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+133,2023,456,8,104216,NaN,GC,+ 44,16 ,34148,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+134,2023,456,9,31440,NaN,GC,+ 44,54 ,34154,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+135,2023,456,10,111845,NaN,GC,+ 47,133 ,34153,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+136,2023,456,11,22529,NaN,GC,+ 49,61 ,33279,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+137,2023,456,12,187839,NaN,GC,+ 49,91 ,34367,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+138,2023,456,13,120452,NaN,GC,+ 49,1 ,33369,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+139,2023,456,14,96313,NaN,GC,+ 50,132 ,34153,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+140,2023,456,15,74601,NaN,GC,+ 51,121 ,34371,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+141,2023,456,16,167910,NaN,GC,+ 01:00,123 ,34371,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+142,2023,456,17,8476,NaN,GC,+ 01:32,81 ,34338,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+143,2023,456,18,33489,NaN,GC,+ 01:48,56 ,34154,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+144,2023,456,19,111653,NaN,GC,+ 01:59,94 ,34367,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+145,2023,456,20,111842,NaN,GC,+ 02:17,125 ,34371,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+146,2023,456,21,167256,NaN,GC,+ 02:41,71 ,34495,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+147,2023,456,22,151980,NaN,GC,+ 02:48,124 ,34371,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+148,2023,456,23,158934,NaN,GC,+ 03:46,23 ,None,New Zealand,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+149,2023,456,24,188110,NaN,GC,+ 04:24,101 ,34370,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+150,2023,456,25,155161,NaN,GC,+ 04:36,51 ,34154,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+151,2023,456,26,90816,NaN,GC,+ 04:41,76 ,34495,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+152,2023,456,27,187838,NaN,GC,+ 05:32,15 ,34148,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+153,2023,456,28,45333,NaN,GC,+ 05:34,112 ,34369,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+154,2023,456,29,81783,NaN,GC,+ 05:50,95 ,34367,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+155,2023,456,30,17124,NaN,GC,+ 08:14,31 ,38114,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+156,2023,456,31,194773,NaN,GC,+ 08:22,53 ,34154,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+157,2023,456,32,90955,NaN,GC,+ 11:02,74 ,34495,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+158,2023,456,33,88063,NaN,GC,+ 11:42,75 ,34495,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+159,2023,456,34,10662,NaN,GC,+ 13:25,84 ,34338,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+160,2023,456,35,202327,NaN,GC,+ 15:14,114 ,34369,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+161,2023,456,36,42153,NaN,GC,+ 15:31,2 ,33369,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+162,2023,456,37,91367,NaN,GC,+ 15:42,25 ,None,New Zealand,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+163,2023,456,38,167855,NaN,GC,+ 17:17,115 ,34369,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+164,2023,456,39,89539,NaN,GC,+ 19:19,43 ,34149,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+165,2023,456,40,151971,NaN,GC,+ 19:21,45 ,34149,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+166,2023,456,41,202264,NaN,GC,+ 20:00,113 ,34369,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+167,2023,456,42,42156,NaN,GC,+ 21:02,12 ,34148,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+168,2023,456,DNF,63649,NaN,GC,,3 ,33369,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+169,2023,456,DNF,62709,NaN,GC,,4 ,33369,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+170,2023,456,DNF,135954,NaN,GC,,72 ,34495,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+171,2023,456,DNF,108737,NaN,GC,,73 ,34495,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+172,2023,456,DNF,138837,NaN,GC,,126 ,34371,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+173,2023,456,DNF,100795,NaN,GC,,122 ,34371,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+174,2023,456,DNF,20546,NaN,GC,,63 ,33279,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+175,2023,456,DNF,177920,NaN,GC,,62 ,33279,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+176,2023,456,DNF,20193,NaN,GC,,65 ,33279,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+177,2023,456,DNF,20544,NaN,GC,,64 ,33279,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+178,2023,456,DNF,193400,NaN,GC,,142 ,34372,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+179,2023,456,DNF,187055,NaN,GC,,146 ,34372,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+180,2023,456,DNF,171787,NaN,GC,,141 ,34372,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+181,2023,456,DNF,167852,NaN,GC,,144 ,34372,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+182,2023,456,DNF,187057,NaN,GC,,145 ,34372,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+183,2023,456,DNF,171788,NaN,GC,,143 ,34372,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+184,2023,456,DNF,31220,NaN,GC,,85 ,34338,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+185,2023,456,DNF,27136,NaN,GC,,83 ,34338,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+186,2023,456,DNF,37346,NaN,GC,,86 ,34338,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+187,2023,456,DNF,63298,NaN,GC,,42 ,34149,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+188,2023,456,DNF,151481,NaN,GC,,46 ,34149,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+189,2023,456,DNF,126632,NaN,GC,,44 ,34149,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+190,2023,456,DNF,100791,NaN,GC,,26 ,None,New Zealand,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+191,2023,456,DNF,130370,NaN,GC,,24 ,None,New Zealand,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+192,2023,456,DNF,95087,NaN,GC,,22 ,None,New Zealand,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+193,2023,456,DNF,29489,NaN,GC,,134 ,34153,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+194,2023,456,DNF,167853,NaN,GC,,135 ,34153,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+195,2023,456,DNF,63654,NaN,GC,,131 ,34153,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+196,2023,456,DNF,151476,NaN,GC,,136 ,34153,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+197,2023,456,DNF,167850,NaN,GC,,103 ,34370,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+198,2023,456,DNF,193277,NaN,GC,,102 ,34370,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+199,2023,456,DNF,171789,NaN,GC,,104 ,34370,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+200,2023,456,DNF,151528,NaN,GC,,106 ,34370,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+201,2023,456,DNF,130369,NaN,GC,,116 ,34369,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+202,2023,456,DNF,100792,NaN,GC,,111 ,34369,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+203,2023,456,DNF,151519,NaN,GC,,13 ,34148,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+204,2023,456,DNF,187937,NaN,GC,,14 ,34148,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+205,2023,456,DNF,75997,NaN,GC,,11 ,34148,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+206,2023,456,DNF,44545,NaN,GC,,93 ,34367,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+207,2023,456,DNF,111642,NaN,GC,,96 ,34367,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+208,2023,456,DNF,162785,NaN,GC,,92 ,34367,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+209,2023,456,DNF,27987,NaN,GC,,32 ,38114,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+210,2023,456,DNF,6291,NaN,GC,,33 ,38114,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+211,2023,456,DNF,177600,NaN,GC,,35 ,38114,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+212,2023,456,DNF,38836,NaN,GC,,34 ,38114,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+213,2023,456,DNF,21900,NaN,GC,,36 ,38114,None,Men,NZ Cycle Classic,Road,NZ,2.2,Stage Race,2023/01/11,2023/01/15
+214,2023,454,1,7321,NaN,GC,27:36:34,4 ,34199,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+215,2023,454,2,29623,NaN,GC,+ 01:44,41 ,34831,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+216,2023,454,3,68140,NaN,GC,+ 02:32,16 ,33999,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+217,2023,454,4,16774,NaN,GC,+ 03:13,44 ,34831,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+218,2023,454,5,23087,NaN,GC,+ 04:10,2 ,34199,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+219,2023,454,6,29247,NaN,GC,+ 04:20,43 ,34831,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+220,2023,454,7,71625,NaN,GC,+ 06:02,141 ,34817,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+221,2023,454,8,21898,NaN,GC,+ 06:04,1 ,34199,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+222,2023,454,9,31073,NaN,GC,+ 06:11,82 ,34316,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+223,2023,454,10,23095,NaN,GC,+ 08:48,222 ,34833,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+224,2023,454,11,174644,NaN,GC,+ 09:00,142 ,34817,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+225,2023,454,12,7323,NaN,GC,+ 10:53,11 ,33999,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+226,2023,454,13,121790,NaN,GC,+ 11:49,182 ,34691,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+227,2023,454,14,68233,NaN,GC,+ 13:43,84 ,34316,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+228,2023,454,15,29607,NaN,GC,+ 15:30,3 ,34199,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+229,2023,454,16,13949,NaN,GC,+ 16:47,161 ,34832,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+230,2023,454,17,136109,NaN,GC,+ 16:55,26 ,33911,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+231,2023,454,18,37209,NaN,GC,+ 17:19,5 ,34199,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+232,2023,454,19,14135,NaN,GC,+ 17:20,186 ,34691,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+233,2023,454,20,68869,NaN,GC,+ 17:29,13 ,33999,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+234,2023,454,21,29571,NaN,GC,+ 17:56,42 ,34831,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+235,2023,454,22,130427,NaN,GC,+ 18:51,34 ,21848,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+236,2023,454,23,29585,NaN,GC,+ 19:12,143 ,34817,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+237,2023,454,24,85519,NaN,GC,+ 24:27,24 ,33911,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+238,2023,454,25,49584,NaN,GC,+ 24:31,51 ,34662,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+239,2023,454,26,130399,NaN,GC,+ 24:40,125 ,34836,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+240,2023,454,27,34601,NaN,GC,+ 27:18,52 ,34662,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+241,2023,454,28,158978,NaN,GC,+ 29:51,63 ,34315,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+242,2023,454,29,27184,NaN,GC,+ 31:21,221 ,34833,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+243,2023,454,30,82730,NaN,GC,+ 31:54,193 ,35080,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+244,2023,454,31,35595,NaN,GC,+ 33:06,12 ,33999,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+245,2023,454,32,130429,NaN,GC,+ 34:16,32 ,21848,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+246,2023,454,33,178548,NaN,GC,+ 42:48,54 ,34662,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+247,2023,454,34,82726,NaN,GC,+ 44:55,183 ,34691,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+248,2023,454,35,29576,NaN,GC,+ 47:14,6 ,34199,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+249,2023,454,36,23077,NaN,GC,+ 47:57,66 ,34315,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+250,2023,454,37,30073,NaN,GC,+ 49:32,25 ,33911,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+251,2023,454,38,13953,NaN,GC,+ 54:01,101 ,34602,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+252,2023,454,39,187956,NaN,GC,+ 58:54,92 ,34830,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+253,2023,454,40,99643,NaN,GC,+ 01:01:25,31 ,21848,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+254,2023,454,41,10916,NaN,GC,+ 01:02:17,33 ,21848,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+255,2023,454,42,121791,NaN,GC,+ 01:04:42,181 ,34691,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+256,2023,454,43,178532,NaN,GC,+ 01:05:45,135 ,34837,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+257,2023,454,44,163925,NaN,GC,+ 01:06:55,65 ,34315,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+258,2023,454,45,123319,NaN,GC,+ 01:08:48,94 ,34830,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+259,2023,454,46,37224,NaN,GC,+ 01:09:14,23 ,33911,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+260,2023,454,47,111717,NaN,GC,+ 01:12:36,192 ,35080,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+261,2023,454,48,123320,NaN,GC,+ 01:15:20,162 ,34832,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+262,2023,454,49,122119,NaN,GC,+ 01:15:35,45 ,34831,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+263,2023,454,50,123318,NaN,GC,+ 01:17:11,53 ,34662,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+264,2023,454,51,121794,NaN,GC,+ 01:18:40,131 ,34837,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+265,2023,454,52,54144,NaN,GC,+ 01:19:03,62 ,34315,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+266,2023,454,53,160770,NaN,GC,+ 01:22:52,96 ,34830,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+267,2023,454,54,110954,NaN,GC,+ 01:23:11,85 ,34316,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+268,2023,454,55,60605,NaN,GC,+ 01:24:35,202 ,34835,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+269,2023,454,56,63216,NaN,GC,+ 01:25:10,201 ,34835,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+270,2023,454,57,187954,NaN,GC,+ 01:38:36,74 ,35040,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+271,2023,454,58,187208,NaN,GC,+ 01:41:38,112 ,34834,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+272,2023,454,59,164732,NaN,GC,+ 01:46:39,83 ,34316,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+273,2023,454,60,180240,NaN,GC,+ 01:52:20,36 ,21848,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+274,2023,454,61,164499,NaN,GC,+ 02:01:18,203 ,34835,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+275,2023,454,62,184682,NaN,GC,+ 02:02:33,133 ,34837,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+276,2023,454,63,130400,NaN,GC,+ 02:03:30,81 ,34316,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+277,2023,454,64,139450,NaN,GC,+ 02:06:58,152 ,34314,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+278,2023,454,65,30060,NaN,GC,+ 02:26:44,165 ,34832,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+279,2023,454,66,34594,NaN,GC,+ 02:43:12,136 ,34837,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+280,2023,454,67,111716,NaN,GC,+ 02:48:32,163 ,34832,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+281,2023,454,68,177415,NaN,GC,+ 03:02:01,194 ,35080,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+282,2023,454,DNF,199842,NaN,GC,,146 ,34817,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+283,2023,454,DNF,85049,NaN,GC,,145 ,34817,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+284,2023,454,DNF,85477,NaN,GC,,144 ,34817,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+285,2023,454,DNF,177425,NaN,GC,,91 ,34830,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+286,2023,454,DNF,191038,NaN,GC,,95 ,34830,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+287,2023,454,DNF,177420,NaN,GC,,93 ,34830,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+288,2023,454,DNF,103170,NaN,GC,,184 ,34691,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+289,2023,454,DNF,178335,NaN,GC,,185 ,34691,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+290,2023,454,DNF,29621,NaN,GC,,211 ,35081,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+291,2023,454,DNF,91036,NaN,GC,,212 ,35081,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+292,2023,454,DNF,164731,NaN,GC,,213 ,35081,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+293,2023,454,DNF,174640,NaN,GC,,214 ,35081,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+294,2023,454,DNF,61679,NaN,GC,,61 ,34315,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+295,2023,454,DNF,7877,NaN,GC,,64 ,34315,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+296,2023,454,DNF,37208,NaN,GC,,164 ,34832,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+297,2023,454,DNF,85470,NaN,GC,,175 ,34829,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+298,2023,454,DNF,187955,NaN,GC,,171 ,34829,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+299,2023,454,DNF,206550,NaN,GC,,174 ,34829,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+300,2023,454,DNF,136108,NaN,GC,,172 ,34829,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+301,2023,454,DNF,206549,NaN,GC,,173 ,34829,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+302,2023,454,DNF,116512,NaN,GC,,35 ,21848,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+303,2023,454,DNF,178529,NaN,GC,,46 ,34831,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+304,2023,454,DNF,161299,NaN,GC,,72 ,35040,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+305,2023,454,DNF,166177,NaN,GC,,71 ,35040,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+306,2023,454,DNF,199843,NaN,GC,,75 ,35040,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+307,2023,454,DNF,199829,NaN,GC,,76 ,35040,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+308,2023,454,DNF,177418,NaN,GC,,73 ,35040,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+309,2023,454,DNF,16772,NaN,GC,,21 ,33911,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+310,2023,454,DNF,75595,NaN,GC,,22 ,33911,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+311,2023,454,DNF,49592,NaN,GC,,195 ,35080,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+312,2023,454,DNF,25650,NaN,GC,,191 ,35080,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+313,2023,454,DNF,5683,NaN,GC,,14 ,33999,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+314,2023,454,DNF,164759,NaN,GC,,15 ,33999,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+315,2023,454,DNF,184680,NaN,GC,,224 ,34833,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+316,2023,454,DNF,40199,NaN,GC,,223 ,34833,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+317,2023,454,DNF,199895,NaN,GC,,225 ,34833,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+318,2023,454,DNF,191046,NaN,GC,,114 ,34834,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+319,2023,454,DNF,53197,NaN,GC,,116 ,34834,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+320,2023,454,DNF,187197,NaN,GC,,111 ,34834,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+321,2023,454,DNF,187682,NaN,GC,,115 ,34834,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+322,2023,454,DNF,103176,NaN,GC,,113 ,34834,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+323,2023,454,DNF,175891,NaN,GC,,204 ,34835,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+324,2023,454,DNF,187214,NaN,GC,,123 ,34836,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+325,2023,454,DNF,77622,NaN,GC,,122 ,34836,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+326,2023,454,DNF,29588,NaN,GC,,121 ,34836,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+327,2023,454,DNF,136092,NaN,GC,,126 ,34836,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+328,2023,454,DNF,73172,NaN,GC,,124 ,34836,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+329,2023,454,DNF,199793,NaN,GC,,104 ,34602,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+330,2023,454,DNF,29618,NaN,GC,,103 ,34602,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+331,2023,454,DNF,206640,NaN,GC,,102 ,34602,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+332,2023,454,DNF,85461,NaN,GC,,105 ,34602,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+333,2023,454,DNF,49582,NaN,GC,,134 ,34837,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+334,2023,454,DNF,160001,NaN,GC,,132 ,34837,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+335,2023,454,DNF,120588,NaN,GC,,153 ,34314,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+336,2023,454,DNF,66335,NaN,GC,,154 ,34314,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+337,2023,454,DNF,174023,NaN,GC,,155 ,34314,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+338,2023,454,DNF,196471,NaN,GC,,151 ,34314,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+339,2023,454,DNF,195019,NaN,GC,,56 ,34662,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+340,2023,454,DNF,177414,NaN,GC,,55 ,34662,None,Men,Vuelta al Táchira,Road,VE,2.2,Stage Race,2023/01/15,2023/01/22
+341,2023,1,1,88703,NaN,GC,16:07:41,141 ,21840,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+342,2023,1,2,6242,NaN,GC,+ 11,2 ,28389,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+343,2023,1,3,4863,NaN,GC,+ 27,31 ,22726,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+344,2023,1,4,102733,NaN,GC,+ 57,96 ,21828,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+345,2023,1,5,69502,NaN,GC,+ 58,65 ,21810,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+346,2023,1,6,42186,NaN,GC,+ 01:04,11 ,21802,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+347,2023,1,7,4953,NaN,GC,+ 01:06,101 ,27884,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+348,2023,1,8,96981,NaN,GC,+ 01:07,47 ,25886,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+349,2023,1,9,872,NaN,GC,+ 01:13,121 ,22310,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+350,2023,1,10,16752,NaN,GC,+ 01:13,51 ,23414,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+351,2023,1,11,46163,NaN,GC,+ 01:13,143 ,21840,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+352,2023,1,12,6222,NaN,GC,+ 01:16,87 ,21815,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+353,2023,1,13,63296,NaN,GC,+ 01:17,186 ,22311,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+354,2023,1,14,91583,NaN,GC,+ 01:18,46 ,25886,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+355,2023,1,15,3352,NaN,GC,+ 01:20,142 ,21840,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+356,2023,1,16,37446,NaN,GC,+ 01:23,171 ,22246,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+357,2023,1,17,66495,NaN,GC,+ 01:44,177 ,22246,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+358,2023,1,18,45349,NaN,GC,+ 01:45,92 ,21828,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+359,2023,1,19,94862,NaN,GC,+ 01:51,103 ,27884,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+360,2023,1,20,16635,NaN,GC,+ 02:14,153 ,24592,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+361,2023,1,21,77148,NaN,GC,+ 02:22,136 ,21834,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+362,2023,1,22,6227,NaN,GC,+ 02:22,61 ,21810,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+363,2023,1,23,111844,NaN,GC,+ 02:29,84 ,21815,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+364,2023,1,24,37717,NaN,GC,+ 02:42,13 ,21802,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+365,2023,1,25,60067,NaN,GC,+ 02:46,115 ,21831,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+366,2023,1,26,100033,NaN,GC,+ 02:51,12 ,21802,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+367,2023,1,27,20448,NaN,GC,+ 03:28,15 ,21802,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+368,2023,1,28,82572,NaN,GC,+ 04:07,184 ,22311,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+369,2023,1,29,105049,NaN,GC,+ 04:21,86 ,21815,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+370,2023,1,30,17179,NaN,GC,+ 04:52,155 ,24592,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+371,2023,1,31,42185,NaN,GC,+ 05:58,131 ,21834,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+372,2023,1,32,918,NaN,GC,+ 05:59,41 ,25886,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+373,2023,1,33,26,NaN,GC,+ 06:09,21 ,23979,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+374,2023,1,34,37421,NaN,GC,+ 06:11,187 ,22311,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+375,2023,1,35,46161,NaN,GC,+ 06:16,165 ,27133,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+376,2023,1,36,61988,NaN,GC,+ 06:17,71 ,22369,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+377,2023,1,37,20584,NaN,GC,+ 06:39,161 ,27133,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+378,2023,1,38,5306,NaN,GC,+ 06:50,32 ,22726,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+379,2023,1,39,752,NaN,GC,+ 07:34,63 ,21810,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+380,2023,1,40,37447,NaN,GC,+ 07:36,81 ,21815,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+381,2023,1,41,139004,NaN,GC,+ 07:52,124 ,22310,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+382,2023,1,42,27304,NaN,GC,+ 08:13,17 ,21802,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+383,2023,1,43,2211,NaN,GC,+ 08:34,1 ,28389,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+384,2023,1,44,38937,NaN,GC,+ 09:05,55 ,23414,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+385,2023,1,45,55807,NaN,GC,+ 09:15,35 ,22726,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+386,2023,1,46,8813,NaN,GC,+ 09:19,45 ,25886,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+387,2023,1,47,920,NaN,GC,+ 09:30,163 ,27133,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+388,2023,1,48,22267,NaN,GC,+ 09:42,52 ,23414,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+389,2023,1,49,333,NaN,GC,+ 10:01,122 ,22310,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+390,2023,1,50,2322,NaN,GC,+ 10:08,111 ,21831,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+391,2023,1,51,16643,NaN,GC,+ 10:19,176 ,22246,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+392,2023,1,52,10975,NaN,GC,+ 10:35,107 ,27884,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+393,2023,1,53,76065,NaN,GC,+ 10:46,95 ,21828,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+394,2023,1,54,37445,NaN,GC,+ 10:48,4 ,28389,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+395,2023,1,55,71185,NaN,GC,+ 10:52,44 ,25886,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+396,2023,1,56,97578,NaN,GC,+ 11:11,93 ,21828,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+397,2023,1,57,44537,NaN,GC,+ 11:34,73 ,22369,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+398,2023,1,58,79947,NaN,GC,+ 12:06,14 ,21802,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+399,2023,1,59,90909,NaN,GC,+ 12:08,132 ,21834,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+400,2023,1,60,77599,NaN,GC,+ 12:23,164 ,27133,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+401,2023,1,61,22133,NaN,GC,+ 12:36,114 ,21831,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+402,2023,1,62,327,NaN,GC,+ 13:03,16 ,21802,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+403,2023,1,63,3361,NaN,GC,+ 13:17,146 ,21840,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+404,2023,1,64,45987,NaN,GC,+ 13:54,145 ,21840,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+405,2023,1,65,6414,NaN,GC,+ 14:02,37 ,22726,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+406,2023,1,66,77137,NaN,GC,+ 15:04,116 ,21831,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+407,2023,1,67,21855,NaN,GC,+ 15:09,82 ,21815,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+408,2023,1,68,16986,NaN,GC,+ 15:45,113 ,21831,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+409,2023,1,69,7729,NaN,GC,+ 15:49,137 ,21834,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+410,2023,1,70,828,NaN,GC,+ 16:00,97 ,21828,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+411,2023,1,71,6246,NaN,GC,+ 17:36,172 ,22246,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+412,2023,1,72,6409,NaN,GC,+ 17:48,126 ,22310,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+413,2023,1,73,9894,NaN,GC,+ 18:29,77 ,22369,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+414,2023,1,74,729,NaN,GC,+ 18:55,117 ,21831,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+415,2023,1,75,2978,NaN,GC,+ 19:01,5 ,28389,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+416,2023,1,76,65570,NaN,GC,+ 19:26,43 ,25886,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+417,2023,1,77,1580,NaN,GC,+ 19:34,24 ,23979,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+418,2023,1,78,64650,NaN,GC,+ 19:35,62 ,21810,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+419,2023,1,79,77493,NaN,GC,+ 19:49,94 ,21828,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+420,2023,1,80,70759,NaN,GC,+ 19:52,56 ,23414,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+421,2023,1,81,7771,NaN,GC,+ 19:56,156 ,24592,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+422,2023,1,82,100123,NaN,GC,+ 19:56,157 ,24592,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+423,2023,1,83,52665,NaN,GC,+ 20:41,102 ,27884,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+424,2023,1,84,37401,NaN,GC,+ 20:48,162 ,27133,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+425,2023,1,85,37306,NaN,GC,+ 20:57,144 ,21840,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+426,2023,1,86,5836,NaN,GC,+ 21:15,25 ,23979,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+427,2023,1,87,32892,NaN,GC,+ 21:47,154 ,24592,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+428,2023,1,88,716,NaN,GC,+ 22:28,91 ,21828,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+429,2023,1,89,706,NaN,GC,+ 22:43,182 ,22311,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+430,2023,1,90,63295,NaN,GC,+ 23:04,192 ,None,Australia,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+431,2023,1,91,568,NaN,GC,+ 23:30,183 ,22311,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+432,2023,1,92,38169,NaN,GC,+ 23:40,123 ,22310,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+433,2023,1,93,61049,NaN,GC,+ 24:42,74 ,22369,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+434,2023,1,94,16816,NaN,GC,+ 24:58,33 ,22726,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+435,2023,1,95,4779,NaN,GC,+ 25:10,76 ,22369,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+436,2023,1,96,55141,NaN,GC,+ 25:12,7 ,28389,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+437,2023,1,97,14712,NaN,GC,+ 25:14,134 ,21834,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+438,2023,1,98,75998,NaN,GC,+ 25:22,147 ,21840,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+439,2023,1,99,118611,NaN,GC,+ 25:23,151 ,24592,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+440,2023,1,100,16573,NaN,GC,+ 25:25,191 ,None,Australia,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+441,2023,1,101,46626,NaN,GC,+ 25:28,125 ,22310,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+442,2023,1,102,2327,NaN,GC,+ 26:29,3 ,28389,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+443,2023,1,103,132639,NaN,GC,+ 27:24,174 ,22246,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+444,2023,1,104,37286,NaN,GC,+ 28:35,54 ,23414,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+445,2023,1,105,104697,NaN,GC,+ 29:21,152 ,24592,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+446,2023,1,106,96312,NaN,GC,+ 29:33,85 ,21815,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+447,2023,1,107,47830,NaN,GC,+ 30:01,66 ,21810,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+448,2023,1,108,64651,NaN,GC,+ 31:18,135 ,21834,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+449,2023,1,109,780,NaN,GC,+ 31:46,53 ,23414,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+450,2023,1,110,10802,NaN,GC,+ 32:28,105 ,27884,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+451,2023,1,111,9932,NaN,GC,+ 33:15,173 ,22246,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+452,2023,1,112,118675,NaN,GC,+ 34:00,83 ,21815,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+453,2023,1,113,90919,NaN,GC,+ 34:27,197 ,None,Australia,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+454,2023,1,114,6557,NaN,GC,+ 35:07,167 ,27133,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+455,2023,1,115,7910,NaN,GC,+ 35:26,166 ,27133,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+456,2023,1,116,37430,NaN,GC,+ 36:06,75 ,22369,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+457,2023,1,117,713,NaN,GC,+ 38:55,181 ,22311,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+458,2023,1,118,84264,NaN,GC,+ 44:53,57 ,23414,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+459,2023,1,119,136005,NaN,GC,+ 46:00,195 ,None,Australia,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+460,2023,1,120,20581,NaN,GC,+ 46:40,23 ,23979,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+461,2023,1,121,55101,NaN,GC,+ 54:29,36 ,22726,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+462,2023,1,DNF,81890,NaN,GC,,72 ,22369,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+463,2023,1,DNF,3096,NaN,GC,,22 ,23979,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+464,2023,1,DNF,16506,NaN,GC,,26 ,23979,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+465,2023,1,DNF,28781,NaN,GC,,27 ,23979,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+466,2023,1,DNF,135733,NaN,GC,,193 ,None,Australia,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+467,2023,1,DNF,81699,NaN,GC,,194 ,None,Australia,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+468,2023,1,DNF,90809,NaN,GC,,196 ,None,Australia,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+469,2023,1,DNF,45364,NaN,GC,,175 ,22246,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+470,2023,1,DNF,6555,NaN,GC,,34 ,22726,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+471,2023,1,DNF,47124,NaN,GC,,104 ,27884,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+472,2023,1,DNF,3187,NaN,GC,,106 ,27884,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+473,2023,1,DNF,90911,NaN,GC,,185 ,22311,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+474,2023,1,DNF,41,NaN,GC,,112 ,21831,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+475,2023,1,DNF,80586,NaN,GC,,42 ,25886,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+476,2023,1,DNF,27295,NaN,GC,,64 ,21810,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+477,2023,1,DNF,143307,NaN,GC,,67 ,21810,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+478,2023,1,DNF,39009,NaN,GC,,6 ,28389,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+479,2023,1,DNF,3287,NaN,GC,,133 ,21834,None,Men,Tour Down Under,Road,AU,2.UWT,Stage Race,2023/01/17,2023/01/22
+480,2023,8467,1,108085,NaN,GC,03:21:17,41 ,34149,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+481,2023,8467,2,56273,NaN,GC,+ 03:16,1 ,33369,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+482,2023,8467,3,73995,NaN,GC,+ 03:31,6 ,33369,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+483,2023,8467,4,167256,NaN,GC,+ 03:34,31 ,34495,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+484,2023,8467,5,165421,NaN,GC,+ 05:31,5 ,33369,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+485,2023,8467,6,42153,NaN,GC,+ 05:31,2 ,33369,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+486,2023,8467,7,90955,NaN,GC,+ 06:27,34 ,34495,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+487,2023,8467,8,6552,NaN,GC,+ 06:27,45 ,34149,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+488,2023,8467,9,46141,NaN,GC,+ 06:27,75 ,34370,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+489,2023,8467,10,23140,NaN,GC,+ 06:27,13 ,None,New Zealand,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+490,2023,8467,11,89436,NaN,GC,+ 06:48,3 ,33369,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+491,2023,8467,12,126632,NaN,GC,+ 06:48,43 ,34149,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+492,2023,8467,13,82575,NaN,GC,+ 06:52,4 ,33369,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+493,2023,8467,14,89485,NaN,GC,+ 07:09,83 ,None,Southern Cross Racing,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+494,2023,8467,15,151975,NaN,GC,+ 07:09,115 ,None,Gravel and Tar Invitational,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+495,2023,8467,16,22529,NaN,GC,+ 07:42,51 ,33279,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+496,2023,8467,17,188110,NaN,GC,+ 07:47,71 ,34370,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+497,2023,8467,18,151980,NaN,GC,+ 08:29,95 ,34371,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+498,2023,8467,19,167911,NaN,GC,+ 08:34,81 ,None,Southern Cross Racing,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+499,2023,8467,20,151520,NaN,GC,+ 11:34,84 ,None,Southern Cross Racing,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+500,2023,8467,21,165277,NaN,GC,+ 11:34,123 ,None,Manawatu Selection,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+501,2023,8467,22,130370,NaN,GC,+ 12:59,16 ,None,New Zealand,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+502,2023,8467,23,17124,NaN,GC,+ 12:59,21 ,34313,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+503,2023,8467,24,206993,NaN,GC,+ 12:59,105 ,34369,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+504,2023,8467,25,158933,NaN,GC,+ 12:59,11 ,None,New Zealand,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+505,2023,8467,26,6291,NaN,GC,+ 12:59,22 ,34313,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+506,2023,8467,27,21900,NaN,GC,+ 12:59,26 ,34313,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+507,2023,8467,28,151971,NaN,GC,+ 12:59,44 ,34149,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+508,2023,8467,29,193277,NaN,GC,+ 12:59,72 ,34370,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+509,2023,8467,30,167850,NaN,GC,+ 12:59,73 ,34370,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+510,2023,8467,OOT,88063,NaN,GC,,35 ,34495,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+511,2023,8467,OOT,90816,NaN,GC,,36 ,34495,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+512,2023,8467,OOT,206413,NaN,GC,,111 ,None,Gravel and Tar Invitational,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+513,2023,8467,OOT,89539,NaN,GC,,42 ,34149,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+514,2023,8467,OOT,38836,NaN,GC,,23 ,34313,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+515,2023,8467,DNF,108737,NaN,GC,,33 ,34495,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+516,2023,8467,DNF,138837,NaN,GC,,93 ,34371,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+517,2023,8467,DNF,167910,NaN,GC,,94 ,34371,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+518,2023,8467,DNF,89632,NaN,GC,,96 ,34371,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+519,2023,8467,DNF,111842,NaN,GC,,92 ,34371,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+520,2023,8467,DNF,20546,NaN,GC,,53 ,33279,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+521,2023,8467,DNF,177920,NaN,GC,,52 ,33279,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+522,2023,8467,DNF,20193,NaN,GC,,55 ,33279,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+523,2023,8467,DNF,20544,NaN,GC,,54 ,33279,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+524,2023,8467,DNF,202266,NaN,GC,,113 ,None,Gravel and Tar Invitational,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+525,2023,8467,DNF,207068,NaN,GC,,131 ,None,Gravel and Tar Invitational,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+526,2023,8467,DNF,207067,NaN,GC,,114 ,None,Gravel and Tar Invitational,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+527,2023,8467,DNF,151476,NaN,GC,,112 ,None,Gravel and Tar Invitational,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+528,2023,8467,DNF,184754,NaN,GC,,121 ,None,Manawatu Selection,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+529,2023,8467,DNF,206994,NaN,GC,,124 ,None,Manawatu Selection,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+530,2023,8467,DNF,61520,NaN,GC,,122 ,None,Manawatu Selection,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+531,2023,8467,DNF,171788,NaN,GC,,63 ,None,Manawatu Selection,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+532,2023,8467,DNF,29498,NaN,GC,,46 ,34149,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+533,2023,8467,DNF,63308,NaN,GC,,14 ,None,New Zealand,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+534,2023,8467,DNF,63654,NaN,GC,,15 ,None,New Zealand,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+535,2023,8467,DNF,171787,NaN,GC,,76 ,34370,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+536,2023,8467,DNF,171789,NaN,GC,,74 ,34370,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+537,2023,8467,DNF,193400,NaN,GC,,101 ,34369,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+538,2023,8467,DNF,202264,NaN,GC,,102 ,34369,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+539,2023,8467,DNF,45333,NaN,GC,,103 ,34369,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+540,2023,8467,DNF,151527,NaN,GC,,82 ,None,Southern Cross Racing,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+541,2023,8467,DNF,44236,NaN,GC,,86 ,None,Southern Cross Racing,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+542,2023,8467,DNF,177600,NaN,GC,,25 ,34313,None,Men,Gravel and Tar,Road,NZ,1.2,One Day,2023/01/21,2023/01/21
+543,2023,411,1,113439,NaN,GC,04:41:22,133 ,27173,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+544,2023,411,2,16787,NaN,GC,+ 00,16 ,24592,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+545,2023,411,3,31,NaN,GC,+ 00,81 ,27883,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+546,2023,411,4,116,NaN,GC,+ 00,57 ,22310,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+547,2023,411,5,22389,NaN,GC,+ 00,27 ,21802,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+548,2023,411,6,32201,NaN,GC,+ 00,93 ,22017,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+549,2023,411,7,37392,NaN,GC,+ 00,91 ,22017,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+550,2023,411,8,20471,NaN,GC,+ 00,76 ,22727,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+551,2023,411,9,16982,NaN,GC,+ 00,66 ,28133,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+552,2023,411,10,8388,NaN,GC,+ 00,45 ,28389,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+553,2023,411,11,77500,NaN,GC,+ 00,43 ,28389,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+554,2023,411,12,73811,NaN,GC,+ 00,101 ,22926,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+555,2023,411,13,65779,NaN,GC,+ 00,94 ,22017,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+556,2023,411,14,84013,NaN,GC,+ 00,106 ,22926,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+557,2023,411,15,50033,NaN,GC,+ 00,77 ,22727,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+558,2023,411,16,61354,NaN,GC,+ 00,116 ,28058,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+559,2023,411,17,107572,NaN,GC,+ 00,92 ,22017,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+560,2023,411,18,97944,NaN,GC,+ 00,24 ,21802,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+561,2023,411,19,95147,NaN,GC,+ 00,5 ,27876,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+562,2023,411,20,2325,NaN,GC,+ 00,31 ,23414,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+563,2023,411,21,96982,NaN,GC,+ 00,75 ,22727,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+564,2023,411,22,1008,NaN,GC,+ 00,56 ,22310,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+565,2023,411,23,5395,NaN,GC,+ 00,83 ,27883,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+566,2023,411,24,20576,NaN,GC,+ 00,2 ,27876,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+567,2023,411,25,51244,NaN,GC,+ 00,14 ,24592,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+568,2023,411,26,38923,NaN,GC,+ 00,13 ,24592,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+569,2023,411,27,105979,NaN,GC,+ 00,65 ,28133,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+570,2023,411,28,10807,NaN,GC,+ 00,33 ,23414,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+571,2023,411,29,27190,NaN,GC,+ 00,51 ,22310,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+572,2023,411,30,33063,NaN,GC,+ 00,84 ,27883,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+573,2023,411,31,80271,NaN,GC,+ 00,42 ,28389,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+574,2023,411,32,39481,NaN,GC,+ 00,25 ,21802,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+575,2023,411,33,51269,NaN,GC,+ 19,85 ,27883,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+576,2023,411,34,9042,NaN,GC,+ 19,132 ,27173,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+577,2023,411,35,53489,NaN,GC,+ 22,137 ,27173,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+578,2023,411,36,37466,NaN,GC,+ 22,131 ,27173,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+579,2023,411,37,9451,NaN,GC,+ 28,136 ,27173,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+580,2023,411,38,40783,NaN,GC,+ 29,46 ,28389,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+581,2023,411,39,75481,NaN,GC,+ 30,12 ,24592,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+582,2023,411,40,16578,NaN,GC,+ 30,54 ,22310,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+583,2023,411,41,46341,NaN,GC,+ 01:46,35 ,23414,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+584,2023,411,42,65303,NaN,GC,+ 01:50,71 ,22727,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+585,2023,411,43,27308,NaN,GC,+ 01:50,114 ,28058,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+586,2023,411,44,46778,NaN,GC,+ 01:50,112 ,28058,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+587,2023,411,45,150,NaN,GC,+ 01:50,21 ,21802,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+588,2023,411,46,31612,NaN,GC,+ 01:50,23 ,21802,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+589,2023,411,47,11520,NaN,GC,+ 01:50,117 ,28058,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+590,2023,411,48,1323,NaN,GC,+ 01:50,34 ,23414,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+591,2023,411,49,120025,NaN,GC,+ 01:50,1 ,27876,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+592,2023,411,50,6529,NaN,GC,+ 01:50,62 ,28133,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+593,2023,411,51,40238,NaN,GC,+ 01:50,7 ,27876,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+594,2023,411,52,37389,NaN,GC,+ 01:50,145 ,33913,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+595,2023,411,53,102328,NaN,GC,+ 01:50,124 ,33365,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+596,2023,411,54,45106,NaN,GC,+ 01:50,64 ,28133,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+597,2023,411,55,82856,NaN,GC,+ 01:50,125 ,33365,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+598,2023,411,56,51277,NaN,GC,+ 01:50,162 ,33298,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+599,2023,411,57,102083,NaN,GC,+ 01:54,11 ,24592,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+600,2023,411,58,325,NaN,GC,+ 01:54,63 ,28133,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+601,2023,411,59,114382,NaN,GC,+ 01:54,47 ,28389,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+602,2023,411,60,65515,NaN,GC,+ 01:57,44 ,28389,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+603,2023,411,61,580,NaN,GC,+ 01:58,3 ,27876,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+604,2023,411,62,20466,NaN,GC,+ 01:58,72 ,22727,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+605,2023,411,63,16608,NaN,GC,+ 01:58,113 ,28058,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+606,2023,411,64,160291,NaN,GC,+ 01:58,121 ,33365,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+607,2023,411,65,38481,NaN,GC,+ 01:58,55 ,22310,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+608,2023,411,66,46959,NaN,GC,+ 01:58,15 ,24592,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+609,2023,411,67,71208,NaN,GC,+ 01:58,32 ,23414,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+610,2023,411,68,76472,NaN,GC,+ 01:58,26 ,21802,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+611,2023,411,69,37996,NaN,GC,+ 02:05,135 ,27173,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+612,2023,411,70,29335,NaN,GC,+ 02:49,141 ,33913,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+613,2023,411,71,46683,NaN,GC,+ 02:49,61 ,28133,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+614,2023,411,72,97947,NaN,GC,+ 02:59,6 ,27876,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+615,2023,411,73,20105,NaN,GC,+ 02:59,163 ,33298,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+616,2023,411,74,22010,NaN,GC,+ 02:59,4 ,27876,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+617,2023,411,75,95523,NaN,GC,+ 02:59,36 ,23414,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+618,2023,411,76,102515,NaN,GC,+ 02:59,166 ,33298,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+619,2023,411,77,37761,NaN,GC,+ 02:59,22 ,21802,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+620,2023,411,78,12516,NaN,GC,+ 02:59,167 ,33298,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+621,2023,411,79,106285,NaN,GC,+ 02:59,67 ,28133,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+622,2023,411,80,16789,NaN,GC,+ 02:59,87 ,27883,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+623,2023,411,81,20822,NaN,GC,+ 02:59,134 ,27173,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+624,2023,411,82,37221,NaN,GC,+ 02:59,111 ,28058,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+625,2023,411,83,103807,NaN,GC,+ 02:59,123 ,33365,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+626,2023,411,84,3133,NaN,GC,+ 02:59,17 ,24592,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+627,2023,411,85,46181,NaN,GC,+ 03:25,104 ,22926,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+628,2023,411,86,63599,NaN,GC,+ 03:32,143 ,33913,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+629,2023,411,87,172089,NaN,GC,+ 03:32,122 ,33365,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+630,2023,411,88,16963,NaN,GC,+ 03:32,127 ,33365,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+631,2023,411,89,64761,NaN,GC,+ 03:35,147 ,33913,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+632,2023,411,90,37756,NaN,GC,+ 04:07,53 ,22310,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+633,2023,411,91,64919,NaN,GC,+ 04:51,146 ,33913,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+634,2023,411,92,83346,NaN,GC,+ 04:51,102 ,22926,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+635,2023,411,93,125761,NaN,GC,+ 06:59,144 ,33913,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+636,2023,411,94,88840,NaN,GC,+ 06:59,95 ,22017,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+637,2023,411,95,38972,NaN,GC,+ 06:59,165 ,33298,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+638,2023,411,96,964,NaN,GC,+ 08:10,86 ,27883,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+639,2023,411,97,65437,NaN,GC,+ 08:10,52 ,22310,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+640,2023,411,98,9234,NaN,GC,+ 08:10,41 ,28389,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+641,2023,411,99,1276,NaN,GC,+ 08:10,37 ,23414,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+642,2023,411,100,34694,NaN,GC,+ 08:10,96 ,22017,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+643,2023,411,101,97558,NaN,GC,+ 08:10,126 ,33365,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+644,2023,411,102,40234,NaN,GC,+ 11:01,73 ,22727,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+645,2023,411,103,61763,NaN,GC,+ 11:01,103 ,22926,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+646,2023,411,104,104721,NaN,GC,+ 11:01,142 ,33913,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+647,2023,411,105,61175,NaN,GC,+ 11:01,97 ,22017,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+648,2023,411,106,106284,NaN,GC,+ 11:01,107 ,22926,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+649,2023,411,107,37384,NaN,GC,+ 11:01,164 ,33298,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+650,2023,411,DNF,46281,NaN,GC,,115 ,28058,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+651,2023,411,DNF,92725,NaN,GC,,105 ,22926,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+652,2023,411,DNF,77316,NaN,GC,,74 ,22727,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+653,2023,411,DNF,45754,NaN,GC,,82 ,27883,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+654,2023,411,DNF,39771,NaN,GC,,161 ,33298,None,Men,Clàssica Comunitat Valenciana 1969 - GP Valencia,Road,ES,1.1,One Day,2023/01/22,2023/01/22
+655,2023,5247,1,35077,NaN,GC,25:40:57,215 ,34041,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+656,2023,5247,2,27099,NaN,GC,+ 30,62 ,21828,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+657,2023,5247,3,58639,NaN,GC,+ 44,12 ,22246,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+658,2023,5247,4,77970,NaN,GC,+ 50,45 ,22310,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+659,2023,5247,5,59918,NaN,GC,+ 01:01,65 ,21828,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+660,2023,5247,6,14836,NaN,GC,+ 01:19,172 ,34591,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+661,2023,5247,7,84019,NaN,GC,+ 01:19,1 ,21810,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+662,2023,5247,8,82912,NaN,GC,+ 01:30,55 ,21834,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+663,2023,5247,9,113499,NaN,GC,+ 01:41,74 ,22311,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+664,2023,5247,10,95151,NaN,GC,+ 01:46,24 ,25886,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+665,2023,5247,11,6424,NaN,GC,+ 01:56,182 ,34593,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+666,2023,5247,12,16943,NaN,GC,+ 01:59,106 ,33371,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+667,2023,5247,13,67846,NaN,GC,+ 02:00,43 ,22310,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+668,2023,5247,14,9495,NaN,GC,+ 02:05,171 ,34591,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+669,2023,5247,15,27332,NaN,GC,+ 02:11,122 ,27883,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+670,2023,5247,16,185119,NaN,GC,+ 02:12,242 ,None,Chile,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+671,2023,5247,17,64479,NaN,GC,+ 02:12,42 ,22310,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+672,2023,5247,18,64106,NaN,GC,+ 02:16,33 ,23979,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+673,2023,5247,19,80421,NaN,GC,+ 02:18,71 ,22311,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+674,2023,5247,20,10971,NaN,GC,+ 02:28,4 ,21810,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+675,2023,5247,21,277,NaN,GC,+ 02:28,213 ,34041,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+676,2023,5247,22,35353,NaN,GC,+ 02:55,216 ,34041,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+677,2023,5247,23,68074,NaN,GC,+ 03:12,92 ,22727,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+678,2023,5247,24,70767,NaN,GC,+ 03:12,124 ,27883,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+679,2023,5247,25,27124,NaN,GC,+ 03:57,64 ,21828,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+680,2023,5247,26,22143,NaN,GC,+ 03:58,25 ,25886,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+681,2023,5247,27,37339,NaN,GC,+ 04:02,32 ,23979,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+682,2023,5247,28,103992,NaN,GC,+ 04:08,203 ,34592,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+683,2023,5247,29,111862,NaN,GC,+ 04:22,26 ,25886,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+684,2023,5247,30,79939,NaN,GC,+ 04:33,93 ,22727,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+685,2023,5247,31,737,NaN,GC,+ 05:18,36 ,23979,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+686,2023,5247,32,83214,NaN,GC,+ 07:24,83 ,27876,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+687,2023,5247,33,68054,NaN,GC,+ 07:27,95 ,22727,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+688,2023,5247,34,39286,NaN,GC,+ 08:02,103 ,33371,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+689,2023,5247,35,23070,NaN,GC,+ 08:04,191 ,34594,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+690,2023,5247,36,83642,NaN,GC,+ 08:19,212 ,34041,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+691,2023,5247,37,65461,NaN,GC,+ 08:36,54 ,21834,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+692,2023,5247,38,111727,NaN,GC,+ 08:40,35 ,23979,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+693,2023,5247,39,111801,NaN,GC,+ 09:10,52 ,21834,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+694,2023,5247,40,6269,NaN,GC,+ 10:26,2 ,21810,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+695,2023,5247,41,67824,NaN,GC,+ 10:33,53 ,21834,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+696,2023,5247,42,115067,NaN,GC,+ 10:45,51 ,21834,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+697,2023,5247,43,777,NaN,GC,+ 10:45,125 ,27883,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+698,2023,5247,44,37393,NaN,GC,+ 12:19,86 ,27876,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+699,2023,5247,45,7011,NaN,GC,+ 14:03,46 ,22310,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+700,2023,5247,46,103120,NaN,GC,+ 14:05,44 ,22310,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+701,2023,5247,47,62834,NaN,GC,+ 15:25,222 ,34317,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+702,2023,5247,48,9349,NaN,GC,+ 17:01,13 ,22246,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+703,2023,5247,49,784,NaN,GC,+ 17:23,126 ,27883,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+704,2023,5247,50,75665,NaN,GC,+ 17:57,251 ,None,Uruguay,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+705,2023,5247,51,41242,NaN,GC,+ 18:16,231 ,34588,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+706,2023,5247,52,2141,NaN,GC,+ 18:32,111 ,33711,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+707,2023,5247,53,71092,NaN,GC,+ 18:38,94 ,22727,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+708,2023,5247,54,23276,NaN,GC,+ 19:21,206 ,34592,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+709,2023,5247,55,38026,NaN,GC,+ 21:12,113 ,33711,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+710,2023,5247,56,18575,NaN,GC,+ 21:13,41 ,22310,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+711,2023,5247,57,111673,NaN,GC,+ 21:23,151 ,34589,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+712,2023,5247,58,130790,NaN,GC,+ 21:32,14 ,22246,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+713,2023,5247,59,12347,NaN,GC,+ 22:17,166 ,34590,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+714,2023,5247,60,7730,NaN,GC,+ 22:35,16 ,22246,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+715,2023,5247,61,16646,NaN,GC,+ 22:42,15 ,22246,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+716,2023,5247,62,3165,NaN,GC,+ 23:44,6 ,21810,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+717,2023,5247,63,40223,NaN,GC,+ 24:18,192 ,34594,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+718,2023,5247,64,116513,NaN,GC,+ 24:58,245 ,None,Chile,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+719,2023,5247,65,40229,NaN,GC,+ 25:35,102 ,33371,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+720,2023,5247,66,60856,NaN,GC,+ 28:05,115 ,33711,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+721,2023,5247,67,2982,NaN,GC,+ 29:11,72 ,22311,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+722,2023,5247,68,40423,NaN,GC,+ 29:21,96 ,22727,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+723,2023,5247,69,139658,NaN,GC,+ 29:21,91 ,22727,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+724,2023,5247,70,7731,NaN,GC,+ 29:21,76 ,22311,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+725,2023,5247,71,900,NaN,GC,+ 29:21,211 ,34041,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+726,2023,5247,72,5273,NaN,GC,+ 29:39,21 ,25886,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+727,2023,5247,73,45371,NaN,GC,+ 29:42,73 ,22311,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+728,2023,5247,74,40385,NaN,GC,+ 29:43,101 ,33371,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+729,2023,5247,75,40963,NaN,GC,+ 29:53,84 ,27876,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+730,2023,5247,76,20836,NaN,GC,+ 30:11,123 ,27883,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+731,2023,5247,77,532,NaN,GC,+ 30:28,22 ,25886,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+732,2023,5247,78,63763,NaN,GC,+ 31:02,116 ,33711,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+733,2023,5247,79,27448,NaN,GC,+ 32:00,236 ,34588,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+734,2023,5247,80,361,NaN,GC,+ 32:08,121 ,27883,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+735,2023,5247,81,3277,NaN,GC,+ 33:03,11 ,22246,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+736,2023,5247,82,57450,NaN,GC,+ 33:26,196 ,34594,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+737,2023,5247,83,78585,NaN,GC,+ 33:35,214 ,34041,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+738,2023,5247,84,1310,NaN,GC,+ 33:37,66 ,21828,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+739,2023,5247,85,38004,NaN,GC,+ 33:40,82 ,27876,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+740,2023,5247,86,118621,NaN,GC,+ 34:55,146 ,None,Italy,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+741,2023,5247,87,27257,NaN,GC,+ 35:19,34 ,23979,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+742,2023,5247,88,37748,NaN,GC,+ 36:22,3 ,21810,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+743,2023,5247,89,721,NaN,GC,+ 37:02,5 ,21810,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+744,2023,5247,90,44003,NaN,GC,+ 37:08,56 ,21834,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+745,2023,5247,91,69090,NaN,GC,+ 37:39,233 ,34588,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+746,2023,5247,92,103177,NaN,GC,+ 37:42,114 ,33711,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+747,2023,5247,93,50047,NaN,GC,+ 38:06,81 ,27876,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+748,2023,5247,94,43914,NaN,GC,+ 38:48,162 ,34590,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+749,2023,5247,95,624,NaN,GC,+ 40:03,131 ,None,Argentina,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+750,2023,5247,96,88843,NaN,GC,+ 41:13,174 ,34591,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+751,2023,5247,97,97995,NaN,GC,+ 41:23,85 ,27876,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+752,2023,5247,98,76728,NaN,GC,+ 44:25,31 ,23979,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+753,2023,5247,99,54974,NaN,GC,+ 44:35,175 ,34591,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+754,2023,5247,100,69089,NaN,GC,+ 44:39,232 ,34588,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+755,2023,5247,101,103403,NaN,GC,+ 45:06,143 ,None,Italy,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+756,2023,5247,102,44684,NaN,GC,+ 45:15,193 ,34594,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+757,2023,5247,103,43956,NaN,GC,+ 48:40,201 ,34592,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+758,2023,5247,104,164728,NaN,GC,+ 48:53,204 ,34592,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+759,2023,5247,105,48892,NaN,GC,+ 50:19,194 ,34594,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+760,2023,5247,106,23083,NaN,GC,+ 50:19,253 ,None,Uruguay,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+761,2023,5247,107,180405,NaN,GC,+ 50:20,246 ,None,Chile,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+762,2023,5247,108,43905,NaN,GC,+ 50:33,134 ,None,Argentina,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+763,2023,5247,109,16597,NaN,GC,+ 54:08,241 ,None,Chile,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+764,2023,5247,110,16648,NaN,GC,+ 57:40,142 ,None,Italy,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+765,2023,5247,111,8600,NaN,GC,+ 57:47,183 ,34593,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+766,2023,5247,112,56640,NaN,GC,+ 58:17,205 ,34592,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+767,2023,5247,113,123177,NaN,GC,+ 58:42,135 ,None,Argentina,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+768,2023,5247,114,31291,NaN,GC,+ 01:00:00,181 ,34593,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+769,2023,5247,115,14801,NaN,GC,+ 01:00:07,145 ,None,Italy,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+770,2023,5247,116,14803,NaN,GC,+ 01:01:13,144 ,None,Italy,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+771,2023,5247,117,95132,NaN,GC,+ 01:02:36,141 ,None,Italy,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+772,2023,5247,118,111668,NaN,GC,+ 01:03:04,152 ,34589,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+773,2023,5247,119,7595,NaN,GC,+ 01:04:04,234 ,34588,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+774,2023,5247,120,73238,NaN,GC,+ 01:04:54,154 ,34589,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+775,2023,5247,121,49516,NaN,GC,+ 01:06:24,225 ,34317,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+776,2023,5247,122,43900,NaN,GC,+ 01:08:33,155 ,34589,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+777,2023,5247,123,103082,NaN,GC,+ 01:08:40,235 ,34588,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+778,2023,5247,124,35273,NaN,GC,+ 01:12:39,186 ,34593,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+779,2023,5247,125,74958,NaN,GC,+ 01:14:34,133 ,None,Argentina,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+780,2023,5247,126,50717,NaN,GC,+ 01:17:09,195 ,34594,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+781,2023,5247,127,45700,NaN,GC,+ 01:19:24,243 ,None,Chile,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+782,2023,5247,128,180404,NaN,GC,+ 01:20:17,244 ,None,Chile,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+783,2023,5247,129,123093,NaN,GC,+ 01:21:14,221 ,34317,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+784,2023,5247,130,35434,NaN,GC,+ 01:28:56,255 ,None,Uruguay,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+785,2023,5247,131,33675,NaN,GC,+ 01:35:26,163 ,34590,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+786,2023,5247,132,88846,NaN,GC,+ 01:39:59,156 ,34589,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+787,2023,5247,133,48927,NaN,GC,+ 01:43:13,165 ,34590,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+788,2023,5247,DNF,33206,NaN,GC,,112 ,33711,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+789,2023,5247,DNF,23091,NaN,GC,,202 ,34592,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+790,2023,5247,DNF,55136,NaN,GC,,132 ,None,Argentina,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+791,2023,5247,DNF,130983,NaN,GC,,136 ,None,Argentina,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+792,2023,5247,DNF,43874,NaN,GC,,185 ,34593,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+793,2023,5247,DNF,40222,NaN,GC,,184 ,34593,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+794,2023,5247,DNF,31292,NaN,GC,,161 ,34590,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+795,2023,5247,DNF,62780,NaN,GC,,164 ,34590,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+796,2023,5247,DNF,58275,NaN,GC,,61 ,21828,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+797,2023,5247,DNF,41249,NaN,GC,,63 ,21828,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+798,2023,5247,DNF,37376,NaN,GC,,75 ,22311,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+799,2023,5247,DNF,82649,NaN,GC,,153 ,34589,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+800,2023,5247,DNF,72955,NaN,GC,,173 ,34591,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+801,2023,5247,DNF,186863,NaN,GC,,176 ,34591,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+802,2023,5247,DNF,44606,NaN,GC,,224 ,34317,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+803,2023,5247,DNF,7740,NaN,GC,,226 ,34317,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+804,2023,5247,DNF,72587,NaN,GC,,223 ,34317,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+805,2023,5247,DNF,53511,NaN,GC,,105 ,33371,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+806,2023,5247,DNF,66978,NaN,GC,,104 ,33371,None,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+807,2023,5247,DNF,74618,NaN,GC,,256 ,None,Uruguay,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+808,2023,5247,DNF,35500,NaN,GC,,252 ,None,Uruguay,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+809,2023,5247,DNF,57025,NaN,GC,,254 ,None,Uruguay,Men,Vuelta a San Juan,Road,AR,2.Pro,Stage Race,2023/01/22,2023/01/29
+810,2023,117,1,2326,NaN,GC,20:18:16,24 ,27883,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+811,2023,117,2,124595,NaN,GC,+ 29,41 ,None,Algeria,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+812,2023,117,3,52563,NaN,GC,+ 34,123 ,None,Mauritius,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+813,2023,117,4,6257,NaN,GC,+ 36,141 ,34207,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+814,2023,117,5,77955,NaN,GC,+ 38,12 ,None,Eritrea,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+815,2023,117,6,32592,NaN,GC,+ 39,23 ,27883,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+816,2023,117,7,11012,NaN,GC,+ 50,81 ,27800,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+817,2023,117,8,104482,NaN,GC,+ 55,53 ,28133,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+818,2023,117,9,37482,NaN,GC,+ 01:18,82 ,27800,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+819,2023,117,10,51048,NaN,GC,+ 01:39,25 ,27883,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+820,2023,117,11,71607,NaN,GC,+ 01:50,11 ,None,Eritrea,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+821,2023,117,12,46501,NaN,GC,+ 01:58,54 ,28133,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+822,2023,117,13,64952,NaN,GC,+ 01:59,83 ,27800,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+823,2023,117,14,20812,NaN,GC,+ 02:00,85 ,27800,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+824,2023,117,15,51041,NaN,GC,+ 02:02,22 ,27883,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+825,2023,117,16,179010,NaN,GC,+ 02:06,13 ,None,Eritrea,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+826,2023,117,17,82674,NaN,GC,+ 02:07,61 ,None,Morocco,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+827,2023,117,18,82693,NaN,GC,+ 02:07,32 ,None,Rwanda,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+828,2023,117,19,100766,NaN,GC,+ 02:08,63 ,None,Morocco,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+829,2023,117,20,62832,NaN,GC,+ 02:08,121 ,None,Mauritius,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+830,2023,117,21,91119,NaN,GC,+ 02:08,114 ,34106,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+831,2023,117,22,169736,NaN,GC,+ 02:08,115 ,34106,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+832,2023,117,23,191287,NaN,GC,+ 02:11,14 ,None,Eritrea,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+833,2023,117,24,51609,NaN,GC,+ 02:38,62 ,None,Morocco,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+834,2023,117,25,49911,NaN,GC,+ 02:44,84 ,27800,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+835,2023,117,26,103148,NaN,GC,+ 02:58,36 ,None,Rwanda,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+836,2023,117,27,6422,NaN,GC,+ 03:31,43 ,None,Algeria,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+837,2023,117,28,100040,NaN,GC,+ 03:39,116 ,34106,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+838,2023,117,29,37279,NaN,GC,+ 03:42,144 ,34207,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+839,2023,117,30,20520,NaN,GC,+ 04:18,65 ,None,Morocco,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+840,2023,117,31,125789,NaN,GC,+ 04:31,34 ,None,Rwanda,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+841,2023,117,32,15014,NaN,GC,+ 04:37,71 ,None,Cameroun,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+842,2023,117,33,5811,NaN,GC,+ 04:55,21 ,27883,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+843,2023,117,34,93379,NaN,GC,+ 04:56,113 ,34106,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+844,2023,117,35,44359,NaN,GC,+ 05:07,64 ,None,Morocco,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+845,2023,117,36,79323,NaN,GC,+ 05:56,145 ,34207,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+846,2023,117,37,72078,NaN,GC,+ 06:16,112 ,34106,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+847,2023,117,38,91362,NaN,GC,+ 06:32,91 ,None,Burkina Faso,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+848,2023,117,39,2280,NaN,GC,+ 06:36,142 ,34207,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+849,2023,117,40,92745,NaN,GC,+ 06:42,146 ,34207,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+850,2023,117,41,67840,NaN,GC,+ 07:04,44 ,None,Algeria,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+851,2023,117,42,55572,NaN,GC,+ 07:19,35 ,None,Rwanda,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+852,2023,117,43,30362,NaN,GC,+ 07:55,33 ,None,Rwanda,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+853,2023,117,44,25666,NaN,GC,+ 08:33,51 ,28133,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+854,2023,117,45,99787,NaN,GC,+ 08:56,31 ,None,Rwanda,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+855,2023,117,46,88419,NaN,GC,+ 08:58,26 ,27883,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+856,2023,117,47,15043,NaN,GC,+ 09:04,15 ,None,Eritrea,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+857,2023,117,48,62831,NaN,GC,+ 09:25,42 ,None,Algeria,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+858,2023,117,49,16571,NaN,GC,+ 09:36,45 ,None,Algeria,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+859,2023,117,50,44047,NaN,GC,+ 09:48,16 ,None,Eritrea,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+860,2023,117,51,169620,NaN,GC,+ 13:31,46 ,None,Algeria,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+861,2023,117,52,78661,NaN,GC,+ 15:07,143 ,34207,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+862,2023,117,53,45092,NaN,GC,+ 16:34,55 ,28133,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+863,2023,117,54,92068,NaN,GC,+ 16:39,75 ,None,Cameroun,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+864,2023,117,55,84012,NaN,GC,+ 17:06,56 ,28133,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+865,2023,117,56,94815,NaN,GC,+ 17:12,86 ,27800,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+866,2023,117,57,11353,NaN,GC,+ 17:50,101 ,None,Ivory Coast,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+867,2023,117,58,18113,NaN,GC,+ 21:10,92 ,None,Burkina Faso,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+868,2023,117,59,750,NaN,GC,+ 21:55,52 ,28133,None,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+869,2023,117,60,106901,NaN,GC,+ 23:02,73 ,None,Cameroun,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+870,2023,117,61,185344,NaN,GC,+ 23:27,126 ,None,Mauritius,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+871,2023,117,62,29761,NaN,GC,+ 23:56,3 ,None,Gabon,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+872,2023,117,63,14833,NaN,GC,+ 25:47,72 ,None,Cameroun,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+873,2023,117,64,200790,NaN,GC,+ 26:09,76 ,None,Cameroun,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+874,2023,117,65,181357,NaN,GC,+ 31:18,122 ,None,Mauritius,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+875,2023,117,66,195197,NaN,GC,+ 32:29,66 ,None,Morocco,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+876,2023,117,67,102351,NaN,GC,+ 33:37,124 ,None,Mauritius,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+877,2023,117,68,175722,NaN,GC,+ 33:39,74 ,None,Cameroun,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+878,2023,117,69,112630,NaN,GC,+ 33:51,96 ,None,Burkina Faso,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+879,2023,117,70,29934,NaN,GC,+ 33:54,102 ,None,Ivory Coast,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+880,2023,117,71,63344,NaN,GC,+ 47:19,95 ,None,Burkina Faso,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+881,2023,117,72,136267,NaN,GC,+ 49:53,4 ,None,Gabon,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+882,2023,117,73,29226,NaN,GC,+ 53:22,94 ,None,Burkina Faso,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+883,2023,117,74,160771,NaN,GC,+ 54:57,135 ,None,Benin,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+884,2023,117,75,32465,NaN,GC,+ 58:25,103 ,None,Ivory Coast,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+885,2023,117,76,18105,NaN,GC,+ 58:48,105 ,None,Ivory Coast,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+886,2023,117,77,29758,NaN,GC,+ 01:15:59,5 ,None,Gabon,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+887,2023,117,78,199916,NaN,GC,+ 01:32:55,104 ,None,Ivory Coast,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+888,2023,117,79,191373,NaN,GC,+ 01:39:26,134 ,None,Benin,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+889,2023,117,80,32889,NaN,GC,+ 01:41:40,6 ,None,Gabon,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+890,2023,117,81,83932,NaN,GC,+ 01:55:40,131 ,None,Benin,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+891,2023,117,82,110005,NaN,GC,+ 02:20:23,106 ,None,Ivory Coast,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+892,2023,117,83,111904,NaN,GC,+ 02:26:13,132 ,None,Benin,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+893,2023,117,84,58214,NaN,GC,+ 02:27:00,133 ,None,Benin,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+894,2023,117,DNF,182648,NaN,GC,,136 ,None,Benin,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+895,2023,117,DNF,92064,NaN,GC,,93 ,None,Burkina Faso,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+896,2023,117,DNF,128919,NaN,GC,,1 ,None,Gabon,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+897,2023,117,DNF,82944,NaN,GC,,2 ,None,Gabon,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+898,2023,117,DNF,181355,NaN,GC,,125 ,None,Mauritius,Men,Tropicale Amissa Bongo,Road,GA,2.1,Stage Race,2023/01/23,2023/01/29
+899,2023,271,1,114,NaN,GC,03:59:34,238 ,27884,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+900,2023,271,2,8078,NaN,GC,+ 00,14 ,21810,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+901,2023,271,3,76245,NaN,GC,+ 01,66 ,27133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+902,2023,271,4,37219,NaN,GC,+ 03,9 ,21810,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+903,2023,271,5,72919,NaN,GC,+ 03,55 ,23414,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+904,2023,271,6,107572,NaN,GC,+ 03,162 ,22017,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+905,2023,271,7,38818,NaN,GC,+ 03,73 ,27884,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+906,2023,271,8,47841,NaN,GC,+ 03,43 ,22246,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+907,2023,271,9,12474,NaN,GC,+ 09,1 ,21810,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+908,2023,271,10,65240,NaN,GC,+ 09,3 ,21810,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+909,2023,271,11,37308,NaN,GC,+ 24,95 ,27173,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+910,2023,271,12,64658,NaN,GC,+ 02:25,68 ,27133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+911,2023,271,13,116,NaN,GC,+ 02:25,16 ,22310,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+912,2023,271,14,77316,NaN,GC,+ 02:25,153 ,22727,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+913,2023,271,15,25690,NaN,GC,+ 02:25,27 ,22310,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+914,2023,271,16,22010,NaN,GC,+ 02:25,127 ,27876,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+915,2023,271,17,38923,NaN,GC,+ 02:25,85 ,24592,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+916,2023,271,18,53490,NaN,GC,+ 02:25,74 ,27884,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+917,2023,271,19,32201,NaN,GC,+ 02:25,163 ,22017,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+918,2023,271,20,22268,NaN,GC,+ 02:25,72 ,27884,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+919,2023,271,21,794,NaN,GC,+ 02:25,31 ,21840,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+920,2023,271,22,73811,NaN,GC,+ 02:25,174 ,22926,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+921,2023,271,23,96298,NaN,GC,+ 02:25,118 ,28058,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+922,2023,271,24,38301,NaN,GC,+ 02:25,99 ,27173,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+923,2023,271,25,45106,NaN,GC,+ 02:25,143 ,28133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+924,2023,271,26,27308,NaN,GC,+ 02:25,114 ,28058,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+925,2023,271,27,94804,NaN,GC,+ 02:25,104 ,27173,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+926,2023,271,28,64919,NaN,GC,+ 02:25,214 ,33913,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+927,2023,271,29,105979,NaN,GC,+ 02:25,141 ,28133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+928,2023,271,30,6104,NaN,GC,+ 02:25,81 ,24592,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+929,2023,271,31,10990,NaN,GC,+ 02:25,48 ,23414,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+930,2023,271,32,40238,NaN,GC,+ 02:25,131 ,27876,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+931,2023,271,33,30020,NaN,GC,+ 02:25,149 ,22727,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+932,2023,271,34,46625,NaN,GC,+ 02:25,26 ,22310,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+933,2023,271,35,113457,NaN,GC,+ 02:25,206 ,28220,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+934,2023,271,36,114756,NaN,GC,+ 02:25,176 ,22926,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+935,2023,271,37,44622,NaN,GC,+ 02:25,103 ,27173,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+936,2023,271,38,37494,NaN,GC,+ 02:25,60 ,27133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+937,2023,271,39,14791,NaN,GC,+ 02:25,8 ,21810,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+938,2023,271,40,96982,NaN,GC,+ 02:25,154 ,22727,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+939,2023,271,41,9344,NaN,GC,+ 02:25,37 ,22246,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+940,2023,271,42,128416,NaN,GC,+ 02:25,42 ,22246,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+941,2023,271,43,20471,NaN,GC,+ 02:25,158 ,22727,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+942,2023,271,44,37375,NaN,GC,+ 02:25,63 ,27133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+943,2023,271,45,70034,NaN,GC,+ 02:31,12 ,21810,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+944,2023,271,46,1323,NaN,GC,+ 03:11,51 ,23414,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+945,2023,271,47,46281,NaN,GC,+ 04:44,122 ,28058,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+946,2023,271,48,83189,NaN,GC,+ 04:44,193 ,27699,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+947,2023,271,49,18260,NaN,GC,+ 04:44,41 ,22246,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+948,2023,271,50,163759,NaN,GC,+ 04:44,40 ,22246,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+949,2023,271,51,2294,NaN,GC,+ 05:06,106 ,22311,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+950,2023,271,52,18281,NaN,GC,+ 05:06,205 ,28220,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+951,2023,271,53,65779,NaN,GC,+ 05:06,164 ,22017,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+952,2023,271,54,103446,NaN,GC,+ 05:06,189 ,27699,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+953,2023,271,55,70369,NaN,GC,+ 05:06,187 ,27699,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+954,2023,271,56,25670,NaN,GC,+ 05:06,115 ,28058,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+955,2023,271,57,38481,NaN,GC,+ 05:06,24 ,22310,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+956,2023,271,58,33402,NaN,GC,+ 05:06,150 ,22727,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+957,2023,271,59,61176,NaN,GC,+ 05:06,172 ,22017,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+958,2023,271,60,7635,NaN,GC,+ 05:06,161 ,22017,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+959,2023,271,61,27190,NaN,GC,+ 05:06,19 ,22310,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+960,2023,271,62,48538,NaN,GC,+ 05:06,219 ,33724,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+961,2023,271,63,34369,NaN,GC,+ 05:06,128 ,27876,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+962,2023,271,64,47120,NaN,GC,+ 09:50,191 ,27699,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+963,2023,271,65,36721,NaN,GC,+ 10:15,226 ,33724,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+964,2023,271,66,37389,NaN,GC,+ 10:15,209 ,33913,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+965,2023,271,67,168,NaN,GC,+ 10:15,50 ,23414,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+966,2023,271,68,63610,NaN,GC,+ 10:35,181 ,22926,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+967,2023,271,69,57355,NaN,GC,+ 10:35,177 ,22926,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+968,2023,271,70,45354,NaN,GC,+ 12:16,186 ,27699,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+969,2023,271,71,95523,NaN,GC,+ 12:16,53 ,23414,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+970,2023,271,72,63599,NaN,GC,+ 12:16,211 ,33913,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+971,2023,271,73,65033,NaN,GC,+ 12:16,76 ,27884,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+972,2023,271,74,6529,NaN,GC,+ 12:16,147 ,28133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+973,2023,271,75,16947,NaN,GC,+ 12:16,89 ,24592,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+974,2023,271,76,125761,NaN,GC,+ 12:16,212 ,33913,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+975,2023,271,77,17252,NaN,GC,+ 12:16,65 ,27133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+976,2023,271,78,7579,NaN,GC,+ 12:16,109 ,22311,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+977,2023,271,79,65437,NaN,GC,+ 12:16,21 ,22310,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+978,2023,271,80,325,NaN,GC,+ 12:16,138 ,28133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+979,2023,271,81,9451,NaN,GC,+ 12:16,102 ,27173,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+980,2023,271,82,95148,NaN,GC,+ 12:16,123 ,28058,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+981,2023,271,83,1783,NaN,GC,+ 12:16,94 ,27173,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+982,2023,271,84,104414,NaN,GC,+ 12:16,121 ,28058,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+983,2023,271,85,95133,NaN,GC,+ 12:16,64 ,27133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+984,2023,271,86,965,NaN,GC,+ 12:16,84 ,24592,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+985,2023,271,87,160291,NaN,GC,+ 12:16,110 ,22311,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+986,2023,271,88,15686,NaN,GC,+ 12:16,58 ,27133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+987,2023,271,89,80424,NaN,GC,+ 12:16,157 ,22727,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+988,2023,271,90,62984,NaN,GC,+ 12:16,178 ,22926,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+989,2023,271,91,46182,NaN,GC,+ 12:16,91 ,24592,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+990,2023,271,92,82856,NaN,GC,+ 12:16,112 ,22311,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+991,2023,271,93,46167,NaN,GC,+ 12:16,180 ,22926,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+992,2023,271,94,70080,NaN,GC,+ 12:16,198 ,28220,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+993,2023,271,95,64654,NaN,GC,+ 12:16,194 ,27699,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+994,2023,271,96,89666,NaN,GC,+ 12:16,183 ,22926,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+995,2023,271,97,2325,NaN,GC,+ 12:16,49 ,23414,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+996,2023,271,98,50033,NaN,GC,+ 12:16,159 ,22727,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+997,2023,271,DNF,6245,NaN,GC,,39 ,22246,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+998,2023,271,DNF,27289,NaN,GC,,38 ,22246,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+999,2023,271,DNF,106285,NaN,GC,,144 ,28133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1000,2023,271,DNF,16982,NaN,GC,,146 ,28133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1001,2023,271,DNF,46683,NaN,GC,,139 ,28133,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1002,2023,271,DNF,137752,NaN,GC,,124 ,28058,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1003,2023,271,DNF,1276,NaN,GC,,54 ,23414,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1004,2023,271,DNF,77140,NaN,GC,,130 ,27876,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1005,2023,271,DNF,20576,NaN,GC,,133 ,27876,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1006,2023,271,DNF,580,NaN,GC,,126 ,27876,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1007,2023,271,DNF,97947,NaN,GC,,132 ,27876,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1008,2023,271,DNF,104721,NaN,GC,,207 ,33913,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1009,2023,271,DNF,125763,NaN,GC,,213 ,33913,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1010,2023,271,DNF,64761,NaN,GC,,217 ,33913,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1011,2023,271,DNF,37392,NaN,GC,,168 ,22017,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1012,2023,271,DNF,2297,NaN,GC,,166 ,22017,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1013,2023,271,DNF,9322,NaN,GC,,199 ,28220,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1014,2023,271,DNF,48540,NaN,GC,,200 ,28220,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1015,2023,271,DNF,32679,NaN,GC,,202 ,28220,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1016,2023,271,DNF,50030,NaN,GC,,203 ,28220,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1017,2023,271,DNF,6415,NaN,GC,,71 ,27884,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1018,2023,271,DNF,9073,NaN,GC,,80 ,27884,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1019,2023,271,DNF,103807,NaN,GC,,111 ,22311,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1020,2023,271,DNF,102328,NaN,GC,,237 ,22311,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1021,2023,271,DNF,16963,NaN,GC,,108 ,22311,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1022,2023,271,DNF,6236,NaN,GC,,101 ,27173,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1023,2023,271,DNF,16578,NaN,GC,,23 ,22310,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1024,2023,271,DNF,64879,NaN,GC,,222 ,33724,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1025,2023,271,DNF,100791,NaN,GC,,220 ,33724,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1026,2023,271,DNF,82562,NaN,GC,,225 ,33724,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1027,2023,271,DNF,88532,NaN,GC,,218 ,33724,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1028,2023,271,DNF,33165,NaN,GC,,221 ,33724,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1029,2023,271,DNF,76474,NaN,GC,,15 ,21810,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1030,2023,271,DNF,172205,NaN,GC,,235 ,None,Spain Track Team,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1031,2023,271,DNF,121468,NaN,GC,,229 ,None,Spain Track Team,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1032,2023,271,DNF,63600,NaN,GC,,228 ,None,Spain Track Team,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1033,2023,271,DNF,176684,NaN,GC,,236 ,None,Spain Track Team,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1034,2023,271,DNF,29418,NaN,GC,,227 ,None,Spain Track Team,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1035,2023,271,DNF,169582,NaN,GC,,233 ,None,Spain Track Team,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1036,2023,271,DNF,139395,NaN,GC,,230 ,None,Spain Track Team,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1037,2023,271,DNF,75481,NaN,GC,,82 ,24592,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1038,2023,271,DNF,39175,NaN,GC,,93 ,24592,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1039,2023,271,DNF,54613,NaN,GC,,190 ,27699,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1040,2023,271,DNF,66265,NaN,GC,,32 ,21840,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1041,2023,271,DNF,48539,NaN,GC,,29 ,21840,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1042,2023,271,DNF,27210,NaN,GC,,34 ,21840,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1043,2023,271,DNF,14325,NaN,GC,,35 ,21840,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1044,2023,271,DNF,3933,NaN,GC,,30 ,21840,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1045,2023,271,DNF,6228,NaN,GC,,28 ,21840,None,Men,Trofeo Calvia,Road,ES,1.1,One Day,2023/01/25,2023/01/25
+1046,2023,273,1,64658,NaN,GC,03:37:31,68 ,27133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1047,2023,273,2,76709,NaN,GC,+ 00,13 ,21810,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1048,2023,273,3,92666,NaN,GC,+ 00,69 ,27884,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1049,2023,273,4,72919,NaN,GC,+ 00,55 ,23414,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1050,2023,273,5,32201,NaN,GC,+ 00,163 ,22017,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1051,2023,273,6,37756,NaN,GC,+ 00,22 ,22310,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1052,2023,273,7,107572,NaN,GC,+ 00,162 ,22017,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1053,2023,273,8,14325,NaN,GC,+ 00,35 ,21840,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1054,2023,273,9,11313,NaN,GC,+ 00,79 ,27884,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1055,2023,273,10,6245,NaN,GC,+ 00,39 ,22246,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1056,2023,273,11,64761,NaN,GC,+ 00,217 ,33913,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1057,2023,273,12,45602,NaN,GC,+ 00,45 ,22246,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1058,2023,273,13,33402,NaN,GC,+ 00,150 ,22727,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1059,2023,273,14,76398,NaN,GC,+ 00,92 ,24592,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1060,2023,273,15,104721,NaN,GC,+ 00,207 ,33913,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1061,2023,273,16,89666,NaN,GC,+ 00,183 ,22926,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1062,2023,273,17,63610,NaN,GC,+ 00,181 ,22926,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1063,2023,273,18,11828,NaN,GC,+ 00,20 ,22310,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1064,2023,273,19,38923,NaN,GC,+ 00,85 ,24592,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1065,2023,273,20,26504,NaN,GC,+ 00,4 ,21810,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1066,2023,273,21,18260,NaN,GC,+ 00,41 ,22246,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1067,2023,273,22,33564,NaN,GC,+ 00,197 ,28220,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1068,2023,273,23,37308,NaN,GC,+ 00,95 ,27173,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1069,2023,273,24,34369,NaN,GC,+ 00,128 ,27876,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1070,2023,273,25,44622,NaN,GC,+ 00,103 ,27173,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1071,2023,273,26,10990,NaN,GC,+ 00,48 ,23414,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1072,2023,273,27,40238,NaN,GC,+ 00,131 ,27876,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1073,2023,273,28,27111,NaN,GC,+ 00,5 ,21810,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1074,2023,273,29,37388,NaN,GC,+ 00,167 ,22017,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1075,2023,273,30,47841,NaN,GC,+ 00,43 ,22246,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1076,2023,273,31,9073,NaN,GC,+ 00,80 ,27884,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1077,2023,273,32,45106,NaN,GC,+ 00,143 ,28133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1078,2023,273,33,18059,NaN,GC,+ 00,67 ,27133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1079,2023,273,34,20471,NaN,GC,+ 00,158 ,22727,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1080,2023,273,35,15686,NaN,GC,+ 00,58 ,27133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1081,2023,273,36,2297,NaN,GC,+ 00,166 ,22017,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1082,2023,273,37,12481,NaN,GC,+ 10,10 ,21810,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1083,2023,273,38,82254,NaN,GC,+ 10,47 ,22246,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1084,2023,273,39,794,NaN,GC,+ 10,31 ,21840,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1085,2023,273,40,114,NaN,GC,+ 10,238 ,27884,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1086,2023,273,41,38164,NaN,GC,+ 30,62 ,27133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1087,2023,273,42,37494,NaN,GC,+ 30,60 ,27133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1088,2023,273,43,84013,NaN,GC,+ 30,179 ,22926,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1089,2023,273,44,1970,NaN,GC,+ 41,7 ,21810,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1090,2023,273,45,65240,NaN,GC,+ 44,3 ,21810,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1091,2023,273,46,46625,NaN,GC,+ 01:08,26 ,22310,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1092,2023,273,47,16578,NaN,GC,+ 01:44,23 ,22310,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1093,2023,273,48,27190,NaN,GC,+ 01:44,19 ,22310,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1094,2023,273,49,37996,NaN,GC,+ 02:33,98 ,27173,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1095,2023,273,50,63599,NaN,GC,+ 03:22,211 ,33913,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1096,2023,273,51,7579,NaN,GC,+ 03:22,109 ,22311,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1097,2023,273,52,96298,NaN,GC,+ 03:22,118 ,28058,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1098,2023,273,53,47120,NaN,GC,+ 03:22,191 ,27699,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1099,2023,273,54,83189,NaN,GC,+ 03:22,193 ,27699,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1100,2023,273,55,103446,NaN,GC,+ 03:22,189 ,27699,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1101,2023,273,56,2294,NaN,GC,+ 03:22,106 ,22311,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1102,2023,273,57,37389,NaN,GC,+ 03:22,209 ,33913,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1103,2023,273,58,38481,NaN,GC,+ 03:22,24 ,22310,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1104,2023,273,59,137752,NaN,GC,+ 03:22,124 ,28058,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1105,2023,273,60,160291,NaN,GC,+ 03:22,110 ,22311,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1106,2023,273,61,106284,NaN,GC,+ 03:22,182 ,22926,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1107,2023,273,62,65437,NaN,GC,+ 03:22,21 ,22310,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1108,2023,273,63,22268,NaN,GC,+ 03:22,72 ,27884,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1109,2023,273,64,37221,NaN,GC,+ 03:22,116 ,28058,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1110,2023,273,65,66265,NaN,GC,+ 03:22,32 ,21840,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1111,2023,273,66,104414,NaN,GC,+ 03:22,121 ,28058,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1112,2023,273,67,102083,NaN,GC,+ 03:22,90 ,24592,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1113,2023,273,68,48538,NaN,GC,+ 03:22,219 ,33724,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1114,2023,273,69,580,NaN,GC,+ 03:22,126 ,27876,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1115,2023,273,70,6228,NaN,GC,+ 03:22,28 ,21840,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1116,2023,273,71,95523,NaN,GC,+ 03:22,53 ,23414,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1117,2023,273,72,20466,NaN,GC,+ 03:22,151 ,22727,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1118,2023,273,73,20576,NaN,GC,+ 03:22,133 ,27876,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1119,2023,273,74,61176,NaN,GC,+ 03:22,172 ,22017,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1120,2023,273,75,104684,NaN,GC,+ 03:22,170 ,22017,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1121,2023,273,76,20822,NaN,GC,+ 03:22,97 ,27173,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1122,2023,273,77,25670,NaN,GC,+ 03:22,115 ,28058,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1123,2023,273,78,62984,NaN,GC,+ 03:22,178 ,22926,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1124,2023,273,79,118581,NaN,GC,+ 03:22,156 ,22727,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1125,2023,273,80,40234,NaN,GC,+ 03:22,152 ,22727,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1126,2023,273,81,27210,NaN,GC,+ 03:22,34 ,21840,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1127,2023,273,82,34624,NaN,GC,+ 03:22,33 ,21840,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1128,2023,273,83,45433,NaN,GC,+ 03:22,83 ,24592,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1129,2023,273,84,51252,NaN,GC,+ 03:22,56 ,27133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1130,2023,273,85,16817,NaN,GC,+ 03:22,44 ,22246,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1131,2023,273,86,3044,NaN,GC,+ 03:22,88 ,24592,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1132,2023,273,87,16154,NaN,GC,+ 03:22,86 ,24592,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1133,2023,273,88,168,NaN,GC,+ 03:22,50 ,23414,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1134,2023,273,89,1323,NaN,GC,+ 03:22,51 ,23414,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1135,2023,273,90,2325,NaN,GC,+ 03:22,49 ,23414,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1136,2023,273,91,6529,NaN,GC,+ 06:10,147 ,28133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1137,2023,273,92,76168,NaN,GC,+ 06:10,105 ,27173,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1138,2023,273,93,2530,NaN,GC,+ 07:32,87 ,24592,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1139,2023,273,94,50030,NaN,GC,+ 07:32,203 ,28220,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1140,2023,273,95,37500,NaN,GC,+ 07:32,145 ,28133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1141,2023,273,96,32679,NaN,GC,+ 07:32,202 ,28220,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1142,2023,273,97,11191,NaN,GC,+ 07:32,201 ,28220,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1143,2023,273,98,16594,NaN,GC,+ 07:32,204 ,28220,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1144,2023,273,99,116575,NaN,GC,+ 07:32,231 ,None,Spain Track Team,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1145,2023,273,100,10103,NaN,GC,+ 07:32,6 ,21810,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1146,2023,273,101,82562,NaN,GC,+ 07:32,225 ,33724,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1147,2023,273,102,103807,NaN,GC,+ 07:32,111 ,22311,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1148,2023,273,103,38000,NaN,GC,+ 07:32,195 ,28220,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1149,2023,273,104,29418,NaN,GC,+ 07:32,227 ,None,Spain Track Team,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1150,2023,273,105,77140,NaN,GC,+ 07:32,130 ,27876,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1151,2023,273,106,22010,NaN,GC,+ 07:32,127 ,27876,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1152,2023,273,107,82561,NaN,GC,+ 07:32,216 ,33913,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1153,2023,273,108,64654,NaN,GC,+ 07:32,194 ,27699,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1154,2023,273,109,27043,NaN,GC,+ 07:32,59 ,27133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1155,2023,273,110,1276,NaN,GC,+ 07:32,54 ,23414,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1156,2023,273,111,90548,NaN,GC,+ 10:05,129 ,27876,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1157,2023,273,112,121468,NaN,GC,+ 10:05,229 ,None,Spain Track Team,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1158,2023,273,113,67480,NaN,GC,+ 10:05,208 ,33913,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1159,2023,273,114,54613,NaN,GC,+ 10:05,190 ,27699,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1160,2023,273,115,37359,NaN,GC,+ 10:05,113 ,22311,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1161,2023,273,116,93699,NaN,GC,+ 10:05,192 ,27699,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1162,2023,273,117,95148,NaN,GC,+ 10:05,123 ,28058,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1163,2023,273,118,46167,NaN,GC,+ 10:05,180 ,22926,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1164,2023,273,119,58361,NaN,GC,+ 10:05,175 ,22926,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1165,2023,273,120,61175,NaN,GC,+ 10:05,165 ,22017,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1166,2023,273,121,36721,NaN,GC,+ 10:05,226 ,33724,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1167,2023,273,122,16963,NaN,GC,+ 10:05,108 ,22311,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1168,2023,273,123,64879,NaN,GC,+ 10:05,222 ,33724,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1169,2023,273,124,605,NaN,GC,+ 10:05,96 ,27173,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1170,2023,273,125,82856,NaN,GC,+ 10:05,112 ,22311,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1171,2023,273,126,45352,NaN,GC,+ 10:05,46 ,22246,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1172,2023,273,127,88532,NaN,GC,+ 10:05,218 ,33724,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1173,2023,273,128,3226,NaN,GC,+ 10:05,100 ,27173,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1174,2023,273,129,81824,NaN,GC,+ 10:05,137 ,28133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1175,2023,273,130,86651,NaN,GC,+ 10:05,142 ,28133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1176,2023,273,131,1987,NaN,GC,+ 10:05,78 ,27884,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1177,2023,273,132,37464,NaN,GC,+ 10:05,196 ,28220,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1178,2023,273,DNS,3933,NaN,GC,,30 ,21840,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1179,2023,273,DNF,106285,NaN,GC,,144 ,28133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1180,2023,273,DNF,63586,NaN,GC,,140 ,28133,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1181,2023,273,DNF,63632,NaN,GC,,117 ,28058,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1182,2023,273,DNF,125763,NaN,GC,,213 ,33913,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1183,2023,273,DNF,65303,NaN,GC,,148 ,22727,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1184,2023,273,DNF,77316,NaN,GC,,153 ,22727,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1185,2023,273,DNF,3045,NaN,GC,,77 ,27884,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1186,2023,273,DNF,100791,NaN,GC,,220 ,33724,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1187,2023,273,DNF,33165,NaN,GC,,221 ,33724,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1188,2023,273,DNF,172205,NaN,GC,,233 ,None,Spain Track Team,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1189,2023,273,DNF,169445,NaN,GC,,232 ,None,Spain Track Team,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1190,2023,273,DNF,63600,NaN,GC,,228 ,None,Spain Track Team,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1191,2023,273,DNF,139395,NaN,GC,,230 ,None,Spain Track Team,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
+1192,2023,273,DNF,45354,NaN,GC,,186 ,27699,None,Men,Trofeo Alcudia - Port d'Alcudia,Road,ES,1.1,One Day,2023/01/26,2023/01/26
