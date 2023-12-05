@@ -16,6 +16,7 @@ from time import sleep
 from random import randrange
 # data_table.enable_dataframe_formatter()
 
+### Bring data relevant from Calendar DF and make data into varchar
 calendar_df = pd.read_csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/CyclingChaos_RaceCalendar.csv')
 
 calendar_df['first_cycling_race_id'] = calendar_df['first_cycling_race_id'].apply(str)
