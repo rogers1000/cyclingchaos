@@ -5,11 +5,11 @@ Phase 1 Rider Details:
 - Rider Name
 
 Phase 3 Race Calendar:
-- Individual Stages
+- Individual Stages (done)
 - Number of Race Days
-- Stage Profile Categories
-- Distance
-- Route
+- Stage Profile Categories (for stage races; done)
+- Distance (for stage races; done)
+- Route (for stage races; done)
 - Detailed UCI Race Classification
 - Race Winner
 - Race Winner's team
@@ -17,7 +17,7 @@ Phase 3 Race Calendar:
 - Jersey Winners' teams
 
 Phase 3 Race Results:
-- Time for GC (might impact stages too)
+- Time for GC
 - Jersey Positions
 - Jersey Points/Time
 
