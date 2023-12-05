@@ -16,9 +16,10 @@ from time import sleep
 from random import randrange
 # data_table.enable_dataframe_formatter()
 
-
-### Bring data relevant from Calendar DF
 calendar_df = pd.read_csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/CyclingChaos_RaceCalendar.csv')
+
+calendar_df['first_cycling_race_id'] = calendar_df['first_cycling_race_id'].apply(str)
+calendar_df['season'] = calendar_df['season'].apply(str)
 
 ### Get count of number of race extracts required
 startlist_list_race_id = calendar_df['first_cycling_race_id'].tolist()
@@ -35,8 +36,8 @@ startlist_extract = -1
 startlist_list_race_id_test = startlist_list_race_id[2:]
 
 for race_id_count in tqdm(range(0,
-                                # 1
-                                race_id_count_limit
+                                1
+                                # race_id_count_limit
                                 )):
   bib_number_order_teams = 0
   bib_number_order_riders = 0
@@ -45,7 +46,7 @@ for race_id_count in tqdm(range(0,
   season = startlist_list_season[startlist_extract]
   first_cycling_race_id = startlist_list_race_id[startlist_extract]
   time.sleep(5)
-  url = 'https://firstcycling.com/race.php?r='+str(race_id)+'&y='+str(season)+'&k=8'
+  url = 'https://firstcycling.com/race.php?r='+str(first_cycling_race_id)+'&y='+str(season)+'&k=8'
   startlist_df_meta = requests.get(url)
   startlist_df_meta_soup = BeautifulSoup(startlist_df_meta.content, "html.parser")
 
@@ -128,24 +129,22 @@ for race_id_count in tqdm(range(0,
 
 ### Merge Startlist rider data with Startlist team data
 
-startlist_df = startlist_df_riders.merge(startlist_df_teams,on = ['season','race_id','bib_number_order'])
+startlist_df = startlist_df_riders.merge(startlist_df_teams,on = ['season','first_cycling_race_id','bib_number_order'])
 startlist_df = startlist_df.drop(['bib_number_order'], axis = 1)
 
-### Stage Race GC Results and One Day Races
-
-race_results_df = pd.DataFrame(columns=['season','race_id','gc_position','rider_id','gc_time'])
+race_results_df = pd.DataFrame(columns=['season','first_cycling_race_id','gc_position','first_cycling_rider_id','gc_time'])
 
 results_extract = -1
 
 for race_id_count in tqdm(range(0,
-                                # 1
-                                race_id_count_limit
+                                1
+                                # race_id_count_limit
                                 )):
   results_extract = results_extract + 1
   season = startlist_list_season[results_extract]
-  race_id = startlist_list_race_id[results_extract]
+  first_cycling_race_id = startlist_list_race_id[results_extract]
   time.sleep(5)
-  url = 'https://firstcycling.com/race.php?r='+str(race_id)+'&y='+str(season)
+  url = 'https://firstcycling.com/race.php?r='+str(first_cycling_race_id)+'&y='+str(season)
   results_df_meta = requests.get(url)
   results_df_meta_soup = BeautifulSoup(results_df_meta.content, "html.parser")
   results_df_meta_soup_part2 = results_df_meta_soup.find_all('tbody')[0]
@@ -159,7 +158,7 @@ for race_id_count in tqdm(range(0,
       position = columns[0].text
       # gc_time_leader = columns[6].text
       # gc_time = columns[6].text
-      rider_id = str(columns[3].find_all('a')).split('php?r=')[1].split('&amp')[0]
+      first_cycling_rider_id = str(columns[3].find_all('a')).split('php?r=')[1].split('&amp')[0]
       # team_id = str(columns[4].find_all('a')).split('?l=')[-1].split('" title=')[0]
       # year_of_birth = columns[1].text
       # uci_points = columns[5].text
@@ -176,8 +175,8 @@ for race_id_count in tqdm(range(0,
         'season':season
         ,'stage':stage
         ,'position':position
-        ,'race_id':race_id
-        ,'rider_id':rider_id
+        ,'first_cycling_race_id':first_cycling_race_id
+        ,'first_cycling_rider_id':first_cycling_rider_id
         # ,'team_id':team_id
         # ,'gc_time_leader':gc_time_leader
         # ,'gc_time':gc_time
@@ -191,5 +190,4 @@ for race_id_count in tqdm(range(0,
         # ,'test6':test6
           }, ignore_index=True)
 
-### Merging all relavant information to form dataframe ###
-race_results_startlist_df = race_results_df.merge(startlist_df,on = ['season','race_id','rider_id']).merge(calendar_df, on = ['season','race_id'])
+race_results_startlist_df = race_results_df.merge(startlist_df,on = ['season','first_cycling_race_id','first_cycling_rider_id']).merge(calendar_df, on = ['season','first_cycling_race_id'])
