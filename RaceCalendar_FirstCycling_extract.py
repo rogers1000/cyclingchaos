@@ -32,7 +32,7 @@ current_month = datetime.now().month
 
 current_month_range_adj = np.where(current_month < 12,current_month,12)
 
-mens_road_calendar_df = pd.DataFrame(columns=['season','gender','race_id','race_name','category','race_nationality','uci_race_classification','stage_race_boolean','start_date','end_date'])
+mens_road_calendar_df = pd.DataFrame(columns=['season','gender','first_cycling_race_id','race_name','category','race_nationality','uci_race_classification','stage_race_boolean','start_date','end_date'])
 
 for month_extract in tqdm(range(1,
                                 # 3
@@ -67,7 +67,7 @@ for month_extract in tqdm(range(1,
             'season':season
             ,'gender':gender
             ,'category':category
-            ,'race_id':race_id
+            ,'first_cycling_race_id':first_cycling_race_id
             ,'race_name':race_name
             ,'race_nationality':race_nationality
             ,'uci_race_classification':uci_race_classification
@@ -146,11 +146,6 @@ for month_extract in tqdm(range(1,
 calendar_df = pd.concat([mens_road_calendar_df,womens_road_calendar_df], ignore_index = True)
 
 calendar_df = calendar_df.drop_duplicates(subset = 'first_cycling_race_id')
-
-calendar_df['race_tag'] = np.where(calendar_df['first_cycling_race_id'].isin(['8','11','5','4','24','13853',]),'Monument',
-                                   np.where(calendar_df['first_cycling_race_id'].isin(['13','17','23','15687','9058','9064']),'Grand Tour',
-                                   np.where(calendar_df['first_cycling_race_id'].isin(['53','84','116','47','7','75','56','77']),'Cobbled Classic',
-                                            '')))
 
 
 
