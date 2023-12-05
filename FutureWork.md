@@ -1,9 +1,5 @@
 A place to put my planned work across a multiple iteration release schedule:
 
-Phase 1 Rider Details:
-- First Cycling Rider ID
-- Rider Name
-
 Phase 3 Race Calendar:
 - Individual Stages (done)
 - Number of Race Days
@@ -17,7 +13,7 @@ Phase 3 Race Calendar:
 - Jersey Winners' teams
 
 Phase 3 Race Results:
-- Time for GC
+- Time for GC (currently formatted to seconds, done for stage races)
 - Jersey Positions
 - Jersey Points/Time
 
@@ -31,6 +27,8 @@ Phase 3 Team Details:
 - Count of First Cycling Rider Strengths
 
 Phase 3 Rider Details:
+- First Cycling Rider ID
+- Rider Name
 - First Cycling Rider Strengths
 - UCI Points
 - Victories
@@ -38,7 +36,7 @@ Phase 3 Rider Details:
 - Top 10s
 - Race Days
 
-Phase 3 Nationality Details:
+Phase 3 Nationality Details (started on):
 - First Cycling Nationality ID
 - Nationality
 
