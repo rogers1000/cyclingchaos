@@ -54,7 +54,7 @@ for month_extract in tqdm(range(1,
         season = str(season)
         gender = 'Men'
         category = 'Road'
-        race_id = str(columns[2].find_all('a')).split('r=')[1].split('&amp')[0]
+        first_cycling_race_id = str(columns[2].find_all('a')).split('r=')[1].split('&amp')[0]
         race_name = str(columns[2].find_all('a')).split('title="')[1].split('">')[0]
         race_nationality = str(columns[2].find_all("span")).split("flag-")[1].split('"><')[0].upper()
         uci_race_classification = columns[1].text
@@ -93,7 +93,7 @@ current_month = datetime.now().month
 
 current_month_range_adj = np.where(current_month < 12,current_month,12)
 
-womens_road_calendar_df = pd.DataFrame(columns=['season','gender','race_id','race_name','category','race_nationality','uci_race_classification','stage_race_boolean','start_date','end_date'])
+womens_road_calendar_df = pd.DataFrame(columns=['season','gender','first_cycling_race_id','race_name','category','race_nationality','uci_race_classification','stage_race_boolean','start_date','end_date'])
 
 for month_extract in tqdm(range(1,
                                 # 3
