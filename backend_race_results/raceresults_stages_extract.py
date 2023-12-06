@@ -62,13 +62,13 @@ for calendar_df_stage_races_race_id_extract in tqdm(range(0,
       stage_number = str(stage_number)
       position = columns[0].text
       rider_id = str(columns[3].find_all('a')).split('php?r=')[1].split('&amp')[0]
-      test0 = columns[0]
-      test1 = columns[1]
-      test2 = columns[2]
-      test3 = columns[3]
-      test4 = columns[4]
-      test5 = columns[5]
-      test6 = columns[6]
+      # test0 = columns[0]
+      # test1 = columns[1]
+      # test2 = columns[2]
+      # test3 = columns[3]
+      # test4 = columns[4]
+      # test5 = columns[5]
+      # test6 = columns[6]
 
       race_results_df_stages = race_results_df_stages.append({
         'season':season
