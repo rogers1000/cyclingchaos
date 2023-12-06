@@ -40,11 +40,17 @@ Phase 3 Nationality Details (started on):
 - First Cycling Nationality ID
 - Nationality
 
-Phase 3 FantasyFives:
+Phase 4 FantasyFives:
 - CSV Teams Import
 - Custom Races
 - Dream Team
 
-Phase 4 Race Calendar:
+Phase 4 Race Results Pivot:
+- Stages within Stage Race
+- Custom Race combos
+- Values from: Stage Position, GC, KOM, Points, Youth
+- Medals or colour filled for 1st, 2nd, 3rd
+
+Phase 5 Race Calendar:
 - How the Race was Won? (One Day Races)
 - Elevation
