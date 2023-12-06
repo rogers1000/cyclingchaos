@@ -76,7 +76,7 @@ for calendar_df_stage_races_race_id_extract in tqdm(range(0,
         ,'stage':stage_number
         ,'position':position
         # ,'race_id':race_id
-        ,'rider_id':rider_id
+        ,'first_cycling_rider_id':first_cycling_rider_id
         # ,'team_id':team_id
         # ,'gc_time_leader':gc_time_leader
         # ,'gc_time':gc_time
