@@ -48,4 +48,4 @@ Race Results Pivot Table Functionality:
 - Dynamic Season Filter
 - Dyanmic Gender Filter
 - Dynamic Pivot Slicer (Team or Rider)
-- Dynanic Race Tag Filter (For example: Monuments, Big7 One Day Races, World Tour, Cobbled Classics, Ardennes, Cobbles Opening Weekend, Grand Tours)
+- Dynamic Race Tag Filter (For example: Monuments, Big7 One Day Races, World Tour, Cobbled Classics, Ardennes, Cobbles Opening Weekend, Grand Tours)
