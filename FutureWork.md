@@ -13,7 +13,7 @@ Phase 3 Race Calendar:
 - Jersey Winners' teams
 
 Phase 3 Race Results:
-- Time for GC (currently formatted to seconds, done for stage races)
+- Time for GC (currently formatted to seconds)
 - Jersey Positions
 - Jersey Points/Time
 
@@ -51,6 +51,5 @@ Phase 4 Race Results Pivot:
 - Values from: Stage Position, GC, KOM, Points, Youth
 - Medals or colour filled for 1st, 2nd, 3rd
 
-Phase 5 Race Calendar:
-- How the Race was Won? (One Day Races)
-- Elevation
+Phase 5: Update Coding Methodology to make it more efficient.
+- Scrape, then transform. Means that only need to scrape each link once.
