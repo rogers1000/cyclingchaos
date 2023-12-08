@@ -45,11 +45,11 @@ Phase 4 FantasyFives:
 - Custom Races
 - Dream Team
 
-Phase 4 Race Results Pivot:
+Phase 4 Race Results Pivot (Started On):
 - Stages within Stage Race
-- Custom Race combos
-- Values from: Stage Position, GC, KOM, Points, Youth
-- Medals or colour filled for 1st, 2nd, 3rd
+- Custom Race combos (Done)
+- Values from: Stage Position, GC Position (Done) GC Time (Done), KOM, Points, Youth
+- Medals for 1st, 2nd, Stage on Race/Stage. Colours representing Jersey colours.
 
 Phase 5: Update Coding Methodology to make it more efficient.
 - Scrape, then transform. Means that only need to scrape each link once.
