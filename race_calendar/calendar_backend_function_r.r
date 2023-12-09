@@ -2,6 +2,7 @@ library(tidyverse)
 
 calendar_function <- function(gc_or_stage_function) {
   calendar_csv <- read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/race_calendar/CyclingChaos_RaceCalendar.csv') |>
+  #calendar_csv <- read.csv('CyclingChaos_RaceCalendar.csv') |>
     #left_join(read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/mapping_dfs/CyclingChaos_nationality_mapping.csv') |> select(nationality_id_two,nationality_name) |> filter(nationality_id_two != ""), by = c("race_nationality" = "nationality_id_two")) |>
     #mutate(nationality_name = case_when(is.na(nationality_name) ~ race_nationality,
     #                                    .default = nationality_name)) |>
@@ -42,14 +43,19 @@ calendar_function <- function(gc_or_stage_function) {
                                           first_cycling_race_id == "10" ~ "Ardennes",
                                           first_cycling_race_id == "11" ~ "Ardennes",
                                           .default = "")) |>
+    mutate(wt_stage_race = case_when(uci_race_classification == "2.UWT" ~ "World Tour Stage Race",
+                                     .default = "")) |>
+    mutate(wt_stage_race = case_when(uci_race_classification == "1.UWT" ~ "World Tour One Day Race",
+                                     .default = "")) |>
     mutate(race_tag_cobbles_openingweekend = case_when(first_cycling_race_id == "53" ~ "Cobbles Opening Weekend",
                                          first_cycling_race_id == "84" ~ "Cobbles Opening Weekend",
                                          .default = "")) |>
     
     mutate(race_tags = paste(race_tag_monument,race_tag_world_tour,race_tag_big7,race_tag_grandtour,race_tag_cobbled_classic,
-                             race_tag_ardennes,race_tag_cobbles_openingweekend,sep = " ")) |>
+                             race_tag_ardennes,race_tag_cobbles_openingweekend,wt_stage_race,sep = " ")) |>
     select(-c(race_tag_monument,race_tag_world_tour,race_tag_big7,race_tag_grandtour,race_tag_cobbled_classic,
-              race_tag_ardennes,race_tag_cobbles_openingweekend)) |>
+              race_tag_ardennes,race_tag_cobbles_openingweekend,wt_stage_race)) |>
+    #left_join(read.csv('CyclingChaos_RaceCalendar_stages.csv') |> mutate(first_cycling_race_id = as.character(first_cycling_race_id)), by = c('season','first_cycling_race_id')) |>
     left_join(read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/race_calendar/CyclingChaos_RaceCalendar_stages.csv') |> mutate(first_cycling_race_id = as.character(first_cycling_race_id)), by = c('season','first_cycling_race_id')) |>
     mutate(stage_profile_category = case_when(stage_profile_category == "Flatt" ~ "Flat",
                                               stage_profile_category == "Tempo" ~ "Flat ITT",
