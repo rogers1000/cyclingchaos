@@ -14,8 +14,7 @@ Phase 3 Race Calendar:
 
 Phase 3 Race Results:
 - Time for GC (currently formatted to seconds)
-- Jersey Positions
-- Jersey Points/Time
+- Stage Results GC (Done)
 
 Phase 3 Team Details:
 - Look into Hex Codes for Primary & Secondary colours
@@ -53,3 +52,11 @@ Phase 4 Race Results Pivot (Started On):
 
 Phase 5: Update Coding Methodology to make it more efficient.
 - Scrape, then transform. Means that only need to scrape each link once.
+
+Phase 6 Race Calendar:
+- Jersey Winners
+- Jersey Winners' Teams
+
+Phase 6 Race Results:
+- Jersey Positions
+- Jersey Points/Time
