@@ -48,7 +48,7 @@ results_function <- function() {
               gc_time_behind_leader_secs_test,gc_time_behind_leader_hours,gc_time_behind_leader_mins,
               gc_time_behind_leader_secs,first_place_gc_time,gc_time_behind_leader,gc_time_leader_secs,
               gc_time_leader,future_race,X)) |>
-    left_join(team_details <- team_details_function(), by = c('season','first_cycling_team_id' = "team_id")) |>
+    left_join(team_details <- team_details_function(), by = c('season','first_cycling_team_id' = "first_cycling_team_id")) |>
     mutate(team_name = ifelse(first_cycling_team_id == 'None',team_name_invitational,team_name)) |>
     select(-c(team_name_invitational,uci_division,race_nationality,position_int,"Unnamed..0")) |>
     relocate(team_name,.after = first_cycling_team_id) |>
@@ -112,7 +112,7 @@ results_function <- function() {
               gc_time_behind_leader_secs_test,gc_time_behind_leader_hours,gc_time_behind_leader_mins,
               gc_time_behind_leader_secs,first_place_gc_time,gc_time_behind_leader,gc_time_leader_secs,
               gc_time_leader,X)) |>
-    left_join(team_details <- team_details_function() |> mutate(team_id = as.character(team_id)), by = c('season','first_cycling_team_id' = "first_cycling_team_id")) |>
+    left_join(team_details <- team_details_function() |> mutate(first_cycling_team_id = as.character(team_id)), by = c('season','first_cycling_team_id' = "first_cycling_team_id")) |>
     mutate(team_name = ifelse(first_cycling_team_id == 'None',team_name_invitational,team_name)) |>
     select(-c(team_name_invitational,uci_division,race_nationality,position_int,"Unnamed..0")) |>
     relocate(team_name,.after = first_cycling_team_id) |>
@@ -128,6 +128,9 @@ results_function <- function() {
   
   results_stages_csv <- results_stages_csv |>
     left_join(results_stages_function_gc_time_behind_first, by = c("season","first_cycling_race_id","stage")) |>
-    mutate(gc_time_behind_first = gc_time - gc_time_first)
+    mutate(gc_time_behind_first = gc_time - gc_time_first) |>
+    mutate(stage = as.character(stage))
   
   results_gc_stages_csv <- union_all(results_csv,results_stages_csv)
+  
+}
