@@ -6,11 +6,8 @@ Phase 3 Race Calendar:
 - Stage Profile Categories (for stage races; done)
 - Distance (for stage races; done)
 - Route (for stage races; done)
-- Detailed UCI Race Classification
 - Race Winner
 - Race Winner's team
-- Jersey Winners
-- Jersey Winners' teams
 
 Phase 3 Race Results:
 - Time for GC (currently formatted to seconds)
@@ -54,6 +51,7 @@ Phase 5: Update Coding Methodology to make it more efficient.
 - Scrape, then transform. Means that only need to scrape each link once.
 
 Phase 6 Race Calendar:
+- Detailed UCI Race Classification
 - Jersey Winners
 - Jersey Winners' Teams
 
