@@ -39,6 +39,8 @@ Phase 3 Nationality Details (started on):
 - `First Cycling Nationality ID`
 - `Nationality`
 
+(Note will be easier once Rider Details are sorted with nationalities)
+
 Phase 4 FantasyFives:
 - CSV Teams Import
 - Custom Races
