@@ -17,45 +17,49 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                     .default = gc_time)) |>
     mutate(gc_time_edit = as.double(gc_time_edit)) |>
     mutate(gc_time_from_leader_edit = case_when(stage == "GC" & position == "DNF" ~ NA,
-                                    stage == "GC" & position == "OOT" ~ NA,
-                                    stage == "GC" & position == "DNS" ~ NA,
-                                    stage == "GC" & position == "DSQ" ~ NA,
-                                    .default = gc_time_behind_first)) |>
+                                                stage == "GC" & position == "OOT" ~ NA,
+                                                stage == "GC" & position == "DNS" ~ NA,
+                                                stage == "GC" & position == "DSQ" ~ NA,
+                                                .default = gc_time_behind_first)) |>
     mutate(gc_time_from_leader_edit = as.double(gc_time_from_leader_edit)) |>
     mutate(race_filter = case_when(race_filter_function == "" ~ 1,
                                    str_detect(race_tags,race_filter_function) ~ 1,
                                    .default = 0)) |>
     filter(race_filter == 1) |>
+    ### Started filtering by GC only
+    mutate(stage_or_gc_filter = case_when(str_detect(race_filter_function,"Stages") ~ "Non-GC",
+                                          .default = "GC")) |>
+    filter(stage == stage_or_gc_filter) |>
     mutate(pivot_id = case_when(detail_slicer_function == "Team" ~ first_cycling_team_id,
                                 detail_slicer_function == "Rider" ~ first_cycling_rider_id))
   
-  results_pivot_sort <- results_pivot_filters |>
+  races_selected <- dplyr::pull(results_pivot_filters |>
+                                  select(first_cycling_race_id) |>
+                                  unique() |>
+                                  summarise(count = n()),count)
+  
+  results_pivot_races_count <- results_pivot_filters |>
     filter(position_edit_gc < 1000) |>
-    group_by(pivot_id,season,first_cycling_race_id) |>
+    group_by(pivot_id) |>
+    summarise(races_count = n_distinct(first_cycling_race_id))
+  
+  results_pivot_sort <- results_pivot_filters |>
+    left_join(results_pivot_races_count, by = "pivot_id") |>
+    filter(position_edit_gc < 1000,races_count == races_selected) |>
+    group_by(pivot_id,season,first_cycling_race_id,stage) |>
     summarise(best_result_gc = min(position_edit_gc),
               gc_time_edit = min(gc_time_edit),
               gc_time_from_leader_edit = min(gc_time_from_leader_edit)) |>
     ungroup() |>
-    group_by(pivot_id) |>
+    group_by(pivot_id,stage) |>
     summarise(avg_position_gc = mean(best_result_gc),
               total_gc_time = sum(gc_time_edit),
               total_gc_time_from_leader = sum(gc_time_from_leader_edit),
               races_finished = n()) |>
     ungroup()
   
-  results_pivot_races_count <- results_pivot_filters |>
-    #filter(position_edit < 1000) |>
-    group_by(pivot_id,season,first_cycling_race_id) |>
-    summarise(best_result_gc = min(position_edit_gc),
-              gc_time_edit = min(gc_time_edit),
-              gc_time_from_leader_edit = min(gc_time_from_leader_edit)) |>
-    ungroup() |>
-    group_by(pivot_id) |>
-    summarise(races_count = n()) |>
-    ungroup()
-  
   results_pivot <- results_pivot_filters |>
-    left_join(results_pivot_sort, by = "pivot_id") |>
+    left_join(results_pivot_sort, by = c("pivot_id","stage")) |>
     left_join(results_pivot_races_count, by = "pivot_id") |>
     mutate(victory = case_when(position_edit_gc == 1 ~ 1,
                                .default = 0),
@@ -75,6 +79,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
               topfives = sum(topfive),
               toptens = sum(topten)) |>
     ungroup() |>
+    filter(gc_time_edit != Inf) |>
     mutate(best_result_gc = as.character(best_result_gc)) |>
     mutate(best_result_gc = case_when(
       stage == "GC" & best_result_gc == "1000" ~ "OOT",
@@ -83,16 +88,16 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
       stage == "GC" & best_result_gc == "1300" ~ "DSQ",
       .default = best_result_gc)) |>
     mutate(gc_time_varchar = as.character(gc_time_edit)) |>
-    mutate(gc_time_from_leader_varchar = as.character(gc_time_from_leader_edit)) |>
-    view()
+    mutate(gc_time_from_leader_varchar = as.character(gc_time_from_leader_edit))
   
   results_pivot_gc_time_from_leader <- results_pivot |>
     select(pivot_id,total_gc_time,races_finished) |>
     filter(!is.na(races_finished)) |>
-    filter(races_finished == max(races_finished)) |>
+    filter(races_finished == races_selected) |>
     mutate(time_from_leader = as.character(total_gc_time - min(total_gc_time))) |>
-    unique() |>
-    select(pivot_id,time_from_leader)
+    #unique() |>
+    select(pivot_id,time_from_leader) |>
+    unique()
   
   results_pivot_sort_summarised <- results_pivot |>
     group_by(pivot_id) |>
@@ -101,29 +106,33 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
               topfives = sum(topfives),
               toptens = sum(toptens))
   
-  results_pivot <- results_pivot |>
+  results_pivot_test <- results_pivot |>
     select(-c(victories,podiums,topfives,toptens)) |>
     left_join(results_pivot_gc_time_from_leader, by = "pivot_id") |>
     mutate(value_from = case_when(value_from_function == "GC Time" ~ gc_time_varchar,
                                   value_from_function == "Position" ~ best_result_gc,
                                   value_from_function == "GC Time from Leader" ~ gc_time_from_leader_varchar,
                                   .default = best_result_gc)) |>
-    left_join(results_pivot_sort_summarised, by = "pivot_id") |>
+    left_join(results_pivot_sort_summarised, by = c("pivot_id")) |>
     arrange(start_date) |>
     select(-c(start_date,best_result_gc,gc_time_varchar,gc_time_edit,gc_time_from_leader_edit,
               total_gc_time_from_leader,gc_time_from_leader_varchar)) |>
+    unique()
+  
+  test <- results_pivot_test |>
+    #mutate(names_from = paste0(race_name," | ",stage)) |>
     #relocate(time_from_leader,total_gc_time) |>
     pivot_wider(
       names_from = race_name,
       values_from = value_from
     ) |>
     mutate(table_sort1 = case_when(detail_slicer_function == "Team" & value_from_function == "Position" ~ as.double(races_finished)*-1,
-                                  detail_slicer_function == "Rider" & value_from_function == "Position" ~ as.double(races_finished)*-1,
-                                  detail_slicer_function == "Team" & value_from_function == "GC Time" ~ as.double(races_finished)*-1,
-                                  detail_slicer_function == "Rider" & value_from_function == "GC Time" ~ as.double(races_finished)*-1,
-                                  detail_slicer_function == "Team" & value_from_function == "GC Time from Leader" ~ as.double(races_finished)*-1,
-                                  detail_slicer_function == "Rider" & value_from_function == "GC Time from Leader" ~ as.double(races_finished)*-1,
-                                  .default = as.double(races_finished))) |>
+                                   detail_slicer_function == "Rider" & value_from_function == "Position" ~ as.double(races_finished)*-1,
+                                   detail_slicer_function == "Team" & value_from_function == "GC Time" ~ as.double(races_finished)*-1,
+                                   detail_slicer_function == "Rider" & value_from_function == "GC Time" ~ as.double(races_finished)*-1,
+                                   detail_slicer_function == "Team" & value_from_function == "GC Time from Leader" ~ as.double(races_finished)*-1,
+                                   detail_slicer_function == "Rider" & value_from_function == "GC Time from Leader" ~ as.double(races_finished)*-1,
+                                   .default = as.double(races_finished))) |>
     
     mutate(table_sort2 = case_when(detail_slicer_function == "Team" & value_from_function == "Position" ~ as.double(races_count)*-1,
                                    detail_slicer_function == "Rider" & value_from_function == "Position" ~ as.double(races_count)*-1,
@@ -174,15 +183,16 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                    .default = as.double(avg_position_gc))) |>
     
     arrange(table_sort1,table_sort2,table_sort3,table_sort4,table_sort5,table_sort6,table_sort7) |>
-    mutate(rank = row_number()) |>
+    #filter(stage == "GC") |>
     select(-c(table_sort1,table_sort2,table_sort3,table_sort4,table_sort5,table_sort6,table_sort7
               ,victories,podiums,topfives,toptens
-              ))
+              #,names_from
+    )) |>
+    mutate(rank = row_number())
+  #mutate(rank = 1) |>
 }
-
-### Broken
-
-test_results_pivot_gt <- results_pivot(2023,"Men","Team","GC Time from Leader","Ardennes") |>
+  
+test_results_pivot_gt <- results_pivot(2023,"Men","Team","GC Time from Leader","World Tour Stage Race") |>
   mutate(avg_position_gc = round(avg_position_gc,1)) |>
   gt() |>
   cols_move_to_start(rank) |>
