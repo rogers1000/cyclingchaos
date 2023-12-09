@@ -26,7 +26,7 @@ Race Calendar Function:
 - End Date
 - Race Tags
 
-Race Result Function (One Day + GC for Stage Races):
+Race Result Function:
 - Season
 - Gender
 - Category
@@ -37,6 +37,7 @@ Race Result Function (One Day + GC for Stage Races):
 - First Cycling Rider ID
 - First Cycling Team ID
 - Position
+- Race Time
 
 Team Details Function
 - Season
@@ -49,3 +50,6 @@ Race Results Pivot Table Functionality:
 - Dyanmic Gender Filter
 - Dynamic Pivot Slicer (Team or Rider)
 - Dynamic Race Tag Filter (For example: Monuments, Big7 One Day Races, World Tour, Cobbled Classics, Ardennes, Cobbles Opening Weekend, Grand Tours)
+- Dynamic Value Slicer (Position, GC Time, GC Time from Leader)
+- Table Sort by Average Position and Time
+- Overview of ID, Stage, Average Position, GC Time, GC Time from Leader, Races Finished, Races Started as well as values from selected races.
