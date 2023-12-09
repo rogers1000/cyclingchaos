@@ -9,8 +9,11 @@ Phase 3 Race Calendar:
 - Race Winner
 - Race Winner's team
 
-Phase 3 Race Results:
-- Time for GC (currently formatted to seconds)
+(Note `Stage Profile Categories`, `Distance` and `Route` for One Day races is from same scrape)
+(Note `Race Winner` is possible through scrape and no transformation but doesn't allow for sustainable iterations for future ideas)
+
+Phase 3 Race Results (Done):
+- Time for GC (Done, currently formatted to seconds)
 - Stage Results GC (Done)
 
 Phase 3 Team Details:
@@ -44,7 +47,7 @@ Phase 4 FantasyFives:
 Phase 4 Race Results Pivot (Started On):
 - Stages within Stage Race
 - Custom Race combos (Done)
-- Values from: Stage Position, GC Position (Done) GC Time (Done), KOM, Points, Youth
+- Values from: Stage Position, GC Position (Done) GC Time (Done)
 - Medals for 1st, 2nd, Stage on Race/Stage. Colours representing Jersey colours.
 
 Phase 5: Update Coding Methodology to make it more efficient.
@@ -58,3 +61,6 @@ Phase 6 Race Calendar:
 Phase 6 Race Results:
 - Jersey Positions
 - Jersey Points/Time
+
+Phase 7 Race Results Pivot:
+- Values from: KOM, Points and Youth Jerseys
