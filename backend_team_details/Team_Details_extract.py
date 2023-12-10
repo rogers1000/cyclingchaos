@@ -17,7 +17,7 @@ from random import randrange
 
 ### Team Details DF creation ###
 
-team_details_df = pd.DataFrame(columns=['season','team_id','team_name'])
+team_details_df = pd.DataFrame(columns=['season','first_cycling_team_id','team_name'])
 
 season = 2023
 
