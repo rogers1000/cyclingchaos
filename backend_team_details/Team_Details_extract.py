@@ -47,7 +47,7 @@ for team_count in tqdm(range(0,9)):
     if(columns != []):
       season = str(season)
       team_logo = str(columns[0].find_all('span'))
-      team_id = str(columns[1].find_all('a')).split('?l=')[1].split('" style=')[0]
+      first_cycling_team_id = str(columns[1].find_all('a')).split('?l=')[1].split('" style=')[0]
       team_name = str(columns[1].find_all('a')).split('title="')[1].split('">')[0]
       # team_nationality = str(columns[3].find_all('span'))
       # team_bikes = columns[4].text
@@ -63,7 +63,7 @@ for team_count in tqdm(range(0,9)):
       team_details_df = team_details_df.append({
         'season':season
         ,'uci_division':uci_division
-        ,'team_id':team_id
+        ,'first_cycling_team_id':first_cycling_team_id
         ,'team_name':team_name
         # ,'test0':test0
         # ,'test1':test1
