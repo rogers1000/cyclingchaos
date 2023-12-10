@@ -52,7 +52,7 @@ Race Results Pivot Table Functionality:
 - Dynamic `Season` Filter
 - Dyanmic `Gender` Filter
 - Dynamic `Pivot Slicer` (Team or Rider)
-- Dynamic `Race Tag Filter` (For example: Monuments, Big7 One Day Races, World Tour, Cobbled Classics, Ardennes, Cobbles Opening Weekend, Grand Tours)
+- Dynamic `Race Filter` (Race Tags, Rider raced in, Team raced in) 
 - Dynamic `Value Slicer` (Position, GC Time, GC Time from Leader)
 - Dynamic Table Sort (Average Position and Time)
 - Overview of ID, Stage, Average Position, GC Time, GC Time from Leader, Races Finished, Races Started as well as values from selected races.
