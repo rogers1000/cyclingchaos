@@ -16,25 +16,6 @@ Phase 3 Race Results (Done):
 - `Time for GC` (Done, currently formatted to seconds)
 - `Stage Results GC` (Done)
 
-Phase 3 Team Details:
-- Look into Hex Codes for Primary & Secondary colours
-- `UCI Points`
-- `Victories`
-- `Top 3s`
-- `Top 10s`
-- `Race Days`
-- Count of `First Cycling Rider Strengths`
-
-Phase 3 Rider Details:
-- `First Cycling Rider ID`
-- `Rider Name`
-- `First Cycling Rider Strengths`
-- `UCI Points`
-- `Victories`
-- `Top 3s`
-- `Top 10s`
-- `Race Days`
-
 Phase 3 Nationality Details (started on):
 - `First Cycling Nationality ID`
 - `Nationality`
@@ -67,6 +48,25 @@ Phase 6 Race Calendar:
 Phase 6 Race Results:
 - `Jersey Positions`
 - `Jersey Points/Time`
+
+Phase 6 Team Details:
+- Look into Hex Codes for Primary & Secondary colours
+- `UCI Points`
+- `Victories`
+- `Top 3s`
+- `Top 10s`
+- `Race Days`
+- Count of `First Cycling Rider Strengths`
+
+Phase 6 Rider Details:
+- `First Cycling Rider ID`
+- `Rider Name`
+- `First Cycling Rider Strengths`
+- `UCI Points`
+- `Victories`
+- `Top 3s`
+- `Top 10s`
+- `Race Days`
 
 Phase 7 Race Results Pivot:
 - Values from: KOM, Points and Youth Jerseys
