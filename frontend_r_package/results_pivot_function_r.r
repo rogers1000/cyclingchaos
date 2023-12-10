@@ -21,11 +21,32 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                                 stage == "GC" & position == "DNS" ~ NA,
                                                 stage == "GC" & position == "DSQ" ~ NA,
                                                 .default = gc_time_behind_first)) |>
-    mutate(gc_time_from_leader_edit = as.double(gc_time_from_leader_edit)) |>
-    mutate(race_filter = case_when(race_filter_function == "" ~ 1,
+    mutate(gc_time_from_leader_edit = as.double(gc_time_from_leader_edit))
+  
+  results_pivot_filters_rider_calendar <- dplyr::pull(results_pivot_filters |> 
+    mutate(race_filter_rider = case_when(str_detect(race_filter_function,"Rider")
+                                         & first_cycling_rider_id == str_split_i(race_filter_function," - ",-1) ~ 1,
+                                         .default = 0)) |>
+    filter(race_filter_rider == 1),first_cycling_race_id) |> unique()
+  
+  results_pivot_filters_team_calendar <- dplyr::pull(results_pivot_filters |> 
+                                                        mutate(race_filter_team = case_when(str_detect(race_filter_function,"Team")
+                                                                                             & first_cycling_team_id == str_split_i(race_filter_function," - ",-1) ~ 1,
+                                                                                             .default = 0)) |>
+                                                        filter(race_filter_team == 1),first_cycling_race_id) |> unique()
+  
+  results_pivot_filters <- results_pivot_filters |>
+    # Race Filter - Race Collection
+    mutate(race_filter_race_collection = case_when(race_filter_function == "" ~ 1,
                                    str_detect(race_tags,race_filter_function) ~ 1,
                                    .default = 0)) |>
-    filter(race_filter == 1) |>
+    # Race Filter - Rider Filter
+    mutate(race_filter_rider = case_when(first_cycling_race_id %in% results_pivot_filters_rider_calendar ~ 1,
+                                         .default = 0)) |>
+    # Race Filter - Team Filter
+    mutate(race_filter_team = case_when(first_cycling_race_id %in% results_pivot_filters_team_calendar ~ 1,
+                                         .default = 0)) |>
+    filter(race_filter_race_collection == 1 | race_filter_rider == 1 | race_filter_team == 1) |>
     ### Started filtering by GC only
     mutate(stage_or_gc_filter = case_when(str_detect(race_filter_function,"Stages") ~ "Non-GC",
                                           .default = "GC")) |>
@@ -44,8 +65,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
     summarise(races_count = n_distinct(first_cycling_race_id))
   
   results_pivot_sort <- results_pivot_filters |>
-    left_join(results_pivot_races_count, by = "pivot_id") |>
-    filter(position_edit_gc < 1000,races_count == races_selected) |>
+    filter(position_edit_gc < 1000) |>
     group_by(pivot_id,season,first_cycling_race_id,stage) |>
     summarise(best_result_gc = min(position_edit_gc),
               gc_time_edit = min(gc_time_edit),
@@ -56,7 +76,11 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
               total_gc_time = sum(gc_time_edit),
               total_gc_time_from_leader = sum(gc_time_from_leader_edit),
               races_finished = n()) |>
-    ungroup()
+    ungroup() |>
+    mutate(total_gc_time = case_when(races_finished != races_selected ~ NA,
+                                     .default = total_gc_time)) |>
+    mutate(total_gc_time_from_leader = case_when(races_finished != races_selected ~ NA,
+                                     .default = total_gc_time_from_leader))
   
   results_pivot <- results_pivot_filters |>
     left_join(results_pivot_sort, by = c("pivot_id","stage")) |>
@@ -106,7 +130,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
               topfives = sum(topfives),
               toptens = sum(toptens))
   
-  results_pivot_test <- results_pivot |>
+  results_pivot <- results_pivot |>
     select(-c(victories,podiums,topfives,toptens)) |>
     left_join(results_pivot_gc_time_from_leader, by = "pivot_id") |>
     mutate(value_from = case_when(value_from_function == "GC Time" ~ gc_time_varchar,
@@ -119,7 +143,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
               total_gc_time_from_leader,gc_time_from_leader_varchar)) |>
     unique()
   
-  test <- results_pivot_test |>
+  results_pivot <- results_pivot |>
     #mutate(names_from = paste0(race_name," | ",stage)) |>
     #relocate(time_from_leader,total_gc_time) |>
     pivot_wider(
@@ -192,17 +216,33 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
   #mutate(rank = 1) |>
 }
   
-test_results_pivot_gt <- results_pivot(2023,"Men","Team","GC Time from Leader","World Tour Stage Race") |>
+test_results_pivot_gt <- results_pivot(2023,"Men","Team","Position","Team - 21840") |>
   mutate(avg_position_gc = round(avg_position_gc,1)) |>
   gt() |>
+  cols_align(align = c("center")) |>
   cols_move_to_start(rank) |>
   cols_move(time_from_leader,total_gc_time) |>
-  cols_label(rank = "Rank") |>
-  cols_label("avg_position_gc" = "Avg Position") |>
-  cols_label("total_gc_time" = "GC Time") |>
-  cols_label("time_from_leader" = "GC Time from Leader") |>
-  cols_label("pivot_id" = "ID") |>
-  cols_label("races_finished" = "Races Finished") |>
-  cols_label("races_count" = "Race Startlist") |>
+  cols_label(rank = "Rank",
+             "avg_position_gc" = "Avg Position",
+             "total_gc_time" = "GC Time",
+             "time_from_leader" = "GC Time from Leader",
+             "pivot_id" = "ID",
+             "races_finished" = "Races Finished",
+             "races_count" = "Race Startlist") |>
   #gt_badge(palette = c("1" = "gold","2" = "#A7A7AD", "3" = "#A77044")) |>
+  tab_header(title = md("**Cycling Analysis by CyclingChaos.co.uk**")) |>
+  tab_style(
+    style = list(
+      cell_borders(
+        sides = "right",
+        color = "black",
+        weight = px(3)
+      )
+    ),
+    locations = list(
+      cells_body(
+        columns = c(rank,races_count))))|>
+  tab_footnote(
+    footnote = "Data from FirstCycling.com"
+  ) |>
   print()
