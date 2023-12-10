@@ -54,6 +54,10 @@ Phase 4 Race Results Pivot (Started On):
 
 Phase 5: Update Coding Methodology to make it more efficient.
 - Scrape, then transform. Means that only need to scrape each link once.
+- Race Calendar
+- Race Results
+- Team Details
+- Rider Details
 
 Phase 6 Race Calendar:
 - `Detailed UCI Race Classification`
