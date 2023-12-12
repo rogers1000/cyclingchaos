@@ -28,7 +28,7 @@ Phase 4 FantasyFives:
 - Dream Team
 
 Phase 4 Race Results Pivot (Started On):
-- Stages within Stage Race
+- Stages within Stage Race (Done)
 - Custom Race combos (Done)
 - Values from: `Stage Position`, `GC Position` (Done), `GC Time` (Done)
 - Medals for 1st, 2nd, Stage on Race/Stage. Colours representing Jersey colours.
