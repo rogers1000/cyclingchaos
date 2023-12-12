@@ -52,7 +52,7 @@ Race Results Pivot Table Functionality:
 - Dynamic `Season` Filter
 - Dyanmic `Gender` Filter
 - Dynamic `Pivot Slicer` (Team or Rider)
-- Dynamic `Race Filter` (Race Tags, Rider raced in, Team raced in) 
-- Dynamic `Value Slicer` (Position, GC Time, GC Time from Leader)
-- Dynamic Table Sort (Average Position and Time)
-- Overview of ID, Stage, Average Position, GC Time, GC Time from Leader, Races Finished, Races Started as well as values from selected races.
+- Dynamic `Race Filter` (`Race Tags`, `Rider` raced in, `Team` raced in) 
+- Dynamic `Value Slicer` (`Position`, `GC Time`, `GC Time from Leader`)
+- Dynamic Table Sort (`Average Position` and `GC Time`)
+- Overview of `Pivot_ID`, `Stage`, `Average Position`, `GC Time`, `GC Time from Leader`, `Races Finished`, `Races Started` as well as values from selected races.
