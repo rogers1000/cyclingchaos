@@ -43,18 +43,29 @@ calendar_function <- function(gc_or_stage_function) {
                                           first_cycling_race_id == "10" ~ "Ardennes",
                                           first_cycling_race_id == "11" ~ "Ardennes",
                                           .default = "")) |>
-    mutate(wt_stage_race = case_when(uci_race_classification == "2.UWT" ~ "World Tour Stage Race",
-                                     .default = "")) |>
-    mutate(wt_stage_race = case_when(uci_race_classification == "1.UWT" ~ "World Tour One Day Race",
-                                     .default = "")) |>
     mutate(race_tag_cobbles_openingweekend = case_when(first_cycling_race_id == "53" ~ "Cobbles Opening Weekend",
                                          first_cycling_race_id == "84" ~ "Cobbles Opening Weekend",
                                          .default = "")) |>
+    mutate(race_tag_aussie_kiwi_wt = case_when(first_cycling_race_id == "1" ~ "Down Under Races",
+                                               first_cycling_race_id == "1172" ~ "Down Under Races",
+                                               .default = "")) |>
+    mutate(race_tag_middle_east = case_when(first_cycling_race_id == "868" ~ "Middle East Races",
+                                            #first_cycling_race_id == "57" ~ "Middle East Races",
+                                            first_cycling_race_id == "9800" ~ "Middle East Races",
+                                               .default = "")) |>
+    mutate(race_tag_world_champs = case_when(first_cycling_race_id == "26" ~ "World Champs",
+                                               first_cycling_race_id == "27" ~ "World Champs",
+                                               .default = "")) |>
+    mutate(race_tag_euro_champs = case_when(first_cycling_race_id == "4020" ~ "Euro Champs",
+                                             first_cycling_race_id == "4019" ~ "Euro Champs",
+                                             .default = "")) |>
     
     mutate(race_tags = paste(race_tag_monument,race_tag_world_tour,race_tag_big7,race_tag_grandtour,race_tag_cobbled_classic,
-                             race_tag_ardennes,race_tag_cobbles_openingweekend,wt_stage_race,sep = " ")) |>
+                             race_tag_ardennes,race_tag_cobbles_openingweekend,race_tag_aussie_kiwi_wt,race_tag_middle_east,race_tag_world_champs,
+                             race_tag_euro_champs,sep = " ")) |>
     select(-c(race_tag_monument,race_tag_world_tour,race_tag_big7,race_tag_grandtour,race_tag_cobbled_classic,
-              race_tag_ardennes,race_tag_cobbles_openingweekend,wt_stage_race)) |>
+              race_tag_ardennes,race_tag_cobbles_openingweekend,race_tag_aussie_kiwi_wt,race_tag_middle_east,race_tag_world_champs,
+              race_tag_euro_champs)) |>
     #left_join(read.csv('CyclingChaos_RaceCalendar_stages.csv') |> mutate(first_cycling_race_id = as.character(first_cycling_race_id)), by = c('season','first_cycling_race_id')) |>
     left_join(read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/race_calendar/CyclingChaos_RaceCalendar_stages.csv') |> mutate(first_cycling_race_id = as.character(first_cycling_race_id)), by = c('season','first_cycling_race_id')) |>
     mutate(stage_profile_category = case_when(stage_profile_category == "Flatt" ~ "Flat",
@@ -68,5 +79,7 @@ calendar_function <- function(gc_or_stage_function) {
                                               stage_profile_category == "Lagtempo" ~ "TTT",
                                               stage_profile_category == "Ukjent" ~ "Unknown",
                                               stage_profile_category == "<td></td>" ~ "Unknown",
-                                              .default = stage_profile_category))
+                                              .default = stage_profile_category)) |>
+    mutate(stage_number = case_when(is.na(stage_number) ~ "GC",
+                                    .default = as.character(stage_number)))
 }
