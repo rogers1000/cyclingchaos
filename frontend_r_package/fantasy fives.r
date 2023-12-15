@@ -1,7 +1,5 @@
 library(tidyverse)
 
-### Starting the process of building Function now
-
 ##### Fantasy Fives #####
 
 ### creating rosters
