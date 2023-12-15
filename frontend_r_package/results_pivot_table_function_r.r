@@ -80,7 +80,6 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                   summarise(count = n()),count)
   
   results_pivot_races_count <- results_pivot_filters |>
-    filter(position_edit_gc < 1000) |>
     group_by(pivot_id) |>
     summarise(races_count = n_distinct(paste0(first_cycling_race_id,"_",stage)))
   
