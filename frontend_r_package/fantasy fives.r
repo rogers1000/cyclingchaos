@@ -2,12 +2,6 @@ library(tidyverse)
 
 ##### Fantasy Fives #####
 
-### creating rosters
-ff_rosters_test1 <- results_function() |>
-  filter(first_cycling_race_id == 17) |>
-  select(first_cycling_race_id,first_cycling_rider_id,first_cycling_team_id) |>
-  unique()
-
 ### inputting roster
 
 ff_rosters_input <- read.csv('ff_rosters_test_2_csv.csv') |>
