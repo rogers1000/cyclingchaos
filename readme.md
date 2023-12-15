@@ -52,7 +52,16 @@ Race Results Pivot Table Functionality:
 - Dynamic `Season` Filter
 - Dyanmic `Gender` Filter
 - Dynamic `Pivot Slicer` (Team or Rider)
-- Dynamic `Race Filter` (`Race Tags`, `Rider` raced in, `Team` raced in) 
+- Dynamic `Race Filter` (`Race Tags`, `Rider` raced in, `Team` raced in, individual stages of any race) 
 - Dynamic `Value Slicer` (`Position`, `GC Time`, `GC Time from Leader`)
+- Dynamic `Race Location Filter`
+- Dynamic `UCI Race Classification Filter` (World Tour only atm)
+- Dynamic `Stage Race Boolean Filter`
 - Dynamic Table Sort (`Average Position` and `GC Time`)
 - Overview of `Pivot_ID`, `Stage`, `Average Position`, `GC Time`, `GC Time from Leader`, `Races Finished`, `Races Started` as well as values from selected races.
+
+FantasyFives Function:
+- CSV Import and Transform capability
+- Dynamic `Season` Filter
+- Dynamic `Race ID` Filter
+- Dynamic Max Score Parameter
