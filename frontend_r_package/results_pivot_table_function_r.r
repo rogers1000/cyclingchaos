@@ -1,9 +1,27 @@
 library(tidyverse)
 
-results_pivot <- function(season_function,gender_function,detail_slicer_function,value_from_function,race_filter_function) {
+results_pivot <- function(season_function,gender_function,detail_slicer_function,value_from_function,race_filter_function,uci_race_classification_function,
+                          race_location_function,stage_race_function) {
   results_pivot_filters <- results_function() |>
     filter(season == season_function, gender == gender_function) |>
-    left_join(calendar_function() |> select(first_cycling_race_id,race_tags) |> unique(), by = "first_cycling_race_id") |>
+    left_join(calendar_function() |> select(season,first_cycling_race_id,race_nationality,race_tags) |> unique(), by = c("season","first_cycling_race_id")) |>
+    # uci_race_classification filter
+    mutate(uci_race_classification_filter = case_when(str_detect(uci_race_classification,'UWT') & uci_race_classification_function == 'World Tour' ~ 1,
+                                                      str_detect(uci_race_classification,'WWT') & uci_race_classification_function == 'World Tour' ~ 1,
+                                                      uci_race_classification_function == "" ~ 1,
+                                                      .default = 0)) |>
+    filter(uci_race_classification_filter == 1) |>
+    mutate(race_location_filter = case_when(race_location_function == race_nationality ~ 1,
+                                            #race_location_function == race_location_id ~ 1,
+                                              #race_location_function == race_location_name ~ 1,
+                                              race_location_function == "" ~ 1,
+                                              .default = 0)) |>
+    filter(race_location_filter == 1) |>
+    mutate(stage_race_filter = case_when(stage_race_function == "Stage Race" ~ 1,
+                                         stage_race_function == "One Day" ~ 1,
+                                         stage_race_function == "" ~ 1,
+                                         .default = 0)) |>
+    filter(stage_race_filter == 1) |>
     mutate(position_edit_gc = case_when(stage == "GC" & position == "DNF" ~ "1100",
                                         stage == "GC" & position == "OOT" ~ "1000",
                                         stage == "GC" & position == "DNS" ~ "1200",
@@ -221,7 +239,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
     ))
 }
   
-results_pivot_gt <- results_pivot(2023,"Men","Rider","GC Time from Leader","Euro Champs") |>
+results_pivot_gt <- results_pivot(2023,"Men","Rider","GC Time from Leader","Stages - 17","","","") |>
   mutate(avg_position_gc = round(avg_position_gc,1)) |>
   gt() |>
   cols_align(align = c("center")) |>
