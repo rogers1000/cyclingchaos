@@ -44,3 +44,5 @@ Phase 6 Rider Details:
 
 Phase 7 Race Results Pivot:
 - Values from: `KOM`, `Points` and `Youth` Jerseys
+
+Phase 8 Velogames Fantasy Scoring
