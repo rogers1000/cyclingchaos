@@ -28,6 +28,9 @@ Race Calendar Function:
 - `Start Date`
 - `End Date`
 - `Race Tags`
+- `Stage Profile Category` (for Stage Races)
+- `Distance` (for Stage Races)
+- `Route` (for Stage Races)
 
 Race Result Function:
 - `Season`
@@ -40,7 +43,7 @@ Race Result Function:
 - `First Cycling Rider ID`
 - `First Cycling Team ID`
 - `Position`
-- `Race Time`
+- `Stage/GC Time`
 
 Team Details Function
 - `Season`
@@ -52,7 +55,7 @@ Race Results Pivot Table Functionality:
 - Dynamic `Season` Filter
 - Dyanmic `Gender` Filter
 - Dynamic `Pivot Slicer` (Team or Rider)
-- Dynamic `Race Filter` (`Race Tags`, `Rider` raced in, `Team` raced in, individual stages of any race) 
+- Dynamic `Race Filter` (`Race Tags`, `Rider` raced in, `Team` raced in, `Individual Stage Race`) 
 - Dynamic `Value Slicer` (`Position`, `GC Time`, `GC Time from Leader`)
 - Dynamic `Race Location Filter`
 - Dynamic `UCI Race Classification Filter` (World Tour only atm)
