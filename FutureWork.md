@@ -46,3 +46,7 @@ Phase 7 Race Results Pivot:
 - Values from: `KOM`, `Points` and `Youth` Jerseys
 
 Phase 8 Velogames Fantasy Scoring
+- Ingestion of Velogames scoring data
+- Ingestion of Velogames roster data
+- Creating Velogames points function
+- Adding `velogames_rider_id` to `rider details`
