@@ -8,9 +8,9 @@ A cycling data package built by CyclingChaos (CyclingChaos.co.uk) where you will
 Currently there is a four phase iteration delivery process:
 - Phase 1 is basics (done)
 - Phase 2 is building basic package functions (done)
-- Phase 3 is adding backend data capability
-- Phase 4 is adding frontend data capability
-- Phase 5 is rebuiling ingestion methodology
+- Phase 3 is adding backend data capability (done)
+- Phase 4 is adding frontend data capability (done)
+- Phase 5 is rebuiling ingestion methodology (started on)
 - Phase 6 is adding backend data capability
 - Phase 7 is adding frontend data capability
 
