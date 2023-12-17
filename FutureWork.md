@@ -4,9 +4,6 @@ Phase 3 Nationality Details (started on):
 - `First Cycling Nationality ID`
 - `Nationality`
 
-Phase 4 Race Results Pivot (Started On):
-- Medals for 1st, 2nd, Stage on Race/Stage. Colours representing Jersey colours.
-
 Phase 5: Update Coding Methodology to make it more efficient.
 - Scrape, then transform. Means that only need to scrape each link once.
 - Race Calendar
