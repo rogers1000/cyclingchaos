@@ -61,7 +61,7 @@ Race Results Pivot Table Functionality:
 - Dynamic `UCI Race Classification Filter` (World Tour only atm)
 - Dynamic `Stage Race Boolean Filter`
 - Dynamic Table Sort (`Average Position` and `GC Time`)
-- Overview of `Pivot_ID`, `Stage`, `Average Position`, `GC Time`, `GC Time from Leader`, `Races Finished`, `Races Started` as well as values from selected races.
+- Overview of `Pivot_ID`, `Stage`, `Average Position`, `Stage Time`, `Stage Time from Leader`,`Stage Time from Overall Leader`, `Races Finished`, `Races Started` as well as values from selected races.
 
 FantasyFives Function:
 - CSV Import and Transform capability
