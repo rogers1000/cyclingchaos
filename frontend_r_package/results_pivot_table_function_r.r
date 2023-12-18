@@ -141,7 +141,19 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
       #stage == "GC" & best_result_stage == "1300" ~ "DSQ",
       .default = best_result_stage)) |>
     mutate(stage_time_varchar = as.character(stage_time_edit)) |>
-    mutate(stage_time_from_leader_varchar = as.character(stage_time_from_leader_edit))
+    mutate(stage_time_from_leader_varchar = as.character(stage_time_from_leader_edit)) |>
+    mutate(stage_number = as.double(stage)) |>
+    arrange(first_cycling_race_id,pivot_id,stage_number) |>
+    group_by(first_cycling_race_id,pivot_id) |>
+    mutate(tally_total_stage_time = cumsum(stage_time_edit)) |>
+    ungroup() |>
+    group_by(first_cycling_race_id,stage) |>
+    mutate(tally_total_stage_time_from_leader = tally_total_stage_time-min(tally_total_stage_time)) |>
+    ungroup() |>
+    mutate(tally_total_stage_time = as.character(tally_total_stage_time)) |>
+    mutate(tally_total_stage_time_from_leader = as.character(tally_total_stage_time_from_leader))
+  
+  ?cumsum()
   
   results_pivot_gc_leader_rank <- results_pivot_sort3 |>
     arrange(-races_finished,-races_count,total_stage_time,-victories,-podiums,-topfives,-toptens) |>
@@ -167,6 +179,8 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                   value_from_function == "Stage Position" ~ best_result_stage,
                                   value_from_function == "Stage Time from Stage Leader" ~ stage_time_from_leader_varchar,
                                   value_from_function == "Stage Time from Overall Leader" ~ gc_time_from_overall_leader_stage_time,
+                                  value_from_function == "Tallied Stage Time" ~ tally_total_stage_time,
+                                  value_from_function == "Tallied Stage Time from Leader" ~ tally_total_stage_time_from_leader,
                                   .default = best_result_stage)) |>
     #mutate(names_from = paste0(race_name," | ",stage)) |>
     left_join(calendar_function(""), by = c("season","first_cycling_race_id","stage" = "stage_number")) |>
@@ -180,7 +194,10 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
               ,first_cycling_race_id,season,stage_profile_category,stage,race_name,
               start_date,stg_number,
               race_nationality,gender,category,uci_race_classification,stage_race_boolean,end_date,race_tags,
-              route,distance))
+              route,distance,
+              stage_number
+              ,tally_total_stage_time,tally_total_stage_time_from_leader
+    ))
   #relocate(time_from_leader,total_stage_time) |>
   
   
@@ -200,6 +217,10 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Stage Leader" ~ as.double(races_finished)*-1,
                                    detail_slicer_function == "Team" & value_from_function == "Stage Time from Overall Leader" ~ as.double(races_finished)*-1,
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Overall Leader" ~ as.double(races_finished)*-1,
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time" ~ as.double(races_finished)*-1,
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time" ~ as.double(races_finished)*-1,
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(races_finished)*-1,
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(races_finished)*-1,
                                    .default = as.double(races_finished))) |>
     
     mutate(table_sort2 = case_when(detail_slicer_function == "Team" & value_from_function == "Stage Position" ~ as.double(races_count)*-1,
@@ -210,6 +231,10 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Stage Leader" ~ as.double(races_count)*-1,
                                    detail_slicer_function == "Team" & value_from_function == "Stage Time from Overall Leader" ~ as.double(races_count)*-1,
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Overall Leader" ~ as.double(races_count)*-1,
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time" ~ as.double(races_finished)*-1,
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time" ~ as.double(races_finished)*-1,
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(races_finished)*-1,
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(races_finished)*-1,
                                    .default = as.double(avg_position_gc))) |>
     
     mutate(table_sort3 = case_when(detail_slicer_function == "Team" & value_from_function == "Stage Position" ~ as.double(avg_position_gc),
@@ -220,6 +245,10 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Stage Leader" ~ as.double(total_stage_time_from_leader),
                                    detail_slicer_function == "Team" & value_from_function == "Stage Time from Overall Leader" ~ as.double(total_stage_time_from_leader),
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Overall Leader" ~ as.double(total_stage_time_from_leader),
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time" ~ as.double(total_stage_time_from_leader),
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time" ~ as.double(total_stage_time_from_leader),
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(total_stage_time_from_leader),
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(total_stage_time_from_leader),
                                    .default = as.double(avg_position_gc))) |>
     
     mutate(table_sort4 = case_when(detail_slicer_function == "Team" & value_from_function == "Stage Position" ~ as.double(victories),
@@ -230,6 +259,10 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Stage Leader" ~ as.double(victories),
                                    detail_slicer_function == "Team" & value_from_function == "Stage Time from Overall Leader" ~ as.double(victories),
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Overall Leader" ~ as.double(victories),
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time" ~ as.double(victories),
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time" ~ as.double(victories),
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(victories),
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(victories),
                                    .default = as.double(avg_position_gc))) |>
     
     mutate(table_sort5 = case_when(detail_slicer_function == "Team" & value_from_function == "Stage Position" ~ as.double(podiums),
@@ -240,6 +273,10 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Stage Leader" ~ as.double(podiums),
                                    detail_slicer_function == "Team" & value_from_function == "Stage Time from Overall Leader" ~ as.double(podiums),
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Overall Leader" ~ as.double(podiums),
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time" ~ as.double(podiums),
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time" ~ as.double(podiums),
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(podiums),
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(podiums),
                                    .default = as.double(avg_position_gc))) |>
     
     mutate(table_sort6 = case_when(detail_slicer_function == "Team" & value_from_function == "Stage Position" ~ as.double(topfives),
@@ -250,6 +287,10 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Stage Leader" ~ as.double(topfives),
                                    detail_slicer_function == "Team" & value_from_function == "Stage Time from Overall Leader" ~ as.double(topfives),
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Overall Leader" ~ as.double(topfives),
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time" ~ as.double(topfives),
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time" ~ as.double(topfives),
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(topfives),
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(topfives),
                                    .default = as.double(avg_position_gc))) |>
     
     mutate(table_sort7 = case_when(detail_slicer_function == "Team" & value_from_function == "Stage Position" ~ as.double(toptens),
@@ -260,6 +301,10 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Stage Leader" ~ as.double(toptens),
                                    detail_slicer_function == "Team" & value_from_function == "Stage Time from Overall Leader" ~ as.double(toptens),
                                    detail_slicer_function == "Rider" & value_from_function == "Stage Time from Overall Leader" ~ as.double(toptens),
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time" ~ as.double(toptens),
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time" ~ as.double(toptens),
+                                   detail_slicer_function == "Team" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(toptens),
+                                   detail_slicer_function == "Rider" & value_from_function == "Tallied Stage Time from Leader" ~ as.double(toptens),
                                    .default = as.double(avg_position_gc))) |>
     
     arrange(table_sort1,table_sort2,table_sort3,table_sort4,table_sort5,table_sort6,table_sort7) |>
@@ -271,6 +316,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
     arrange(rank) |>
     select(-c(table_sort1,table_sort2,table_sort3,table_sort4,table_sort5,table_sort6,table_sort7
               ,victories,podiums,topfives,toptens,
+              #tally_total_stage_time,tally_total_stage_time_from_leader
               #season,first_cycling_race_id
               #,names_from
     ))
@@ -309,3 +355,4 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
       footnote = "Data from FirstCycling.com"
     ) |>
     print()
+  
