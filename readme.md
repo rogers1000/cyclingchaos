@@ -56,7 +56,7 @@ Race Results Pivot Table Functionality:
 - Dyanmic `Gender` Filter
 - Dynamic `Pivot Slicer` (Team or Rider)
 - Dynamic `Race Filter` (`Race Tags`, `Rider` raced in, `Team` raced in, `Individual Stage Race`) 
-- Dynamic `Value Slicer` (`Position`, `GC Time`, `GC Time from Leader`)
+- Dynamic `Value Slicer` (`Position`, `Stage Time`, `Stage Time from Leader`, `Total Stage Time` and `Total Stage Time from Leader`, `Tallied Stage Time`, `Tallied Stage Time from Leader`) 
 - Dynamic `Race Location Filter`
 - Dynamic `UCI Race Classification Filter` (World Tour only atm)
 - Dynamic `Stage Race Boolean Filter`
