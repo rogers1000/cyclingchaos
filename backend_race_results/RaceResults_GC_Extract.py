@@ -12,9 +12,13 @@ import re
 from time import sleep
 from random import randrange
 
+##### Making Code Possible to Put onto Github #####
+
+#setwd = WorkingDirectory
+
 ##### Race Results GC #####
 
-cycling_chaos_ingestion = pd.read_csv(setwd+'cycling_chaos_ingestion_df4.csv')
+cycling_chaos_ingestion = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')
 
 cci_file_name_list = cycling_chaos_ingestion.loc[cycling_chaos_ingestion['output_details'] == 'GC']['file_name'].to_list()
 
