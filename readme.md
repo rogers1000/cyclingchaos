@@ -28,7 +28,7 @@ Race Calendar Function:
 - `Start Date`
 - `End Date`
 - `Race Tags`
-- `Stage Profile Category` (for Stage Races)
+- `Stage Profile Category`
 - `Distance` (for Stage Races)
 - `Route` (for Stage Races)
 
