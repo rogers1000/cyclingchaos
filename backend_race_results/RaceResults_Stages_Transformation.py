@@ -29,9 +29,9 @@ raceresult_stage_count = 0
 season = []
 first_cycling_race_id = []
 stage_number = []
-gc_position = []
+stage_position = []
 first_cycling_rider_id = []
-gc_time = []
+stage_time_raw = []
 
 
 for raceresult_stage_count in tqdm(range(0,
@@ -51,25 +51,25 @@ for raceresult_stage_count in tqdm(range(0,
             first_cycling_race_id.append(str(cci_file_name_list[raceresult_stage_count]).split('_')[6].split('.')[0])
             stage_number.append(str(cci_file_name_list[raceresult_stage_count]).split('_')[7].split('.')[0])
             try:
-                gc_position.append(columns[0].text)
+                stage_position.append(columns[0].text)
             except:
-                gc_position.append('Error')
+                stage_position.append('Error')
             try:
                 first_cycling_rider_id.append(str(columns[3].find_all('a')).split('php?r=')[1].split('&amp')[0])
             except:
                 first_cycling_rider_id.append('error')
             try:
-                gc_time.append(columns[6].text)
+                stage_time_raw.append(columns[6].text)
             except:
-                gc_time.append('error')
+                stage_time_raw.append('error')
             
             raceresult_stage_df = pd.DataFrame({
                 'season':season
                 ,'first_cycling_race_id':first_cycling_race_id
                 ,'stage_number':stage_number
-                ,'gc_position':gc_position
+                ,'stage_position':stage_position
                 ,'first_cycling_rider_id':first_cycling_rider_id
-                ,'gc_time':gc_time
+                ,'stage_time_raw':stage_time_raw
             })
 raceresult_stage_count = raceresult_stage_count + 1
 raceresult_stage_df.to_csv(setwd+'raceresults_stage_df.csv',index=False)
