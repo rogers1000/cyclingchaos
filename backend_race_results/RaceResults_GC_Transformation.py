@@ -18,7 +18,7 @@ from random import randrange
 
 ##### Race Results GC #####
 
-cycling_chaos_ingestion = pd.read_csv(setwd+'cycling_chaos_ingestion_df4.csv')
+cycling_chaos_ingestion = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')
 
 cci_file_name_list = cycling_chaos_ingestion.loc[cycling_chaos_ingestion['output_details'] == 'GC']['file_name'].to_list()
 
@@ -30,7 +30,8 @@ season = []
 first_cycling_race_id = []
 gc_position = []
 first_cycling_rider_id = []
-gc_time = []
+gc_time_raw = []
+stage_number = []
 
 for raceresult_gc_count in tqdm(range(0,
                                     #   10
@@ -56,15 +57,17 @@ for raceresult_gc_count in tqdm(range(0,
                 first_cycling_rider_id.append(str(columns[3].find_all('a')).split('php?r=')[1].split('&amp')[0])
             except: first_cycling_rider_id.append('Error')
             try:
-                gc_time.append(columns[6].text)
-            except: gc_time.append('Error')
+                gc_time_raw.append(columns[6].text)
+            except: gc_time_raw.append('Error')
+            stage_number.append('GC')
 
             raceresults_gc_df = pd.DataFrame({
                 'season':season
                 ,'first_cycling_race_id':first_cycling_race_id
+                ,'stage_number':stage_number
                 ,'gc_position':gc_position
                 ,'first_cycling_rider_id':first_cycling_rider_id
-                ,'gc_time':gc_time
+                ,'gc_time_raw':gc_time_raw
             })
     raceresult_gc_count = raceresult_gc_count + 1
 
