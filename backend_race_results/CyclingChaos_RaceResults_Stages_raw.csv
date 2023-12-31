@@ -1,4 +1,4 @@
-season,first_cycling_race_id,stage,gc_position,first_cycling_rider_id,gc_time
+season,first_cycling_race_id,stage_number,stage_position,first_cycling_rider_id,stage_time_raw
 2023,677,1,1,40223,03:22:03
 2023,677,1,2,44684,+ 10
 2023,677,1,3,6424,+ 10
