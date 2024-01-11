@@ -42,7 +42,6 @@ for race_id_extract_count in tqdm(range(0,
     raceresults_gc_meta_soup_str = str(raceresults_gc_meta_soup)
     file_name = 'cycling_chaos_code'+'_'+'startlist'+'_'+'all'+'_'+str(season)+'_'+str(race_id_list[race_id_extract_count])+'.txt'
     with open(setwd+'calendar_ingestion_files/souped_html_txt_files/'+file_name, 'w') as writefile:
-    # with open(r'/Users/zacrogers/Documents/cycling_chaos/python_code/calendar_ingestion_files/souped_html_txt_files/'+file_name, 'w') as writefile:
         writefile.write(raceresults_gc_meta_soup_str)
         writefile.close()
     cci_output.append('startlist')
