@@ -30,6 +30,7 @@ cci_file_name_list
 
 bib_number = []
 first_cycling_rider_id = []
+first_cycling_rider_name = []
 first_cycling_team_id = []
 team_name_invitational = []
 season_teams = []
@@ -101,6 +102,7 @@ for startlist_count in tqdm(range(0,
                 bib_number_order_riders_team_count_str.append(str(bib_number_order_riders_team_count))
                 bib_number.append(columns[0].text)
                 first_cycling_rider_id.append(str(columns[1].find_all('a')).split('r=')[1].split('&amp')[0])
+                first_cycling_rider_name.append(str(columns[1].find_all('a')).split('title="')[1].split('"><')[0])
 
                 startlist_df_riders = pd.DataFrame({
                 'season':season_riders,
@@ -108,11 +110,14 @@ for startlist_count in tqdm(range(0,
                 'bib_number_order':bib_number_order_riders_team_count_str
                 ,'bib_number':bib_number
                 ,'first_cycling_rider_id':first_cycling_rider_id
+                ,'first_cycling_rider_name':first_cycling_rider_name
                 })
     startlist_count = startlist_count + 1
 
 startlist_df = startlist_df_riders.merge(startlist_df_teams,on = ['season','first_cycling_race_id','bib_number_order'])
 
 startlist_df = startlist_df.drop(['bib_number_order'],axis=1)
+
+startlist_df
 
 startlist_df.to_csv('startlist_df.csv',index=False)
