@@ -1,500 +1,1272 @@
 season,gender,category,first_cycling_race_id,race_name,race_nationality,uci_race_classification,stage_race_boolean,start_date,end_date,stage_number,distance,route,stage_profile_category_mapping_eng
-2023,Men,Road,677,Giro del Sol San JuanGiro del Sol San Juan,AR,2.2,Stage Race,2023/01/06,2023/01/08,01,153,Plaza 25 de Mayo-Circuito San Juan Villicum,Flat
-2023,Men,Road,456,NZ Cycle ClassicNZ Cycle Classic,NZ,2.2,Stage Race,2023/01/11,2023/01/15,01,123,Masterton-Masterton,Flat
-2023,Men,Road,454,Vuelta al TáchiraVuelta al Táchira,VE,2.2,Stage Race,2023/01/15,2023/01/22,01,149.8,San Cristóbal-Tariba,Flat
-2023,Men,Road,1,Tour Down UnderTour Down Under,AU,2.UWT,Stage Race,2023/01/17,2023/01/22,00,5.5,Adelaide-Adelaide,Flat ITT
-2023,Men,Road,8467,Gravel and TarGravel and Tar,NZ,1.2,One Day,2023/01/21,2023/01/21,GC,,,Hilly
-2023,Men,Road,411,Clàssica Comunitat Valenciana 1969 - GP ValenciaClàssica Comunitat Valenciana 1969 - GP Valencia,ES,1.1,One Day,2023/01/22,2023/01/22,GC,,,Flat
-2023,Men,Road,5247,Vuelta a San JuanVuelta a San Juan,AR,2.Pro,Stage Race,2023/01/22,2023/01/29,01,143.9,San Juan-San Juan,Flat
-2023,Men,Road,117,Tropicale Amissa BongoTropicale Amissa Bongo,GA,2.1,Stage Race,2023/01/23,2023/01/29,01,121.5,Bitam-Oyem,Hilly MTF
-2023,Men,Road,271,Trofeo CalviaTrofeo Calvia,ES,1.1,One Day,2023/01/25,2023/01/25,GC,,,Hilly
-2023,Men,Road,273,Trofeo Alcudia - Port d'AlcudiaTrofeo Alcudia - Port d'Alcudia,ES,1.1,One Day,2023/01/26,2023/01/26,GC,,,Flat
-2023,Men,Road,460,Tour of SharjahTour of Sharjah,AE,2.2,Stage Race,2023/01/27,2023/01/31,01,8.9,Sharjah-Sharjah,Flat ITT
-2023,Men,Road,274,Trofeo AndratxTrofeo Andratx,ES,1.1,One Day,2023/01/27,2023/01/27,GC,,,Hilly
-2023,Men,Road,20014,Grand Prix AspendosGrand Prix Aspendos,TR,1.2,One Day,2023/01/28,2023/01/28,GC,,,Flat
-2023,Men,Road,100,Trofeo Serra de TramuntanaTrofeo Serra de Tramuntana,ES,1.1,One Day,2023/01/28,2023/01/28,GC,,,Hilly
-2023,Men,Road,1172,Cadel Road RaceCadel Road Race,AU,1.UWT,One Day,2023/01/29,2023/01/29,GC,,,Hilly
-2023,Men,Road,83,Trofeo PalmaTrofeo Palma,ES,1.1,One Day,2023/01/29,2023/01/29,GC,,,Flat
-2023,Men,Road,97,GP la MarseillaiseGP la Marseillaise,FR,1.1,One Day,2023/01/29,2023/01/29,GC,,,Hilly
-2023,Men,Road,868,AlUla TourAlUla Tour,SA,2.1,Stage Race,2023/01/30,2023/02/03,01,180.5,Alula-Khaybar,Flat
-2023,Men,Road,11406,Tour du SahelTour du Sahel,MR,2.2,Stage Race,2023/02/01,2023/02/05,01,110,Berjeimatt-Akjoujt,Unknown
-2023,Men,Road,13738,Vuelta del Porvenir San LuisVuelta del Porvenir San Luis,AR,2.2,Stage Race,2023/02/01,2023/02/05,01,149.7,Tilisarao-Juana Koslay,Flat
-2023,Men,Road,319,Volta Comunitat ValencianaVolta Comunitat Valenciana,ES,2.Pro,Stage Race,2023/02/01,2023/02/05,01,189.4,Orihuela-Altea,Hilly
-2023,Men,Road,106,Étoile de BessègesÉtoile de Bessèges,FR,2.1,Stage Race,2023/02/01,2023/02/05,01,159.6,Bellegarde-Bellegarde,Flat
-2023,Men,Road,20015,Grand Prix Apollon TempleGrand Prix Apollon Temple,TR,1.2,One Day,2023/02/04,2023/02/04,GC,,,Flat
-2023,Men,Road,462,Africa TTTAfrica TTT,,CCTT,One Day,2023/02/08,2023/02/08,GC,,,TTT
-2023,Men,Road,369,Africa ITTAfrica ITT,,CCTT,One Day,2023/02/09,2023/02/09,GC,,,Flat ITT
-2023,Men,Road,20310,Africa ITT-U23Africa ITT-U23,,CCUT,One Day,2023/02/09,2023/02/09,GC,,,Flat ITT
-2023,Men,Road,15151,Africa Mixed RelayAfrica Mixed Relay,,CCTT,One Day,2023/02/10,2023/02/10,GC,,,TTT
-2023,Men,Road,18946,Muscat ClassicMuscat Classic,OM,1.1,One Day,2023/02/10,2023/02/10,GC,,,Hilly
-2023,Men,Road,57,Tour of OmanTour of Oman,OM,2.Pro,Stage Race,2023/02/11,2023/02/15,01,147.4,Al Rustaq Fort-Muscat,Flat
-2023,Men,Road,74,Vuelta a MurciaVuelta a Murcia,ES,1.1,One Day,2023/02/11,2023/02/11,GC,,,Hilly
-2023,Men,Road,18947,Figueira Champions ClassicFigueira Champions Classic,PT,1.1,One Day,2023/02/12,2023/02/12,GC,,,Hilly
-2023,Men,Road,129,Clasica de AlmeriaClasica de Almeria,ES,1.Pro,One Day,2023/02/12,2023/02/12,GC,,,Flat
-2023,Men,Road,16519,Jaén Paraiso InteriorJaén Paraiso Interior,ES,1.1,One Day,2023/02/13,2023/02/13,GC,,,Hilly MTF
-2023,Men,Road,110,Vuelta a AndalucíaVuelta a Andalucía,ES,2.Pro,Stage Race,2023/02/15,2023/02/19,01,179,Puente de Génave-Santiago de la Espada,Mountain
-2023,Men,Road,107,Volta ao AlgarveVolta ao Algarve,PT,2.Pro,Stage Race,2023/02/15,2023/02/19,01,200.2,Portimão-Lagos,Hilly
-2023,Men,Road,111,Tour Alpes Maritimes du VarTour Alpes Maritimes du Var,FR,2.1,Stage Race,2023/02/17,2023/02/19,01,187,Saint Raphaël-Ramatuelle,Flat
-2023,Men,Road,450,Tour of RwandaTour of Rwanda,RW,2.1,Stage Race,2023/02/19,2023/02/26,01,115.6,Kigali-Rwamagana,Flat
-2023,Men,Road,9800,UAE TourUAE Tour,AE,2.UWT,Stage Race,2023/02/20,2023/02/26,01,151,Al Dhafra-Al Mirfa,Flat
-2023,Men,Road,16526,Gran CamiñoGran Camiño,ES,2.1,Stage Race,2023/02/23,2023/02/26,01,191.5,Muralla de Lugo-Sarria,Hilly
-2023,Men,Road,53,Omloop Het NieuwsbladOmloop Het Nieuwsblad,BE,1.UWT,One Day,2023/02/25,2023/02/25,GC,,,Cobbles
-2023,Men,Road,121,Faun-Ardèche ClassicFaun-Ardèche Classic,FR,1.Pro,One Day,2023/02/25,2023/02/25,GC,,,Hilly
-2023,Men,Road,432,La Drome ClassicLa Drome Classic,FR,1.Pro,One Day,2023/02/26,2023/02/26,GC,,,Hilly
-2023,Men,Road,84,Kuurne-Brussel-KuurneKuurne-Brussel-Kuurne,BE,1.Pro,One Day,2023/02/26,2023/02/26,GC,,,Cobbles
-2023,Men,Road,116,Le SamynLe Samyn,BE,1.1,One Day,2023/02/28,2023/02/28,GC,,,Cobbles
-2023,Men,Road,112,Trofeo LaiguegliaTrofeo Laigueglia,IT,1.Pro,One Day,2023/03/01,2023/03/01,GC,,,Hilly
-2023,Men,Road,277,Umag TrophyUmag Trophy,HR,1.2,One Day,2023/03/01,2023/03/01,GC,,,Hilly
-2023,Men,Road,20017,Alanya CupAlanya Cup,TR,1.2,One Day,2023/03/04,2023/03/04,GC,,,Flat
-2023,Men,Road,539,GP CriquielionGP Criquielion,BE,1.1,One Day,2023/03/04,2023/03/04,GC,,,Hilly
-2023,Men,Road,18953,Le Tour des 100 CommunesLe Tour des 100 Communes,FR,1.2,One Day,2023/03/04,2023/03/04,GC,,,Flat
-2023,Men,Road,16525,South Aegean TourSouth Aegean Tour,GR,2.2,Stage Race,2023/03/04,2023/03/05,01,180,Rhodes-Koskinou,Hilly MTF
-2023,Men,Road,283,Ster van ZwolleSter van Zwolle,NL,1.2,One Day,2023/03/04,2023/03/04,GC,,,Flat
-2023,Men,Road,54,Strade BiancheStrade Bianche,IT,1.UWT,One Day,2023/03/04,2023/03/04,GC,,,Hilly MTF
-2023,Men,Road,284,GP LillersGP Lillers,FR,1.2,One Day,2023/03/05,2023/03/05,GC,,,Flat
-2023,Men,Road,278,Porec TrophyPorec Trophy,HR,1.2,One Day,2023/03/05,2023/03/05,GC,,,Flat
-2023,Men,Road,2729,GP Jean-Pierre MonseréGP Jean-Pierre Monseré,BE,1.1,One Day,2023/03/05,2023/03/05,GC,,,Flat
-2023,Men,Road,2,Paris-NiceParis-Nice,FR,2.UWT,Stage Race,2023/03/05,2023/03/12,01,169.4,La Verrière-La Verrière,Hilly
-2023,Men,Road,3,Tirreno-AdriaticoTirreno-Adriatico,IT,2.UWT,Stage Race,2023/03/06,2023/03/12,01,11.5,Lido di Camaiore-Lido di Camaiore,Flat ITT
-2023,Men,Road,465,Tour d'AlgérieTour d'Algérie,DZ,2.2,Stage Race,2023/03/07,2023/03/16,00,4.1,Bordj Bou Arréridj-Bordj Bou Arréridj,Flat ITT
-2023,Men,Road,276,Istrian Spring TrophyIstrian Spring Trophy,HR,2.2,Stage Race,2023/03/09,2023/03/12,00,1.5,Vrsar-Vrsar,Flat ITT
-2023,Men,Road,7005,Rhodes Grand PrixRhodes Grand Prix,GR,1.2,One Day,2023/03/11,2023/03/11,GC,,,Flat
-2023,Men,Road,510,Dorpenomloop RucphenDorpenomloop Rucphen,NL,1.2,One Day,2023/03/12,2023/03/12,GC,,,Flat
-2023,Men,Road,131,Ronde van DrentheRonde van Drenthe,NL,1.1,One Day,2023/03/12,2023/03/12,GC,,,Flat
-2023,Men,Road,132,Tour de TaiwanTour de Taiwan,TW,2.1,Stage Race,2023/03/12,2023/03/16,01,83.2,Taipei-Taipei,Flat
-2023,Men,Road,89,Milano - TorinoMilano - Torino,IT,1.Pro,One Day,2023/03/15,2023/03/15,GC,,,Hilly MTF
-2023,Men,Road,122,Nokere KoerseNokere Koerse,BE,1.Pro,One Day,2023/03/15,2023/03/15,GC,,,Cobbles
-2023,Men,Road,844,Tour of RhodesTour of Rhodes,GR,2.2,Stage Race,2023/03/16,2023/03/19,00,3.8,Ialysos-Ialysos,Flat ITT
-2023,Men,Road,146,GP de DenainGP de Denain,FR,1.Pro,One Day,2023/03/16,2023/03/16,GC,,,Flat
-2023,Men,Road,8772,GP de la Ville d'AlgerGP de la Ville d'Alger,DZ,1.2,One Day,2023/03/17,2023/03/17,GC,,,Flat
-2023,Men,Road,10673,Youngster Coast ChallengeYoungster Coast Challenge,BE,1.2U,One Day,2023/03/17,2023/03/17,GC,,,Flat
-2023,Men,Road,123,Bredene Koksijde ClassicBredene Koksijde Classic,BE,1.Pro,One Day,2023/03/17,2023/03/17,GC,,,Flat
-2023,Men,Road,124,Classic Loire AtlantiqueClassic Loire Atlantique,FR,1.1,One Day,2023/03/18,2023/03/18,GC,,,Hilly
-2023,Men,Road,4,Milano - SanremoMilano - Sanremo,IT,1.UWT,One Day,2023/03/18,2023/03/18,GC,,,Flat
-2023,Men,Road,125,Cholet Agglo TourCholet Agglo Tour,FR,1.1,One Day,2023/03/19,2023/03/19,GC,,,Flat
-2023,Men,Road,7004,Classica da ArrábidaClassica da Arrábida,PT,1.2,One Day,2023/03/19,2023/03/19,GC,,,Hilly
-2023,Men,Road,508,GP Slovenian IstriaGP Slovenian Istria,SI,1.2,One Day,2023/03/19,2023/03/19,GC,,,Flat
-2023,Men,Road,15066,Per Sempre AlfredoPer Sempre Alfredo,IT,1.1,One Day,2023/03/19,2023/03/19,GC,,,Flat
-2023,Men,Road,1194,PopolarissimaPopolarissima,IT,1.2,One Day,2023/03/19,2023/03/19,GC,,,Flat
-2023,Men,Road,14,Volta CatalunyaVolta Catalunya,ES,2.UWT,Stage Race,2023/03/20,2023/03/26,01,164.6,Saint Feliu de Guíxols-Saint Feliu de Guíxols,Hilly
-2023,Men,Road,114,Coppi e BartaliCoppi e Bartali,IT,2.1,Stage Race,2023/03/21,2023/03/25,01,160.4,Riccione-Riccione,Hilly
-2023,Men,Road,340,Olympia's TourOlympia's Tour,NL,2.2,Stage Race,2023/03/22,2023/03/26,01,9,Assen-Assen,Flat ITT
-2023,Men,Road,288,Volta ao AlentejoVolta ao Alentejo,PT,2.2,Stage Race,2023/03/22,2023/03/26,01,168.8,Beja-Ourique,Flat
-2023,Men,Road,40,Classic Brugge-De PanneClassic Brugge-De Panne,BE,1.UWT,One Day,2023/03/22,2023/03/22,GC,,,Flat
-2023,Men,Road,16527,GP Vipava ValleyGP Vipava Valley,SI,1.2,One Day,2023/03/23,2023/03/23,GC,,,Hilly
-2023,Men,Road,47,E3 Saxo ClassicE3 Saxo Classic,BE,1.UWT,One Day,2023/03/24,2023/03/24,GC,,,Cobbles
-2023,Men,Road,937,GP Adria MobilGP Adria Mobil,SI,1.2,One Day,2023/03/26,2023/03/26,GC,,,Hilly
-2023,Men,Road,3999,Gent - WevelgemGent - Wevelgem,BE,1.2U,One Day,2023/03/26,2023/03/26,GC,,,Cobbles
-2023,Men,Road,7,Gent - WevelgemGent - Wevelgem,BE,1.UWT,One Day,2023/03/26,2023/03/26,GC,,,Cobbles
+2023,Men,Road,677,Giro del Sol San Juan,AR,2.2,Stage Race,2023/01/06,2023/01/08,01,153,Plaza 25 de Mayo-Circuito San Juan Villicum,Flat
+2023,Men,Road,677,Giro del Sol San Juan,AR,2.2,Stage Race,2023/01/06,2023/01/08,02,134.3,Circuito San Juan Villicum-Circuito San Juan Villicum,Flat
+2023,Men,Road,677,Giro del Sol San Juan,AR,2.2,Stage Race,2023/01/06,2023/01/08,03,179.9,Circuito San Juan Villicum-Circuito San Juan Villicum,Flat
+2023,Men,Road,456,NZ Cycle Classic,NZ,2.2,Stage Race,2023/01/11,2023/01/15,01,123,Masterton-Masterton,Flat
+2023,Men,Road,456,NZ Cycle Classic,NZ,2.2,Stage Race,2023/01/11,2023/01/15,02,127.3,Masterton-Martinborough,Flat
+2023,Men,Road,456,NZ Cycle Classic,NZ,2.2,Stage Race,2023/01/11,2023/01/15,05,49.6,Wellington-Wellington,Flat
+2023,Men,Road,456,NZ Cycle Classic,NZ,2.2,Stage Race,2023/01/11,2023/01/15,03,155.5,Masterton-Admiral Hill,Hilly MTF
+2023,Men,Road,456,NZ Cycle Classic,NZ,2.2,Stage Race,2023/01/11,2023/01/15,04,126,Miramar-Miramar,Hilly
+2023,Men,Road,454,Vuelta al Táchira,VE,2.2,Stage Race,2023/01/15,2023/01/22,01,149.8,San Cristóbal-Tariba,Flat
+2023,Men,Road,454,Vuelta al Táchira,VE,2.2,Stage Race,2023/01/15,2023/01/22,03,126.5,San Juan De Colón-La Tendida,Flat
+2023,Men,Road,454,Vuelta al Táchira,VE,2.2,Stage Race,2023/01/15,2023/01/22,08,117.3,San Cristóbal-San Cristóbal,Flat
+2023,Men,Road,454,Vuelta al Táchira,VE,2.2,Stage Race,2023/01/15,2023/01/22,02,141.5,San Josecito-San Cristóbal,Hilly MTF
+2023,Men,Road,454,Vuelta al Táchira,VE,2.2,Stage Race,2023/01/15,2023/01/22,04,133.1,Lagunillas-Mérida,Hilly MTF
+2023,Men,Road,454,Vuelta al Táchira,VE,2.2,Stage Race,2023/01/15,2023/01/22,05,134.4,La Tendida-La Grita,Mountain MTF
+2023,Men,Road,454,Vuelta al Táchira,VE,2.2,Stage Race,2023/01/15,2023/01/22,06,132.3,La Fría-Casa Del Padre,Mountain MTF
+2023,Men,Road,454,Vuelta al Táchira,VE,2.2,Stage Race,2023/01/15,2023/01/22,07,137,Ureña-Cerro Del Cristo Rey,Mountain MTF
+2023,Men,Road,1,Tour Down Under,AU,2.UWT,Stage Race,2023/01/17,2023/01/22,04,133.2,Port Willunga-Willunga,Flat
+2023,Men,Road,1,Tour Down Under,AU,2.UWT,Stage Race,2023/01/17,2023/01/22,05,112.5,Unley-Mount Lofty,Hilly MTF
+2023,Men,Road,1,Tour Down Under,AU,2.UWT,Stage Race,2023/01/17,2023/01/22,01,149.9,Tanunda-Tanunda,Hilly
+2023,Men,Road,1,Tour Down Under,AU,2.UWT,Stage Race,2023/01/17,2023/01/22,02,154.8,Brighton-Victor Harbor,Hilly
+2023,Men,Road,1,Tour Down Under,AU,2.UWT,Stage Race,2023/01/17,2023/01/22,03,116.8,Norwood-Campbelltown,Hilly
+2023,Men,Road,1,Tour Down Under,AU,2.UWT,Stage Race,2023/01/17,2023/01/22,00,5.5,Adelaide-Adelaide,Flat ITT
+2023,Men,Road,8467,Gravel and Tar,NZ,1.2,One Day,2023/01/21,2023/01/21,GC,,,Hilly
+2023,Men,Road,411,Clàssica Comunitat Valenciana 1969 - GP Valencia,ES,1.1,One Day,2023/01/22,2023/01/22,GC,,,Flat
+2023,Men,Road,5247,Vuelta a San Juan,AR,2.Pro,Stage Race,2023/01/22,2023/01/29,01,143.9,San Juan-San Juan,Flat
+2023,Men,Road,5247,Vuelta a San Juan,AR,2.Pro,Stage Race,2023/01/22,2023/01/29,03,170.9,San Juan-San Juan,Flat
+2023,Men,Road,5247,Vuelta a San Juan,AR,2.Pro,Stage Race,2023/01/22,2023/01/29,06,144.9,San Juan-San Juan,Flat
+2023,Men,Road,5247,Vuelta a San Juan,AR,2.Pro,Stage Race,2023/01/22,2023/01/29,07,112,San Juan-San Juan,Flat
+2023,Men,Road,5247,Vuelta a San Juan,AR,2.Pro,Stage Race,2023/01/22,2023/01/29,02,201.1,Villa San Augustin-San José de Jáchal,Hilly
+2023,Men,Road,5247,Vuelta a San Juan,AR,2.Pro,Stage Race,2023/01/22,2023/01/29,04,196.5,San Juan-Barreal,Mountain MTF
+2023,Men,Road,5247,Vuelta a San Juan,AR,2.Pro,Stage Race,2023/01/22,2023/01/29,05,173.7,San Juan-Alto de Colorado,Mountain MTF
+2023,Men,Road,5247,Vuelta a San Juan,AR,2.Pro,Stage Race,2023/01/22,2023/01/29,,-,-,Unknown
+2023,Men,Road,117,Tropicale Amissa Bongo,GA,2.1,Stage Race,2023/01/23,2023/01/29,02,111.5,Oyem-Mitzic,Flat
+2023,Men,Road,117,Tropicale Amissa Bongo,GA,2.1,Stage Race,2023/01/23,2023/01/29,03,113,Lébamba-Mouila,Flat
+2023,Men,Road,117,Tropicale Amissa Bongo,GA,2.1,Stage Race,2023/01/23,2023/01/29,05,103.5,Kango-Angondjé,Flat
+2023,Men,Road,117,Tropicale Amissa Bongo,GA,2.1,Stage Race,2023/01/23,2023/01/29,06,127.2,Port-Gentil-Port-Gentil,Flat
+2023,Men,Road,117,Tropicale Amissa Bongo,GA,2.1,Stage Race,2023/01/23,2023/01/29,07,133,Cap Esterias-Libreville,Flat
+2023,Men,Road,117,Tropicale Amissa Bongo,GA,2.1,Stage Race,2023/01/23,2023/01/29,01,121.5,Bitam-Oyem,Hilly MTF
+2023,Men,Road,117,Tropicale Amissa Bongo,GA,2.1,Stage Race,2023/01/23,2023/01/29,04,193.5,Mouila-Lambaréné,Hilly
+2023,Men,Road,271,Trofeo Calvia,ES,1.1,One Day,2023/01/25,2023/01/25,GC,,,Hilly
+2023,Men,Road,273,Trofeo Alcudia - Port d'Alcudia,ES,1.1,One Day,2023/01/26,2023/01/26,GC,,,Flat
+2023,Men,Road,460,Tour of Sharjah,AE,2.2,Stage Race,2023/01/27,2023/01/31,02,130.7,Sharjah-Al Badayer,Flat
+2023,Men,Road,460,Tour of Sharjah,AE,2.2,Stage Race,2023/01/27,2023/01/31,05,72.3,Sharjah-Sharjah,Flat
+2023,Men,Road,460,Tour of Sharjah,AE,2.2,Stage Race,2023/01/27,2023/01/31,03,117.1,Dibba Alshin-Wadi al Hilo,Hilly MTF
+2023,Men,Road,460,Tour of Sharjah,AE,2.2,Stage Race,2023/01/27,2023/01/31,04,110.2,Kalba-Khorfakkan,Hilly MTF
+2023,Men,Road,460,Tour of Sharjah,AE,2.2,Stage Race,2023/01/27,2023/01/31,01,8.9,Sharjah-Sharjah,Flat ITT
+2023,Men,Road,274,Trofeo Andratx,ES,1.1,One Day,2023/01/27,2023/01/27,GC,,,Hilly
+2023,Men,Road,20014,Grand Prix Aspendos,TR,1.2,One Day,2023/01/28,2023/01/28,GC,,,Flat
+2023,Men,Road,100,Trofeo Serra de Tramuntana,ES,1.1,One Day,2023/01/28,2023/01/28,GC,,,Hilly
+2023,Men,Road,1172,Cadel Road Race,AU,1.UWT,One Day,2023/01/29,2023/01/29,GC,,,Hilly
+2023,Men,Road,83,Trofeo Palma,ES,1.1,One Day,2023/01/29,2023/01/29,GC,,,Flat
+2023,Men,Road,97,GP la Marseillaise,FR,1.1,One Day,2023/01/29,2023/01/29,GC,,,Hilly
+2023,Men,Road,868,AlUla Tour,SA,2.1,Stage Race,2023/01/30,2023/02/03,01,180.5,Alula-Khaybar,Flat
+2023,Men,Road,868,AlUla Tour,SA,2.1,Stage Race,2023/01/30,2023/02/03,02,184,Alula-Shalal Sijlyat,Flat
+2023,Men,Road,868,AlUla Tour,SA,2.1,Stage Race,2023/01/30,2023/02/03,05,142.9,Alula-Maraya,Flat
+2023,Men,Road,868,AlUla Tour,SA,2.1,Stage Race,2023/01/30,2023/02/03,03,159.2,Al Manshiyah-Abu Rakah,Hilly MTF
+2023,Men,Road,868,AlUla Tour,SA,2.1,Stage Race,2023/01/30,2023/02/03,04,163.4,Maraya-Harrat Uwayrid,Hilly
+2023,Men,Road,11406,Tour du Sahel,MR,2.2,Stage Race,2023/02/01,2023/02/05,01,110,Berjeimatt-Akjoujt,Unknown
+2023,Men,Road,11406,Tour du Sahel,MR,2.2,Stage Race,2023/02/01,2023/02/05,02,75,Yaghref-Aoujeft,Unknown
+2023,Men,Road,11406,Tour du Sahel,MR,2.2,Stage Race,2023/02/01,2023/02/05,03,103,Atar-Choum,Unknown
+2023,Men,Road,11406,Tour du Sahel,MR,2.2,Stage Race,2023/02/01,2023/02/05,04,76,Zouerate-Zouerate,Unknown
+2023,Men,Road,11406,Tour du Sahel,MR,2.2,Stage Race,2023/02/01,2023/02/05,05,96,Bamako-Akjoujt,Unknown
+2023,Men,Road,13738,Vuelta del Porvenir San Luis,AR,2.2,Stage Race,2023/02/01,2023/02/05,01,149.7,Tilisarao-Juana Koslay,Flat
+2023,Men,Road,13738,Vuelta del Porvenir San Luis,AR,2.2,Stage Race,2023/02/01,2023/02/05,02,179.9,La Toma-La Toma,Flat
+2023,Men,Road,13738,Vuelta del Porvenir San Luis,AR,2.2,Stage Race,2023/02/01,2023/02/05,05,121.6,San Luis-San Luis,Flat
+2023,Men,Road,13738,Vuelta del Porvenir San Luis,AR,2.2,Stage Race,2023/02/01,2023/02/05,04,148.8,Juana Koslay-Juana Koslay,Hilly MTF
+2023,Men,Road,13738,Vuelta del Porvenir San Luis,AR,2.2,Stage Race,2023/02/01,2023/02/05,03,12.7,El Durazno-El Durazno,Flat ITT
+2023,Men,Road,319,Volta Comunitat Valenciana,ES,2.Pro,Stage Race,2023/02/01,2023/02/05,02,178.2,Novelda-Benissa,Hilly MTF
+2023,Men,Road,319,Volta Comunitat Valenciana,ES,2.Pro,Stage Race,2023/02/01,2023/02/05,01,189.4,Orihuela-Altea,Hilly
+2023,Men,Road,319,Volta Comunitat Valenciana,ES,2.Pro,Stage Race,2023/02/01,2023/02/05,03,145.1,Bétera-Sagunto,Hilly
+2023,Men,Road,319,Volta Comunitat Valenciana,ES,2.Pro,Stage Race,2023/02/01,2023/02/05,05,93.2,Paterna-València,Hilly
+2023,Men,Road,319,Volta Comunitat Valenciana,ES,2.Pro,Stage Race,2023/02/01,2023/02/05,04,181.6,Burriana-Altura,Mountain MTF
+2023,Men,Road,106,Étoile de Bessèges,FR,2.1,Stage Race,2023/02/01,2023/02/05,01,159.6,Bellegarde-Bellegarde,Flat
+2023,Men,Road,106,Étoile de Bessèges,FR,2.1,Stage Race,2023/02/01,2023/02/05,02,169.6,Begard-Aubais,Flat
+2023,Men,Road,106,Étoile de Bessèges,FR,2.1,Stage Race,2023/02/01,2023/02/05,04,145.5,Saint-Christol-Lèz-Alès-Le Mont Bouquet,Hilly MTF
+2023,Men,Road,106,Étoile de Bessèges,FR,2.1,Stage Race,2023/02/01,2023/02/05,03,169.6,Bessèges-Bessèges,Hilly
+2023,Men,Road,106,Étoile de Bessèges,FR,2.1,Stage Race,2023/02/01,2023/02/05,05,10.6,Alès-Alès,Flat ITT
+2023,Men,Road,20015,Grand Prix Apollon Temple,TR,1.2,One Day,2023/02/04,2023/02/04,GC,,,Flat
+2023,Men,Road,462,Africa TTT,,CCTT,One Day,2023/02/08,2023/02/08,GC,,,TTT
+2023,Men,Road,369,Africa ITT,,CCTT,One Day,2023/02/09,2023/02/09,GC,,,Flat ITT
+2023,Men,Road,20310,Africa ITT-U23,,CCUT,One Day,2023/02/09,2023/02/09,GC,,,Flat ITT
+2023,Men,Road,15151,Africa Mixed Relay,,CCTT,One Day,2023/02/10,2023/02/10,GC,,,TTT
+2023,Men,Road,18946,Muscat Classic,OM,1.1,One Day,2023/02/10,2023/02/10,GC,,,Hilly
+2023,Men,Road,57,Tour of Oman,OM,2.Pro,Stage Race,2023/02/11,2023/02/15,01,147.4,Al Rustaq Fort-Muscat,Flat
+2023,Men,Road,57,Tour of Oman,OM,2.Pro,Stage Race,2023/02/11,2023/02/15,02,174,Muscat-Quarayyat,Hilly MTF
+2023,Men,Road,57,Tour of Oman,OM,2.Pro,Stage Race,2023/02/11,2023/02/15,03,151.8,Al Khobar-Jabal Haat,Hilly MTF
+2023,Men,Road,57,Tour of Oman,OM,2.Pro,Stage Race,2023/02/11,2023/02/15,04,204.9,Izki-Yitti Hills,Hilly
+2023,Men,Road,57,Tour of Oman,OM,2.Pro,Stage Race,2023/02/11,2023/02/15,05,152.2,Samail-Jabal Al Akhdhar / Green Mountain,Mountain MTF
+2023,Men,Road,74,Vuelta a Murcia,ES,1.1,One Day,2023/02/11,2023/02/11,GC,,,Hilly
+2023,Men,Road,18947,Figueira Champions Classic,PT,1.1,One Day,2023/02/12,2023/02/12,GC,,,Hilly
+2023,Men,Road,129,Clasica de Almeria,ES,1.Pro,One Day,2023/02/12,2023/02/12,GC,,,Flat
+2023,Men,Road,16519,Jaén Paraiso Interior,ES,1.1,One Day,2023/02/13,2023/02/13,GC,,,Hilly MTF
+2023,Men,Road,110,Vuelta a Andalucía,ES,2.Pro,Stage Race,2023/02/15,2023/02/19,03,161.8,Alcalá de Guadaíra-Alcalá de los Gazules,Flat
+2023,Men,Road,110,Vuelta a Andalucía,ES,2.Pro,Stage Race,2023/02/15,2023/02/19,02,156.1,Diezma-Alcalá la Real,Hilly MTF
+2023,Men,Road,110,Vuelta a Andalucía,ES,2.Pro,Stage Race,2023/02/15,2023/02/19,04,164.3,Olvera-Iznájar,Hilly
+2023,Men,Road,110,Vuelta a Andalucía,ES,2.Pro,Stage Race,2023/02/15,2023/02/19,05,184.3,Otura-Alhaurín de la Torre,Hilly
+2023,Men,Road,110,Vuelta a Andalucía,ES,2.Pro,Stage Race,2023/02/15,2023/02/19,01,179,Puente de Génave-Santiago de la Espada,Mountain
+2023,Men,Road,107,Volta ao Algarve,PT,2.Pro,Stage Race,2023/02/15,2023/02/19,03,203.1,Faro-Taviria,Flat
+2023,Men,Road,107,Volta ao Algarve,PT,2.Pro,Stage Race,2023/02/15,2023/02/19,02,186.3,Sagres-Alto da Fóia,Hilly MTF
+2023,Men,Road,107,Volta ao Algarve,PT,2.Pro,Stage Race,2023/02/15,2023/02/19,04,177.9,Albufeira-Malhão,Hilly MTF
+2023,Men,Road,107,Volta ao Algarve,PT,2.Pro,Stage Race,2023/02/15,2023/02/19,01,200.2,Portimão-Lagos,Hilly
+2023,Men,Road,107,Volta ao Algarve,PT,2.Pro,Stage Race,2023/02/15,2023/02/19,05,24.4,Lagoa-Lagoa,Flat ITT
+2023,Men,Road,111,Tour Alpes Maritimes du Var,FR,2.1,Stage Race,2023/02/17,2023/02/19,01,187,Saint Raphaël-Ramatuelle,Flat
+2023,Men,Road,111,Tour Alpes Maritimes du Var,FR,2.1,Stage Race,2023/02/17,2023/02/19,02,178.9,Mandelieu-la-napoule-Antibes Azur Aréna,Hilly
+2023,Men,Road,111,Tour Alpes Maritimes du Var,FR,2.1,Stage Race,2023/02/17,2023/02/19,03,131.8,Villefranche-sur-Mer-Vence ,Hilly
+2023,Men,Road,450,Tour of Rwanda,RW,2.1,Stage Race,2023/02/19,2023/02/26,01,115.6,Kigali-Rwamagana,Flat
+2023,Men,Road,450,Tour of Rwanda,RW,2.1,Stage Race,2023/02/19,2023/02/26,02,132.9,Kigali-Gisagara,Hilly
+2023,Men,Road,450,Tour of Rwanda,RW,2.1,Stage Race,2023/02/19,2023/02/26,04,138.3,Musanze-Karongi,Hilly
+2023,Men,Road,450,Tour of Rwanda,RW,2.1,Stage Race,2023/02/19,2023/02/26,05,195.5,Rusizi-Rubavu,Hilly
+2023,Men,Road,450,Tour of Rwanda,RW,2.1,Stage Race,2023/02/19,2023/02/26,03,199.5,Huye-Musanze,Mountain MTF
+2023,Men,Road,450,Tour of Rwanda,RW,2.1,Stage Race,2023/02/19,2023/02/26,06,157,Rubavu-Gicumbi,Mountain MTF
+2023,Men,Road,450,Tour of Rwanda,RW,2.1,Stage Race,2023/02/19,2023/02/26,07,115.8,Nyamata-Mount Kigai,Mountain MTF
+2023,Men,Road,450,Tour of Rwanda,RW,2.1,Stage Race,2023/02/19,2023/02/26,08,75.3,Kigali-Kigali,Mountain MTF
+2023,Men,Road,9800,UAE Tour,AE,2.UWT,Stage Race,2023/02/20,2023/02/26,01,151,Al Dhafra-Al Mirfa,Flat
+2023,Men,Road,9800,UAE Tour,AE,2.UWT,Stage Race,2023/02/20,2023/02/26,04,174,Shindagha-Dubai,Flat
+2023,Men,Road,9800,UAE Tour,AE,2.UWT,Stage Race,2023/02/20,2023/02/26,05,170,Al Marjan-Umm Al Quwain,Flat
+2023,Men,Road,9800,UAE Tour,AE,2.UWT,Stage Race,2023/02/20,2023/02/26,06,166,Abu Dhabi-Abu Dhabi,Flat
+2023,Men,Road,9800,UAE Tour,AE,2.UWT,Stage Race,2023/02/20,2023/02/26,03,185,Al Fujayiah-Jebel Jais,Mountain MTF
+2023,Men,Road,9800,UAE Tour,AE,2.UWT,Stage Race,2023/02/20,2023/02/26,07,153,Abu Dhabi-Jebel Hafeet,Mountain MTF
+2023,Men,Road,9800,UAE Tour,AE,2.UWT,Stage Race,2023/02/20,2023/02/26,02,17.3,Khalifa Port-Khalifa Port | TTT,TTT
+2023,Men,Road,16526,Gran Camiño,ES,2.1,Stage Race,2023/02/23,2023/02/26,02,184.3,A Guarda-Monte Trega,Hilly MTF
+2023,Men,Road,16526,Gran Camiño,ES,2.1,Stage Race,2023/02/23,2023/02/26,03,123.4,Parque Natural da Encina da Lastra-Rubia,Hilly MTF
+2023,Men,Road,16526,Gran Camiño,ES,2.1,Stage Race,2023/02/23,2023/02/26,01,191.5,Muralla de Lugo-Sarria,Hilly
+2023,Men,Road,16526,Gran Camiño,ES,2.1,Stage Race,2023/02/23,2023/02/26,04,18.1,Novo Milladoiro-Santiago de la Compostela,Flat ITT
+2023,Men,Road,53,Omloop Het Nieuwsblad,BE,1.UWT,One Day,2023/02/25,2023/02/25,GC,,,Cobbles
+2023,Men,Road,121,Faun-Ardèche Classic,FR,1.Pro,One Day,2023/02/25,2023/02/25,GC,,,Hilly
+2023,Men,Road,432,La Drome Classic,FR,1.Pro,One Day,2023/02/26,2023/02/26,GC,,,Hilly
+2023,Men,Road,84,Kuurne-Brussel-Kuurne,BE,1.Pro,One Day,2023/02/26,2023/02/26,GC,,,Cobbles
+2023,Men,Road,116,Le Samyn,BE,1.1,One Day,2023/02/28,2023/02/28,GC,,,Cobbles
+2023,Men,Road,112,Trofeo Laigueglia,IT,1.Pro,One Day,2023/03/01,2023/03/01,GC,,,Hilly
+2023,Men,Road,277,Umag Trophy,HR,1.2,One Day,2023/03/01,2023/03/01,GC,,,Hilly
+2023,Men,Road,20017,Alanya Cup,TR,1.2,One Day,2023/03/04,2023/03/04,GC,,,Flat
+2023,Men,Road,539,GP Criquielion,BE,1.1,One Day,2023/03/04,2023/03/04,GC,,,Hilly
+2023,Men,Road,18953,Le Tour des 100 Communes,FR,1.2,One Day,2023/03/04,2023/03/04,GC,,,Flat
+2023,Men,Road,16525,South Aegean Tour,GR,2.2,Stage Race,2023/03/04,2023/03/05,01,180,Rhodes-Koskinou,Hilly MTF
+2023,Men,Road,16525,South Aegean Tour,GR,2.2,Stage Race,2023/03/04,2023/03/05,02,168.8,Rhodes-Salakos,Hilly MTF
+2023,Men,Road,283,Ster van Zwolle,NL,1.2,One Day,2023/03/04,2023/03/04,GC,,,Flat
+2023,Men,Road,54,Strade Bianche,IT,1.UWT,One Day,2023/03/04,2023/03/04,GC,,,Hilly MTF
+2023,Men,Road,284,GP Lillers,FR,1.2,One Day,2023/03/05,2023/03/05,GC,,,Flat
+2023,Men,Road,278,Porec Trophy,HR,1.2,One Day,2023/03/05,2023/03/05,GC,,,Flat
+2023,Men,Road,2729,GP Jean-Pierre Monseré,BE,1.1,One Day,2023/03/05,2023/03/05,GC,,,Flat
+2023,Men,Road,2,Paris-Nice,FR,2.UWT,Stage Race,2023/03/05,2023/03/12,02,163.7,Bazainville-Fontainebleau,Flat
+2023,Men,Road,2,Paris-Nice,FR,2.UWT,Stage Race,2023/03/05,2023/03/12,04,164.7,Saint-Amand-Montrond-La Loge des Gardes,Hilly MTF
+2023,Men,Road,2,Paris-Nice,FR,2.UWT,Stage Race,2023/03/05,2023/03/12,01,169.4,La Verrière-La Verrière,Hilly
+2023,Men,Road,2,Paris-Nice,FR,2.UWT,Stage Race,2023/03/05,2023/03/12,05,212.4,Saint-Symphorien-sur-Coise-Saint-Paul-Trois-Châteaux,Hilly
+2023,Men,Road,2,Paris-Nice,FR,2.UWT,Stage Race,2023/03/05,2023/03/12,06,197.4,Tourves-La Colle Sur Loup,Hilly
+2023,Men,Road,2,Paris-Nice,FR,2.UWT,Stage Race,2023/03/05,2023/03/12,07,142.8,Nice-Col de la Couillole,Mountain MTF
+2023,Men,Road,2,Paris-Nice,FR,2.UWT,Stage Race,2023/03/05,2023/03/12,08,117.2,Nice-Nice,Mountain
+2023,Men,Road,2,Paris-Nice,FR,2.UWT,Stage Race,2023/03/05,2023/03/12,03,32.2,Dampierre-en-Burly-Dampierre-en-Burly | TTT,TTT
+2023,Men,Road,3,Tirreno-Adriatico,IT,2.UWT,Stage Race,2023/03/06,2023/03/12,02,210,Camaiore-Follonica,Flat
+2023,Men,Road,3,Tirreno-Adriatico,IT,2.UWT,Stage Race,2023/03/06,2023/03/12,03,216,Follonica-Foligno,Flat
+2023,Men,Road,3,Tirreno-Adriatico,IT,2.UWT,Stage Race,2023/03/06,2023/03/12,07,154,San Benedetto del Tronto-San Benedetto del Tronto,Flat
+2023,Men,Road,3,Tirreno-Adriatico,IT,2.UWT,Stage Race,2023/03/06,2023/03/12,04,219,Greccio -Tortoreto,Hilly MTF
+2023,Men,Road,3,Tirreno-Adriatico,IT,2.UWT,Stage Race,2023/03/06,2023/03/12,06,193,Osimo Stazione-Osimo,Hilly MTF
+2023,Men,Road,3,Tirreno-Adriatico,IT,2.UWT,Stage Race,2023/03/06,2023/03/12,05,165.6,Morro d'Oro-Sarnano-Sassotetto,Mountain MTF
+2023,Men,Road,3,Tirreno-Adriatico,IT,2.UWT,Stage Race,2023/03/06,2023/03/12,01,11.5,Lido di Camaiore-Lido di Camaiore,Flat ITT
+2023,Men,Road,465,Tour d'Algérie,DZ,2.2,Stage Race,2023/03/07,2023/03/16,01,121,Bordj Bou Arréridj-M’sila,Flat
+2023,Men,Road,465,Tour d'Algérie,DZ,2.2,Stage Race,2023/03/07,2023/03/16,05,128,Sétif-Constantine,Flat
+2023,Men,Road,465,Tour d'Algérie,DZ,2.2,Stage Race,2023/03/07,2023/03/16,07,145.5,Skikda-Jijel,Flat
+2023,Men,Road,465,Tour d'Algérie,DZ,2.2,Stage Race,2023/03/07,2023/03/16,08,87.2,Jijel-Bejaïa,Flat
+2023,Men,Road,465,Tour d'Algérie,DZ,2.2,Stage Race,2023/03/07,2023/03/16,04,142,Batna-Sétif,Hilly MTF
+2023,Men,Road,465,Tour d'Algérie,DZ,2.2,Stage Race,2023/03/07,2023/03/16,02,176,Boussaâda-Biskra,Hilly
+2023,Men,Road,465,Tour d'Algérie,DZ,2.2,Stage Race,2023/03/07,2023/03/16,03,111.5,Biskra-Batna,Hilly
+2023,Men,Road,465,Tour d'Algérie,DZ,2.2,Stage Race,2023/03/07,2023/03/16,06,82.5,Constantine-Skikda,Hilly
+2023,Men,Road,465,Tour d'Algérie,DZ,2.2,Stage Race,2023/03/07,2023/03/16,09,119,Bejaïa-Tizi Ouzou,Hilly
+2023,Men,Road,465,Tour d'Algérie,DZ,2.2,Stage Race,2023/03/07,2023/03/16,00,4.1,Bordj Bou Arréridj-Bordj Bou Arréridj,Flat ITT
+2023,Men,Road,276,Istrian Spring Trophy,HR,2.2,Stage Race,2023/03/09,2023/03/12,03,114,Pazin-Umag,Flat
+2023,Men,Road,276,Istrian Spring Trophy,HR,2.2,Stage Race,2023/03/09,2023/03/12,02,173,Novograd-Motovun,Hilly MTF
+2023,Men,Road,276,Istrian Spring Trophy,HR,2.2,Stage Race,2023/03/09,2023/03/12,01,153,Porec-Funtana,Hilly
+2023,Men,Road,276,Istrian Spring Trophy,HR,2.2,Stage Race,2023/03/09,2023/03/12,00,1.5,Vrsar-Vrsar,Flat ITT
+2023,Men,Road,7005,Rhodes Grand Prix,GR,1.2,One Day,2023/03/11,2023/03/11,GC,,,Flat
+2023,Men,Road,510,Dorpenomloop Rucphen,NL,1.2,One Day,2023/03/12,2023/03/12,GC,,,Flat
+2023,Men,Road,131,Ronde van Drenthe,NL,1.1,One Day,2023/03/12,2023/03/12,GC,,,Flat
+2023,Men,Road,132,Tour de Taiwan,TW,2.1,Stage Race,2023/03/12,2023/03/16,01,83.2,Taipei-Taipei,Flat
+2023,Men,Road,132,Tour de Taiwan,TW,2.1,Stage Race,2023/03/12,2023/03/16,03,154.5,Hshinchu-Taichung City,Hilly
+2023,Men,Road,132,Tour de Taiwan,TW,2.1,Stage Race,2023/03/12,2023/03/16,04,165.6,Nantou-Xianshan,Hilly
+2023,Men,Road,132,Tour de Taiwan,TW,2.1,Stage Race,2023/03/12,2023/03/16,05,146.4,Fo Guang-Zuoying,Hilly
+2023,Men,Road,132,Tour de Taiwan,TW,2.1,Stage Race,2023/03/12,2023/03/16,02,120.6,Taoyuan City-Jiobanshan Park,Mountain MTF
+2023,Men,Road,89,Milano - Torino,IT,1.Pro,One Day,2023/03/15,2023/03/15,GC,,,Hilly MTF
+2023,Men,Road,122,Nokere Koerse,BE,1.Pro,One Day,2023/03/15,2023/03/15,GC,,,Cobbles
+2023,Men,Road,844,Tour of Rhodes,GR,2.2,Stage Race,2023/03/16,2023/03/19,01,138.5,Rhodes-Kalamonas,Hilly
+2023,Men,Road,844,Tour of Rhodes,GR,2.2,Stage Race,2023/03/16,2023/03/19,02,153.5,Rhodes-Afandou,Hilly
+2023,Men,Road,844,Tour of Rhodes,GR,2.2,Stage Race,2023/03/16,2023/03/19,03,150.2,Rhodes-Maritsa,Hilly
+2023,Men,Road,844,Tour of Rhodes,GR,2.2,Stage Race,2023/03/16,2023/03/19,00,3.8,Ialysos-Ialysos,Flat ITT
+2023,Men,Road,146,GP de Denain,FR,1.Pro,One Day,2023/03/16,2023/03/16,GC,,,Flat
+2023,Men,Road,8772,GP de la Ville d'Alger,DZ,1.2,One Day,2023/03/17,2023/03/17,GC,,,Flat
+2023,Men,Road,10673,Youngster Coast Challenge,BE,1.2U,One Day,2023/03/17,2023/03/17,GC,,,Flat
+2023,Men,Road,123,Bredene Koksijde Classic,BE,1.Pro,One Day,2023/03/17,2023/03/17,GC,,,Flat
+2023,Men,Road,124,Classic Loire Atlantique,FR,1.1,One Day,2023/03/18,2023/03/18,GC,,,Hilly
+2023,Men,Road,4,Milano - Sanremo,IT,1.UWT,One Day,2023/03/18,2023/03/18,GC,,,Flat
+2023,Men,Road,125,Cholet Agglo Tour,FR,1.1,One Day,2023/03/19,2023/03/19,GC,,,Flat
+2023,Men,Road,7004,Classica da Arrábida,PT,1.2,One Day,2023/03/19,2023/03/19,GC,,,Hilly
+2023,Men,Road,508,GP Slovenian Istria,SI,1.2,One Day,2023/03/19,2023/03/19,GC,,,Flat
+2023,Men,Road,15066,Per Sempre Alfredo,IT,1.1,One Day,2023/03/19,2023/03/19,GC,,,Flat
+2023,Men,Road,1194,Popolarissima,IT,1.2,One Day,2023/03/19,2023/03/19,GC,,,Flat
+2023,Men,Road,14,Volta Catalunya,ES,2.UWT,Stage Race,2023/03/20,2023/03/26,04,188.2,Llívia-Sabadell,Flat
+2023,Men,Road,14,Volta Catalunya,ES,2.UWT,Stage Race,2023/03/20,2023/03/26,01,164.6,Saint Feliu de Guíxols-Saint Feliu de Guíxols,Hilly
+2023,Men,Road,14,Volta Catalunya,ES,2.UWT,Stage Race,2023/03/20,2023/03/26,06,183,Martorell-Molins de Rei,Hilly
+2023,Men,Road,14,Volta Catalunya,ES,2.UWT,Stage Race,2023/03/20,2023/03/26,07,136,Barcelona-Barcelona,Hilly
+2023,Men,Road,14,Volta Catalunya,ES,2.UWT,Stage Race,2023/03/20,2023/03/26,02,165.4,Mataró-Vallter,Mountain MTF
+2023,Men,Road,14,Volta Catalunya,ES,2.UWT,Stage Race,2023/03/20,2023/03/26,03,180.6,Olost-La Molina,Mountain MTF
+2023,Men,Road,14,Volta Catalunya,ES,2.UWT,Stage Race,2023/03/20,2023/03/26,05,176.6,Tortosa-Lo Port,Mountain MTF
+2023,Men,Road,114,Coppi e Bartali,IT,2.1,Stage Race,2023/03/21,2023/03/25,02,171.2,Riccione-Longiano,Hilly MTF
+2023,Men,Road,114,Coppi e Bartali,IT,2.1,Stage Race,2023/03/21,2023/03/25,01,160.4,Riccione-Riccione,Hilly
+2023,Men,Road,114,Coppi e Bartali,IT,2.1,Stage Race,2023/03/21,2023/03/25,03,138.7,Forlì-Forlì,Hilly
+2023,Men,Road,114,Coppi e Bartali,IT,2.1,Stage Race,2023/03/21,2023/03/25,04,159.9,Fiorano Modenese-Fiorano Modenese,Hilly
+2023,Men,Road,114,Coppi e Bartali,IT,2.1,Stage Race,2023/03/21,2023/03/25,05,18.6,Carpi-Carpi,Flat ITT
+2023,Men,Road,340,Olympia's Tour,NL,2.2,Stage Race,2023/03/22,2023/03/26,02,157.6,Assen-Assen,Flat
+2023,Men,Road,340,Olympia's Tour,NL,2.2,Stage Race,2023/03/22,2023/03/26,03,168.3,Gieten-Ruurlo,Flat
+2023,Men,Road,340,Olympia's Tour,NL,2.2,Stage Race,2023/03/22,2023/03/26,04,161.3,Neede-Tiel,Flat
+2023,Men,Road,340,Olympia's Tour,NL,2.2,Stage Race,2023/03/22,2023/03/26,05,149,Beek-Beek,Hilly
+2023,Men,Road,340,Olympia's Tour,NL,2.2,Stage Race,2023/03/22,2023/03/26,01,9,Assen-Assen,Flat ITT
+2023,Men,Road,288,Volta ao Alentejo,PT,2.2,Stage Race,2023/03/22,2023/03/26,01,168.8,Beja-Ourique,Flat
+2023,Men,Road,288,Volta ao Alentejo,PT,2.2,Stage Race,2023/03/22,2023/03/26,02,170.8,Castro Verde-Grandola,Flat
+2023,Men,Road,288,Volta ao Alentejo,PT,2.2,Stage Race,2023/03/22,2023/03/26,05,154.9,Monforte-Evora,Flat
+2023,Men,Road,288,Volta ao Alentejo,PT,2.2,Stage Race,2023/03/22,2023/03/26,04,148.2,Crato-Castelo de Vide,Hilly MTF
+2023,Men,Road,288,Volta ao Alentejo,PT,2.2,Stage Race,2023/03/22,2023/03/26,03,191.4,Vendas Novas-Estremoz,Hilly
+2023,Men,Road,40,Classic Brugge-De Panne,BE,1.UWT,One Day,2023/03/22,2023/03/22,GC,,,Flat
+2023,Men,Road,16527,GP Vipava Valley,SI,1.2,One Day,2023/03/23,2023/03/23,GC,,,Hilly
+2023,Men,Road,47,E3 Saxo Classic,BE,1.UWT,One Day,2023/03/24,2023/03/24,GC,,,Cobbles
+2023,Men,Road,937,GP Adria Mobil,SI,1.2,One Day,2023/03/26,2023/03/26,GC,,,Hilly
+2023,Men,Road,3999,Gent - Wevelgem,BE,1.2U,One Day,2023/03/26,2023/03/26,GC,,,Cobbles
+2023,Men,Road,7,Gent - Wevelgem,BE,1.UWT,One Day,2023/03/26,2023/03/26,GC,,,Cobbles
 2023,Men,Road,263,GP Industria & Artigianato,IT,1.Pro,One Day,2023/03/26,2023/03/26,GC,,,Hilly
-2023,Men,Road,260,La Roue TourangelleLa Roue Tourangelle,FR,1.1,One Day,2023/03/26,2023/03/26,GC,,,Hilly
-2023,Men,Road,75,Dwars door VlaanderenDwars door Vlaanderen,BE,1.UWT,One Day,2023/03/29,2023/03/29,GC,,,Cobbles
-2023,Men,Road,17278,Vuelta BantrabVuelta Bantrab,GT,2.2,Stage Race,2023/03/29,2023/04/02,01,140,Guatemala-Salamá,Hilly
-2023,Men,Road,358,Oceania ITTOceania ITT,,CCTT,One Day,2023/03/30,2023/03/30,GC,,,Flat ITT
-2023,Men,Road,360,Oceania ITT-U23Oceania ITT-U23,,CCUT,One Day,2023/03/30,2023/03/30,GC,,,Flat ITT
-2023,Men,Road,134,Route Adélie de VitréRoute Adélie de Vitré,FR,1.1,One Day,2023/03/31,2023/03/31,GC,,,Hilly
-2023,Men,Road,507,Tour of ThailandTour of Thailand,TH,2.1,Stage Race,2023/04/01,2023/04/06,01,119.4,Kanchanaburi-Kanchanaburi,Flat
-2023,Men,Road,48,GP Miguel IndurainGP Miguel Indurain,ES,1.Pro,One Day,2023/04/01,2023/04/01,GC,,,Hilly
-2023,Men,Road,126,Volta Limburg ClassicVolta Limburg Classic,NL,1.1,One Day,2023/04/01,2023/04/01,GC,,,Hilly
-2023,Men,Road,297,Trofeo PIVATrofeo PIVA,IT,1.2U,One Day,2023/04/02,2023/04/02,GC,,,Hilly
-2023,Men,Road,5,Ronde van VlaanderenRonde van Vlaanderen,BE,1.UWT,One Day,2023/04/02,2023/04/02,GC,,,Cobbles
-2023,Men,Road,6,Itzulia Basque CountryItzulia Basque Country,ES,2.UWT,Stage Race,2023/04/03,2023/04/08,01,165.4,Vitoria-Gasteiz-Labastida,Flat
-2023,Men,Road,217,Pays de la Loire TourPays de la Loire Tour,FR,2.1,Stage Race,2023/04/04,2023/04/07,01,162.1,St-Nazaire-St-Gilles-Croix-de-Vie,Flat
-2023,Men,Road,56,ScheldeprijsScheldeprijs,BE,1.Pro,One Day,2023/04/05,2023/04/05,GC,,,Flat
-2023,Men,Road,293,Circuit des ArdennesCircuit des Ardennes,FR,2.2,Stage Race,2023/04/06,2023/04/09,01,89.6,Nouvion-sur-Meuse-Sedan,Hilly
-2023,Men,Road,8,Paris-RoubaixParis-Roubaix,FR,1.UWT,One Day,2023/04/09,2023/04/09,GC,,,Cobbles
-2023,Men,Road,295,Giro del BelvedereGiro del Belvedere,IT,1.2U,One Day,2023/04/10,2023/04/10,GC,,,Hilly
-2023,Men,Road,296,GP Palio del ReciotoGP Palio del Recioto,IT,1.2U,One Day,2023/04/11,2023/04/11,GC,,,Hilly
-2023,Men,Road,145,Paris - CamembertParis - Camembert,FR,1.1,One Day,2023/04/11,2023/04/11,GC,,,Flat
-2023,Men,Road,11248,Giro di SiciliaGiro di Sicilia,IT,2.1,Stage Race,2023/04/11,2023/04/14,01,159,Marsala-Agrigento,Hilly MTF
-2023,Men,Road,294,Tour du Loir-et-CherTour du Loir-et-Cher,FR,2.2,Stage Race,2023/04/12,2023/04/16,01,146,Blois-Chailles,Flat
-2023,Men,Road,77,Brabantse PijlBrabantse Pijl,BE,1.Pro,One Day,2023/04/12,2023/04/12,GC,,,Hilly
-2023,Men,Road,1029,Central American Championship ITTCentral American Championship ITT,,1.2,One Day,2023/04/14,2023/04/14,GC,,,Flat ITT
-2023,Men,Road,14584,Central American Championship ITT-U23Central American Championship ITT-U23,,1.2U,One Day,2023/04/14,2023/04/14,GC,,,Flat ITT
-2023,Men,Road,15075,Classic Grand Besançon DoubsClassic Grand Besançon Doubs,FR,1.1,One Day,2023/04/14,2023/04/14,GC,,,Hilly
-2023,Men,Road,428,Arno Wallaard Mem.Arno Wallaard Mem.,NL,1.2,One Day,2023/04/15,2023/04/15,GC,,,Flat
-2023,Men,Road,1285,Tour du JuraTour du Jura,FR,1.1,One Day,2023/04/15,2023/04/15,GC,,,Hilly
-2023,Men,Road,42,LBL EspoirsLBL Espoirs,BE,1.2U,One Day,2023/04/15,2023/04/15,GC,,,Hilly
-2023,Men,Road,318,Tr. S. VendemianoTr. S. Vendemiano,IT,1.2U,One Day,2023/04/16,2023/04/16,GC,,,Hilly
-2023,Men,Road,9,Amstel Gold RaceAmstel Gold Race,NL,1.UWT,One Day,2023/04/16,2023/04/16,GC,,,Hilly
-2023,Men,Road,162,Tour du DoubsTour du Doubs,FR,1.1,One Day,2023/04/16,2023/04/16,GC,,,Hilly
-2023,Men,Road,108,Giro Reggio CalabriaGiro Reggio Calabria,IT,1.1,One Day,2023/04/16,2023/04/16,GC,,,Hilly
-2023,Men,Road,62,Tour of the AlpsTour of the Alps,IT,2.Pro,Stage Race,2023/04/17,2023/04/21,01,127.5,Rattenberg-Alpbach,Hilly MTF
-2023,Men,Road,9018,Belgrade BanjalukaBelgrade Banjaluka,BA,2.2,Stage Race,2023/04/19,2023/04/22,01,147.9,Beograd-Bijeljina,Flat
-2023,Men,Road,367,Pan-America ITTPan-America ITT,,CCTT,One Day,2023/04/19,2023/04/19,GC,,,Flat ITT
-2023,Men,Road,368,Pan-America ITT-U23Pan-America ITT-U23,,CCUT,One Day,2023/04/19,2023/04/19,GC,,,Flat ITT
-2023,Men,Road,10,La Flèche WallonneLa Flèche Wallonne,BE,1.UWT,One Day,2023/04/19,2023/04/19,GC,,,Hilly MTF
-2023,Men,Road,11,Liege-Bastogne-LiegeLiege-Bastogne-Liege,BE,1.UWT,One Day,2023/04/23,2023/04/23,GC,,,Hilly
-2023,Men,Road,521,Rutland - Melton ClassicRutland - Melton Classic,GB,1.2,One Day,2023/04/23,2023/04/23,GC,,,Hilly
-2023,Men,Road,312,GP LiberazioneGP Liberazione,IT,1.2U,One Day,2023/04/25,2023/04/25,GC,,,Flat
-2023,Men,Road,82,Tour de BretagneTour de Bretagne,FR,2.2,Stage Race,2023/04/25,2023/05/01,01,152.9,Plouescat-Saint-Pol-de-Léon,Flat
-2023,Men,Road,12,Tour de RomandieTour de Romandie,CH,2.UWT,Stage Race,2023/04/25,2023/04/30,00,6.8,Port-Valais-Port-Valais,Flat ITT
-2023,Men,Road,239,Tour of the GilaTour of the Gila,US,2.2,Stage Race,2023/04/26,2023/04/30,01,148.1,Silver City-Mogollon,Hilly MTF
-2023,Men,Road,153,Vuelta a AsturiasVuelta a Asturias,ES,2.1,Stage Race,2023/04/28,2023/04/30,01,182,Oviedo-Pola de la Lena,Hilly
-2023,Men,Road,314,Carpathian RaceCarpathian Race,PL,2.2U,Stage Race,2023/04/29,2023/05/03,01,4,Budapest-Budapest | TTT,TTT
-2023,Men,Road,1047,GP VorarlbergGP Vorarlberg,AT,1.2,One Day,2023/04/30,2023/04/30,GC,,,Hilly
-2023,Men,Road,535,Circuito del PortoCircuito del Porto,IT,1.2,One Day,2023/05/01,2023/05/01,GC,,,Flat
-2023,Men,Road,252,Eschborn-FrankfurtEschborn-Frankfurt,DE,1.2U,One Day,2023/05/01,2023/05/01,GC,,,Hilly
-2023,Men,Road,35,Eschborn-FrankfurtEschborn-Frankfurt,DE,1.UWT,One Day,2023/05/01,2023/05/01,GC,,,Hilly
-2023,Men,Road,6156,Tour du BéninTour du Bénin,BJ,2.2,Stage Race,2023/05/02,2023/05/06,01,132.5,Parakou-Djougou,Flat
-2023,Men,Road,513,Tour of HellasTour of Hellas,GR,2.1,Stage Race,2023/05/02,2023/05/06,00,6,Karteros-Karteros,Flat ITT
-2023,Men,Road,3672,Vuelta a CatamarcaVuelta a Catamarca,AR,2.2,Stage Race,2023/05/04,2023/05/07,01,184.2,El Rodeo-El Rodeo,Mountain
-2023,Men,Road,180,GP de Plumelec-MorbihanGP de Plumelec-Morbihan,FR,1.Pro,One Day,2023/05/06,2023/05/06,GC,,,Hilly MTF
-2023,Men,Road,577,Ronde van OverijsselRonde van Overijssel,NL,1.2,One Day,2023/05/06,2023/05/06,GC,,,Flat
-2023,Men,Road,73,Sundvolden GPSundvolden GP,NO,1.2,One Day,2023/05/06,2023/05/06,GC,,,Hilly MTF
-2023,Men,Road,13,Giro d'ItaliaGiro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,01,19.6,Fossacesia Marina-Ortona,Flat ITT
-2023,Men,Road,554,Flèche ArdennaiseFlèche Ardennaise,BE,1.2,One Day,2023/05/07,2023/05/07,GC,,,Hilly
-2023,Men,Road,49,Ringerike GPRingerike GP,NO,1.2,One Day,2023/05/07,2023/05/07,GC,,,Hilly
-2023,Men,Road,148,Tro-Bro LeonTro-Bro Leon,FR,1.Pro,One Day,2023/05/07,2023/05/07,GC,,,Hilly
-2023,Men,Road,41,Paris - Roubaix EspoirsParis - Roubaix Espoirs,FR,1.2U,One Day,2023/05/07,2023/05/07,GC,,,Cobbles
-2023,Men,Road,20782,The Tour Oqtosh - Chorvoq - Mountain IThe Tour Oqtosh - Chorvoq - Mountain I,UZ,1.2,One Day,2023/05/10,2023/05/10,GC,,,Mountain ITT
-2023,Men,Road,765,Tour de HongrieTour de Hongrie,HU,2.Pro,Stage Race,2023/05/10,2023/05/14,01,168,Szentgotthard-Szentgotthard,Flat
-2023,Men,Road,17336,Vuelta a Formosa InternacionalVuelta a Formosa Internacional,AR,2.2,Stage Race,2023/05/11,2023/05/14,01,140.7,Ciudad de Formosa-Laguna Blanca,Flat
-2023,Men,Road,72,GP HerningGP Herning,DK,1.2,One Day,2023/05/13,2023/05/13,GC,,,Hilly
-2023,Men,Road,19320,Tour of Bostonliq ITour of Bostonliq I,UZ,1.2,One Day,2023/05/13,2023/05/13,GC,,,Flat ITT
-2023,Men,Road,147,Tour du FinistèreTour du Finistère,FR,1.1,One Day,2023/05/13,2023/05/13,GC,,,Hilly MTF
-2023,Men,Road,182,Boucles de l'AulneBoucles de l'Aulne,FR,1.1,One Day,2023/05/14,2023/05/14,GC,,,Hilly
-2023,Men,Road,736,Fyen RundtFyen Rundt,DK,1.2,One Day,2023/05/14,2023/05/14,GC,,,Flat
-2023,Men,Road,313,GP MarmoGP Marmo,IT,1.2U,One Day,2023/05/14,2023/05/14,GC,,,Hilly
-2023,Men,Road,175,4 Jours de Dunkerque4 Jours de Dunkerque,FR,2.Pro,Stage Race,2023/05/16,2023/05/21,01,196.6,Dunkerque-Abbeville,Flat
-2023,Men,Road,67,Flèche du SudFlèche du Sud,LU,2.2,Stage Race,2023/05/17,2023/05/21,00,3.2,Esch-sur-Alzette-Esch-sur-Alzette,Flat ITT
-2023,Men,Road,16532,Tour of SakaryaTour of Sakarya,TR,2.2,Stage Race,2023/05/17,2023/05/20,01,4.1,Sakarya-Sakarya,Flat ITT
-2023,Men,Road,537,Circuit de WallonieCircuit de Wallonie,BE,1.1,One Day,2023/05/18,2023/05/18,GC,,,Hilly
-2023,Men,Road,919,Joe Martin Stage RaceJoe Martin Stage Race,US,2.2,Stage Race,2023/05/18,2023/05/21,01,146.2,Fayetteville-Fayetteville,Hilly
-2023,Men,Road,50,Veenendaal ClassicVeenendaal Classic,NL,1.1,One Day,2023/05/20,2023/05/20,GC,,,Flat
-2023,Men,Road,16530,GP GorenjskaGP Gorenjska,SI,1.2,One Day,2023/05/21,2023/05/21,GC,,,Hilly
-2023,Men,Road,144,Rund um KölnRund um Köln,DE,1.1,One Day,2023/05/21,2023/05/21,GC,,,Flat
-2023,Men,Road,341,Tour of JapanTour of Japan,JP,2.1,Stage Race,2023/05/21,2023/05/28,01,2.6,Sakai-Sakai,Flat ITT
-2023,Men,Road,10204,Antwerp Port EpicAntwerp Port Epic,BE,1.1,One Day,2023/05/21,2023/05/21,GC,,,Cobbles
-2023,Men,Road,7657,Tour of AlbaniaTour of Albania,AL,2.2,Stage Race,2023/05/22,2023/05/26,01,142.3,Tirana-Kerrabe,Hilly MTF
-2023,Men,Road,315,Alpes Isère TourAlpes Isère Tour,FR,2.2,Stage Race,2023/05/24,2023/05/28,01,145.9,Charvieu-Chavagneux-Charvieu-Chavagneux,Flat
-2023,Men,Road,10674,Orlen Nations Grand PrixOrlen Nations Grand Prix,PL,2.NC,Stage Race,2023/05/24,2023/05/28,01,130, Kapsosvár- Balatonföldvar,Flat
-2023,Men,Road,343,Boucles de la MayenneBoucles de la Mayenne,FR,2.Pro,Stage Race,2023/05/25,2023/05/28,00,4.1,Espace Mayenne Laval-Espace Mayenne Laval,Flat ITT
-2023,Men,Road,7767,Tour de la MirabelleTour de la Mirabelle,FR,2.2,Stage Race,2023/05/25,2023/05/28,01,160.2,Verdun-Pont-à-Mousson,Flat
-2023,Men,Road,250,Tour of EstoniaTour of Estonia,EE,2.1,Stage Race,2023/05/26,2023/05/27,01,192.6,Tallinn-Tartu,Flat
-2023,Men,Road,4008,GP Beiras e Serra da EstrelaGP Beiras e Serra da Estrela,PT,2.2,Stage Race,2023/05/26,2023/05/28,01,15.8,Seia-Gouveia | TTT,TTT
-2023,Men,Road,71,Tour of NorwayTour of Norway,NO,2.Pro,Stage Race,2023/05/26,2023/05/29,00,7.4,Bergen-Mt. Fløyen,Mountain ITT
-2023,Men,Road,734,2 Giorni Marchigiana - GP Santa Rita2 Giorni Marchigiana - GP Santa Rita,IT,1.2,One Day,2023/05/27,2023/05/27,GC,,,Hilly
-2023,Men,Road,3838,Van Merksteijn Fences ClassicVan Merksteijn Fences Classic,BE,1.1,One Day,2023/05/27,2023/05/27,GC,,,Flat
-2023,Men,Road,408,Trofeo CastelfidardoTrofeo Castelfidardo,IT,1.2,One Day,2023/05/28,2023/05/28,GC,,,Hilly
-2023,Men,Road,285,Paris-TroyesParis-Troyes,FR,1.2,One Day,2023/05/29,2023/05/29,GC,,,Flat
-2023,Men,Road,437,Ronde van LimburgRonde van Limburg,BE,1.1,One Day,2023/05/29,2023/05/29,GC,,,Hilly MTF
-2023,Men,Road,13188,Mercan Tour Classic Alpes-MaritimesMercan Tour Classic Alpes-Maritimes,FR,1.1,One Day,2023/05/30,2023/05/30,GC,,,Mountain MTF
-2023,Men,Road,552,Oberösterreich RundfahrtOberösterreich Rundfahrt,AT,2.2,Stage Race,2023/06/01,2023/06/04,00,0.7,Linz-Linz,Flat ITT
-2023,Men,Road,386,Tour of MalopolskaTour of Malopolska,PL,2.2,Stage Race,2023/06/01,2023/06/04,00,1.4,Krakow-Krakow,Mountain ITT
-2023,Men,Road,345,Ronde de l'OiseRonde de l'Oise,FR,2.2,Stage Race,2023/06/01,2023/06/04,01,145.9,Beauvais-Clermont,Flat
-2023,Men,Road,149,Giro dell'AppenninoGiro dell'Appennino,IT,1.1,One Day,2023/06/02,2023/06/02,GC,,,Hilly
-2023,Men,Road,546,Trofeo Alcide DegasperiTrofeo Alcide Degasperi,IT,1.2,One Day,2023/06/02,2023/06/02,GC,,,Flat
-2023,Men,Road,349,Heistse PijlHeistse Pijl,BE,1.1,One Day,2023/06/03,2023/06/03,GC,,,Flat
-2023,Men,Road,473,Tour du CamerounTour du Cameroun,CM,2.2,Stage Race,2023/06/03,2023/06/11,01,100.3,Figuil-Garoua,Flat
-2023,Men,Road,502,Tour de KumanoTour de Kumano,JP,2.2,Stage Race,2023/06/03,2023/06/04,01,63.7,Kumano-Kumano,Hilly
-2023,Men,Road,550,Coppa della PaceCoppa della Pace,IT,1.2U,One Day,2023/06/04,2023/06/04,GC,,,Hilly
-2023,Men,Road,351,Memorial van ConingslooMemorial van Coningsloo,BE,1.2,One Day,2023/06/04,2023/06/04,GC,,,Cobbles
-2023,Men,Road,64,Brussels ClassicBrussels Classic,BE,1.Pro,One Day,2023/06/04,2023/06/04,GC,,,Flat
-2023,Men,Road,15,Critérium du DauphinéCritérium du Dauphiné,FR,2.UWT,Stage Race,2023/06/04,2023/06/11,01,158,Chambon-sur-Lac-Chambon-sur-Lac,Hilly
-2023,Men,Road,5228,Tour de MauriceTour de Maurice,MU,2.2,Stage Race,2023/06/06,2023/06/09,01,128.5,Beau Plan-Cote d'Or,Hilly
-2023,Men,Road,18950,Aziz ShushaAziz Shusha,AZ,2.2,Stage Race,2023/06/07,2023/06/11,01,149.9,Baku-Shamakhi,Hilly
-2023,Men,Road,21139,Asia Mixed RelayAsia Mixed Relay,,CCTT,One Day,2023/06/07,2023/06/07,GC,,,TTT
-2023,Men,Road,213,ZLM TourZLM Tour,NL,2.Pro,Stage Race,2023/06/07,2023/06/11,00,6.6,Heinkenszand-Heinkenszand,Flat ITT
-2023,Men,Road,14005,Course de la PaixCourse de la Paix,CZ,2.NC,Stage Race,2023/06/08,2023/06/11,00,3.1,Jeseník-Jeseník,Flat ITT
-2023,Men,Road,364,Asia ITT-U23Asia ITT-U23,,CCUT,One Day,2023/06/09,2023/06/09,GC,,,Flat ITT
-2023,Men,Road,2119,Tour d'Eure-et-LoirTour d'Eure-et-Loir,FR,2.2,Stage Race,2023/06/09,2023/06/11,01,161.2,Châteaudun-Luisant,Flat
-2023,Men,Road,199,GP Kanton AargauGP Kanton Aargau,CH,1.1,One Day,2023/06/09,2023/06/09,GC,,,Hilly
-2023,Men,Road,361,Asia ITTAsia ITT,,CCTT,One Day,2023/06/10,2023/06/10,GC,,,Flat ITT
-2023,Men,Road,20012,Kirikkale Road RaceKirikkale Road Race,TR,2.2,Stage Race,2023/06/10,2023/06/11,01,142,Kirikkale-Kirikkale,Unknown
-2023,Men,Road,425,Dwars door het HagelandDwars door het Hageland,BE,1.Pro,One Day,2023/06/10,2023/06/10,GC,,,Cobbles
-2023,Men,Road,226,Giro Next GenGiro Next Gen,IT,2.2U,Stage Race,2023/06/11,2023/06/18,01,9.4,Agliè-Agliè,Flat ITT
-2023,Men,Road,8515,ElfstedenrondeElfstedenronde,BE,1.1,One Day,2023/06/11,2023/06/11,GC,,,Flat
-2023,Men,Road,16,Tour de SuisseTour de Suisse,CH,2.UWT,Stage Race,2023/06/11,2023/06/18,01,12.7,Einsiedeln-Einsiedeln,Flat ITT
-2023,Men,Road,10459,CIC - Mont VentouxCIC - Mont Ventoux,FR,1.Pro,One Day,2023/06/13,2023/06/13,GC,,,Mountain MTF
-2023,Men,Road,235,Tour de BeauceTour de Beauce,CA,2.2,Stage Race,2023/06/14,2023/06/18,01,143,Saint-Georges-Notre-Dame-des-Pins,Hilly MTF
-2023,Men,Road,211,Tour of SloveniaTour of Slovenia,SI,2.Pro,Stage Race,2023/06/14,2023/06/18,01,188.6,Celje-Rogaska Slatina,Flat
-2023,Men,Road,60,Belgium TourBelgium Tour,BE,2.Pro,Stage Race,2023/06/14,2023/06/18,01,183.4,Scherpenheuvel-Zichem-Scherpenheuvel-Zichem,Flat
-2023,Men,Road,212,Route d'OccitanieRoute d'Occitanie,FR,2.1,Stage Race,2023/06/15,2023/06/18,01,187.3,Narbonne-Gruissan,Flat
-2023,Men,Road,14426,Tour du Pays de MontbéliardTour du Pays de Montbéliard,FR,2.2,Stage Race,2023/06/16,2023/06/18,00,3.2,Courcelles-Lès-Montbéliard-Courcelles-Lès-Montbéliard,Flat ITT
-2023,Men,Road,86,Vuelta a ColombiaVuelta a Colombia,CO,2.2,Stage Race,2023/06/16,2023/06/25,00,7.8,Yopal-Yopal,Flat ITT
-2023,Men,Road,257,Solidarnosc ChampionsSolidarnosc Champions,PL,2.2,Stage Race,2023/06/28,2023/07/01,01,83,Lodz-Skierniewice,Flat
-2023,Men,Road,17,Tour de FranceTour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,01,182, Bilbao- Bilbao,Hilly
-2023,Men,Road,559,Giro del Medio BrentaGiro del Medio Brenta,IT,1.2,One Day,2023/07/02,2023/07/02,GC,,,Hilly MTF
-2023,Men,Road,2088,Midden BrabantMidden Brabant,NL,1.2,One Day,2023/07/02,2023/07/02,GC,,,Flat
-2023,Men,Road,38,Österreich-RundfahrtÖsterreich-Rundfahrt,AT,2.1,Stage Race,2023/07/02,2023/07/06,01,147.6,Dornbirn-Dornbirn,Hilly
-2023,Men,Road,662,Trofeo Citta di BresciaTrofeo Citta di Brescia,IT,1.2,One Day,2023/07/04,2023/07/04,GC,,,Flat
-2023,Men,Road,1026,Cent.America and Caribbean ITTCent.America and Caribbean ITT,,RCTT,One Day,2023/07/05,2023/07/05,GC,,,Flat ITT
-2023,Men,Road,258,Sibiu Cycling TourSibiu Cycling Tour,RO,2.1,Stage Race,2023/07/06,2023/07/09,01,199,Sibiu-Sibiu,Flat
-2023,Men,Road,582,GP HungaryGP Hungary,HU,1.2,One Day,2023/07/08,2023/07/08,GC,,,Hilly
-2023,Men,Road,11357,Grand Prix ErciyesGrand Prix Erciyes,TR,1.2,One Day,2023/07/08,2023/07/08,GC,,,Flat
-2023,Men,Road,581,GP SlovakiaGP Slovakia,SK,1.2,One Day,2023/07/09,2023/07/09,GC,,,Hilly
-2023,Men,Road,647,Pan Arab Games TTTPan Arab Games TTT,,RCTT,One Day,2023/07/09,2023/07/09,GC,,,TTT
-2023,Men,Road,127,Tour of Qinghai LakeTour of Qinghai Lake,CN,2.Pro,Stage Race,2023/07/09,2023/07/16,01,109,Xining-Xining,Flat
-2023,Men,Road,648,Pan Arab Games ITTPan Arab Games ITT,,RCTT,One Day,2023/07/11,2023/07/11,GC,,,Flat ITT
-2023,Men,Road,229,Valle d'AostaValle d'Aosta,IT,2.2U,Stage Race,2023/07/12,2023/07/16,01,80.9,Arvier-Arvier,Flat
-2023,Men,Road,398,GP Torres VedrasGP Torres Vedras,PT,2.2,Stage Race,2023/07/13,2023/07/16,00,8,Turcifal-Turcifal,Flat ITT
-2023,Men,Road,703,GP de GemencGP de Gemenc,HU,2.2,Stage Race,2023/07/14,2023/07/16,00,2,Szekzárd-Szekzárd,Flat ITT
-2023,Men,Road,20074,SD WORX BW ClassicSD WORX BW Classic,BE,1.2,One Day,2023/07/19,2023/07/19,GC,,,Hilly
-2023,Men,Road,20780,Tour of HuangshanTour of Huangshan,CN,2.2,Stage Race,2023/07/21,2023/07/23,01,118.1,Shexian Ancient City-Huangshan District,Flat
-2023,Men,Road,579,GP Polski Via OdraGP Polski Via Odra,PL,1.2,One Day,2023/07/22,2023/07/22,GC,,,Hilly
-2023,Men,Road,193,Tour de WallonieTour de Wallonie,BE,2.Pro,Stage Race,2023/07/22,2023/07/26,01,189.6,Huy-Hamoir,Hilly
-2023,Men,Road,18957,Cupa Max AusnitCupa Max Ausnit,RO,1.2,One Day,2023/07/23,2023/07/23,GC,,,Hilly
-2023,Men,Road,580,GP Czech RepublicGP Czech Republic,CZ,1.2,One Day,2023/07/23,2023/07/23,GC,,,Hilly
-2023,Men,Road,583,GP de PérenchiesGP de Pérenchies,FR,1.2,One Day,2023/07/23,2023/07/23,GC,,,Cobbles
-2023,Men,Road,209,GP KranjGP Kranj,SI,1.2,One Day,2023/07/23,2023/07/23,GC,,,Hilly
-2023,Men,Road,531,Mem. A.TrochanowskiegoMem. A.Trochanowskiego,PL,1.2,One Day,2023/07/25,2023/07/25,GC,,,Flat
-2023,Men,Road,207,Villafranca de OrdiziaVillafranca de Ordizia,ES,1.1,One Day,2023/07/25,2023/07/25,GC,,,Hilly
-2023,Men,Road,230,Tour AlsaceTour Alsace,FR,2.2,Stage Race,2023/07/26,2023/07/30,01,4.3,Sausheim-Sausheim | TTT,TTT
-2023,Men,Road,563,Dookola MazowszaDookola Mazowsza,PL,2.2,Stage Race,2023/07/26,2023/07/29,01,168,Teresin-Teresin,Flat
-2023,Men,Road,85,Vuelta a Castilla y LeónVuelta a Castilla y León,ES,2.1,Stage Race,2023/07/26,2023/07/27,01,168.9,Soria-Soria,Hilly
-2023,Men,Road,15209,Czech TourCzech Tour,CZ,2.1,Stage Race,2023/07/27,2023/07/30,01,165,Prostejov-Unicov,Flat
-2023,Men,Road,385,Kreiz Breizh ElitesKreiz Breizh Elites,FR,2.2,Stage Race,2023/07/28,2023/07/31,01,11.8,Bégard-Bégard,Flat ITT
-2023,Men,Road,18,San Sebastian KlasikoaSan Sebastian Klasikoa,ES,1.UWT,One Day,2023/07/29,2023/07/29,GC,,,Hilly
-2023,Men,Road,19,Tour de PologneTour de Pologne,PL,2.UWT,Stage Race,2023/07/29,2023/08/04,01,183.7,Poznan-Poznan,Flat
-2023,Men,Road,202,Circuito de GetxoCircuito de Getxo,ES,1.1,One Day,2023/07/30,2023/07/30,GC,,,Hilly MTF
-2023,Men,Road,4014,Puchar MonPuchar Mon,PL,1.2,One Day,2023/07/30,2023/07/30,GC,,,Flat
-2023,Men,Road,63,Tour de l'AinTour de l'Ain,FR,2.1,Stage Race,2023/07/31,2023/08/02,01,154.5,Loyettes-La Plaine Tonique,Flat
-2023,Men,Road,20021,100th Anniversary Tour of The Republic100th Anniversary Tour of The Republic,TR,2.2,Stage Race,2023/08/01,2023/08/05,01,208.8,Sivas-Amasya,Hilly
-2023,Men,Road,586,Tour de la GuadeloupeTour de la Guadeloupe,FR,2.2,Stage Race,2023/08/04,2023/08/13,00,6,Capesterre-Belle-Eau-Capesterre-Belle-Eau,Flat ITT
-2023,Men,Road,12533,World Championship Mixed RelayWorld Championship Mixed Relay,,WCTT,One Day,2023/08/08,2023/08/08,GC,,,TTT
-2023,Men,Road,566,Tour of SzeklerlandTour of Szeklerland,RO,2.2,Stage Race,2023/08/09,2023/08/12,00,4.5,Sfantu Gheorghe-Sfantu Gheorghe,Flat ITT
-2023,Men,Road,46,World Championship ITT-U23World Championship ITT-U23,,WCUT,One Day,2023/08/09,2023/08/09,GC,,,Flat ITT
-2023,Men,Road,197,Volta a PortugalVolta a Portugal,PT,2.1,Stage Race,2023/08/09,2023/08/20,00,3.6,Viseu-Viseu,Flat ITT
-2023,Men,Road,27,World Championship ITTWorld Championship ITT,,WCTT,One Day,2023/08/11,2023/08/11,GC,,,Flat ITT
-2023,Men,Road,383,Mem.Henryka LasakaMem.Henryka Lasaka,PL,1.2,One Day,2023/08/12,2023/08/12,GC,,,Hilly
-2023,Men,Road,389,GP PoggianaGP Poggiana,IT,1.2U,One Day,2023/08/13,2023/08/13,GC,,,Hilly
-2023,Men,Road,18539,Memorial Jana MagieryMemorial Jana Magiery,PL,1.2,One Day,2023/08/13,2023/08/13,GC,,,Flat
-2023,Men,Road,203,PolynormandePolynormande,FR,1.1,One Day,2023/08/13,2023/08/13,GC,,,Hilly MTF
-2023,Men,Road,161,Tour of LeuvenTour of Leuven,BE,1.1,One Day,2023/08/15,2023/08/15,GC,,,Hilly
-2023,Men,Road,192,Vuelta a BurgosVuelta a Burgos,ES,2.Pro,Stage Race,2023/08/15,2023/08/19,01,161,Villalba de Duero-Burgos,Flat
-2023,Men,Road,191,Tour du LimousinTour du Limousin,FR,2.1,Stage Race,2023/08/15,2023/08/18,01,165.7,Rilhac-Rancon-Bénévent L'Abbaye,Hilly
-2023,Men,Road,32,PostNord Tour of DenmarkPostNord Tour of Denmark,DK,2.Pro,Stage Race,2023/08/15,2023/08/19,01,169.8,Aalborg-Aalborg,Flat
-2023,Men,Road,568,GP CapodarcoGP Capodarco,IT,1.2U,One Day,2023/08/16,2023/08/16,GC,,,Hilly MTF
-2023,Men,Road,259,Arctic Race of NorwayArctic Race of Norway,NO,2.Pro,Stage Race,2023/08/17,2023/08/20,01,171,Kautokeino-Alta,Flat
-2023,Men,Road,391,Baltic Chain TourBaltic Chain Tour,EE,2.2,Stage Race,2023/08/18,2023/08/20,01,198.7,Tartu-Valga,Flat
-2023,Men,Road,186,Druivenkoers OverijseDruivenkoers Overijse,BE,1.1,One Day,2023/08/19,2023/08/19,GC,,,Hilly
-2023,Men,Road,188,Egmont Cycling RaceEgmont Cycling Race,BE,1.1,One Day,2023/08/20,2023/08/20,GC,,,Hilly
-2023,Men,Road,20,BEMER CyclassicsBEMER Cyclassics,DE,1.UWT,One Day,2023/08/20,2023/08/20,GC,,,Flat
-2023,Men,Road,44,Tour de l'AvenirTour de l'Avenir,FR,2.NC,Stage Race,2023/08/20,2023/08/27,01,142.2,Carnac-La Gacilly,Flat
-2023,Men,Road,187,Poitou-CharentesPoitou-Charentes,FR,2.1,Stage Race,2023/08/22,2023/08/25,01,195.2,Confolens-Matha,Flat
-2023,Men,Road,36,Deutschland TourDeutschland Tour,DE,2.Pro,Stage Race,2023/08/23,2023/08/27,00,2.3,St.Wendel-St.Wendel,Flat ITT
-2023,Men,Road,21,Renewi TourRenewi Tour,NL,2.UWT,Stage Race,2023/08/23,2023/08/27,01,182.9, Blankenberge- Ardooie,Flat
-2023,Men,Road,20013,Tour of YigidoTour of Yigido,TR,2.2,Stage Race,2023/08/25,2023/08/27,01,7.1,Sivas-Sivas,Flat ITT
-2023,Men,Road,955,Tour of BulgariaTour of Bulgaria,BG,2.2,Stage Race,2023/08/26,2023/08/31,00,1,Sofia-Sofia,Flat ITT
-2023,Men,Road,18956,Tour of KandovanTour of Kandovan,IR,1.2,One Day,2023/08/26,2023/08/26,GC,,,Mountain MTF
-2023,Men,Road,23,Vuelta a EspañaVuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,01,14.8,Barcelona-Barcelona | TTT,TTT
-2023,Men,Road,8310,Ronde van de AchterhoekRonde van de Achterhoek,NL,1.2,One Day,2023/08/27,2023/08/27,GC,,,Flat
-2023,Men,Road,434,Tour of IranTour of Iran,IR,2.1,Stage Race,2023/08/27,2023/08/31,01,153.8,Tabriz-Urmiae,Flat
-2023,Men,Road,996,Muur Classic GeraardsbergenMuur Classic Geraardsbergen,BE,1.2,One Day,2023/08/30,2023/08/30,GC,,,Cobbles
-2023,Men,Road,538,Giro della Regione FriuliGiro della Regione Friuli,IT,2.2,Stage Race,2023/08/31,2023/09/03,01,160.3,San Giorgio di Nogaro-San Giorgio di Nogaro,Flat
-2023,Men,Road,15096,Flanders Tomorrow TourFlanders Tomorrow Tour,BE,2.2U,Stage Race,2023/08/31,2023/09/02,01,140.2,Nieuwpoort-Nieuwpoort,Flat
-2023,Men,Road,10675,In the Steps of RomansIn the Steps of Romans,BG,2.2,Stage Race,2023/09/02,2023/09/03,01,126.5,Bansko-Razlog,Flat
-2023,Men,Road,9204,Lillehammer GPLillehammer GP,NO,1.2,One Day,2023/09/02,2023/09/02,GC,,,Hilly MTF
-2023,Men,Road,9205,Gylne GutuerGylne Gutuer,NO,1.2,One Day,2023/09/03,2023/09/03,GC,,,Flat
-2023,Men,Road,22,Bretagne ClassicBretagne Classic,FR,1.UWT,One Day,2023/09/03,2023/09/03,GC,,,Hilly
-2023,Men,Road,8328,GP Plouay Elite Open GP Plouay Elite Open ,FR,1.2,One Day,2023/09/03,2023/09/03,GC,,,Hilly
-2023,Men,Road,45,Tour of BritainTour of Britain,GB,2.Pro,Stage Race,2023/09/03,2023/09/10,01,163.6,Altrincham-Manchester,Hilly
-2023,Men,Road,13191,Maryland Cycling ClassicMaryland Cycling Classic,US,1.Pro,One Day,2023/09/03,2023/09/03,GC,,,Hilly
-2023,Men,Road,401,Okolo Jiznich CechOkolo Jiznich Cech,CZ,2.2,Stage Race,2023/09/07,2023/09/10,01,140,Trebon-Milevsko,Flat
-2023,Men,Road,9699,Tour of KosovoTour of Kosovo,XK,2.2,Stage Race,2023/09/07,2023/09/09,01,144.5,Lebanë-Therande,Hilly
-2023,Men,Road,20020,Tour of VanTour of Van,TR,2.2,Stage Race,2023/09/07,2023/09/10,01,132.7,Van-Tatvan,Unknown
-2023,Men,Road,21321,Grand Prix BoukraaGrand Prix Boukraa,MA,1.2,One Day,2023/09/08,2023/09/08,GC,,,Flat
-2023,Men,Road,4048,Tour of Poyang LakeTour of Poyang Lake,CN,2.2,Stage Race,2023/09/08,2023/09/12,01,113.7,Shangrao-Shangrao,Hilly
-2023,Men,Road,59,GP QuébecGP Québec,CA,1.UWT,One Day,2023/09/08,2023/09/08,GC,,,Hilly MTF
-2023,Men,Road,20373,Grand Prix Es-SemaraGrand Prix Es-Semara,MA,1.2,One Day,2023/09/09,2023/09/09,GC,,,Flat
-2023,Men,Road,166,GP de la SommeGP de la Somme,FR,1.2,One Day,2023/09/10,2023/09/10,GC,,,Hilly
-2023,Men,Road,21614,Grand Prix El MarsaGrand Prix El Marsa,MA,1.2,One Day,2023/09/10,2023/09/10,GC,,,Flat
-2023,Men,Road,16578,Tour of SalalahTour of Salalah,OM,2.2,Stage Race,2023/09/10,2023/09/13,01,123,Khor Rori-Ayn Ishat,Hilly MTF
-2023,Men,Road,92,GP de FourmiesGP de Fourmies,FR,1.Pro,One Day,2023/09/10,2023/09/10,GC,,,Flat
-2023,Men,Road,58,GP MontrealGP Montreal,CA,1.UWT,One Day,2023/09/10,2023/09/10,GC,,,Hilly
-2023,Men,Road,4025,Giro della ToscanaGiro della Toscana,IT,1.1,One Day,2023/09/13,2023/09/13,GC,,,Hilly
-2023,Men,Road,380,Okolo SlovenskaOkolo Slovenska,SK,2.1,Stage Race,2023/09/13,2023/09/17,01,172.7,Kosice-Kosice,Flat
-2023,Men,Road,93,GP de WallonieGP de Wallonie,BE,1.Pro,One Day,2023/09/13,2023/09/13,GC,,,Hilly MTF
-2023,Men,Road,160,Coppa SabatiniCoppa Sabatini,IT,1.Pro,One Day,2023/09/14,2023/09/14,GC,,,Hilly
-2023,Men,Road,242,Tour of Taihu LakeTour of Taihu Lake,CN,2.Pro,Stage Race,2023/09/14,2023/09/17,01,88.8,Wuxi-Wuxi,Flat
-2023,Men,Road,167,Kamp. van VlaanderenKamp. van Vlaanderen,BE,1.1,One Day,2023/09/15,2023/09/15,GC,,,Flat
-2023,Men,Road,68,Memorial PantaniMemorial Pantani,IT,1.1,One Day,2023/09/16,2023/09/16,GC,,,Hilly
-2023,Men,Road,168,SUPER 8 ClassicSUPER 8 Classic,BE,1.Pro,One Day,2023/09/16,2023/09/16,GC,,,Hilly
-2023,Men,Road,444,Gooikse PijlGooikse Pijl,BE,1.1,One Day,2023/09/17,2023/09/17,GC,,,Flat
-2023,Men,Road,9979,GP Rik Van LooyGP Rik Van Looy,BE,1.2,One Day,2023/09/17,2023/09/17,GC,,,Flat
-2023,Men,Road,205,Trofeo MatteottiTrofeo Matteotti,IT,1.1,One Day,2023/09/17,2023/09/17,GC,,,Hilly
-2023,Men,Road,171,GP d'IsberguesGP d'Isbergues,FR,1.1,One Day,2023/09/17,2023/09/17,GC,,,Flat
-2023,Men,Road,170,Omloop van het HoutlandOmloop van het Houtland,BE,1.1,One Day,2023/09/20,2023/09/20,GC,,,Flat
-2023,Men,Road,347,Europe ITT-U23Europe ITT-U23,,CCUT,One Day,2023/09/20,2023/09/20,GC,,,Flat ITT
-2023,Men,Road,37,Tour de LuxembourgTour de Luxembourg,LU,2.Pro,Stage Race,2023/09/20,2023/09/24,01,156.4,Luxembourg-Luxembourg,Hilly
-2023,Men,Road,4020,Europe ITTEurope ITT,,CCTT,One Day,2023/09/20,2023/09/20,GC,,,Flat ITT
-2023,Men,Road,12532,Europe Mixed RelayEurope Mixed Relay,,CCTT,One Day,2023/09/21,2023/09/21,GC,,,TTT
-2023,Men,Road,16539,Tour of BinzhouTour of Binzhou,CN,2.2,Stage Race,2023/09/23,2023/09/24,01,113.1,Binzhou-Binzhou,Flat
-2023,Men,Road,128,Tour de LangkawiTour de Langkawi,MY,2.Pro,Stage Race,2023/09/23,2023/09/30,01,187.4,Kerteh-Kuala Terangganu,Flat
-2023,Men,Road,949,Paris-ChaunyParis-Chauny,FR,1.1,One Day,2023/09/24,2023/09/24,GC,,,Flat
-2023,Men,Road,672,Vuelta a EcuadorVuelta a Ecuador,EC,2.2,Stage Race,2023/09/25,2023/09/30,01,133.1,Riobamba-Riobamba,Flat
-2023,Men,Road,409,Ruota d'OroRuota d'Oro,IT,1.2U,One Day,2023/09/26,2023/09/26,GC,,,Hilly
-2023,Men,Road,773,CRO RaceCRO Race,HR,2.1,Stage Race,2023/09/26,2023/10/01,01,181,Primosten-Sinj,Flat
-2023,Men,Road,231,Circuit Franco-BelgeCircuit Franco-Belge,BE,1.Pro,One Day,2023/09/28,2023/09/28,GC,,,Hilly
-2023,Men,Road,262,Coppa AgostoniCoppa Agostoni,IT,1.1,One Day,2023/09/28,2023/09/28,GC,,,Hilly
-2023,Men,Road,20781,Tour of IstanbulTour of Istanbul,TR,2.2,Stage Race,2023/09/28,2023/10/01,01,176.7,Arnavutköy-Arnavutköy,Flat
-2023,Men,Road,29,Giro dell'EmiliaGiro dell'Emilia,IT,1.Pro,One Day,2023/09/30,2023/09/30,GC,,,Hilly MTF
-2023,Men,Road,142,Grand Prix CeramiGrand Prix Cerami,BE,1.2,One Day,2023/09/30,2023/09/30,GC,,,Flat
-2023,Men,Road,7660,Famenne Ardenne ClassicFamenne Ardenne Classic,BE,1.1,One Day,2023/10/01,2023/10/01,GC,,,Hilly
-2023,Men,Road,390,Il Lombardia Under 23Il Lombardia Under 23,IT,1.2U,One Day,2023/10/01,2023/10/01,GC,,,Hilly
-2023,Men,Road,8523,Oita Urban ClassicOita Urban Classic,JP,1.2,One Day,2023/10/01,2023/10/01,GC,,,Hilly
-2023,Men,Road,94,Tour de VendéeTour de Vendée,FR,1.1,One Day,2023/10/01,2023/10/01,GC,,,Flat
-2023,Men,Road,196,Coppa BernocchiCoppa Bernocchi,IT,1.Pro,One Day,2023/10/02,2023/10/02,GC,,,Hilly
-2023,Men,Road,673,Asian Games ITTAsian Games ITT,,CCTT,One Day,2023/10/03,2023/10/03,GC,,,Flat ITT
-2023,Men,Road,445,GP Chantal BiyaGP Chantal Biya,CM,2.2,Stage Race,2023/10/03,2023/10/07,01,109,Kribi-Kribi,Flat
-2023,Men,Road,20978,Grand Tour de Ciclismo de SCGrand Tour de Ciclismo de SC,BR,1.2,One Day,2023/10/03,2023/10/03,GC,,,Flat
-2023,Men,Road,158,Munsterland GiroMunsterland Giro,DE,1.Pro,One Day,2023/10/03,2023/10/03,GC,,,Flat
-2023,Men,Road,190,Tre Valli VaresineTre Valli Varesine,IT,1.Pro,One Day,2023/10/03,2023/10/03,GC,,,Hilly
-2023,Men,Road,159,Binche-Chimay-BincheBinche-Chimay-Binche,BE,1.1,One Day,2023/10/03,2023/10/03,GC,,,Flat
-2023,Men,Road,20979,GP Urubici de CiclismoGP Urubici de Ciclismo,BR,1.2,One Day,2023/10/04,2023/10/04,GC,,,Hilly MTF
-2023,Men,Road,16523,Visit Friesland ElfstedenraceVisit Friesland Elfstedenrace,NL,1.1,One Day,2023/10/04,2023/10/04,GC,,,Flat
-2023,Men,Road,20980,GP de Santa CatarinaGP de Santa Catarina,BR,1.2,One Day,2023/10/05,2023/10/05,GC,,,Flat
-2023,Men,Road,61,Gran PiemonteGran Piemonte,IT,1.Pro,One Day,2023/10/05,2023/10/05,GC,,,Hilly
-2023,Men,Road,139,Tour of HainanTour of Hainan,CN,2.Pro,Stage Race,2023/10/05,2023/10/09,01,92.7,Qionghai-Qionghai,Flat
-2023,Men,Road,157,Paris - BourgesParis - Bourges,FR,1.1,One Day,2023/10/05,2023/10/05,GC,,,Flat
-2023,Men,Road,18945,Tour de KyushuTour de Kyushu,JP,2.1,Stage Race,2023/10/07,2023/10/09,01,145,Kitakyushu-Omuta,Hilly
-2023,Men,Road,24,Il LombardiaIl Lombardia,IT,1.UWT,One Day,2023/10/07,2023/10/07,GC,,,Hilly
-2023,Men,Road,238,Paris - ToursParis - Tours,FR,1.2U,One Day,2023/10/08,2023/10/08,GC,,,Flat
-2023,Men,Road,152,Tour of TürkiyeTour of Türkiye,TR,2.1,Stage Race,2023/10/08,2023/10/15,01,135,Alanya-Antalya,Flat
-2023,Men,Road,28,Paris - ToursParis - Tours,FR,1.Pro,One Day,2023/10/08,2023/10/08,GC,,,Flat
-2023,Men,Road,183,Giro del VenetoGiro del Veneto,IT,1.Pro,One Day,2023/10/11,2023/10/11,GC,,,Hilly
-2023,Men,Road,7591,Gree - Tour of GuangxiGree - Tour of Guangxi,CN,2.UWT,Stage Race,2023/10/12,2023/10/17,01,135.6,Beihai-Beihai,Flat
-2023,Men,Road,10514,Campeonato del Caribe ITTCampeonato del Caribe ITT,,1.2,One Day,2023/10/14,2023/10/14,GC,,,Flat ITT
-2023,Men,Road,18951,Trans-Himalaya Cycling RaceTrans-Himalaya Cycling Race,CN,2.2,Stage Race,2023/10/14,2023/10/17,01,129.8,Nyingchi City-Gongbujiangda County,Flat
-2023,Men,Road,15208,Veneto ClassicVeneto Classic,IT,1.Pro,One Day,2023/10/15,2023/10/15,GC,,,Hilly
-2023,Men,Road,95,Japan CupJapan Cup,JP,1.Pro,One Day,2023/10/15,2023/10/15,GC,,,Hilly
-2023,Men,Road,463,Chrono des NationsChrono des Nations,FR,1.2U,One Day,2023/10/15,2023/10/15,GC,,,Flat ITT
-2023,Men,Road,154,Chrono des NationsChrono des Nations,FR,1.1,One Day,2023/10/15,2023/10/15,GC,,,Flat ITT
-2023,Men,Road,8499,Hong Kong CyclothonHong Kong Cyclothon,HK,1.1,One Day,2023/10/22,2023/10/22,GC,,,Flat
-2023,Men,Road,763,Pan-American Games ITTPan-American Games ITT,,CCTT,One Day,2023/10/22,2023/10/22,GC,,,Flat ITT
-2023,Men,Road,446,Tour du FasoTour du Faso,BF,2.2,Stage Race,2023/10/27,2023/11/05,01,125,Ouagadougou-Pô,Unknown
-2023,Men,Road,8479,Akiyoshidai Karst Road RaceAkiyoshidai Karst Road Race,JP,1.2,One Day,2023/11/05,2023/11/05,GC,,,Hilly
-2023,Men,Road,457,Tour de OkinawaTour de Okinawa,JP,1.2,One Day,2023/11/12,2023/11/12,GC,,,Hilly
-2023,Men,Road,595,Vuelta a GuatemalaVuelta a Guatemala,GT,2.2,Stage Race,2023/11/17,2023/11/26,01,115.2,San Benito-San Benito,Flat
-2023,Men,Road,453,Vuelta a Costa RicaVuelta a Costa Rica,CR,2.2,Stage Race,2023/12/16,2023/12/25,01,151.5,Heredia-Cañas,Flat
-2023,Men,Road,22881,Arab Road Cycling Championships TTTArab Road Cycling Championships TTT,,RCTT,One Day,2023/12/18,2023/12/18,GC,,,TTT
-2023,Men,Road,22894,Arab Road Cycling Championships ITTArab Road Cycling Championships ITT,,RCTT,One Day,2023/12/20,2023/12/20,GC,,,Flat ITT
-2023,Women,Road,9080,Tour Down UnderTour Down Under,AU,2.WWT,Stage Race,2023/01/15,2023/01/17,01,110.4,Glenelg-Aldinga,Flat
-2023,Women,Road,9133,Cadel Road RaceCadel Road Race,AU,1.WWT,One Day,2023/01/28,2023/01/28,GC,,,Hilly
-2023,Women,Road,17199,Women Cycling Pro Costa De AlmeríaWomen Cycling Pro Costa De Almería,ES,1.1,One Day,2023/01/29,2023/01/29,GC,,,Flat
-2023,Women,Road,11333,Aphrodite ITTAphrodite ITT,CY,1.2,One Day,2023/02/04,2023/02/04,GC,,,Flat ITT
-2023,Women,Road,10439,Vuelta CV FeminasVuelta CV Feminas,ES,1.1,One Day,2023/02/05,2023/02/05,GC,,,Flat
-2023,Women,Road,20007,Aphrodite - Women for futureAphrodite - Women for future,CY,1.2,One Day,2023/02/08,2023/02/08,GC,,,Hilly MTF
-2023,Women,Road,9338,Africa TTTAfrica TTT,,CCTT,One Day,2023/02/08,2023/02/08,GC,,,TTT
-2023,Women,Road,9337,Africa ITTAfrica ITT,,CCTT,One Day,2023/02/09,2023/02/09,GC,,,Flat ITT
-2023,Women,Road,20309,Africa ITT-U23Africa ITT-U23,,CCUT,One Day,2023/02/09,2023/02/09,GC,,,Flat ITT
-2023,Women,Road,18130,UAE TourUAE Tour,AE,2.WWT,Stage Race,2023/02/09,2023/02/12,01,109,Port Rashid-Dubai Harbour,Flat
-2023,Women,Road,18935,Clasica de AlmeriaClasica de Almeria,ES,1.1,One Day,2023/02/11,2023/02/11,GC,,,Flat
-2023,Women,Road,9189,Setmana Ciclista ValencianaSetmana Ciclista Valenciana,ES,2.Pro,Stage Race,2023/02/16,2023/02/19,01,119,Valencia-Sagunt,Flat
-2023,Women,Road,9181,Omloop Het NieuwsbladOmloop Het Nieuwsblad,BE,1.WWT,One Day,2023/02/25,2023/02/25,GC,,,Cobbles
-2023,Women,Road,9201,Omloop van het HagelandOmloop van het Hageland,BE,1.1,One Day,2023/02/26,2023/02/26,GC,,,Cobbles
-2023,Women,Road,9206,Le Samyn des DamesLe Samyn des Dames,BE,1.1,One Day,2023/02/28,2023/02/28,GC,,,Cobbles
-2023,Women,Road,18936,Umag Trophy LadiesUmag Trophy Ladies,HR,1.2,One Day,2023/03/01,2023/03/01,GC,,,Flat
-2023,Women,Road,9044,Strade BiancheStrade Bianche,IT,1.WWT,One Day,2023/03/04,2023/03/04,GC,,,Hilly MTF
-2023,Women,Road,18937,Porec Trophy LadiesPorec Trophy Ladies,HR,1.2,One Day,2023/03/05,2023/03/05,GC,,,Flat
-2023,Women,Road,17126,Trofeo Oro in EuroTrofeo Oro in Euro,IT,1.1,One Day,2023/03/05,2023/03/05,GC,,,Flat
-2023,Women,Road,17279,Trofeo Ponente in RosaTrofeo Ponente in Rosa,IT,2.2,Stage Race,2023/03/07,2023/03/11,01,53.5,Ceriale-Ceriale,Flat
-2023,Women,Road,19315,Vuelta Extremadura FéminasVuelta Extremadura Féminas,ES,2.2,Stage Race,2023/03/10,2023/03/12,01,6.4,Mérida-Mérida | TTT,TTT
-2023,Women,Road,9045,Ronde van DrentheRonde van Drenthe,NL,1.WWT,One Day,2023/03/11,2023/03/11,GC,,,Cobbles
-2023,Women,Road,10430,Nokere KoerseNokere Koerse,BE,1.Pro,One Day,2023/03/15,2023/03/15,GC,,,Cobbles
-2023,Women,Road,18932,Tour de Normandie FémininTour de Normandie Féminin,FR,2.1,Stage Race,2023/03/17,2023/03/19,01,136.4,Argentan-Bagnoles-de-l'orne,Flat
-2023,Women,Road,9046,Trofeo Alfredo BindaTrofeo Alfredo Binda,IT,1.WWT,One Day,2023/03/19,2023/03/19,GC,,,Hilly
-2023,Women,Road,9047,Classic Brugge-De PanneClassic Brugge-De Panne,BE,1.WWT,One Day,2023/03/23,2023/03/23,GC,,,Flat
-2023,Women,Road,9048,Gent - WevelgemGent - Wevelgem,BE,1.WWT,One Day,2023/03/26,2023/03/26,GC,,,Cobbles
-2023,Women,Road,9309,Dwars door VlaanderenDwars door Vlaanderen,BE,1.Pro,One Day,2023/03/29,2023/03/29,GC,,,Cobbles
-2023,Women,Road,9349,Oceania ITTOceania ITT,,CCTT,One Day,2023/03/30,2023/03/30,GC,,,Flat ITT
-2023,Women,Road,9350,Oceania ITT-U23Oceania ITT-U23,,CCUT,One Day,2023/03/30,2023/03/30,GC,,,Flat ITT
-2023,Women,Road,9049,Ronde van VlaanderenRonde van Vlaanderen,BE,1.WWT,One Day,2023/04/02,2023/04/02,GC,,,Cobbles
-2023,Women,Road,14856,Scheldeprijs Vrouwen EliteScheldeprijs Vrouwen Elite,BE,1.1,One Day,2023/04/05,2023/04/05,GC,,,Flat
-2023,Women,Road,13853,Paris-Roubaix FemmesParis-Roubaix Femmes,FR,1.WWT,One Day,2023/04/08,2023/04/08,GC,,,Cobbles
-2023,Women,Road,13593,Ronde de MouscronRonde de Mouscron,BE,1.1,One Day,2023/04/10,2023/04/10,GC,,,Flat
-2023,Women,Road,9400,Brabantse PijlBrabantse Pijl,BE,1.Pro,One Day,2023/04/12,2023/04/12,GC,,,Hilly
-2023,Women,Road,11501,Central American Championship ITTCentral American Championship ITT,,1.2,One Day,2023/04/14,2023/04/14,GC,,,Flat ITT
-2023,Women,Road,9050,Amstel Gold RaceAmstel Gold Race,NL,1.WWT,One Day,2023/04/16,2023/04/16,GC,,,Hilly
-2023,Women,Road,14581,GP Féminin de ChambéryGP Féminin de Chambéry,FR,1.1,One Day,2023/04/16,2023/04/16,GC,,,Hilly
-2023,Women,Road,9615,Pan-America ITTPan-America ITT,,CCTT,One Day,2023/04/18,2023/04/18,GC,,,Flat ITT
-2023,Women,Road,9051,La Flèche WallonneLa Flèche Wallonne,BE,1.WWT,One Day,2023/04/19,2023/04/19,GC,,,Hilly MTF
-2023,Women,Road,9441,Omloop van BorseleOmloop van Borsele,NL,1.1,One Day,2023/04/22,2023/04/22,GC,,,Flat
-2023,Women,Road,9052,Liege-Bastogne-Liege FemmesLiege-Bastogne-Liege Femmes,BE,1.WWT,One Day,2023/04/23,2023/04/23,GC,,,Hilly MTF
-2023,Women,Road,9458,GP della Liberazione PINKGP della Liberazione PINK,IT,1.2,One Day,2023/04/25,2023/04/25,GC,,,Flat
-2023,Women,Road,9548,Tour of the GilaTour of the Gila,US,2.2,Stage Race,2023/04/26,2023/04/30,01,114.3,Silver City-Mogollon Climb,Mountain MTF
-2023,Women,Road,9549,Gracia OrlováGracia Orlová,CZ,2.2,Stage Race,2023/04/27,2023/04/30,01,104,Orlová-Štramberk,Hilly MTF
-2023,Women,Road,16506,Leiedal KoerseLeiedal Koerse,BE,1.2,One Day,2023/04/29,2023/04/29,GC,,,Cobbles
-2023,Women,Road,9460,Festival Elsy JacobsFestival Elsy Jacobs,LU,2.Pro,Stage Race,2023/04/29,2023/04/30,01,111.1,Luxembourg-Steinfort,Hilly
-2023,Women,Road,9058,Vuelta España FemeninaVuelta España Femenina,ES,2.WWT,Stage Race,2023/05/01,2023/05/07,01,14.5,Torrevieja-Torrevieja | TTT,TTT
-2023,Women,Road,9731,La Classique MorbihanLa Classique Morbihan,FR,1.1,One Day,2023/05/05,2023/05/05,GC,,,Hilly MTF
-2023,Women,Road,14582,GP Eco-StructGP Eco-Struct,BE,1.1,One Day,2023/05/06,2023/05/06,GC,,,Flat
-2023,Women,Road,9732,GP de Plumelec-MorbihanGP de Plumelec-Morbihan,FR,1.1,One Day,2023/05/06,2023/05/06,GC,,,Hilly MTF
-2023,Women,Road,9613,Trofee Maarten WynantsTrofee Maarten Wynants,BE,1.1,One Day,2023/05/07,2023/05/07,GC,,,Flat
-2023,Women,Road,10433,Bretagne Ladies TourBretagne Ladies Tour,FR,2.1,Stage Race,2023/05/09,2023/05/13,01,123.9,Kerlouan-Kerlouan,Flat
-2023,Women,Road,12195,Navarra Elite ClassicsNavarra Elite Classics,ES,1.Pro,One Day,2023/05/10,2023/05/10,GC,,,Hilly
-2023,Women,Road,14244,Itzulia WomenItzulia Women,ES,2.WWT,Stage Race,2023/05/12,2023/05/14,01,122.2,Etxebarria-Markina-Xemein,Hilly
-2023,Women,Road,9600,Durango-DurangoDurango-Durango,ES,1.1,One Day,2023/05/16,2023/05/16,GC,,,Hilly
-2023,Women,Road,9427,Joe Martin Stage RaceJoe Martin Stage Race,US,2.2,Stage Race,2023/05/18,2023/05/21,01,109.2,Fayetteville-Fayetteville,Hilly
-2023,Women,Road,10428,Vuelta a Burgos FeminasVuelta a Burgos Feminas,ES,2.WWT,Stage Race,2023/05/18,2023/05/21,01,115,Quintanaortuno-Medina de pomar,Flat
-2023,Women,Road,9907,Veenendaal-VeenendaalVeenendaal-Veenendaal,NL,1.1,One Day,2023/05/19,2023/05/19,GC,,,Flat
-2023,Women,Road,16507,ZLM Omloop der Kempen LadiesZLM Omloop der Kempen Ladies,NL,1.2,One Day,2023/05/20,2023/05/20,GC,,,Flat
-2023,Women,Road,18930,Antwerp Port Epic LadiesAntwerp Port Epic Ladies,BE,1.1,One Day,2023/05/21,2023/05/21,GC,,,Cobbles
-2023,Women,Road,9810,Thüringen Ladies TourThüringen Ladies Tour,DE,2.Pro,Stage Race,2023/05/23,2023/05/28,01,9.1,Schleiz-Schleiz | TTT,TTT
-2023,Women,Road,9912,Tour de FemininTour de Feminin,CZ,2.2,Stage Race,2023/05/25,2023/05/28,01,12.6,Krásná Lípa-Krásná Lípa,Flat ITT
-2023,Women,Road,9054,RideLondon ClassiqueRideLondon Classique,GB,2.WWT,Stage Race,2023/05/26,2023/05/28,01,146.4,Saffron Walden-Colchester,Flat
-2023,Women,Road,16508,Ladies Tour of EstoniaLadies Tour of Estonia,EE,1.2,One Day,2023/05/27,2023/05/27,GC,,,Flat
-2023,Women,Road,13594,GP Ciudad de EibarGP Ciudad de Eibar,ES,1.1,One Day,2023/05/28,2023/05/28,GC,,,Hilly
-2023,Women,Road,17077,GP Mazda SchelkensGP Mazda Schelkens,BE,1.2,One Day,2023/05/29,2023/05/29,GC,,,Flat
-2023,Women,Road,16502,Vuelta a Andalucia Ruta Del SolVuelta a Andalucia Ruta Del Sol,ES,2.1,Stage Race,2023/05/31,2023/06/04,01,116.9,Alcalá la Real-La Zubia,Hilly
-2023,Women,Road,15071,Belgrade GP Woman TourBelgrade GP Woman Tour,RS,2.2,Stage Race,2023/06/03,2023/06/04,01,-,-,Unknown
-2023,Women,Road,9811,Dwars door de WesthoekDwars door de Westhoek,BE,1.1,One Day,2023/06/04,2023/06/04,GC,,,Hilly
-2023,Women,Road,9913,Vuelta femenina a GuatemalaVuelta femenina a Guatemala,GT,2.2,Stage Race,2023/06/07,2023/06/11,00,1,Ciudad de Guatemala-Ciudad de Guatemala,Flat ITT
-2023,Women,Road,16505,CIC-Tour Féminin PyrénéesCIC-Tour Féminin Pyrénées,FR,2.1,Stage Race,2023/06/09,2023/06/11,01,129.2,Argelès Gazost-Lourdes,Hilly
-2023,Women,Road,9343,Asia ITTAsia ITT,,CCTT,One Day,2023/06/10,2023/06/10,GC,,,Flat ITT
-2023,Women,Road,9345,Asia ITT-U23Asia ITT-U23,,CCUT,One Day,2023/06/10,2023/06/10,GC,,,Flat ITT
-2023,Women,Road,15067,Dwars door het HagelandDwars door het Hageland,BE,1.1,One Day,2023/06/10,2023/06/10,GC,,,Cobbles
-2023,Women,Road,9853,Flanders Diamond TourFlanders Diamond Tour,BE,1.1,One Day,2023/06/11,2023/06/11,GC,,,Flat
-2023,Women,Road,20776,Regiónom Nitrianskeho KrajaRegiónom Nitrianskeho Kraja,SK,1.2,One Day,2023/06/17,2023/06/17,GC,,,Flat ITT
-2023,Women,Road,14577,Tour de SuisseTour de Suisse,CH,2.WWT,Stage Race,2023/06/17,2023/06/20,01,56,Weinfelden-Weinfelden,Flat
-2023,Women,Road,9064,Giro d'Italia WomenGiro d'Italia Women,IT,2.WWT,Stage Race,2023/06/30,2023/07/09,01,4.4,Chianciano-Chianciano,Flat ITT
-2023,Women,Road,20777,GP Mayor Žiar nad HronomGP Mayor Žiar nad Hronom,SK,1.2,One Day,2023/07/01,2023/07/01,GC,,,Flat ITT
-2023,Women,Road,20778,Tour de Berlin FemininTour de Berlin Feminin,DE,1.2,One Day,2023/07/02,2023/07/02,GC,,,Flat
-2023,Women,Road,10227,Cent.America and Caribbean ITTCent.America and Caribbean ITT,,RCTT,One Day,2023/07/05,2023/07/05,GC,,,Flat ITT
-2023,Women,Road,16511,Respect Ladies Race SlovakiaRespect Ladies Race Slovakia,SK,1.2,One Day,2023/07/08,2023/07/08,GC,,,Hilly
-2023,Women,Road,13595,2 Districtenpijl - Ekeren-Deurne2 Districtenpijl - Ekeren-Deurne,BE,1.1,One Day,2023/07/09,2023/07/09,GC,,,Flat
-2023,Women,Road,21369,Pan Arab Games TTTPan Arab Games TTT,,RCTT,One Day,2023/07/09,2023/07/09,GC,,,TTT
-2023,Women,Road,21367,Pan Arab Games ITTPan Arab Games ITT,,RCTT,One Day,2023/07/11,2023/07/11,GC,,,Flat ITT
-2023,Women,Road,9904,Baloise Ladies TourBaloise Ladies Tour,BE,2.1,Stage Race,2023/07/12,2023/07/16,00,2.6, Vlissingen- Vlissingen,Flat ITT
+2023,Men,Road,260,La Roue Tourangelle,FR,1.1,One Day,2023/03/26,2023/03/26,GC,,,Hilly
+2023,Men,Road,75,Dwars door Vlaanderen,BE,1.UWT,One Day,2023/03/29,2023/03/29,GC,,,Cobbles
+2023,Men,Road,17278,Vuelta Bantrab,GT,2.2,Stage Race,2023/03/29,2023/04/02,01,140,Guatemala-Salamá,Hilly
+2023,Men,Road,17278,Vuelta Bantrab,GT,2.2,Stage Race,2023/03/29,2023/04/02,02,124.5,San Miguel Chicaj-Cobán,Hilly
+2023,Men,Road,17278,Vuelta Bantrab,GT,2.2,Stage Race,2023/03/29,2023/04/02,03,113.5,Tactic-Guastatoya,Hilly
+2023,Men,Road,17278,Vuelta Bantrab,GT,2.2,Stage Race,2023/03/29,2023/04/02,04,116.5,Patalul-Tolimán,Mountain MTF
+2023,Men,Road,17278,Vuelta Bantrab,GT,2.2,Stage Race,2023/03/29,2023/04/02,05,119,San Juan La Laguna-Patzún,Mountain
+2023,Men,Road,358,Oceania ITT,,CCTT,One Day,2023/03/30,2023/03/30,GC,,,Flat ITT
+2023,Men,Road,360,Oceania ITT-U23,,CCUT,One Day,2023/03/30,2023/03/30,GC,,,Flat ITT
+2023,Men,Road,134,Route Adélie de Vitré,FR,1.1,One Day,2023/03/31,2023/03/31,GC,,,Hilly
+2023,Men,Road,507,Tour of Thailand,TH,2.1,Stage Race,2023/04/01,2023/04/06,01,119.4,Kanchanaburi-Kanchanaburi,Flat
+2023,Men,Road,507,Tour of Thailand,TH,2.1,Stage Race,2023/04/01,2023/04/06,02,179,Kanchanaburi-Phra Nakhon Sri Ayutthaya,Flat
+2023,Men,Road,507,Tour of Thailand,TH,2.1,Stage Race,2023/04/01,2023/04/06,04,203.2,Khao Yai National Park-Aranyaprathet,Flat
+2023,Men,Road,507,Tour of Thailand,TH,2.1,Stage Race,2023/04/01,2023/04/06,05,169,Aranyaprathet-Chanthaburi,Flat
+2023,Men,Road,507,Tour of Thailand,TH,2.1,Stage Race,2023/04/01,2023/04/06,06,167.3,Chanthaburi-Rayong,Flat
+2023,Men,Road,507,Tour of Thailand,TH,2.1,Stage Race,2023/04/01,2023/04/06,03,195,Phra Nakhon Sri Ayutthaya-Khao Yai National Park,Hilly MTF
+2023,Men,Road,48,GP Miguel Indurain,ES,1.Pro,One Day,2023/04/01,2023/04/01,GC,,,Hilly
+2023,Men,Road,126,Volta Limburg Classic,NL,1.1,One Day,2023/04/01,2023/04/01,GC,,,Hilly
+2023,Men,Road,297,Trofeo PIVA,IT,1.2U,One Day,2023/04/02,2023/04/02,GC,,,Hilly
+2023,Men,Road,5,Ronde van Vlaanderen,BE,1.UWT,One Day,2023/04/02,2023/04/02,GC,,,Cobbles
+2023,Men,Road,6,Itzulia Basque Country,ES,2.UWT,Stage Race,2023/04/03,2023/04/08,01,165.4,Vitoria-Gasteiz-Labastida,Flat
+2023,Men,Road,6,Itzulia Basque Country,ES,2.UWT,Stage Race,2023/04/03,2023/04/08,03,162.2,Errenteria-Amasa-Villabona,Hilly MTF
+2023,Men,Road,6,Itzulia Basque Country,ES,2.UWT,Stage Race,2023/04/03,2023/04/08,02,193.8,Viana-Leitza,Hilly
+2023,Men,Road,6,Itzulia Basque Country,ES,2.UWT,Stage Race,2023/04/03,2023/04/08,04,175.7,Santurizi-Santurizi,Hilly
+2023,Men,Road,6,Itzulia Basque Country,ES,2.UWT,Stage Race,2023/04/03,2023/04/08,05,164.5,Amorebieta-Etxano-Amorebieta-Etxano,Hilly
+2023,Men,Road,6,Itzulia Basque Country,ES,2.UWT,Stage Race,2023/04/03,2023/04/08,06,137.8,Eibar-Eibar,Mountain
+2023,Men,Road,217,Pays de la Loire Tour,FR,2.1,Stage Race,2023/04/04,2023/04/07,01,162.1,St-Nazaire-St-Gilles-Croix-de-Vie,Flat
+2023,Men,Road,217,Pays de la Loire Tour,FR,2.1,Stage Race,2023/04/04,2023/04/07,02,169.4,Clisson-Le Lion d'Angers,Flat
+2023,Men,Road,217,Pays de la Loire Tour,FR,2.1,Stage Race,2023/04/04,2023/04/07,03,197.1,Baugé-en-Anjou-Mayenne,Hilly
+2023,Men,Road,217,Pays de la Loire Tour,FR,2.1,Stage Race,2023/04/04,2023/04/07,04,177.8,Sablé-sur-Sarthe-Le Mans,Hilly
+2023,Men,Road,56,Scheldeprijs,BE,1.Pro,One Day,2023/04/05,2023/04/05,GC,,,Flat
+2023,Men,Road,293,Circuit des Ardennes,FR,2.2,Stage Race,2023/04/06,2023/04/09,01,89.6,Nouvion-sur-Meuse-Sedan,Hilly
+2023,Men,Road,293,Circuit des Ardennes,FR,2.2,Stage Race,2023/04/06,2023/04/09,02,185.6,Renneville-Gruyères,Hilly
+2023,Men,Road,293,Circuit des Ardennes,FR,2.2,Stage Race,2023/04/06,2023/04/09,03,169.6,Chooz-Haybes,Hilly
+2023,Men,Road,293,Circuit des Ardennes,FR,2.2,Stage Race,2023/04/06,2023/04/09,04,136.7,Bazeilles-Charleville-Mézières,Hilly
+2023,Men,Road,8,Paris-Roubaix,FR,1.UWT,One Day,2023/04/09,2023/04/09,GC,,,Cobbles
+2023,Men,Road,295,Giro del Belvedere,IT,1.2U,One Day,2023/04/10,2023/04/10,GC,,,Hilly
+2023,Men,Road,296,GP Palio del Recioto,IT,1.2U,One Day,2023/04/11,2023/04/11,GC,,,Hilly
+2023,Men,Road,145,Paris - Camembert,FR,1.1,One Day,2023/04/11,2023/04/11,GC,,,Flat
+2023,Men,Road,11248,Giro di Sicilia,IT,2.1,Stage Race,2023/04/11,2023/04/14,02,193,Canicattì-Vittoria,Flat
+2023,Men,Road,11248,Giro di Sicilia,IT,2.1,Stage Race,2023/04/11,2023/04/14,01,159,Marsala-Agrigento,Hilly MTF
+2023,Men,Road,11248,Giro di Sicilia,IT,2.1,Stage Race,2023/04/11,2023/04/14,03,150,Enna-Termini Imerse,Hilly MTF
+2023,Men,Road,11248,Giro di Sicilia,IT,2.1,Stage Race,2023/04/11,2023/04/14,04,216,Barcellona Pozzo di Gotto-Giarre,Mountain MTF
+2023,Men,Road,294,Tour du Loir-et-Cher,FR,2.2,Stage Race,2023/04/12,2023/04/16,01,146,Blois-Chailles,Flat
+2023,Men,Road,294,Tour du Loir-et-Cher,FR,2.2,Stage Race,2023/04/12,2023/04/16,02,166.5,Sassay-Selommes,Flat
+2023,Men,Road,294,Tour du Loir-et-Cher,FR,2.2,Stage Race,2023/04/12,2023/04/16,04,197,Vernou-en-Sologne-Vernou-en-Sologne,Flat
+2023,Men,Road,294,Tour du Loir-et-Cher,FR,2.2,Stage Race,2023/04/12,2023/04/16,05,97.5,Blois-Blois,Flat
+2023,Men,Road,294,Tour du Loir-et-Cher,FR,2.2,Stage Race,2023/04/12,2023/04/16,03,178,Fréteval-Vendôme,Hilly
+2023,Men,Road,77,Brabantse Pijl,BE,1.Pro,One Day,2023/04/12,2023/04/12,GC,,,Hilly
+2023,Men,Road,1029,Central American Championship ITT,,1.2,One Day,2023/04/14,2023/04/14,GC,,,Flat ITT
+2023,Men,Road,14584,Central American Championship ITT-U23,,1.2U,One Day,2023/04/14,2023/04/14,GC,,,Flat ITT
+2023,Men,Road,15075,Classic Grand Besançon Doubs,FR,1.1,One Day,2023/04/14,2023/04/14,GC,,,Hilly
+2023,Men,Road,428,Arno Wallaard Mem.,NL,1.2,One Day,2023/04/15,2023/04/15,GC,,,Flat
+2023,Men,Road,1285,Tour du Jura,FR,1.1,One Day,2023/04/15,2023/04/15,GC,,,Hilly
+2023,Men,Road,42,LBL Espoirs,BE,1.2U,One Day,2023/04/15,2023/04/15,GC,,,Hilly
+2023,Men,Road,318,Tr. S. Vendemiano,IT,1.2U,One Day,2023/04/16,2023/04/16,GC,,,Hilly
+2023,Men,Road,9,Amstel Gold Race,NL,1.UWT,One Day,2023/04/16,2023/04/16,GC,,,Hilly
+2023,Men,Road,162,Tour du Doubs,FR,1.1,One Day,2023/04/16,2023/04/16,GC,,,Hilly
+2023,Men,Road,108,Giro Reggio Calabria,IT,1.1,One Day,2023/04/16,2023/04/16,GC,,,Hilly
+2023,Men,Road,62,Tour of the Alps,IT,2.Pro,Stage Race,2023/04/17,2023/04/21,01,127.5,Rattenberg-Alpbach,Hilly MTF
+2023,Men,Road,62,Tour of the Alps,IT,2.Pro,Stage Race,2023/04/17,2023/04/21,04,152.9,Rovereto-Predazzo,Hilly
+2023,Men,Road,62,Tour of the Alps,IT,2.Pro,Stage Race,2023/04/17,2023/04/21,05,144.5,Cavalese-Brunico,Hilly
+2023,Men,Road,62,Tour of the Alps,IT,2.Pro,Stage Race,2023/04/17,2023/04/21,02,165.2,Reith im Alpbachtal-Ritten,Mountain MTF
+2023,Men,Road,62,Tour of the Alps,IT,2.Pro,Stage Race,2023/04/17,2023/04/21,03,162.5,Ritten-Brentonico San Valentino,Mountain MTF
+2023,Men,Road,9018,Belgrade Banjaluka,BA,2.2,Stage Race,2023/04/19,2023/04/22,01,147.9,Beograd-Bijeljina,Flat
+2023,Men,Road,9018,Belgrade Banjaluka,BA,2.2,Stage Race,2023/04/19,2023/04/22,03,166.2,Doboj-Prijedor,Flat
+2023,Men,Road,9018,Belgrade Banjaluka,BA,2.2,Stage Race,2023/04/19,2023/04/22,04,137.1,Novi Grad-Banjaluka,Flat
+2023,Men,Road,9018,Belgrade Banjaluka,BA,2.2,Stage Race,2023/04/19,2023/04/22,02,135.8,Bijeljina-Vlasenica,Hilly MTF
+2023,Men,Road,367,Pan-America ITT,,CCTT,One Day,2023/04/19,2023/04/19,GC,,,Flat ITT
+2023,Men,Road,368,Pan-America ITT-U23,,CCUT,One Day,2023/04/19,2023/04/19,GC,,,Flat ITT
+2023,Men,Road,10,La Flèche Wallonne,BE,1.UWT,One Day,2023/04/19,2023/04/19,GC,,,Hilly MTF
+2023,Men,Road,11,Liege-Bastogne-Liege,BE,1.UWT,One Day,2023/04/23,2023/04/23,GC,,,Hilly
+2023,Men,Road,521,Rutland - Melton Classic,GB,1.2,One Day,2023/04/23,2023/04/23,GC,,,Hilly
+2023,Men,Road,312,GP Liberazione,IT,1.2U,One Day,2023/04/25,2023/04/25,GC,,,Flat
+2023,Men,Road,82,Tour de Bretagne,FR,2.2,Stage Race,2023/04/25,2023/05/01,01,152.9,Plouescat-Saint-Pol-de-Léon,Flat
+2023,Men,Road,82,Tour de Bretagne,FR,2.2,Stage Race,2023/04/25,2023/05/01,05,173.9,Sérent-Louisfert,Flat
+2023,Men,Road,82,Tour de Bretagne,FR,2.2,Stage Race,2023/04/25,2023/05/01,07,155,Piré-Chancé-Châteaugiron,Flat
+2023,Men,Road,82,Tour de Bretagne,FR,2.2,Stage Race,2023/04/25,2023/05/01,04,182.1,Le Mené-Plumelec,Hilly MTF
+2023,Men,Road,82,Tour de Bretagne,FR,2.2,Stage Race,2023/04/25,2023/05/01,06,209.4,Châteaubriant-Plancoët,Hilly MTF
+2023,Men,Road,82,Tour de Bretagne,FR,2.2,Stage Race,2023/04/25,2023/05/01,02,172.2,Sibril-Melgven,Hilly
+2023,Men,Road,82,Tour de Bretagne,FR,2.2,Stage Race,2023/04/25,2023/05/01,03,187,Trégunc-Le Quillio,Hilly
+2023,Men,Road,12,Tour de Romandie,CH,2.UWT,Stage Race,2023/04/25,2023/04/30,01,170.9,Crissier-Vallée-de-Joux,Hilly
+2023,Men,Road,12,Tour de Romandie,CH,2.UWT,Stage Race,2023/04/25,2023/04/30,02,162.7,Morteau-La Chaux-de-Fonds,Hilly
+2023,Men,Road,12,Tour de Romandie,CH,2.UWT,Stage Race,2023/04/25,2023/04/30,05,170.8,Vufflens-la-Ville-Genève,Hilly
+2023,Men,Road,12,Tour de Romandie,CH,2.UWT,Stage Race,2023/04/25,2023/04/30,04,161.6,Sion-Thyon 2000,Mountain MTF
+2023,Men,Road,12,Tour de Romandie,CH,2.UWT,Stage Race,2023/04/25,2023/04/30,00,6.8,Port-Valais-Port-Valais,Flat ITT
+2023,Men,Road,12,Tour de Romandie,CH,2.UWT,Stage Race,2023/04/25,2023/04/30,03,18.8,Châtel-Saint-Denis-Châtel-Saint-Denis,Flat ITT
+2023,Men,Road,239,Tour of the Gila,US,2.2,Stage Race,2023/04/26,2023/04/30,04,69.5,Silver City-Silver City,Flat
+2023,Men,Road,239,Tour of the Gila,US,2.2,Stage Race,2023/04/26,2023/04/30,01,148.1,Silver City-Mogollon,Hilly MTF
+2023,Men,Road,239,Tour of the Gila,US,2.2,Stage Race,2023/04/26,2023/04/30,02,122.6,Fort Bayard-Fort Bayard,Hilly
+2023,Men,Road,239,Tour of the Gila,US,2.2,Stage Race,2023/04/26,2023/04/30,05,161.9,Silver City-Piños Altos,Mountain MTF
+2023,Men,Road,239,Tour of the Gila,US,2.2,Stage Race,2023/04/26,2023/04/30,03,26,Tyrone-Tyrone,Flat ITT
+2023,Men,Road,153,Vuelta a Asturias,ES,2.1,Stage Race,2023/04/28,2023/04/30,01,182,Oviedo-Pola de la Lena,Hilly
+2023,Men,Road,153,Vuelta a Asturias,ES,2.1,Stage Race,2023/04/28,2023/04/30,03,146.5,Cangas del Narcea-Oviedo,Hilly
+2023,Men,Road,153,Vuelta a Asturias,ES,2.1,Stage Race,2023/04/28,2023/04/30,02,182,Candás-Cangas del Narcea,Mountain
+2023,Men,Road,314,Carpathian Race,PL,2.2U,Stage Race,2023/04/29,2023/05/03,02,143.5,Bánovce nad Bebravou-Bánovce nad Bebravou,Flat
+2023,Men,Road,314,Carpathian Race,PL,2.2U,Stage Race,2023/04/29,2023/05/03,03,134.7,Stará Lubovna-Stará Lubovna,Hilly
+2023,Men,Road,314,Carpathian Race,PL,2.2U,Stage Race,2023/04/29,2023/05/03,04,131.9,Zapora Niedzica-Podegrodzie,Hilly
+2023,Men,Road,314,Carpathian Race,PL,2.2U,Stage Race,2023/04/29,2023/05/03,05,83.5,Iwonicz Zdrój-Rymanów Zdrój,Hilly
+2023,Men,Road,314,Carpathian Race,PL,2.2U,Stage Race,2023/04/29,2023/05/03,01,4,Budapest-Budapest | TTT,TTT
+2023,Men,Road,1047,GP Vorarlberg,AT,1.2,One Day,2023/04/30,2023/04/30,GC,,,Hilly
+2023,Men,Road,535,Circuito del Porto,IT,1.2,One Day,2023/05/01,2023/05/01,GC,,,Flat
+2023,Men,Road,252,Eschborn-Frankfurt,DE,1.2U,One Day,2023/05/01,2023/05/01,GC,,,Hilly
+2023,Men,Road,35,Eschborn-Frankfurt,DE,1.UWT,One Day,2023/05/01,2023/05/01,GC,,,Hilly
+2023,Men,Road,6156,Tour du Bénin,BJ,2.2,Stage Race,2023/05/02,2023/05/06,01,132.5,Parakou-Djougou,Flat
+2023,Men,Road,6156,Tour du Bénin,BJ,2.2,Stage Race,2023/05/02,2023/05/06,02,156.4,Parakou-Savè,Flat
+2023,Men,Road,6156,Tour du Bénin,BJ,2.2,Stage Race,2023/05/02,2023/05/06,03,140.5,Abomey-Comé,Flat
+2023,Men,Road,6156,Tour du Bénin,BJ,2.2,Stage Race,2023/05/02,2023/05/06,04,109.5,Kétou-Porto-Novo,Flat
+2023,Men,Road,6156,Tour du Bénin,BJ,2.2,Stage Race,2023/05/02,2023/05/06,05,124.7,Sèhouè-Cotonou,Flat
+2023,Men,Road,513,Tour of Hellas,GR,2.1,Stage Race,2023/05/02,2023/05/06,03,153,Costa Navarino-Kyparissia,Flat
+2023,Men,Road,513,Tour of Hellas,GR,2.1,Stage Race,2023/05/02,2023/05/06,04,133.5,Costa Navarino-Olympia,Flat
+2023,Men,Road,513,Tour of Hellas,GR,2.1,Stage Race,2023/05/02,2023/05/06,01,187.7,Heraklion-Heraklion,Hilly
+2023,Men,Road,513,Tour of Hellas,GR,2.1,Stage Race,2023/05/02,2023/05/06,02,167.3,Mycenea-Kalamata,Hilly
+2023,Men,Road,513,Tour of Hellas,GR,2.1,Stage Race,2023/05/02,2023/05/06,00,6,Karteros-Karteros,Flat ITT
+2023,Men,Road,3672,Vuelta a Catamarca,AR,2.2,Stage Race,2023/05/04,2023/05/07,02,118.3,Poman-Huillapima,Flat
+2023,Men,Road,3672,Vuelta a Catamarca,AR,2.2,Stage Race,2023/05/04,2023/05/07,04,126.1,San Fernando del Valle-San Fernando del Valle,Flat
+2023,Men,Road,3672,Vuelta a Catamarca,AR,2.2,Stage Race,2023/05/04,2023/05/07,03,99.8,Alijilan-Alto de Portezuelo,Mountain MTF
+2023,Men,Road,3672,Vuelta a Catamarca,AR,2.2,Stage Race,2023/05/04,2023/05/07,01,184.2,El Rodeo-El Rodeo,Mountain
+2023,Men,Road,180,GP de Plumelec-Morbihan,FR,1.Pro,One Day,2023/05/06,2023/05/06,GC,,,Hilly MTF
+2023,Men,Road,577,Ronde van Overijssel,NL,1.2,One Day,2023/05/06,2023/05/06,GC,,,Flat
+2023,Men,Road,73,Sundvolden GP,NO,1.2,One Day,2023/05/06,2023/05/06,GC,,,Hilly MTF
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,02,202,Teramo-San Salvo,Flat
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,05,171,Atripalda-Salerno,Flat
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,06,162,Napoli-Napoli,Flat
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,11,219,Camaiore-Tortona,Flat
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,17,197,Pergine Valsugana-Caorle,Flat
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,21,126,Roma-Roma,Flat
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,03,213,Vasto-Melfi,Hilly
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,04,175,Venosa-Lago Laceno,Hilly
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,08,207,Teri-Fossombrone,Hilly
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,10,196,Scandiano-Viareggio,Hilly
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,12,185,Bra-Rivoli,Hilly
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,14,196, Sierre-Cassano Magnago,Hilly
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,07,218,Capua-Gran Sasso d'Italia,Mountain MTF
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,13,74.6,Borgofranco d'Ivrea- Crans Montana,Mountain MTF
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,16,203,Sabbio Chiese-Monte Bondone,Mountain MTF
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,18,161,Oberze-Val di Zoldo,Mountain MTF
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,19,183,Longarone-Tre Cime di Lavaredo,Mountain MTF
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,01,19.6,Fossacesia Marina-Ortona,Flat ITT
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,09,35,Savignano sul Rubicone-Cesena,Flat ITT
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,,-,-,Unknown
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,15,195,Seregno-Bergamo,Mountain
+2023,Men,Road,13,Giro d'Italia,IT,2.UWT,Stage Race,2023/05/06,2023/05/28,20,18.6,Tarvisio-Monte Lussari,Mountain ITT
+2023,Men,Road,554,Flèche Ardennaise,BE,1.2,One Day,2023/05/07,2023/05/07,GC,,,Hilly
+2023,Men,Road,49,Ringerike GP,NO,1.2,One Day,2023/05/07,2023/05/07,GC,,,Hilly
+2023,Men,Road,148,Tro-Bro Leon,FR,1.Pro,One Day,2023/05/07,2023/05/07,GC,,,Hilly
+2023,Men,Road,41,Paris - Roubaix Espoirs,FR,1.2U,One Day,2023/05/07,2023/05/07,GC,,,Cobbles
+2023,Men,Road,20782,The Tour Oqtosh - Chorvoq - Mountain I,UZ,1.2,One Day,2023/05/10,2023/05/10,GC,,,Mountain ITT
+2023,Men,Road,765,Tour de Hongrie,HU,2.Pro,Stage Race,2023/05/10,2023/05/14,01,168,Szentgotthard-Szentgotthard,Flat
+2023,Men,Road,765,Tour de Hongrie,HU,2.Pro,Stage Race,2023/05/10,2023/05/14,02,175,Zalaegerszeg-Keszthely,Flat
+2023,Men,Road,765,Tour de Hongrie,HU,2.Pro,Stage Race,2023/05/10,2023/05/14,05,150,Budapest-Budapest,Flat
+2023,Men,Road,765,Tour de Hongrie,HU,2.Pro,Stage Race,2023/05/10,2023/05/14,03,180,Kaposvar-Pecs,Hilly MTF
+2023,Men,Road,765,Tour de Hongrie,HU,2.Pro,Stage Race,2023/05/10,2023/05/14,04,206,Martonvasar-Dobogoko,Mountain MTF
+2023,Men,Road,17336,Vuelta a Formosa Internacional,AR,2.2,Stage Race,2023/05/11,2023/05/14,01,140.7,Ciudad de Formosa-Laguna Blanca,Flat
+2023,Men,Road,17336,Vuelta a Formosa Internacional,AR,2.2,Stage Race,2023/05/11,2023/05/14,02,123.8,Ciudad de Formosa-Herradura,Flat
+2023,Men,Road,17336,Vuelta a Formosa Internacional,AR,2.2,Stage Race,2023/05/11,2023/05/14,03,189.8,Ciudad de Formosa-El Colorado,Flat
+2023,Men,Road,17336,Vuelta a Formosa Internacional,AR,2.2,Stage Race,2023/05/11,2023/05/14,05,97,Ciudad de Formosa-Ciudad de Formosa,Flat
+2023,Men,Road,17336,Vuelta a Formosa Internacional,AR,2.2,Stage Race,2023/05/11,2023/05/14,04,8,Ciudad de Formosa-Ciudad de Formosa,Flat ITT
+2023,Men,Road,72,GP Herning,DK,1.2,One Day,2023/05/13,2023/05/13,GC,,,Hilly
+2023,Men,Road,19320,Tour of Bostonliq I,UZ,1.2,One Day,2023/05/13,2023/05/13,GC,,,Flat ITT
+2023,Men,Road,147,Tour du Finistère,FR,1.1,One Day,2023/05/13,2023/05/13,GC,,,Hilly MTF
+2023,Men,Road,182,Boucles de l'Aulne,FR,1.1,One Day,2023/05/14,2023/05/14,GC,,,Hilly
+2023,Men,Road,736,Fyen Rundt,DK,1.2,One Day,2023/05/14,2023/05/14,GC,,,Flat
+2023,Men,Road,313,GP Marmo,IT,1.2U,One Day,2023/05/14,2023/05/14,GC,,,Hilly
+2023,Men,Road,175,4 Jours de Dunkerque,FR,2.Pro,Stage Race,2023/05/16,2023/05/21,01,196.6,Dunkerque-Abbeville,Flat
+2023,Men,Road,175,4 Jours de Dunkerque,FR,2.Pro,Stage Race,2023/05/16,2023/05/21,04,173.8,Maubeuge-Achicourt,Flat
+2023,Men,Road,175,4 Jours de Dunkerque,FR,2.Pro,Stage Race,2023/05/16,2023/05/21,06,173.3,Avion-Dunkerque,Flat
+2023,Men,Road,175,4 Jours de Dunkerque,FR,2.Pro,Stage Race,2023/05/16,2023/05/21,02,162,Compiègne-Laon,Hilly MTF
+2023,Men,Road,175,4 Jours de Dunkerque,FR,2.Pro,Stage Race,2023/05/16,2023/05/21,05,187.7,Roubaix-Casse,Hilly MTF
+2023,Men,Road,175,4 Jours de Dunkerque,FR,2.Pro,Stage Race,2023/05/16,2023/05/21,03,15.9,Saint-Quentin-Saint-Quentin,Flat ITT
+2023,Men,Road,67,Flèche du Sud,LU,2.2,Stage Race,2023/05/17,2023/05/21,01,156.8,Rumelange-Rumelange,Flat
+2023,Men,Road,67,Flèche du Sud,LU,2.2,Stage Race,2023/05/17,2023/05/21,03,154,Sanem-Sanem,Flat
+2023,Men,Road,67,Flèche du Sud,LU,2.2,Stage Race,2023/05/17,2023/05/21,04,147.1,Esch-sur-Alzette-Esch-sur-Alzette,Flat
+2023,Men,Road,67,Flèche du Sud,LU,2.2,Stage Race,2023/05/17,2023/05/21,02,131.9,Bourscheid-Bourscheid,Hilly MTF
+2023,Men,Road,67,Flèche du Sud,LU,2.2,Stage Race,2023/05/17,2023/05/21,00,3.2,Esch-sur-Alzette-Esch-sur-Alzette,Flat ITT
+2023,Men,Road,16532,Tour of Sakarya,TR,2.2,Stage Race,2023/05/17,2023/05/20,03,136,Sakarya-Sakarya,Flat
+2023,Men,Road,16532,Tour of Sakarya,TR,2.2,Stage Race,2023/05/17,2023/05/20,04,138,Sakarya-Sakarya,Flat
+2023,Men,Road,16532,Tour of Sakarya,TR,2.2,Stage Race,2023/05/17,2023/05/20,02,119,Sakarya-Camili,Hilly
+2023,Men,Road,16532,Tour of Sakarya,TR,2.2,Stage Race,2023/05/17,2023/05/20,01,4.1,Sakarya-Sakarya,Flat ITT
+2023,Men,Road,537,Circuit de Wallonie,BE,1.1,One Day,2023/05/18,2023/05/18,GC,,,Hilly
+2023,Men,Road,919,Joe Martin Stage Race,US,2.2,Stage Race,2023/05/18,2023/05/21,04,58.2,Fayetteville-Fayetteville,Flat
+2023,Men,Road,919,Joe Martin Stage Race,US,2.2,Stage Race,2023/05/18,2023/05/21,02,143.9,Fayetteville-Mount Sequoyah,Hilly MTF
+2023,Men,Road,919,Joe Martin Stage Race,US,2.2,Stage Race,2023/05/18,2023/05/21,01,146.2,Fayetteville-Fayetteville,Hilly
+2023,Men,Road,919,Joe Martin Stage Race,US,2.2,Stage Race,2023/05/18,2023/05/21,03,4.8,Devil's Den State Park-Devil's Den State Park,Mountain ITT
+2023,Men,Road,50,Veenendaal Classic,NL,1.1,One Day,2023/05/20,2023/05/20,GC,,,Flat
+2023,Men,Road,16530,GP Gorenjska,SI,1.2,One Day,2023/05/21,2023/05/21,GC,,,Hilly
+2023,Men,Road,144,Rund um Köln,DE,1.1,One Day,2023/05/21,2023/05/21,GC,,,Flat
+2023,Men,Road,341,Tour of Japan,JP,2.1,Stage Race,2023/05/21,2023/05/28,03,127,Inabe City-Inabe City,Flat
+2023,Men,Road,341,Tour of Japan,JP,2.1,Stage Race,2023/05/21,2023/05/28,04,137.3,Yokogoshi-Yokogoshi,Flat
+2023,Men,Road,341,Tour of Japan,JP,2.1,Stage Race,2023/05/21,2023/05/28,07,107.5,Hashimoto Park-Toriibara Fureai,Flat
+2023,Men,Road,341,Tour of Japan,JP,2.1,Stage Race,2023/05/21,2023/05/28,08,105.2,Tokyo-Tokyo,Flat
+2023,Men,Road,341,Tour of Japan,JP,2.1,Stage Race,2023/05/21,2023/05/28,02,103.6,Kyoto-Kyoto,Hilly
+2023,Men,Road,341,Tour of Japan,JP,2.1,Stage Race,2023/05/21,2023/05/28,05,120.9,Shimohisakata-Shimohisakata,Hilly
+2023,Men,Road,341,Tour of Japan,JP,2.1,Stage Race,2023/05/21,2023/05/28,06,11.4,Mount Fuji-Mount Fuji,Mountain MTF
+2023,Men,Road,341,Tour of Japan,JP,2.1,Stage Race,2023/05/21,2023/05/28,01,2.6,Sakai-Sakai,Flat ITT
+2023,Men,Road,10204,Antwerp Port Epic,BE,1.1,One Day,2023/05/21,2023/05/21,GC,,,Cobbles
+2023,Men,Road,7657,Tour of Albania,AL,2.2,Stage Race,2023/05/22,2023/05/26,02,153.3,Tirana-Elbasan,Flat
+2023,Men,Road,7657,Tour of Albania,AL,2.2,Stage Race,2023/05/22,2023/05/26,03,142,Elbasan-Vlore,Flat
+2023,Men,Road,7657,Tour of Albania,AL,2.2,Stage Race,2023/05/22,2023/05/26,04,180,Vlore-Permet,Flat
+2023,Men,Road,7657,Tour of Albania,AL,2.2,Stage Race,2023/05/22,2023/05/26,05,122,Permet-Fier,Flat
+2023,Men,Road,7657,Tour of Albania,AL,2.2,Stage Race,2023/05/22,2023/05/26,01,142.3,Tirana-Kerrabe,Hilly MTF
+2023,Men,Road,315,Alpes Isère Tour,FR,2.2,Stage Race,2023/05/24,2023/05/28,01,145.9,Charvieu-Chavagneux-Charvieu-Chavagneux,Flat
+2023,Men,Road,315,Alpes Isère Tour,FR,2.2,Stage Race,2023/05/24,2023/05/28,03,174.5,Ccel Saint-Exupery-Colombier-Saugnieu,Flat
+2023,Men,Road,315,Alpes Isère Tour,FR,2.2,Stage Race,2023/05/24,2023/05/28,02,144.8,Saint-Andre-le-Gaz-Four,Hilly
+2023,Men,Road,315,Alpes Isère Tour,FR,2.2,Stage Race,2023/05/24,2023/05/28,04,181.8,Monsteroux-Milieu-Saint-Mauricel-L'Exil,Hilly
+2023,Men,Road,315,Alpes Isère Tour,FR,2.2,Stage Race,2023/05/24,2023/05/28,05,161.2,Saint-Thibaud de Couz-Saint-Pierre de Chartreuse,Mountain MTF
+2023,Men,Road,10674,Orlen Nations Grand Prix,PL,2.NC,Stage Race,2023/05/24,2023/05/28,01,130, Kapsosvár- Balatonföldvar,Flat
+2023,Men,Road,10674,Orlen Nations Grand Prix,PL,2.NC,Stage Race,2023/05/24,2023/05/28,05,145,Sanok-Hotel Arlamów,Hilly MTF
+2023,Men,Road,10674,Orlen Nations Grand Prix,PL,2.NC,Stage Race,2023/05/24,2023/05/28,02,152, Hatvan- Bükkszentkereszt,Hilly
+2023,Men,Road,10674,Orlen Nations Grand Prix,PL,2.NC,Stage Race,2023/05/24,2023/05/28,04,129,Bukovina-Nowy Sacz,Hilly
+2023,Men,Road,10674,Orlen Nations Grand Prix,PL,2.NC,Stage Race,2023/05/24,2023/05/28,03,124, Levoca- Strbské Pleso,Mountain MTF
+2023,Men,Road,343,Boucles de la Mayenne,FR,2.Pro,Stage Race,2023/05/25,2023/05/28,02,178.8,Saint-Berthevin-Meslay-du-Maine,Flat
+2023,Men,Road,343,Boucles de la Mayenne,FR,2.Pro,Stage Race,2023/05/25,2023/05/28,03,167,Montsûrs-Laval,Flat
+2023,Men,Road,343,Boucles de la Mayenne,FR,2.Pro,Stage Race,2023/05/25,2023/05/28,01,185.2,Saint-Mars-sur-Colmont-Lassay-les-châteaux,Hilly
+2023,Men,Road,343,Boucles de la Mayenne,FR,2.Pro,Stage Race,2023/05/25,2023/05/28,00,4.1,Espace Mayenne Laval-Espace Mayenne Laval,Flat ITT
+2023,Men,Road,7767,Tour de la Mirabelle,FR,2.2,Stage Race,2023/05/25,2023/05/28,01,160.2,Verdun-Pont-à-Mousson,Flat
+2023,Men,Road,7767,Tour de la Mirabelle,FR,2.2,Stage Race,2023/05/25,2023/05/28,03,178.4,Tomblaine-Damelevières,Flat
+2023,Men,Road,7767,Tour de la Mirabelle,FR,2.2,Stage Race,2023/05/25,2023/05/28,02,159.3,Saint Amarin-Corcieux,Hilly
+2023,Men,Road,250,Tour of Estonia,EE,2.1,Stage Race,2023/05/26,2023/05/27,01,192.6,Tallinn-Tartu,Flat
+2023,Men,Road,250,Tour of Estonia,EE,2.1,Stage Race,2023/05/26,2023/05/27,02,164.8,Tartu-Tartu,Flat
+2023,Men,Road,4008,GP Beiras e Serra da Estrela,PT,2.2,Stage Race,2023/05/26,2023/05/28,02,123.5,Fornos de Algodres-Figueira de Castelo Rodrigo,Flat
+2023,Men,Road,4008,GP Beiras e Serra da Estrela,PT,2.2,Stage Race,2023/05/26,2023/05/28,03,176.8,Penamacor-Pinhel,Flat
+2023,Men,Road,4008,GP Beiras e Serra da Estrela,PT,2.2,Stage Race,2023/05/26,2023/05/28,04,183.7,Fundão-Guarda,Mountain
+2023,Men,Road,4008,GP Beiras e Serra da Estrela,PT,2.2,Stage Race,2023/05/26,2023/05/28,01,15.8,Seia-Gouveia | TTT,TTT
+2023,Men,Road,71,Tour of Norway,NO,2.Pro,Stage Race,2023/05/26,2023/05/29,02,165.6,Valle-Stavanger,Flat
+2023,Men,Road,71,Tour of Norway,NO,2.Pro,Stage Race,2023/05/26,2023/05/29,01,85.2,Jondal-Hovden,Hilly
+2023,Men,Road,71,Tour of Norway,NO,2.Pro,Stage Race,2023/05/26,2023/05/29,03,151,Stavanger-Stavanger,Hilly
+2023,Men,Road,71,Tour of Norway,NO,2.Pro,Stage Race,2023/05/26,2023/05/29,00,7.4,Bergen-Mt. Fløyen,Mountain ITT
+2023,Men,Road,734,2 Giorni Marchigiana - GP Santa Rita,IT,1.2,One Day,2023/05/27,2023/05/27,GC,,,Hilly
+2023,Men,Road,3838,Van Merksteijn Fences Classic,BE,1.1,One Day,2023/05/27,2023/05/27,GC,,,Flat
+2023,Men,Road,408,Trofeo Castelfidardo,IT,1.2,One Day,2023/05/28,2023/05/28,GC,,,Hilly
+2023,Men,Road,285,Paris-Troyes,FR,1.2,One Day,2023/05/29,2023/05/29,GC,,,Flat
+2023,Men,Road,437,Ronde van Limburg,BE,1.1,One Day,2023/05/29,2023/05/29,GC,,,Hilly MTF
+2023,Men,Road,13188,Mercan Tour Classic Alpes-Maritimes,FR,1.1,One Day,2023/05/30,2023/05/30,GC,,,Mountain MTF
+2023,Men,Road,552,Oberösterreich Rundfahrt,AT,2.2,Stage Race,2023/06/01,2023/06/04,01,181.2,Eferding-Geinberg,Flat
+2023,Men,Road,552,Oberösterreich Rundfahrt,AT,2.2,Stage Race,2023/06/01,2023/06/04,02,156.5,Wels-Bad Leonfelden,Hilly
+2023,Men,Road,552,Oberösterreich Rundfahrt,AT,2.2,Stage Race,2023/06/01,2023/06/04,03,146.3,Asten-Hinterstoder Höss,Mountain MTF
+2023,Men,Road,552,Oberösterreich Rundfahrt,AT,2.2,Stage Race,2023/06/01,2023/06/04,00,0.7,Linz-Linz,Flat ITT
+2023,Men,Road,386,Tour of Malopolska,PL,2.2,Stage Race,2023/06/01,2023/06/04,01,147,Koszyce-Myslenice,Hilly MTF
+2023,Men,Road,386,Tour of Malopolska,PL,2.2,Stage Race,2023/06/01,2023/06/04,02,161,Wieliczka-Nowy Targ,Hilly
+2023,Men,Road,386,Tour of Malopolska,PL,2.2,Stage Race,2023/06/01,2023/06/04,03,140,Jablonka-Stary Sacz Przehyba,Mountain MTF
+2023,Men,Road,386,Tour of Malopolska,PL,2.2,Stage Race,2023/06/01,2023/06/04,00,1.4,Krakow-Krakow,Mountain ITT
+2023,Men,Road,345,Ronde de l'Oise,FR,2.2,Stage Race,2023/06/01,2023/06/04,01,145.9,Beauvais-Clermont,Flat
+2023,Men,Road,345,Ronde de l'Oise,FR,2.2,Stage Race,2023/06/01,2023/06/04,02,181,Breteuil-Margny les Compiegne,Flat
+2023,Men,Road,345,Ronde de l'Oise,FR,2.2,Stage Race,2023/06/01,2023/06/04,03,189.9,Andeville-Le Plessis-Belleville,Flat
+2023,Men,Road,345,Ronde de l'Oise,FR,2.2,Stage Race,2023/06/01,2023/06/04,04,158.9,Breuil le Sec-Liancourt,Hilly
+2023,Men,Road,149,Giro dell'Appennino,IT,1.1,One Day,2023/06/02,2023/06/02,GC,,,Hilly
+2023,Men,Road,546,Trofeo Alcide Degasperi,IT,1.2,One Day,2023/06/02,2023/06/02,GC,,,Flat
+2023,Men,Road,349,Heistse Pijl,BE,1.1,One Day,2023/06/03,2023/06/03,GC,,,Flat
+2023,Men,Road,473,Tour du Cameroun,CM,2.2,Stage Race,2023/06/03,2023/06/11,01,100.3,Figuil-Garoua,Flat
+2023,Men,Road,473,Tour du Cameroun,CM,2.2,Stage Race,2023/06/03,2023/06/11,02,99.2,Garoua-Garoua,Flat
+2023,Men,Road,473,Tour du Cameroun,CM,2.2,Stage Race,2023/06/03,2023/06/11,03,108,Pouma-Kribi,Flat
+2023,Men,Road,473,Tour du Cameroun,CM,2.2,Stage Race,2023/06/03,2023/06/11,04,160.1,Kribi-Douala,Flat
+2023,Men,Road,473,Tour du Cameroun,CM,2.2,Stage Race,2023/06/03,2023/06/11,05,109.6,Douala-Douala,Flat
+2023,Men,Road,473,Tour du Cameroun,CM,2.2,Stage Race,2023/06/03,2023/06/11,07,120.9,Bangangte-Bafia,Flat
+2023,Men,Road,473,Tour du Cameroun,CM,2.2,Stage Race,2023/06/03,2023/06/11,06,105.1,Loum-Dschang,Hilly MTF
+2023,Men,Road,473,Tour du Cameroun,CM,2.2,Stage Race,2023/06/03,2023/06/11,08,118.1,Bafia-Yaoundé,Hilly
+2023,Men,Road,473,Tour du Cameroun,CM,2.2,Stage Race,2023/06/03,2023/06/11,,-,-,Unknown
+2023,Men,Road,502,Tour de Kumano,JP,2.2,Stage Race,2023/06/03,2023/06/04,02,104.3,Taiji-Taiji,Flat
+2023,Men,Road,502,Tour de Kumano,JP,2.2,Stage Race,2023/06/03,2023/06/04,01,63.7,Kumano-Kumano,Hilly
+2023,Men,Road,550,Coppa della Pace,IT,1.2U,One Day,2023/06/04,2023/06/04,GC,,,Hilly
+2023,Men,Road,351,Memorial van Coningsloo,BE,1.2,One Day,2023/06/04,2023/06/04,GC,,,Cobbles
+2023,Men,Road,64,Brussels Classic,BE,1.Pro,One Day,2023/06/04,2023/06/04,GC,,,Flat
+2023,Men,Road,15,Critérium du Dauphiné,FR,2.UWT,Stage Race,2023/06/04,2023/06/11,03,191.1,Monistrol-sur-Loire-Le Coteau,Flat
+2023,Men,Road,15,Critérium du Dauphiné,FR,2.UWT,Stage Race,2023/06/04,2023/06/11,06,170.2,Nantua-Crest-Voland,Hilly MTF
+2023,Men,Road,15,Critérium du Dauphiné,FR,2.UWT,Stage Race,2023/06/04,2023/06/11,01,158,Chambon-sur-Lac-Chambon-sur-Lac,Hilly
+2023,Men,Road,15,Critérium du Dauphiné,FR,2.UWT,Stage Race,2023/06/04,2023/06/11,02,167.3,Brassac-les-Mines-La Chaise-Dieu,Hilly
+2023,Men,Road,15,Critérium du Dauphiné,FR,2.UWT,Stage Race,2023/06/04,2023/06/11,05,191.1,Cormoranche-sur-Saône-Salins-les-Bains,Hilly
+2023,Men,Road,15,Critérium du Dauphiné,FR,2.UWT,Stage Race,2023/06/04,2023/06/11,07,147.9,Porte-de-Savoie-Col de la Croix de Fer,Mountain MTF
+2023,Men,Road,15,Critérium du Dauphiné,FR,2.UWT,Stage Race,2023/06/04,2023/06/11,08,152.8,Le Pont-de-Claix-La Bastille – Grenoble Alpes Métropole,Mountain MTF
+2023,Men,Road,15,Critérium du Dauphiné,FR,2.UWT,Stage Race,2023/06/04,2023/06/11,04,31.1,Cours-Belmont-de-la-Loire,Flat ITT
+2023,Men,Road,5228,Tour de Maurice,MU,2.2,Stage Race,2023/06/06,2023/06/09,04,106,Soreze-Soreze,Flat
+2023,Men,Road,5228,Tour de Maurice,MU,2.2,Stage Race,2023/06/06,2023/06/09,01,128.5,Beau Plan-Cote d'Or,Hilly
+2023,Men,Road,5228,Tour de Maurice,MU,2.2,Stage Race,2023/06/06,2023/06/09,03,115.1,Cascavelle-Grand Bassin,Hilly
+2023,Men,Road,5228,Tour de Maurice,MU,2.2,Stage Race,2023/06/06,2023/06/09,02,20.5,Fenrey-Union Vale | TTT,TTT
+2023,Men,Road,18950,Aziz Shusha,AZ,2.2,Stage Race,2023/06/07,2023/06/11,03,170,Gabala-Ganja,Flat
+2023,Men,Road,18950,Aziz Shusha,AZ,2.2,Stage Race,2023/06/07,2023/06/11,02,176.2,Gabala-Gabala,Hilly MTF
+2023,Men,Road,18950,Aziz Shusha,AZ,2.2,Stage Race,2023/06/07,2023/06/11,04,102.9,Ganja-Göygöl,Hilly MTF
+2023,Men,Road,18950,Aziz Shusha,AZ,2.2,Stage Race,2023/06/07,2023/06/11,01,149.9,Baku-Shamakhi,Hilly
+2023,Men,Road,18950,Aziz Shusha,AZ,2.2,Stage Race,2023/06/07,2023/06/11,05,132.2,Beylagan-Shusha,Mountain
+2023,Men,Road,21139,Asia Mixed Relay,,CCTT,One Day,2023/06/07,2023/06/07,GC,,,TTT
+2023,Men,Road,213,ZLM Tour,NL,2.Pro,Stage Race,2023/06/07,2023/06/11,01,203.1,Westkapelle-'s-Heerenhoek,Flat
+2023,Men,Road,213,ZLM Tour,NL,2.Pro,Stage Race,2023/06/07,2023/06/11,02,184,Schijndel-Buchten,Flat
+2023,Men,Road,213,ZLM Tour,NL,2.Pro,Stage Race,2023/06/07,2023/06/11,03,194.1,Roosendaal-Roosendaal,Flat
+2023,Men,Road,213,ZLM Tour,NL,2.Pro,Stage Race,2023/06/07,2023/06/11,04,158.5,Oosterhout-Oosterhout,Flat
+2023,Men,Road,213,ZLM Tour,NL,2.Pro,Stage Race,2023/06/07,2023/06/11,00,6.6,Heinkenszand-Heinkenszand,Flat ITT
+2023,Men,Road,14005,Course de la Paix,CZ,2.NC,Stage Race,2023/06/08,2023/06/11,01,121.9,Jeseník-Rýmarov,Hilly
+2023,Men,Road,14005,Course de la Paix,CZ,2.NC,Stage Race,2023/06/08,2023/06/11,02,129.1,Bruntál-Cervenohorské sedlo,Mountain MTF
+2023,Men,Road,14005,Course de la Paix,CZ,2.NC,Stage Race,2023/06/08,2023/06/11,00,3.1,Jeseník-Jeseník,Flat ITT
+2023,Men,Road,14005,Course de la Paix,CZ,2.NC,Stage Race,2023/06/08,2023/06/11,03,166.1,Jeseník-Jeseník,Mountain
+2023,Men,Road,364,Asia ITT-U23,,CCUT,One Day,2023/06/09,2023/06/09,GC,,,Flat ITT
+2023,Men,Road,2119,Tour d'Eure-et-Loir,FR,2.2,Stage Race,2023/06/09,2023/06/11,01,161.2,Châteaudun-Luisant,Flat
+2023,Men,Road,2119,Tour d'Eure-et-Loir,FR,2.2,Stage Race,2023/06/09,2023/06/11,03,172.5,Orgères-en-Beauce-Chartres,Flat
+2023,Men,Road,2119,Tour d'Eure-et-Loir,FR,2.2,Stage Race,2023/06/09,2023/06/11,02,189.1,Gallardon-Argenvilliers,Hilly
+2023,Men,Road,199,GP Kanton Aargau,CH,1.1,One Day,2023/06/09,2023/06/09,GC,,,Hilly
+2023,Men,Road,361,Asia ITT,,CCTT,One Day,2023/06/10,2023/06/10,GC,,,Flat ITT
+2023,Men,Road,20012,Kirikkale Road Race,TR,2.2,Stage Race,2023/06/10,2023/06/11,01,142,Kirikkale-Kirikkale,Unknown
+2023,Men,Road,20012,Kirikkale Road Race,TR,2.2,Stage Race,2023/06/10,2023/06/11,02,164,Kirikkale-Kirikkale,Unknown
+2023,Men,Road,425,Dwars door het Hageland,BE,1.Pro,One Day,2023/06/10,2023/06/10,GC,,,Cobbles
+2023,Men,Road,226,Giro Next Gen,IT,2.2U,Stage Race,2023/06/11,2023/06/18,03,141,Priocca-Magenta,Flat
+2023,Men,Road,226,Giro Next Gen,IT,2.2U,Stage Race,2023/06/11,2023/06/18,08,135,Tavagnacco-Trieste,Flat
+2023,Men,Road,226,Giro Next Gen,IT,2.2U,Stage Race,2023/06/11,2023/06/18,02,151,San Francesco al Campo-Cherasco,Hilly MTF
+2023,Men,Road,226,Giro Next Gen,IT,2.2U,Stage Race,2023/06/11,2023/06/18,05,159,Cesano Maderno-Manerba del Garda,Hilly
+2023,Men,Road,226,Giro Next Gen,IT,2.2U,Stage Race,2023/06/11,2023/06/18,06,165,Pergine Valsugana-Povegliano,Hilly
+2023,Men,Road,226,Giro Next Gen,IT,2.2U,Stage Race,2023/06/11,2023/06/18,07,176,Possagno-Pian del Cansiglio,Hilly
+2023,Men,Road,226,Giro Next Gen,IT,2.2U,Stage Race,2023/06/11,2023/06/18,04,119,Morbegno-Passo dello Stelvio,Mountain MTF
+2023,Men,Road,226,Giro Next Gen,IT,2.2U,Stage Race,2023/06/11,2023/06/18,01,9.4,Agliè-Agliè,Flat ITT
+2023,Men,Road,8515,Elfstedenronde,BE,1.1,One Day,2023/06/11,2023/06/11,GC,,,Flat
+2023,Men,Road,16,Tour de Suisse,CH,2.UWT,Stage Race,2023/06/11,2023/06/18,02,173.7,Beromünster-Nottwil,Flat
+2023,Men,Road,16,Tour de Suisse,CH,2.UWT,Stage Race,2023/06/11,2023/06/18,07,183.5,Tübach-Weinfelden,Flat
+2023,Men,Road,16,Tour de Suisse,CH,2.UWT,Stage Race,2023/06/11,2023/06/18,06,215.3,La Punt-Oberwil,Hilly
+2023,Men,Road,16,Tour de Suisse,CH,2.UWT,Stage Race,2023/06/11,2023/06/18,03,143.8,Tafers-Villars-sur-Ollon,Mountain MTF
+2023,Men,Road,16,Tour de Suisse,CH,2.UWT,Stage Race,2023/06/11,2023/06/18,04,152.5,Monthey-Leukerbad,Mountain MTF
+2023,Men,Road,16,Tour de Suisse,CH,2.UWT,Stage Race,2023/06/11,2023/06/18,01,12.7,Einsiedeln-Einsiedeln,Flat ITT
+2023,Men,Road,16,Tour de Suisse,CH,2.UWT,Stage Race,2023/06/11,2023/06/18,08,25.7,St.Gallen-Abtwil,Flat ITT
+2023,Men,Road,16,Tour de Suisse,CH,2.UWT,Stage Race,2023/06/11,2023/06/18,05,207.1,Fiesch-La Punt,Mountain
+2023,Men,Road,10459,CIC - Mont Ventoux,FR,1.Pro,One Day,2023/06/13,2023/06/13,GC,,,Mountain MTF
+2023,Men,Road,235,Tour de Beauce,CA,2.2,Stage Race,2023/06/14,2023/06/18,02,169,Saint-Odilon-de-Cranbourn-Saint-Odilon-de-Cranbourn,Flat
+2023,Men,Road,235,Tour de Beauce,CA,2.2,Stage Race,2023/06/14,2023/06/18,04,70,Québec-Québec,Flat
+2023,Men,Road,235,Tour de Beauce,CA,2.2,Stage Race,2023/06/14,2023/06/18,01,143,Saint-Georges-Notre-Dame-des-Pins,Hilly MTF
+2023,Men,Road,235,Tour de Beauce,CA,2.2,Stage Race,2023/06/14,2023/06/18,03,169,Lac-Mégantic-Mont Mégantic,Hilly MTF
+2023,Men,Road,235,Tour de Beauce,CA,2.2,Stage Race,2023/06/14,2023/06/18,05,122,Saint-Georges-Saint-Georges,Hilly
+2023,Men,Road,211,Tour of Slovenia,SI,2.Pro,Stage Race,2023/06/14,2023/06/18,01,188.6,Celje-Rogaska Slatina,Flat
+2023,Men,Road,211,Tour of Slovenia,SI,2.Pro,Stage Race,2023/06/14,2023/06/18,02,163.1,Zalec-Ormoz,Flat
+2023,Men,Road,211,Tour of Slovenia,SI,2.Pro,Stage Race,2023/06/14,2023/06/18,05,142.6,Vrhinka-Novo mesto,Flat
+2023,Men,Road,211,Tour of Slovenia,SI,2.Pro,Stage Race,2023/06/14,2023/06/18,03,173.4,Grosuplje-Postojna,Hilly
+2023,Men,Road,211,Tour of Slovenia,SI,2.Pro,Stage Race,2023/06/14,2023/06/18,04,165.6,Ljubljana-Kobarid,Mountain
+2023,Men,Road,60,Belgium Tour,BE,2.Pro,Stage Race,2023/06/14,2023/06/18,01,183.4,Scherpenheuvel-Zichem-Scherpenheuvel-Zichem,Flat
+2023,Men,Road,60,Belgium Tour,BE,2.Pro,Stage Race,2023/06/14,2023/06/18,02,175.7,Merelbeke-Knokke-Heist,Flat
+2023,Men,Road,60,Belgium Tour,BE,2.Pro,Stage Race,2023/06/14,2023/06/18,05,194.8,Brussel-Brussel,Flat
+2023,Men,Road,60,Belgium Tour,BE,2.Pro,Stage Race,2023/06/14,2023/06/18,04,172.6,Durbuy-Durbuy,Hilly MTF
+2023,Men,Road,60,Belgium Tour,BE,2.Pro,Stage Race,2023/06/14,2023/06/18,03,15.2,Beveren-Beveren,Flat ITT
+2023,Men,Road,212,Route d'Occitanie,FR,2.1,Stage Race,2023/06/15,2023/06/18,01,187.3,Narbonne-Gruissan,Flat
+2023,Men,Road,212,Route d'Occitanie,FR,2.1,Stage Race,2023/06/15,2023/06/18,02,182,Cazouls-Lès-Béziers-Graulhet,Hilly
+2023,Men,Road,212,Route d'Occitanie,FR,2.1,Stage Race,2023/06/15,2023/06/18,04,164.7,St Gaudens-St Girons Ariège Pyrénées,Hilly
+2023,Men,Road,212,Route d'Occitanie,FR,2.1,Stage Race,2023/06/15,2023/06/18,03,189,Gimont Portes du Gers-Nistos Cap Nestès,Mountain MTF
+2023,Men,Road,14426,Tour du Pays de Montbéliard,FR,2.2,Stage Race,2023/06/16,2023/06/18,02,160,Dampierre-les-Bois-Dampierre-les-Bois,Flat
+2023,Men,Road,14426,Tour du Pays de Montbéliard,FR,2.2,Stage Race,2023/06/16,2023/06/18,01,171.6,Colombier-Fontaine-Colombier-Fontaine,Hilly
+2023,Men,Road,14426,Tour du Pays de Montbéliard,FR,2.2,Stage Race,2023/06/16,2023/06/18,00,3.2,Courcelles-Lès-Montbéliard-Courcelles-Lès-Montbéliard,Flat ITT
+2023,Men,Road,86,Vuelta a Colombia,CO,2.2,Stage Race,2023/06/16,2023/06/25,01,197.3,Yopal-Yopal,Flat
+2023,Men,Road,86,Vuelta a Colombia,CO,2.2,Stage Race,2023/06/16,2023/06/25,03,105,Ibagué-Ibagué,Flat
+2023,Men,Road,86,Vuelta a Colombia,CO,2.2,Stage Race,2023/06/16,2023/06/25,06,164.8,Dosquebradas-Belalcázar,Hilly MTF
+2023,Men,Road,86,Vuelta a Colombia,CO,2.2,Stage Race,2023/06/16,2023/06/25,08,179.7,La Pintada-Cañasgordas,Hilly MTF
+2023,Men,Road,86,Vuelta a Colombia,CO,2.2,Stage Race,2023/06/16,2023/06/25,02,160.1,Tibasosa-Gachancipá,Hilly
+2023,Men,Road,86,Vuelta a Colombia,CO,2.2,Stage Race,2023/06/16,2023/06/25,04,119.3,Ibagué-Alto de la Línea,Mountain MTF
+2023,Men,Road,86,Vuelta a Colombia,CO,2.2,Stage Race,2023/06/16,2023/06/25,07,195.9,Pereira-Manizales,Mountain MTF
+2023,Men,Road,86,Vuelta a Colombia,CO,2.2,Stage Race,2023/06/16,2023/06/25,00,7.8,Yopal-Yopal,Flat ITT
+2023,Men,Road,86,Vuelta a Colombia,CO,2.2,Stage Race,2023/06/16,2023/06/25,09,42,La Ceja-La Ceja,Flat ITT
+2023,Men,Road,86,Vuelta a Colombia,CO,2.2,Stage Race,2023/06/16,2023/06/25,05,165.5,La Virginia-Apía,Mountain
+2023,Men,Road,257,Solidarnosc Champions,PL,2.2,Stage Race,2023/06/28,2023/07/01,01,83,Lodz-Skierniewice,Flat
+2023,Men,Road,257,Solidarnosc Champions,PL,2.2,Stage Race,2023/06/28,2023/07/01,02,85.5,Zgierz-Kutno,Flat
+2023,Men,Road,257,Solidarnosc Champions,PL,2.2,Stage Race,2023/06/28,2023/07/01,03,166.7,Koluszki-Sieradz,Flat
+2023,Men,Road,257,Solidarnosc Champions,PL,2.2,Stage Race,2023/06/28,2023/07/01,05,175.2,Ostrowiec-Steel Wola,Flat
+2023,Men,Road,257,Solidarnosc Champions,PL,2.2,Stage Race,2023/06/28,2023/07/01,04,218.6,Pabianice-Kielce,Hilly
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,03,193.5, Amorebieta-Etxano-Bayonne,Flat
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,04,181.8,Dax-Nogaro,Flat
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,07,169.9,Mont-de-Marsan-Bordeaux,Flat
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,11,179.3,Clermont-Ferrand-Moulins,Flat
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,19,172.8,Moirans-en-Montagne-Poligny,Flat
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,21,115.1,Saint-Quentin-en-Yvelines-Paris,Flat
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,01,182, Bilbao- Bilbao,Hilly
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,02,207.3, Vitoria-Gasteiz- San Sebastian,Hilly
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,08,200.7,Liburne-Limoges,Hilly
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,10,167.2,Vulcania-Issoire,Hilly
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,12,168,Roanne-Belleville-en-Beaujolais,Hilly
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,18,184.9,Moûtiers-Bourg-en-Bresse,Hilly
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,06,144.9,Tarbes-Cauterets-Cambasque,Mountain MTF
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,09,182.4,Saint-Léonard-de-Noblat-Puy de Dôme,Mountain MTF
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,13,137.8,Châtillon-sur-Chalaronne-Grand Colombier,Mountain MTF
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,15,179,Les Gets-Saint Gervais Mont-Blanc,Mountain MTF
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,16,22.4,Passy-Combloux,Flat ITT
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,,-,-,Unknown
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,05,162.7,Pau-Laruns,Mountain
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,14,150.4,Annemasse-Morzine,Mountain
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,17,165.7,Saint Gervais Mont-Blanc-Courchevel,Mountain
+2023,Men,Road,17,Tour de France,FR,2.UWT,Stage Race,2023/07/01,2023/07/23,20,133.5,Belfort-Le Markstein,Mountain
+2023,Men,Road,559,Giro del Medio Brenta,IT,1.2,One Day,2023/07/02,2023/07/02,GC,,,Hilly MTF
+2023,Men,Road,2088,Midden Brabant,NL,1.2,One Day,2023/07/02,2023/07/02,GC,,,Flat
+2023,Men,Road,38,Österreich-Rundfahrt,AT,2.1,Stage Race,2023/07/02,2023/07/06,04,197,St.Johann-Steyr,Flat
+2023,Men,Road,38,Österreich-Rundfahrt,AT,2.1,Stage Race,2023/07/02,2023/07/06,05,155.8,Ybbs-Sonntagberg,Hilly MTF
+2023,Men,Road,38,Österreich-Rundfahrt,AT,2.1,Stage Race,2023/07/02,2023/07/06,01,147.6,Dornbirn-Dornbirn,Hilly
+2023,Men,Road,38,Österreich-Rundfahrt,AT,2.1,Stage Race,2023/07/02,2023/07/06,02,158.5,St.Anton-Innsbruck,Hilly
+2023,Men,Road,38,Österreich-Rundfahrt,AT,2.1,Stage Race,2023/07/02,2023/07/06,03,148.5,Sillian-St.Johann,Mountain
+2023,Men,Road,662,Trofeo Citta di Brescia,IT,1.2,One Day,2023/07/04,2023/07/04,GC,,,Flat
+2023,Men,Road,1026,Cent.America and Caribbean ITT,,RCTT,One Day,2023/07/05,2023/07/05,GC,,,Flat ITT
+2023,Men,Road,258,Sibiu Cycling Tour,RO,2.1,Stage Race,2023/07/06,2023/07/09,01,199,Sibiu-Sibiu,Flat
+2023,Men,Road,258,Sibiu Cycling Tour,RO,2.1,Stage Race,2023/07/06,2023/07/09,04,97.3,Sibiu-Sibiu,Hilly
+2023,Men,Road,258,Sibiu Cycling Tour,RO,2.1,Stage Race,2023/07/06,2023/07/09,02,155,Sibiu-Bâlea Lac,Mountain MTF
+2023,Men,Road,258,Sibiu Cycling Tour,RO,2.1,Stage Race,2023/07/06,2023/07/09,03,202,Brezoi-Paltins,Mountain MTF
+2023,Men,Road,258,Sibiu Cycling Tour,RO,2.1,Stage Race,2023/07/06,2023/07/09,05,3.3,Sibiu-Sibiu,Flat ITT
+2023,Men,Road,582,GP Hungary,HU,1.2,One Day,2023/07/08,2023/07/08,GC,,,Hilly
+2023,Men,Road,11357,Grand Prix Erciyes,TR,1.2,One Day,2023/07/08,2023/07/08,GC,,,Flat
+2023,Men,Road,581,GP Slovakia,SK,1.2,One Day,2023/07/09,2023/07/09,GC,,,Hilly
+2023,Men,Road,647,Pan Arab Games TTT,,RCTT,One Day,2023/07/09,2023/07/09,GC,,,TTT
+2023,Men,Road,127,Tour of Qinghai Lake,CN,2.Pro,Stage Race,2023/07/09,2023/07/16,01,109,Xining-Xining,Flat
+2023,Men,Road,127,Tour of Qinghai Lake,CN,2.Pro,Stage Race,2023/07/09,2023/07/16,08,200,Gonghe-Caka SaltLake,Flat
+2023,Men,Road,127,Tour of Qinghai Lake,CN,2.Pro,Stage Race,2023/07/09,2023/07/16,04,189,Huzhu-Menyuan,Hilly
+2023,Men,Road,127,Tour of Qinghai Lake,CN,2.Pro,Stage Race,2023/07/09,2023/07/16,05,170,Menyuan-Qilian,Hilly
+2023,Men,Road,127,Tour of Qinghai Lake,CN,2.Pro,Stage Race,2023/07/09,2023/07/16,07,127,Xihaizhen-Gonghe,Hilly
+2023,Men,Road,127,Tour of Qinghai Lake,CN,2.Pro,Stage Race,2023/07/09,2023/07/16,02,132,Duoba-Guide,Mountain
+2023,Men,Road,127,Tour of Qinghai Lake,CN,2.Pro,Stage Race,2023/07/09,2023/07/16,03,201,Guide-Huzhu,Mountain
+2023,Men,Road,127,Tour of Qinghai Lake,CN,2.Pro,Stage Race,2023/07/09,2023/07/16,06,206,Qilian-Xihaizhen,Mountain
+2023,Men,Road,648,Pan Arab Games ITT,,RCTT,One Day,2023/07/11,2023/07/11,GC,,,Flat ITT
+2023,Men,Road,229,Valle d'Aosta,IT,2.2U,Stage Race,2023/07/12,2023/07/16,01,80.9,Arvier-Arvier,Flat
+2023,Men,Road,229,Valle d'Aosta,IT,2.2U,Stage Race,2023/07/12,2023/07/16,04,172.5,Verrayes-Fénis,Hilly MTF
+2023,Men,Road,229,Valle d'Aosta,IT,2.2U,Stage Race,2023/07/12,2023/07/16,02,125.1,Courmayeur-Val Veny,Mountain MTF
+2023,Men,Road,229,Valle d'Aosta,IT,2.2U,Stage Race,2023/07/12,2023/07/16,03,138.1,Saint Vincent-Bionaz,Mountain MTF
+2023,Men,Road,229,Valle d'Aosta,IT,2.2U,Stage Race,2023/07/12,2023/07/16,05,99.7,Valtournenche-Breuil Cervinia,Mountain MTF
+2023,Men,Road,398,GP Torres Vedras,PT,2.2,Stage Race,2023/07/13,2023/07/16,01,156.7,Sobral de Monte Agraco-Foz do Arelho,Flat
+2023,Men,Road,398,GP Torres Vedras,PT,2.2,Stage Race,2023/07/13,2023/07/16,02,143.7,Serra D'el-Rei-Torres Vedras,Hilly
+2023,Men,Road,398,GP Torres Vedras,PT,2.2,Stage Race,2023/07/13,2023/07/16,03,185.8,Lourinhã-Alto de Montejunto,Mountain MTF
+2023,Men,Road,398,GP Torres Vedras,PT,2.2,Stage Race,2023/07/13,2023/07/16,00,8,Turcifal-Turcifal,Flat ITT
+2023,Men,Road,703,GP de Gemenc,HU,2.2,Stage Race,2023/07/14,2023/07/16,01,177.5,Szekzárd-Szekzárd,Flat
+2023,Men,Road,703,GP de Gemenc,HU,2.2,Stage Race,2023/07/14,2023/07/16,02,144.6,Szekzárd-Szekzárd,Hilly
+2023,Men,Road,703,GP de Gemenc,HU,2.2,Stage Race,2023/07/14,2023/07/16,00,2,Szekzárd-Szekzárd,Flat ITT
+2023,Men,Road,20074,SD WORX BW Classic,BE,1.2,One Day,2023/07/19,2023/07/19,GC,,,Hilly
+2023,Men,Road,20780,Tour of Huangshan,CN,2.2,Stage Race,2023/07/21,2023/07/23,01,118.1,Shexian Ancient City-Huangshan District,Flat
+2023,Men,Road,20780,Tour of Huangshan,CN,2.2,Stage Race,2023/07/21,2023/07/23,03,140,Huangshan-Huangshan,Flat
+2023,Men,Road,20780,Tour of Huangshan,CN,2.2,Stage Race,2023/07/21,2023/07/23,02,101,Huangshan District-Yixian,Hilly
+2023,Men,Road,579,GP Polski Via Odra,PL,1.2,One Day,2023/07/22,2023/07/22,GC,,,Hilly
+2023,Men,Road,193,Tour de Wallonie,BE,2.Pro,Stage Race,2023/07/22,2023/07/26,01,189.6,Huy-Hamoir,Hilly
+2023,Men,Road,193,Tour de Wallonie,BE,2.Pro,Stage Race,2023/07/22,2023/07/26,02,179.7,Saint-Ghislain-Walcourt,Hilly
+2023,Men,Road,193,Tour de Wallonie,BE,2.Pro,Stage Race,2023/07/22,2023/07/26,03,186.8,Thuin-Mont-Saint-Guibert,Hilly
+2023,Men,Road,193,Tour de Wallonie,BE,2.Pro,Stage Race,2023/07/22,2023/07/26,05,215,Banneux-Aubel,Hilly
+2023,Men,Road,193,Tour de Wallonie,BE,2.Pro,Stage Race,2023/07/22,2023/07/26,04,32.7,Mons-Mons,Flat ITT
+2023,Men,Road,18957,Cupa Max Ausnit,RO,1.2,One Day,2023/07/23,2023/07/23,GC,,,Hilly
+2023,Men,Road,580,GP Czech Republic,CZ,1.2,One Day,2023/07/23,2023/07/23,GC,,,Hilly
+2023,Men,Road,583,GP de Pérenchies,FR,1.2,One Day,2023/07/23,2023/07/23,GC,,,Cobbles
+2023,Men,Road,209,GP Kranj,SI,1.2,One Day,2023/07/23,2023/07/23,GC,,,Hilly
+2023,Men,Road,531,Mem. A.Trochanowskiego,PL,1.2,One Day,2023/07/25,2023/07/25,GC,,,Flat
+2023,Men,Road,207,Villafranca de Ordizia,ES,1.1,One Day,2023/07/25,2023/07/25,GC,,,Hilly
+2023,Men,Road,230,Tour Alsace,FR,2.2,Stage Race,2023/07/26,2023/07/30,02,166.1,Europa-Park-Sélestat,Flat
+2023,Men,Road,230,Tour Alsace,FR,2.2,Stage Race,2023/07/26,2023/07/30,04,197,Tagolsheim-Altkirch,Hilly
+2023,Men,Road,230,Tour Alsace,FR,2.2,Stage Race,2023/07/26,2023/07/30,03,132.6,Vesoul-La Planche des Belles Filles,Mountain MTF
+2023,Men,Road,230,Tour Alsace,FR,2.2,Stage Race,2023/07/26,2023/07/30,05,137.7,Ribeauville-Cernay,Mountain
+2023,Men,Road,230,Tour Alsace,FR,2.2,Stage Race,2023/07/26,2023/07/30,01,4.3,Sausheim-Sausheim | TTT,TTT
+2023,Men,Road,563,Dookola Mazowsza,PL,2.2,Stage Race,2023/07/26,2023/07/29,01,168,Teresin-Teresin,Flat
+2023,Men,Road,563,Dookola Mazowsza,PL,2.2,Stage Race,2023/07/26,2023/07/29,02,165,Grodzisk Mazowiecki-Grodzisk Mazowiecki,Flat
+2023,Men,Road,563,Dookola Mazowsza,PL,2.2,Stage Race,2023/07/26,2023/07/29,03,154.3,Plonsk-Plonsk,Flat
+2023,Men,Road,563,Dookola Mazowsza,PL,2.2,Stage Race,2023/07/26,2023/07/29,04,165,Kozienice-Kozienice,Flat
+2023,Men,Road,85,Vuelta a Castilla y León,ES,2.1,Stage Race,2023/07/26,2023/07/27,01,168.9,Soria-Soria,Hilly
+2023,Men,Road,85,Vuelta a Castilla y León,ES,2.1,Stage Race,2023/07/26,2023/07/27,02,186.2,Coca-Segovia,Mountain
+2023,Men,Road,15209,Czech Tour,CZ,2.1,Stage Race,2023/07/27,2023/07/30,01,165,Prostejov-Unicov,Flat
+2023,Men,Road,15209,Czech Tour,CZ,2.1,Stage Race,2023/07/27,2023/07/30,02,166.9,Olomouc-Pustenvy,Hilly MTF
+2023,Men,Road,15209,Czech Tour,CZ,2.1,Stage Race,2023/07/27,2023/07/30,04,176.2,Sumperk-Stenberg,Hilly
+2023,Men,Road,15209,Czech Tour,CZ,2.1,Stage Race,2023/07/27,2023/07/30,03,161.5,Moravska Trebova-Cervenohorske Sedlo,Mountain MTF
+2023,Men,Road,385,Kreiz Breizh Elites,FR,2.2,Stage Race,2023/07/28,2023/07/31,02,209.3,Calanhel-Priziac,Flat
+2023,Men,Road,385,Kreiz Breizh Elites,FR,2.2,Stage Race,2023/07/28,2023/07/31,03,183.6,Locmalo-Carhaix,Hilly
+2023,Men,Road,385,Kreiz Breizh Elites,FR,2.2,Stage Race,2023/07/28,2023/07/31,04,189.5,Plouisy-Rostrenen,Hilly
+2023,Men,Road,385,Kreiz Breizh Elites,FR,2.2,Stage Race,2023/07/28,2023/07/31,01,11.8,Bégard-Bégard,Flat ITT
+2023,Men,Road,18,San Sebastian Klasikoa,ES,1.UWT,One Day,2023/07/29,2023/07/29,GC,,,Hilly
+2023,Men,Road,19,Tour de Pologne,PL,2.UWT,Stage Race,2023/07/29,2023/08/04,01,183.7,Poznan-Poznan,Flat
+2023,Men,Road,19,Tour de Pologne,PL,2.UWT,Stage Race,2023/07/29,2023/08/04,04,199.1,Strzelin-Opole,Flat
+2023,Men,Road,19,Tour de Pologne,PL,2.UWT,Stage Race,2023/07/29,2023/08/04,07,166.6,Zabrze-Kraków,Flat
+2023,Men,Road,19,Tour de Pologne,PL,2.UWT,Stage Race,2023/07/29,2023/08/04,02,202.9,Leszno-Karpacz,Hilly MTF
+2023,Men,Road,19,Tour de Pologne,PL,2.UWT,Stage Race,2023/07/29,2023/08/04,03,162.3,Walbrzych-Duszniki-Zdrój,Hilly MTF
+2023,Men,Road,19,Tour de Pologne,PL,2.UWT,Stage Race,2023/07/29,2023/08/04,05,198.8,Pszczyna-Bielsko-Biala,Hilly MTF
+2023,Men,Road,19,Tour de Pologne,PL,2.UWT,Stage Race,2023/07/29,2023/08/04,06,16.6,Katowice-Katowice,Flat ITT
+2023,Men,Road,202,Circuito de Getxo,ES,1.1,One Day,2023/07/30,2023/07/30,GC,,,Hilly MTF
+2023,Men,Road,4014,Puchar Mon,PL,1.2,One Day,2023/07/30,2023/07/30,GC,,,Flat
+2023,Men,Road,63,Tour de l'Ain,FR,2.1,Stage Race,2023/07/31,2023/08/02,01,154.5,Loyettes-La Plaine Tonique,Flat
+2023,Men,Road,63,Tour de l'Ain,FR,2.1,Stage Race,2023/07/31,2023/08/02,03,131.5,Oyonnax-Lelex Mont Jura,Mountain MTF
+2023,Men,Road,63,Tour de l'Ain,FR,2.1,Stage Race,2023/07/31,2023/08/02,02,123.3,Saint-Vulbas-Lagnieu,Mountain
+2023,Men,Road,20021,100th Anniversary Tour of The Republic,TR,2.2,Stage Race,2023/08/01,2023/08/05,02,89.4,Amasya-Havza,Flat
+2023,Men,Road,20021,100th Anniversary Tour of The Republic,TR,2.2,Stage Race,2023/08/01,2023/08/05,01,208.8,Sivas-Amasya,Hilly
+2023,Men,Road,20021,100th Anniversary Tour of The Republic,TR,2.2,Stage Race,2023/08/01,2023/08/05,03,135.2,Havza-Samsun,Hilly
+2023,Men,Road,20021,100th Anniversary Tour of The Republic,TR,2.2,Stage Race,2023/08/01,2023/08/05,04,176.1,Samsun-Çorum,Hilly
+2023,Men,Road,20021,100th Anniversary Tour of The Republic,TR,2.2,Stage Race,2023/08/01,2023/08/05,05,174.4,Çankiri-Ankara,Hilly
+2023,Men,Road,586,Tour de la Guadeloupe,FR,2.2,Stage Race,2023/08/04,2023/08/13,01,166.6,Gosier-Baie-Mahault,Flat
+2023,Men,Road,586,Tour de la Guadeloupe,FR,2.2,Stage Race,2023/08/04,2023/08/13,02,161.4,Morne-à-l'eau-Port-Louis,Flat
+2023,Men,Road,586,Tour de la Guadeloupe,FR,2.2,Stage Race,2023/08/04,2023/08/13,04,161,Saint-Francois-Sainte-Anne,Flat
+2023,Men,Road,586,Tour de la Guadeloupe,FR,2.2,Stage Race,2023/08/04,2023/08/13,05,159.1,Deshaies-Abymes,Flat
+2023,Men,Road,586,Tour de la Guadeloupe,FR,2.2,Stage Race,2023/08/04,2023/08/13,07,164.9,Sainte-Rose-Petit-Bourg,Flat
+2023,Men,Road,586,Tour de la Guadeloupe,FR,2.2,Stage Race,2023/08/04,2023/08/13,09,153,Pointe-à-Pitre-Les Champs de Houlbourg,Flat
+2023,Men,Road,586,Tour de la Guadeloupe,FR,2.2,Stage Race,2023/08/04,2023/08/13,03,158,Trois-Rivières-Baillif,Hilly MTF
+2023,Men,Road,586,Tour de la Guadeloupe,FR,2.2,Stage Race,2023/08/04,2023/08/13,06,145.9,Basse-Terre-Vieux-Habitants,Hilly MTF
+2023,Men,Road,586,Tour de la Guadeloupe,FR,2.2,Stage Race,2023/08/04,2023/08/13,00,6,Capesterre-Belle-Eau-Capesterre-Belle-Eau,Flat ITT
+2023,Men,Road,586,Tour de la Guadeloupe,FR,2.2,Stage Race,2023/08/04,2023/08/13,08,12.5,Vieux-Fort-Saint-Claude,Flat ITT
+2023,Men,Road,12533,World Championship Mixed Relay,,WCTT,One Day,2023/08/08,2023/08/08,GC,,,TTT
+2023,Men,Road,566,Tour of Szeklerland,RO,2.2,Stage Race,2023/08/09,2023/08/12,01,115,Sfantu Gheorghe-Miercurea Ciuc,Flat
+2023,Men,Road,566,Tour of Szeklerland,RO,2.2,Stage Race,2023/08/09,2023/08/12,02,158.6,Miercurea Ciuc-Târgu Mures,Hilly MTF
+2023,Men,Road,566,Tour of Szeklerland,RO,2.2,Stage Race,2023/08/09,2023/08/12,03,145.1,Târgu Mures-Miercurea Ciuc,Hilly
+2023,Men,Road,566,Tour of Szeklerland,RO,2.2,Stage Race,2023/08/09,2023/08/12,00,4.5,Sfantu Gheorghe-Sfantu Gheorghe,Flat ITT
+2023,Men,Road,46,World Championship ITT-U23,,WCUT,One Day,2023/08/09,2023/08/09,GC,,,Flat ITT
+2023,Men,Road,197,Volta a Portugal,PT,2.1,Stage Race,2023/08/09,2023/08/20,01,188.5,Anadia-Ourém,Flat
+2023,Men,Road,197,Volta a Portugal,PT,2.1,Stage Race,2023/08/09,2023/08/20,02,177.3,Abrantes-Vila Franca de Xira,Flat
+2023,Men,Road,197,Volta a Portugal,PT,2.1,Stage Race,2023/08/09,2023/08/20,03,191.8,Sines-Loulé,Flat
+2023,Men,Road,197,Volta a Portugal,PT,2.1,Stage Race,2023/08/09,2023/08/20,04,184.5,Estremoz-Castelo Branco,Flat
+2023,Men,Road,197,Volta a Portugal,PT,2.1,Stage Race,2023/08/09,2023/08/20,06,168.5,Penamacor-Guarda,Hilly MTF
+2023,Men,Road,197,Volta a Portugal,PT,2.1,Stage Race,2023/08/09,2023/08/20,08,146.7,Boticas-Fafe,Hilly
+2023,Men,Road,197,Volta a Portugal,PT,2.1,Stage Race,2023/08/09,2023/08/20,05,184.3,Macão-Covilhã,Mountain MTF
+2023,Men,Road,197,Volta a Portugal,PT,2.1,Stage Race,2023/08/09,2023/08/20,07,162.6,Torre de Moncorvo-Montalegre,Mountain MTF
+2023,Men,Road,197,Volta a Portugal,PT,2.1,Stage Race,2023/08/09,2023/08/20,09,174.5,Paredes-Mondim de Basto,Mountain MTF
+2023,Men,Road,197,Volta a Portugal,PT,2.1,Stage Race,2023/08/09,2023/08/20,00,3.6,Viseu-Viseu,Flat ITT
+2023,Men,Road,197,Volta a Portugal,PT,2.1,Stage Race,2023/08/09,2023/08/20,10,18.2,Viana do Castelo-Viana do Castelo,Flat ITT
+2023,Men,Road,197,Volta a Portugal,PT,2.1,Stage Race,2023/08/09,2023/08/20,,-,-,Unknown
+2023,Men,Road,27,World Championship ITT,,WCTT,One Day,2023/08/11,2023/08/11,GC,,,Flat ITT
+2023,Men,Road,383,Mem.Henryka Lasaka,PL,1.2,One Day,2023/08/12,2023/08/12,GC,,,Hilly
+2023,Men,Road,389,GP Poggiana,IT,1.2U,One Day,2023/08/13,2023/08/13,GC,,,Hilly
+2023,Men,Road,18539,Memorial Jana Magiery,PL,1.2,One Day,2023/08/13,2023/08/13,GC,,,Flat
+2023,Men,Road,203,Polynormande,FR,1.1,One Day,2023/08/13,2023/08/13,GC,,,Hilly MTF
+2023,Men,Road,161,Tour of Leuven,BE,1.1,One Day,2023/08/15,2023/08/15,GC,,,Hilly
+2023,Men,Road,192,Vuelta a Burgos,ES,2.Pro,Stage Race,2023/08/15,2023/08/19,01,161,Villalba de Duero-Burgos,Flat
+2023,Men,Road,192,Vuelta a Burgos,ES,2.Pro,Stage Race,2023/08/15,2023/08/19,04,157,Santa Gadea del Cid-Pradoluengo,Hilly MTF
+2023,Men,Road,192,Vuelta a Burgos,ES,2.Pro,Stage Race,2023/08/15,2023/08/19,05,160,Golmayo-Lagunas de Neila,Mountain MTF
+2023,Men,Road,192,Vuelta a Burgos,ES,2.Pro,Stage Race,2023/08/15,2023/08/19,03,175,Sargentes da la Lora-Villarcayo,Mountain
+2023,Men,Road,192,Vuelta a Burgos,ES,2.Pro,Stage Race,2023/08/15,2023/08/19,02,13.1,Oña-Poza de la Sal | TTT,TTT
+2023,Men,Road,191,Tour du Limousin,FR,2.1,Stage Race,2023/08/15,2023/08/18,02,185.6,Excideuil-Trélissac,Flat
+2023,Men,Road,191,Tour du Limousin,FR,2.1,Stage Race,2023/08/15,2023/08/18,04,170.6,Saint-Yrieix-la-Perche-Limoges,Flat
+2023,Men,Road,191,Tour du Limousin,FR,2.1,Stage Race,2023/08/15,2023/08/18,03,194.5,Sarran-Bortles Orgues,Hilly MTF
+2023,Men,Road,191,Tour du Limousin,FR,2.1,Stage Race,2023/08/15,2023/08/18,01,165.7,Rilhac-Rancon-Bénévent L'Abbaye,Hilly
+2023,Men,Road,32,PostNord Tour of Denmark,DK,2.Pro,Stage Race,2023/08/15,2023/08/19,01,169.8,Aalborg-Aalborg,Flat
+2023,Men,Road,32,PostNord Tour of Denmark,DK,2.Pro,Stage Race,2023/08/15,2023/08/19,04,177.8,Kalundborg-Bagsværd,Flat
+2023,Men,Road,32,PostNord Tour of Denmark,DK,2.Pro,Stage Race,2023/08/15,2023/08/19,03,209,Vejen-Vejle,Hilly MTF
+2023,Men,Road,32,PostNord Tour of Denmark,DK,2.Pro,Stage Race,2023/08/15,2023/08/19,02,163.5,Kjellerup-Silkeborg,Hilly
+2023,Men,Road,32,PostNord Tour of Denmark,DK,2.Pro,Stage Race,2023/08/15,2023/08/19,05,16.1,Helsingør-Helsingør,Flat ITT
+2023,Men,Road,568,GP Capodarco,IT,1.2U,One Day,2023/08/16,2023/08/16,GC,,,Hilly MTF
+2023,Men,Road,259,Arctic Race of Norway,NO,2.Pro,Stage Race,2023/08/17,2023/08/20,01,171,Kautokeino-Alta,Flat
+2023,Men,Road,259,Arctic Race of Norway,NO,2.Pro,Stage Race,2023/08/17,2023/08/20,02,153.4,Alta-Hammerfest,Flat
+2023,Men,Road,259,Arctic Race of Norway,NO,2.Pro,Stage Race,2023/08/17,2023/08/20,03,167,Hammerfest-Havøysund,Hilly MTF
+2023,Men,Road,259,Arctic Race of Norway,NO,2.Pro,Stage Race,2023/08/17,2023/08/20,04,171.4,Kvalsund-Nordkapp,Hilly
+2023,Men,Road,391,Baltic Chain Tour,EE,2.2,Stage Race,2023/08/18,2023/08/20,01,198.7,Tartu-Valga,Flat
+2023,Men,Road,391,Baltic Chain Tour,EE,2.2,Stage Race,2023/08/18,2023/08/20,02,161.6,Sigulda-Sigulda,Flat
+2023,Men,Road,391,Baltic Chain Tour,EE,2.2,Stage Race,2023/08/18,2023/08/20,03,156.5,Panevežys-Panevežys,Flat
+2023,Men,Road,186,Druivenkoers Overijse,BE,1.1,One Day,2023/08/19,2023/08/19,GC,,,Hilly
+2023,Men,Road,188,Egmont Cycling Race,BE,1.1,One Day,2023/08/20,2023/08/20,GC,,,Hilly
+2023,Men,Road,20,BEMER Cyclassics,DE,1.UWT,One Day,2023/08/20,2023/08/20,GC,,,Flat
+2023,Men,Road,44,Tour de l'Avenir,FR,2.NC,Stage Race,2023/08/20,2023/08/27,01,142.2,Carnac-La Gacilly,Flat
+2023,Men,Road,44,Tour de l'Avenir,FR,2.NC,Stage Race,2023/08/20,2023/08/27,02,195,Nozay-Chinon,Flat
+2023,Men,Road,44,Tour de l'Avenir,FR,2.NC,Stage Race,2023/08/20,2023/08/27,04,133,Aigurande-Evaux-les-Bains,Hilly MTF
+2023,Men,Road,44,Tour de l'Avenir,FR,2.NC,Stage Race,2023/08/20,2023/08/27,05,138.3,La Tour-de-Salvagny-Lac d'Aiguebelette,Hilly
+2023,Men,Road,44,Tour de l'Avenir,FR,2.NC,Stage Race,2023/08/20,2023/08/27,06,65,Méribel-Col de la Loze,Mountain MTF
+2023,Men,Road,44,Tour de l'Avenir,FR,2.NC,Stage Race,2023/08/20,2023/08/27,09,99.6,Val-Cenis-Sainte Foy Tarentaise,Mountain MTF
+2023,Men,Road,44,Tour de l'Avenir,FR,2.NC,Stage Race,2023/08/20,2023/08/27,08,72,Les Karellis-Val-Cenis Col du Mont Cenis,Mountain
+2023,Men,Road,44,Tour de l'Avenir,FR,2.NC,Stage Race,2023/08/20,2023/08/27,03,26.5,Vatan-Issoudun | TTT,TTT
+2023,Men,Road,44,Tour de l'Avenir,FR,2.NC,Stage Race,2023/08/20,2023/08/27,07,11.1,Montricher-Albanne Les Karellis-Montricher-Albanne Les Karellis,Mountain ITT
+2023,Men,Road,187,Poitou-Charentes,FR,2.1,Stage Race,2023/08/22,2023/08/25,01,195.2,Confolens-Matha,Flat
+2023,Men,Road,187,Poitou-Charentes,FR,2.1,Stage Race,2023/08/22,2023/08/25,02,184.7,Aulnay de Saintonge-Bressuire,Flat
+2023,Men,Road,187,Poitou-Charentes,FR,2.1,Stage Race,2023/08/22,2023/08/25,03,93.1,Coussay-les-Bois-La Roche-Posay,Flat
+2023,Men,Road,187,Poitou-Charentes,FR,2.1,Stage Race,2023/08/22,2023/08/25,05,170.4,Moncoutant-Poitiers,Flat
+2023,Men,Road,187,Poitou-Charentes,FR,2.1,Stage Race,2023/08/22,2023/08/25,04,22.1,La Roche-Posay-La Roche-Posay,Flat ITT
+2023,Men,Road,36,Deutschland Tour,DE,2.Pro,Stage Race,2023/08/23,2023/08/27,03,173.8,Arnsberg-Essen,Flat
+2023,Men,Road,36,Deutschland Tour,DE,2.Pro,Stage Race,2023/08/23,2023/08/27,04,175.6,Hannover-Bremen,Flat
+2023,Men,Road,36,Deutschland Tour,DE,2.Pro,Stage Race,2023/08/23,2023/08/27,02,201.3,Kassel-Winterberg,Hilly MTF
+2023,Men,Road,36,Deutschland Tour,DE,2.Pro,Stage Race,2023/08/23,2023/08/27,01,179,St.Wendel-Merzig,Hilly
+2023,Men,Road,36,Deutschland Tour,DE,2.Pro,Stage Race,2023/08/23,2023/08/27,00,2.3,St.Wendel-St.Wendel,Flat ITT
+2023,Men,Road,21,Renewi Tour,NL,2.UWT,Stage Race,2023/08/23,2023/08/27,01,182.9, Blankenberge- Ardooie,Flat
+2023,Men,Road,21,Renewi Tour,NL,2.UWT,Stage Race,2023/08/23,2023/08/27,04,179.4, Beringen- Peer,Flat
+2023,Men,Road,21,Renewi Tour,NL,2.UWT,Stage Race,2023/08/23,2023/08/27,05,187.3, Riemst- Bilzen,Hilly
+2023,Men,Road,21,Renewi Tour,NL,2.UWT,Stage Race,2023/08/23,2023/08/27,02,13.6,Sluis-Sluis,Flat ITT
+2023,Men,Road,21,Renewi Tour,NL,2.UWT,Stage Race,2023/08/23,2023/08/27,03,171.2, Aalter- Gerardsbergen,Cobbles
+2023,Men,Road,20013,Tour of Yigido,TR,2.2,Stage Race,2023/08/25,2023/08/27,02,146.2,Sivas-Sivas,Hilly
+2023,Men,Road,20013,Tour of Yigido,TR,2.2,Stage Race,2023/08/25,2023/08/27,01,7.1,Sivas-Sivas,Flat ITT
+2023,Men,Road,20013,Tour of Yigido,TR,2.2,Stage Race,2023/08/25,2023/08/27,03,170,Sivas-Divrigi,Mountain
+2023,Men,Road,955,Tour of Bulgaria,BG,2.2,Stage Race,2023/08/26,2023/08/31,01,70.2,Sofia-Pirdop,Flat
+2023,Men,Road,955,Tour of Bulgaria,BG,2.2,Stage Race,2023/08/26,2023/08/31,04,180.5,Kazanlak-Burgas,Flat
+2023,Men,Road,955,Tour of Bulgaria,BG,2.2,Stage Race,2023/08/26,2023/08/31,05,114,Burgas-Sliven,Flat
+2023,Men,Road,955,Tour of Bulgaria,BG,2.2,Stage Race,2023/08/26,2023/08/31,06,126.4,Sliven-Shumen,Hilly MTF
+2023,Men,Road,955,Tour of Bulgaria,BG,2.2,Stage Race,2023/08/26,2023/08/31,03,108.3,Troyan-Kazanlak,Hilly
+2023,Men,Road,955,Tour of Bulgaria,BG,2.2,Stage Race,2023/08/26,2023/08/31,00,1,Sofia-Sofia,Flat ITT
+2023,Men,Road,955,Tour of Bulgaria,BG,2.2,Stage Race,2023/08/26,2023/08/31,02,88.9,Pirdop-Troyan,Mountain
+2023,Men,Road,18956,Tour of Kandovan,IR,1.2,One Day,2023/08/26,2023/08/26,GC,,,Mountain MTF
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,04,184.6, Andorra la Vella-Tarragona,Flat
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,07,200.8,Utiel-Oliva,Flat
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,12,149.1,Ólvega-Zaragoza,Flat
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,19,177.1,La Bañeza-Íscar,Flat
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,21,100.3,Madrid-Madrid,Flat
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,02,172,Mataró-Barcelona,Hilly MTF
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,09,184.5,Cartagena-Caravaca de la Cruz,Hilly MTF
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,11,158.2,Lerma-La Laguna Negra,Hilly MTF
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,16,119,Liencres-Bejes,Hilly MTF
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,05,186.2,Morella-Burriana,Hilly
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,15,158.3,Pamplona-Lekunberri,Hilly
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,20,207.8,Manzanares El Real-Guadarrama,Hilly
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,03,158.5,Súria- Arinsal,Mountain MTF
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,06,179.4,La Vall d'Uixó-Observatorio Astrofísico de Javalambre,Mountain MTF
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,13,134.7,Formigal- Col du Tourmalet,Mountain MTF
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,14,156.2, Sauveterre-de-Béarn-Larra-Belagua,Mountain MTF
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,17,124.4,Ribadesella-Altu de L'Angliru,Mountain MTF
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,18,176.5,Pola de Allande-La Cruz de Linares,Mountain MTF
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,10,25.8,Valladolid-Valladolid,Flat ITT
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,,-,-,Unknown
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,08,165,Dénia-Xorret de Catí,Mountain
+2023,Men,Road,23,Vuelta a España,ES,2.UWT,Stage Race,2023/08/26,2023/09/17,01,14.8,Barcelona-Barcelona | TTT,TTT
+2023,Men,Road,8310,Ronde van de Achterhoek,NL,1.2,One Day,2023/08/27,2023/08/27,GC,,,Flat
+2023,Men,Road,434,Tour of Iran,IR,2.1,Stage Race,2023/08/27,2023/08/31,01,153.8,Tabriz-Urmiae,Flat
+2023,Men,Road,434,Tour of Iran,IR,2.1,Stage Race,2023/08/27,2023/08/31,05,197.9,Sarein-Tabriz,Hilly MTF
+2023,Men,Road,434,Tour of Iran,IR,2.1,Stage Race,2023/08/27,2023/08/31,02,148.9,Tabriz-Jolfa,Hilly
+2023,Men,Road,434,Tour of Iran,IR,2.1,Stage Race,2023/08/27,2023/08/31,03,128.3,Jolfa-Shabestar (Benis),Mountain
+2023,Men,Road,434,Tour of Iran,IR,2.1,Stage Race,2023/08/27,2023/08/31,04,193,Tabriz-Sarein,Mountain
+2023,Men,Road,996,Muur Classic Geraardsbergen,BE,1.2,One Day,2023/08/30,2023/08/30,GC,,,Cobbles
+2023,Men,Road,538,Giro della Regione Friuli,IT,2.2,Stage Race,2023/08/31,2023/09/03,01,160.3,San Giorgio di Nogaro-San Giorgio di Nogaro,Flat
+2023,Men,Road,538,Giro della Regione Friuli,IT,2.2,Stage Race,2023/08/31,2023/09/03,02,156.3,Rivoli di Osoppo-Colloredo di Monte Albano,Flat
+2023,Men,Road,538,Giro della Regione Friuli,IT,2.2,Stage Race,2023/08/31,2023/09/03,04,160.2,Sesto al Reghena-Triestie,Hilly
+2023,Men,Road,538,Giro della Regione Friuli,IT,2.2,Stage Race,2023/08/31,2023/09/03,03,150.2,Cordenons-Sauris di Sopra,Mountain MTF
+2023,Men,Road,15096,Flanders Tomorrow Tour,BE,2.2U,Stage Race,2023/08/31,2023/09/02,01,140.2,Nieuwpoort-Nieuwpoort,Flat
+2023,Men,Road,15096,Flanders Tomorrow Tour,BE,2.2U,Stage Race,2023/08/31,2023/09/02,02,156.4,Poperinge-Poperinge,Flat
+2023,Men,Road,15096,Flanders Tomorrow Tour,BE,2.2U,Stage Race,2023/08/31,2023/09/02,04,124.9,Kortemark-Handzame,Flat
+2023,Men,Road,15096,Flanders Tomorrow Tour,BE,2.2U,Stage Race,2023/08/31,2023/09/02,03,12.7,Koksijde-Wulpen,Flat ITT
+2023,Men,Road,10675,In the Steps of Romans,BG,2.2,Stage Race,2023/09/02,2023/09/03,01,126.5,Bansko-Razlog,Flat
+2023,Men,Road,10675,In the Steps of Romans,BG,2.2,Stage Race,2023/09/02,2023/09/03,02,135.6,Banya-Razlog,Flat
+2023,Men,Road,9204,Lillehammer GP,NO,1.2,One Day,2023/09/02,2023/09/02,GC,,,Hilly MTF
+2023,Men,Road,9205,Gylne Gutuer,NO,1.2,One Day,2023/09/03,2023/09/03,GC,,,Flat
+2023,Men,Road,22,Bretagne Classic,FR,1.UWT,One Day,2023/09/03,2023/09/03,GC,,,Hilly
+2023,Men,Road,8328,GP Plouay Elite Open ,FR,1.2,One Day,2023/09/03,2023/09/03,GC,,,Hilly
+2023,Men,Road,45,Tour of Britain,GB,2.Pro,Stage Race,2023/09/03,2023/09/10,02,109.9,Wrexham-Wrexham,Flat
+2023,Men,Road,45,Tour of Britain,GB,2.Pro,Stage Race,2023/09/03,2023/09/10,03,154.7,Goole-Beverley,Flat
+2023,Men,Road,45,Tour of Britain,GB,2.Pro,Stage Race,2023/09/03,2023/09/10,04,166.6,Sherwood Forest-Newark-on-Trent,Flat
+2023,Men,Road,45,Tour of Britain,GB,2.Pro,Stage Race,2023/09/03,2023/09/10,05,192.4,Felixstowe-Felixstowe,Flat
+2023,Men,Road,45,Tour of Britain,GB,2.Pro,Stage Race,2023/09/03,2023/09/10,06,146.3,Southend-on-Sea-Harlow,Flat
+2023,Men,Road,45,Tour of Britain,GB,2.Pro,Stage Race,2023/09/03,2023/09/10,01,163.6,Altrincham-Manchester,Hilly
+2023,Men,Road,45,Tour of Britain,GB,2.Pro,Stage Race,2023/09/03,2023/09/10,07,170.9,Tewkesbury-Gloucester,Hilly
+2023,Men,Road,45,Tour of Britain,GB,2.Pro,Stage Race,2023/09/03,2023/09/10,08,159.8,Margam-Caerphilly,Hilly
+2023,Men,Road,13191,Maryland Cycling Classic,US,1.Pro,One Day,2023/09/03,2023/09/03,GC,,,Hilly
+2023,Men,Road,401,Okolo Jiznich Cech,CZ,2.2,Stage Race,2023/09/07,2023/09/10,01,140,Trebon-Milevsko,Flat
+2023,Men,Road,401,Okolo Jiznich Cech,CZ,2.2,Stage Race,2023/09/07,2023/09/10,02,137,Ceske Velenice-Studená,Flat
+2023,Men,Road,401,Okolo Jiznich Cech,CZ,2.2,Stage Race,2023/09/07,2023/09/10,04,161,Ceske Budejovice-Jindrichuv Hradec,Flat
+2023,Men,Road,401,Okolo Jiznich Cech,CZ,2.2,Stage Race,2023/09/07,2023/09/10,03,123,Cesky Krumlov-Javorník,Hilly MTF
+2023,Men,Road,9699,Tour of Kosovo,XK,2.2,Stage Race,2023/09/07,2023/09/09,03,155.6,Hani i Elezit-Morinë,Flat
+2023,Men,Road,9699,Tour of Kosovo,XK,2.2,Stage Race,2023/09/07,2023/09/09,01,144.5,Lebanë-Therande,Hilly
+2023,Men,Road,9699,Tour of Kosovo,XK,2.2,Stage Race,2023/09/07,2023/09/09,02,144,Morinë-Hani i Elezit,Hilly
+2023,Men,Road,20020,Tour of Van,TR,2.2,Stage Race,2023/09/07,2023/09/10,01,132.7,Van-Tatvan,Unknown
+2023,Men,Road,20020,Tour of Van,TR,2.2,Stage Race,2023/09/07,2023/09/10,02,93.1,Tatvan-Malazgirt,Unknown
+2023,Men,Road,20020,Tour of Van,TR,2.2,Stage Race,2023/09/07,2023/09/10,03,119.2,Malazgirt-Ercis,Unknown
+2023,Men,Road,20020,Tour of Van,TR,2.2,Stage Race,2023/09/07,2023/09/10,04,125,Ercis-Van,Unknown
+2023,Men,Road,21321,Grand Prix Boukraa,MA,1.2,One Day,2023/09/08,2023/09/08,GC,,,Flat
+2023,Men,Road,4048,Tour of Poyang Lake,CN,2.2,Stage Race,2023/09/08,2023/09/12,02,111.5,Kaolin-Fuliang,Flat
+2023,Men,Road,4048,Tour of Poyang Lake,CN,2.2,Stage Race,2023/09/08,2023/09/12,03,151.3,Mount Longhu-Mount Longhu,Flat
+2023,Men,Road,4048,Tour of Poyang Lake,CN,2.2,Stage Race,2023/09/08,2023/09/12,04,108.5,Zixi-Zixi,Flat
+2023,Men,Road,4048,Tour of Poyang Lake,CN,2.2,Stage Race,2023/09/08,2023/09/12,01,113.7,Shangrao-Shangrao,Hilly
+2023,Men,Road,4048,Tour of Poyang Lake,CN,2.2,Stage Race,2023/09/08,2023/09/12,05,107.9,Wanli-Wanli,Hilly
+2023,Men,Road,59,GP Québec,CA,1.UWT,One Day,2023/09/08,2023/09/08,GC,,,Hilly MTF
+2023,Men,Road,20373,Grand Prix Es-Semara,MA,1.2,One Day,2023/09/09,2023/09/09,GC,,,Flat
+2023,Men,Road,166,GP de la Somme,FR,1.2,One Day,2023/09/10,2023/09/10,GC,,,Hilly
+2023,Men,Road,21614,Grand Prix El Marsa,MA,1.2,One Day,2023/09/10,2023/09/10,GC,,,Flat
+2023,Men,Road,16578,Tour of Salalah,OM,2.2,Stage Race,2023/09/10,2023/09/13,04,147,Ain Razat-Ittin,Flat
+2023,Men,Road,16578,Tour of Salalah,OM,2.2,Stage Race,2023/09/10,2023/09/13,01,123,Khor Rori-Ayn Ishat,Hilly MTF
+2023,Men,Road,16578,Tour of Salalah,OM,2.2,Stage Race,2023/09/10,2023/09/13,02,148,Sadah-Hajeef,Mountain MTF
+2023,Men,Road,16578,Tour of Salalah,OM,2.2,Stage Race,2023/09/10,2023/09/13,03,104,Al Haffa-Darbat,Mountain
+2023,Men,Road,92,GP de Fourmies,FR,1.Pro,One Day,2023/09/10,2023/09/10,GC,,,Flat
+2023,Men,Road,58,GP Montreal,CA,1.UWT,One Day,2023/09/10,2023/09/10,GC,,,Hilly
+2023,Men,Road,4025,Giro della Toscana,IT,1.1,One Day,2023/09/13,2023/09/13,GC,,,Hilly
+2023,Men,Road,380,Okolo Slovenska,SK,2.1,Stage Race,2023/09/13,2023/09/17,01,172.7,Kosice-Kosice,Flat
+2023,Men,Road,380,Okolo Slovenska,SK,2.1,Stage Race,2023/09/13,2023/09/17,02,143.9,Presov-Poprad,Flat
+2023,Men,Road,380,Okolo Slovenska,SK,2.1,Stage Race,2023/09/13,2023/09/17,04,149,Prievizda-Nitra,Flat
+2023,Men,Road,380,Okolo Slovenska,SK,2.1,Stage Race,2023/09/13,2023/09/17,03,171.6,Ruzomberok-Martin,Hilly
+2023,Men,Road,380,Okolo Slovenska,SK,2.1,Stage Race,2023/09/13,2023/09/17,05,183.5,Hlohovec-Puchov,Hilly
+2023,Men,Road,93,GP de Wallonie,BE,1.Pro,One Day,2023/09/13,2023/09/13,GC,,,Hilly MTF
+2023,Men,Road,160,Coppa Sabatini,IT,1.Pro,One Day,2023/09/14,2023/09/14,GC,,,Hilly
+2023,Men,Road,242,Tour of Taihu Lake,CN,2.Pro,Stage Race,2023/09/14,2023/09/17,01,88.8,Wuxi-Wuxi,Flat
+2023,Men,Road,242,Tour of Taihu Lake,CN,2.Pro,Stage Race,2023/09/14,2023/09/17,02,127.6,Kunshan-Kunshan,Flat
+2023,Men,Road,242,Tour of Taihu Lake,CN,2.Pro,Stage Race,2023/09/14,2023/09/17,03,116.8,Wujiang-Wujiang,Flat
+2023,Men,Road,242,Tour of Taihu Lake,CN,2.Pro,Stage Race,2023/09/14,2023/09/17,04,72.4,Gaochun-Gaochun,Flat
+2023,Men,Road,167,Kamp. van Vlaanderen,BE,1.1,One Day,2023/09/15,2023/09/15,GC,,,Flat
+2023,Men,Road,68,Memorial Pantani,IT,1.1,One Day,2023/09/16,2023/09/16,GC,,,Hilly
+2023,Men,Road,168,SUPER 8 Classic,BE,1.Pro,One Day,2023/09/16,2023/09/16,GC,,,Hilly
+2023,Men,Road,444,Gooikse Pijl,BE,1.1,One Day,2023/09/17,2023/09/17,GC,,,Flat
+2023,Men,Road,9979,GP Rik Van Looy,BE,1.2,One Day,2023/09/17,2023/09/17,GC,,,Flat
+2023,Men,Road,205,Trofeo Matteotti,IT,1.1,One Day,2023/09/17,2023/09/17,GC,,,Hilly
+2023,Men,Road,171,GP d'Isbergues,FR,1.1,One Day,2023/09/17,2023/09/17,GC,,,Flat
+2023,Men,Road,170,Omloop van het Houtland,BE,1.1,One Day,2023/09/20,2023/09/20,GC,,,Flat
+2023,Men,Road,347,Europe ITT-U23,,CCUT,One Day,2023/09/20,2023/09/20,GC,,,Flat ITT
+2023,Men,Road,37,Tour de Luxembourg,LU,2.Pro,Stage Race,2023/09/20,2023/09/24,02,183.9,Mondorf-les-Bains-Mamer,Flat
+2023,Men,Road,37,Tour de Luxembourg,LU,2.Pro,Stage Race,2023/09/20,2023/09/24,01,156.4,Luxembourg-Luxembourg,Hilly
+2023,Men,Road,37,Tour de Luxembourg,LU,2.Pro,Stage Race,2023/09/20,2023/09/24,03,168.4,Mertert-Vianden,Hilly
+2023,Men,Road,37,Tour de Luxembourg,LU,2.Pro,Stage Race,2023/09/20,2023/09/24,05,177.2,Mersch-Luxembourg,Hilly
+2023,Men,Road,37,Tour de Luxembourg,LU,2.Pro,Stage Race,2023/09/20,2023/09/24,04,23.9,Pétange-Pétange,Flat ITT
+2023,Men,Road,4020,Europe ITT,,CCTT,One Day,2023/09/20,2023/09/20,GC,,,Flat ITT
+2023,Men,Road,12532,Europe Mixed Relay,,CCTT,One Day,2023/09/21,2023/09/21,GC,,,TTT
+2023,Men,Road,16539,Tour of Binzhou,CN,2.2,Stage Race,2023/09/23,2023/09/24,01,113.1,Binzhou-Binzhou,Flat
+2023,Men,Road,16539,Tour of Binzhou,CN,2.2,Stage Race,2023/09/23,2023/09/24,02,221,Binzhou-Binzhou,Flat
+2023,Men,Road,128,Tour de Langkawi,MY,2.Pro,Stage Race,2023/09/23,2023/09/30,01,187.4,Kerteh-Kuala Terangganu,Flat
+2023,Men,Road,128,Tour de Langkawi,MY,2.Pro,Stage Race,2023/09/23,2023/09/30,02,186.2,Kuala Terangganu-Kota Bharu,Flat
+2023,Men,Road,128,Tour de Langkawi,MY,2.Pro,Stage Race,2023/09/23,2023/09/30,04,140.2,Bukit Mertajam-Meru Raya,Flat
+2023,Men,Road,128,Tour de Langkawi,MY,2.Pro,Stage Race,2023/09/23,2023/09/30,06,174.5,Karak-Melaka,Flat
+2023,Men,Road,128,Tour de Langkawi,MY,2.Pro,Stage Race,2023/09/23,2023/09/30,07,123.8,Muar-Seramban,Flat
+2023,Men,Road,128,Tour de Langkawi,MY,2.Pro,Stage Race,2023/09/23,2023/09/30,08,156.5,Setia Alam-Kuala Lumpur,Flat
+2023,Men,Road,128,Tour de Langkawi,MY,2.Pro,Stage Race,2023/09/23,2023/09/30,03,183.1,Jeli-Baling,Hilly
+2023,Men,Road,128,Tour de Langkawi,MY,2.Pro,Stage Race,2023/09/23,2023/09/30,05,126.4,Slim River-Genting Highlands,Mountain MTF
+2023,Men,Road,949,Paris-Chauny,FR,1.1,One Day,2023/09/24,2023/09/24,GC,,,Flat
+2023,Men,Road,672,Vuelta a Ecuador,EC,2.2,Stage Race,2023/09/25,2023/09/30,01,133.1,Riobamba-Riobamba,Flat
+2023,Men,Road,672,Vuelta a Ecuador,EC,2.2,Stage Race,2023/09/25,2023/09/30,02,120.7,Riobamba-ESPE de Salcedo,Hilly MTF
+2023,Men,Road,672,Vuelta a Ecuador,EC,2.2,Stage Race,2023/09/25,2023/09/30,03,108.6,Machachi-Cayambe,Hilly MTF
+2023,Men,Road,672,Vuelta a Ecuador,EC,2.2,Stage Race,2023/09/25,2023/09/30,06,116.1,Mitad del Mundo-Mitad del Mundo,Hilly MTF
+2023,Men,Road,672,Vuelta a Ecuador,EC,2.2,Stage Race,2023/09/25,2023/09/30,04,88.9,Cotacachi-Cotacachi,Hilly
+2023,Men,Road,672,Vuelta a Ecuador,EC,2.2,Stage Race,2023/09/25,2023/09/30,05,150.4,Cotacachi-Mitad del Mundo,Mountain
+2023,Men,Road,409,Ruota d'Oro,IT,1.2U,One Day,2023/09/26,2023/09/26,GC,,,Hilly
+2023,Men,Road,773,CRO Race,HR,2.1,Stage Race,2023/09/26,2023/10/01,01,181,Primosten-Sinj,Flat
+2023,Men,Road,773,CRO Race,HR,2.1,Stage Race,2023/09/26,2023/10/01,02,114.5,Biograd na Moru-Novalja,Flat
+2023,Men,Road,773,CRO Race,HR,2.1,Stage Race,2023/09/26,2023/10/01,03,133.5,Otocac-Opatija,Flat
+2023,Men,Road,773,CRO Race,HR,2.1,Stage Race,2023/09/26,2023/10/01,05,189,Crikvenica-Ozalj,Flat
+2023,Men,Road,773,CRO Race,HR,2.1,Stage Race,2023/09/26,2023/10/01,06,157.5,Samobor-Zagreb,Flat
+2023,Men,Road,773,CRO Race,HR,2.1,Stage Race,2023/09/26,2023/10/01,04,191,Krk-Labin,Mountain MTF
+2023,Men,Road,231,Circuit Franco-Belge,BE,1.Pro,One Day,2023/09/28,2023/09/28,GC,,,Hilly
+2023,Men,Road,262,Coppa Agostoni,IT,1.1,One Day,2023/09/28,2023/09/28,GC,,,Hilly
+2023,Men,Road,20781,Tour of Istanbul,TR,2.2,Stage Race,2023/09/28,2023/10/01,01,176.7,Arnavutköy-Arnavutköy,Flat
+2023,Men,Road,20781,Tour of Istanbul,TR,2.2,Stage Race,2023/09/28,2023/10/01,02,134.9,Sile-Sile,Flat
+2023,Men,Road,20781,Tour of Istanbul,TR,2.2,Stage Race,2023/09/28,2023/10/01,03,132,Beykoz-Beykoz,Flat
+2023,Men,Road,20781,Tour of Istanbul,TR,2.2,Stage Race,2023/09/28,2023/10/01,04,92.9,Istanbul-Istanbul,Flat
+2023,Men,Road,29,Giro dell'Emilia,IT,1.Pro,One Day,2023/09/30,2023/09/30,GC,,,Hilly MTF
+2023,Men,Road,142,Grand Prix Cerami,BE,1.2,One Day,2023/09/30,2023/09/30,GC,,,Flat
+2023,Men,Road,7660,Famenne Ardenne Classic,BE,1.1,One Day,2023/10/01,2023/10/01,GC,,,Hilly
+2023,Men,Road,390,Il Lombardia Under 23,IT,1.2U,One Day,2023/10/01,2023/10/01,GC,,,Hilly
+2023,Men,Road,8523,Oita Urban Classic,JP,1.2,One Day,2023/10/01,2023/10/01,GC,,,Hilly
+2023,Men,Road,94,Tour de Vendée,FR,1.1,One Day,2023/10/01,2023/10/01,GC,,,Flat
+2023,Men,Road,196,Coppa Bernocchi,IT,1.Pro,One Day,2023/10/02,2023/10/02,GC,,,Hilly
+2023,Men,Road,673,Asian Games ITT,,CCTT,One Day,2023/10/03,2023/10/03,GC,,,Flat ITT
+2023,Men,Road,445,GP Chantal Biya,CM,2.2,Stage Race,2023/10/03,2023/10/07,01,109,Kribi-Kribi,Flat
+2023,Men,Road,445,GP Chantal Biya,CM,2.2,Stage Race,2023/10/03,2023/10/07,03,104.2,Ebolowa-Sangmelima,Flat
+2023,Men,Road,445,GP Chantal Biya,CM,2.2,Stage Race,2023/10/03,2023/10/07,05,118.9,Zoétélé-Yaoundé,Flat
+2023,Men,Road,445,GP Chantal Biya,CM,2.2,Stage Race,2023/10/03,2023/10/07,02,165.2,Yaoundé-Ebolowa,Hilly
+2023,Men,Road,445,GP Chantal Biya,CM,2.2,Stage Race,2023/10/03,2023/10/07,04,96.3,Sangmelima-Meyomessala,Hilly
+2023,Men,Road,20978,Grand Tour de Ciclismo de SC,BR,1.2,One Day,2023/10/03,2023/10/03,GC,,,Flat
+2023,Men,Road,158,Munsterland Giro,DE,1.Pro,One Day,2023/10/03,2023/10/03,GC,,,Flat
+2023,Men,Road,190,Tre Valli Varesine,IT,1.Pro,One Day,2023/10/03,2023/10/03,GC,,,Hilly
+2023,Men,Road,159,Binche-Chimay-Binche,BE,1.1,One Day,2023/10/03,2023/10/03,GC,,,Flat
+2023,Men,Road,20979,GP Urubici de Ciclismo,BR,1.2,One Day,2023/10/04,2023/10/04,GC,,,Hilly MTF
+2023,Men,Road,16523,Visit Friesland Elfstedenrace,NL,1.1,One Day,2023/10/04,2023/10/04,GC,,,Flat
+2023,Men,Road,20980,GP de Santa Catarina,BR,1.2,One Day,2023/10/05,2023/10/05,GC,,,Flat
+2023,Men,Road,61,Gran Piemonte,IT,1.Pro,One Day,2023/10/05,2023/10/05,GC,,,Hilly
+2023,Men,Road,139,Tour of Hainan,CN,2.Pro,Stage Race,2023/10/05,2023/10/09,01,92.7,Qionghai-Qionghai,Flat
+2023,Men,Road,139,Tour of Hainan,CN,2.Pro,Stage Race,2023/10/05,2023/10/09,02,215.8,Qionghai-Baoting,Flat
+2023,Men,Road,139,Tour of Hainan,CN,2.Pro,Stage Race,2023/10/05,2023/10/09,04,237.1,Wuzhishan-Changjiang,Hilly
+2023,Men,Road,139,Tour of Hainan,CN,2.Pro,Stage Race,2023/10/05,2023/10/09,05,212.1,Changjiang-Sanya,Hilly
+2023,Men,Road,139,Tour of Hainan,CN,2.Pro,Stage Race,2023/10/05,2023/10/09,03,122.7,Baoting-Wuzhishan,Mountain
+2023,Men,Road,157,Paris - Bourges,FR,1.1,One Day,2023/10/05,2023/10/05,GC,,,Flat
+2023,Men,Road,18945,Tour de Kyushu,JP,2.1,Stage Race,2023/10/07,2023/10/09,03,129,Hita-Hita,Flat
+2023,Men,Road,18945,Tour de Kyushu,JP,2.1,Stage Race,2023/10/07,2023/10/09,01,145,Kitakyushu-Omuta,Hilly
+2023,Men,Road,18945,Tour de Kyushu,JP,2.1,Stage Race,2023/10/07,2023/10/09,02,108,Minami Oguni-Minami Aso,Hilly
+2023,Men,Road,24,Il Lombardia,IT,1.UWT,One Day,2023/10/07,2023/10/07,GC,,,Hilly
+2023,Men,Road,238,Paris - Tours,FR,1.2U,One Day,2023/10/08,2023/10/08,GC,,,Flat
+2023,Men,Road,152,Tour of Türkiye,TR,2.1,Stage Race,2023/10/08,2023/10/15,01,135,Alanya-Antalya,Flat
+2023,Men,Road,152,Tour of Türkiye,TR,2.1,Stage Race,2023/10/08,2023/10/15,08,130.5,Istanbul-Istanbul,Flat
+2023,Men,Road,152,Tour of Türkiye,TR,2.1,Stage Race,2023/10/08,2023/10/15,06,193.3,Bodrum-Selcuk,Hilly MTF
+2023,Men,Road,152,Tour of Türkiye,TR,2.1,Stage Race,2023/10/08,2023/10/15,02,166.5,Kemer-Kalkan,Hilly
+2023,Men,Road,152,Tour of Türkiye,TR,2.1,Stage Race,2023/10/08,2023/10/15,04,165.3,Fethiye-Marmaris,Hilly
+2023,Men,Road,152,Tour of Türkiye,TR,2.1,Stage Race,2023/10/08,2023/10/15,05,180.6,Marmaris-Bodrum,Hilly
+2023,Men,Road,152,Tour of Türkiye,TR,2.1,Stage Race,2023/10/08,2023/10/15,07,159.8,Selcuk-Izmir,Hilly
+2023,Men,Road,152,Tour of Türkiye,TR,2.1,Stage Race,2023/10/08,2023/10/15,03,104.1,Fethiye-Badabag,Mountain MTF
+2023,Men,Road,28,Paris - Tours,FR,1.Pro,One Day,2023/10/08,2023/10/08,GC,,,Flat
+2023,Men,Road,183,Giro del Veneto,IT,1.Pro,One Day,2023/10/11,2023/10/11,GC,,,Hilly
+2023,Men,Road,7591,Gree - Tour of Guangxi,CN,2.UWT,Stage Race,2023/10/12,2023/10/17,01,135.6,Beihai-Beihai,Flat
+2023,Men,Road,7591,Gree - Tour of Guangxi,CN,2.UWT,Stage Race,2023/10/12,2023/10/17,02,149.6,Beihai-Qinzhou,Flat
+2023,Men,Road,7591,Gree - Tour of Guangxi,CN,2.UWT,Stage Race,2023/10/12,2023/10/17,05,209.6,Liuzhou-Guilin,Flat
+2023,Men,Road,7591,Gree - Tour of Guangxi,CN,2.UWT,Stage Race,2023/10/12,2023/10/17,06,168.3,Guilin-Guilin,Flat
+2023,Men,Road,7591,Gree - Tour of Guangxi,CN,2.UWT,Stage Race,2023/10/12,2023/10/17,04,161.4,Nanning-Nongla Scenic Area,Hilly MTF
+2023,Men,Road,7591,Gree - Tour of Guangxi,CN,2.UWT,Stage Race,2023/10/12,2023/10/17,03,134.3,Nanning-Nanning,Hilly
+2023,Men,Road,10514,Campeonato del Caribe ITT,,1.2,One Day,2023/10/14,2023/10/14,GC,,,Flat ITT
+2023,Men,Road,18951,Trans-Himalaya Cycling Race,CN,2.2,Stage Race,2023/10/14,2023/10/17,01,129.8,Nyingchi City-Gongbujiangda County,Flat
+2023,Men,Road,18951,Trans-Himalaya Cycling Race,CN,2.2,Stage Race,2023/10/14,2023/10/17,02,89.9,Gyantse-Shigatse,Flat
+2023,Men,Road,18951,Trans-Himalaya Cycling Race,CN,2.2,Stage Race,2023/10/14,2023/10/17,03,92.8,Lhasa-Lhasa,Flat
+2023,Men,Road,18951,Trans-Himalaya Cycling Race,CN,2.2,Stage Race,2023/10/14,2023/10/17,,-,-,Unknown
+2023,Men,Road,15208,Veneto Classic,IT,1.Pro,One Day,2023/10/15,2023/10/15,GC,,,Hilly
+2023,Men,Road,95,Japan Cup,JP,1.Pro,One Day,2023/10/15,2023/10/15,GC,,,Hilly
+2023,Men,Road,463,Chrono des Nations,FR,1.2U,One Day,2023/10/15,2023/10/15,GC,,,Flat ITT
+2023,Men,Road,154,Chrono des Nations,FR,1.1,One Day,2023/10/15,2023/10/15,GC,,,Flat ITT
+2023,Men,Road,8499,Hong Kong Cyclothon,HK,1.1,One Day,2023/10/22,2023/10/22,GC,,,Flat
+2023,Men,Road,763,Pan-American Games ITT,,CCTT,One Day,2023/10/22,2023/10/22,GC,,,Flat ITT
+2023,Men,Road,446,Tour du Faso,BF,2.2,Stage Race,2023/10/27,2023/11/05,01,125,Ouagadougou-Pô,Unknown
+2023,Men,Road,446,Tour du Faso,BF,2.2,Stage Race,2023/10/27,2023/11/05,02,135,Manga-Ziniaré,Unknown
+2023,Men,Road,446,Tour du Faso,BF,2.2,Stage Race,2023/10/27,2023/11/05,03,145.6,Ouagadougou-Ouagadougou,Unknown
+2023,Men,Road,446,Tour du Faso,BF,2.2,Stage Race,2023/10/27,2023/11/05,04,135,Ouagadougou-Koupela,Unknown
+2023,Men,Road,446,Tour du Faso,BF,2.2,Stage Race,2023/10/27,2023/11/05,05,78,Tenkodogo-Zorgho,Unknown
+2023,Men,Road,446,Tour du Faso,BF,2.2,Stage Race,2023/10/27,2023/11/05,06,115,Ouaga-Koudougou,Unknown
+2023,Men,Road,446,Tour du Faso,BF,2.2,Stage Race,2023/10/27,2023/11/05,07,153,Koudougou-Boromo,Unknown
+2023,Men,Road,446,Tour du Faso,BF,2.2,Stage Race,2023/10/27,2023/11/05,08,132.6,Bobo Dioulasso-Bobo Dioulasso,Unknown
+2023,Men,Road,446,Tour du Faso,BF,2.2,Stage Race,2023/10/27,2023/11/05,09,125,Bobo Dioulasso-Pâ,Unknown
+2023,Men,Road,446,Tour du Faso,BF,2.2,Stage Race,2023/10/27,2023/11/05,10,115,Sapone-Ouagadougou,Unknown
+2023,Men,Road,8479,Akiyoshidai Karst Road Race,JP,1.2,One Day,2023/11/05,2023/11/05,GC,,,Hilly
+2023,Men,Road,457,Tour de Okinawa,JP,1.2,One Day,2023/11/12,2023/11/12,GC,,,Hilly
+2023,Men,Road,595,Vuelta a Guatemala,GT,2.2,Stage Race,2023/11/17,2023/11/26,01,115.2,San Benito-San Benito,Flat
+2023,Men,Road,595,Vuelta a Guatemala,GT,2.2,Stage Race,2023/11/17,2023/11/26,10,109.4,Villa Linda-El Zapote,Flat
+2023,Men,Road,595,Vuelta a Guatemala,GT,2.2,Stage Race,2023/11/17,2023/11/26,07,124.6,La esperanza-Esquipulas Palo Gordo,Hilly MTF
+2023,Men,Road,595,Vuelta a Guatemala,GT,2.2,Stage Race,2023/11/17,2023/11/26,04,196,Antigua Guatemala-Coatepeque,Hilly
+2023,Men,Road,595,Vuelta a Guatemala,GT,2.2,Stage Race,2023/11/17,2023/11/26,09,133.8,Aldea Barraneché-Cerro de la Cruz,Hilly
+2023,Men,Road,595,Vuelta a Guatemala,GT,2.2,Stage Race,2023/11/17,2023/11/26,05,91.5,Catarina-San Rafael Pie De La Cuesta,Mountain MTF
+2023,Men,Road,595,Vuelta a Guatemala,GT,2.2,Stage Race,2023/11/17,2023/11/26,06,142.7,Tecún Umán-Totonicapán,Mountain MTF
+2023,Men,Road,595,Vuelta a Guatemala,GT,2.2,Stage Race,2023/11/17,2023/11/26,02,203,Castillo de San Felipe-San José La Arada-Ipala,Mountain
+2023,Men,Road,595,Vuelta a Guatemala,GT,2.2,Stage Race,2023/11/17,2023/11/26,03,119,El Progreso-Fraijanes,Mountain
+2023,Men,Road,595,Vuelta a Guatemala,GT,2.2,Stage Race,2023/11/17,2023/11/26,08,136.5,Momostenango-Pamezabal,Mountain
+2023,Men,Road,453,Vuelta a Costa Rica,CR,2.2,Stage Race,2023/12/16,2023/12/25,01,151.5,Heredia-Cañas,Flat
+2023,Men,Road,453,Vuelta a Costa Rica,CR,2.2,Stage Race,2023/12/16,2023/12/25,02,159.5,Cañas-Liberia,Flat
+2023,Men,Road,453,Vuelta a Costa Rica,CR,2.2,Stage Race,2023/12/16,2023/12/25,09,90.9,Paraíso-Paraíso,Hilly MTF
+2023,Men,Road,453,Vuelta a Costa Rica,CR,2.2,Stage Race,2023/12/16,2023/12/25,06,98,Estadio Nacional -Firestone,Hilly
+2023,Men,Road,453,Vuelta a Costa Rica,CR,2.2,Stage Race,2023/12/16,2023/12/25,10,99,Circuito Presidente Heredia-Circuito Presidente Heredia,Hilly
+2023,Men,Road,453,Vuelta a Costa Rica,CR,2.2,Stage Race,2023/12/16,2023/12/25,05,99.8,San Ramón-Berlín San Ramon,Mountain MTF
+2023,Men,Road,453,Vuelta a Costa Rica,CR,2.2,Stage Race,2023/12/16,2023/12/25,04,172.2,Liberia-Naranjo,Mountain
+2023,Men,Road,453,Vuelta a Costa Rica,CR,2.2,Stage Race,2023/12/16,2023/12/25,07,126.6,San Jose-Pérez Zeledón,Mountain
+2023,Men,Road,453,Vuelta a Costa Rica,CR,2.2,Stage Race,2023/12/16,2023/12/25,08,117.2,Pérez Zeledón-Oreamuno,Mountain
+2023,Men,Road,453,Vuelta a Costa Rica,CR,2.2,Stage Race,2023/12/16,2023/12/25,03,41.2,Bagaces-Curubandé | TTT,TTT
+2023,Men,Road,22881,Arab Road Cycling Championships TTT,,RCTT,One Day,2023/12/18,2023/12/18,GC,,,TTT
+2023,Men,Road,22894,Arab Road Cycling Championships ITT,,RCTT,One Day,2023/12/20,2023/12/20,GC,,,Flat ITT
+2023,Women,Road,9080,Tour Down Under,AU,2.WWT,Stage Race,2023/01/15,2023/01/17,01,110.4,Glenelg-Aldinga,Flat
+2023,Women,Road,9080,Tour Down Under,AU,2.WWT,Stage Race,2023/01/15,2023/01/17,02,90,Birdwood-Uraidla,Hilly
+2023,Women,Road,9080,Tour Down Under,AU,2.WWT,Stage Race,2023/01/15,2023/01/17,03,93.2,Adelaide-Campbelltown,Hilly
+2023,Women,Road,9133,Cadel Road Race,AU,1.WWT,One Day,2023/01/28,2023/01/28,GC,,,Hilly
+2023,Women,Road,17199,Women Cycling Pro Costa De Almería,ES,1.1,One Day,2023/01/29,2023/01/29,GC,,,Flat
+2023,Women,Road,11333,Aphrodite ITT,CY,1.2,One Day,2023/02/04,2023/02/04,GC,,,Flat ITT
+2023,Women,Road,10439,Vuelta CV Feminas,ES,1.1,One Day,2023/02/05,2023/02/05,GC,,,Flat
+2023,Women,Road,20007,Aphrodite - Women for future,CY,1.2,One Day,2023/02/08,2023/02/08,GC,,,Hilly MTF
+2023,Women,Road,9338,Africa TTT,,CCTT,One Day,2023/02/08,2023/02/08,GC,,,TTT
+2023,Women,Road,9337,Africa ITT,,CCTT,One Day,2023/02/09,2023/02/09,GC,,,Flat ITT
+2023,Women,Road,20309,Africa ITT-U23,,CCUT,One Day,2023/02/09,2023/02/09,GC,,,Flat ITT
+2023,Women,Road,18130,UAE Tour,AE,2.WWT,Stage Race,2023/02/09,2023/02/12,01,109,Port Rashid-Dubai Harbour,Flat
+2023,Women,Road,18130,UAE Tour,AE,2.WWT,Stage Race,2023/02/09,2023/02/12,02,133,Al Dhafra Castle-Al Mirfa,Flat
+2023,Women,Road,18130,UAE Tour,AE,2.WWT,Stage Race,2023/02/09,2023/02/12,04,119,Abu Dhabi-Abu Dhabi,Flat
+2023,Women,Road,18130,UAE Tour,AE,2.WWT,Stage Race,2023/02/09,2023/02/12,03,107,Al Ain-Jebel Hafeet,Mountain MTF
+2023,Women,Road,18935,Clasica de Almeria,ES,1.1,One Day,2023/02/11,2023/02/11,GC,,,Flat
+2023,Women,Road,9189,Setmana Ciclista Valenciana,ES,2.Pro,Stage Race,2023/02/16,2023/02/19,01,119,Valencia-Sagunt,Flat
+2023,Women,Road,9189,Setmana Ciclista Valenciana,ES,2.Pro,Stage Race,2023/02/16,2023/02/19,02,114,Borriana-Vila-real,Hilly
+2023,Women,Road,9189,Setmana Ciclista Valenciana,ES,2.Pro,Stage Race,2023/02/16,2023/02/19,04,113,Tavernes-Gandia,Hilly
+2023,Women,Road,9189,Setmana Ciclista Valenciana,ES,2.Pro,Stage Race,2023/02/16,2023/02/19,03,132,Agost-Altea,Mountain
+2023,Women,Road,9181,Omloop Het Nieuwsblad,BE,1.WWT,One Day,2023/02/25,2023/02/25,GC,,,Cobbles
+2023,Women,Road,9201,Omloop van het Hageland,BE,1.1,One Day,2023/02/26,2023/02/26,GC,,,Cobbles
+2023,Women,Road,9206,Le Samyn des Dames,BE,1.1,One Day,2023/02/28,2023/02/28,GC,,,Cobbles
+2023,Women,Road,18936,Umag Trophy Ladies,HR,1.2,One Day,2023/03/01,2023/03/01,GC,,,Flat
+2023,Women,Road,9044,Strade Bianche,IT,1.WWT,One Day,2023/03/04,2023/03/04,GC,,,Hilly MTF
+2023,Women,Road,18937,Porec Trophy Ladies,HR,1.2,One Day,2023/03/05,2023/03/05,GC,,,Flat
+2023,Women,Road,17126,Trofeo Oro in Euro,IT,1.1,One Day,2023/03/05,2023/03/05,GC,,,Flat
+2023,Women,Road,17279,Trofeo Ponente in Rosa,IT,2.2,Stage Race,2023/03/07,2023/03/11,01,53.5,Ceriale-Ceriale,Flat
+2023,Women,Road,17279,Trofeo Ponente in Rosa,IT,2.2,Stage Race,2023/03/07,2023/03/11,05,87.6,San Bartolomeo al Mare-Diano Marina,Flat
+2023,Women,Road,17279,Trofeo Ponente in Rosa,IT,2.2,Stage Race,2023/03/07,2023/03/11,03,96,Diana Marina-Marina Di Loano,Hilly
+2023,Women,Road,17279,Trofeo Ponente in Rosa,IT,2.2,Stage Race,2023/03/07,2023/03/11,04,92.7,Pietra Ligure-Laigueglia,Hilly
+2023,Women,Road,17279,Trofeo Ponente in Rosa,IT,2.2,Stage Race,2023/03/07,2023/03/11,06,100.3,Diano Marina-Diano Marina,Hilly
+2023,Women,Road,17279,Trofeo Ponente in Rosa,IT,2.2,Stage Race,2023/03/07,2023/03/11,02,15.6,San Lorenzo al Mare-San Remo | TTT,TTT
+2023,Women,Road,19315,Vuelta Extremadura Féminas,ES,2.2,Stage Race,2023/03/10,2023/03/12,02,114.1,Don Benito-Cáceres,Flat
+2023,Women,Road,19315,Vuelta Extremadura Féminas,ES,2.2,Stage Race,2023/03/10,2023/03/12,03,88.1,Cabezuela del Valle-Piornal,Mountain MTF
+2023,Women,Road,19315,Vuelta Extremadura Féminas,ES,2.2,Stage Race,2023/03/10,2023/03/12,01,6.4,Mérida-Mérida | TTT,TTT
+2023,Women,Road,9045,Ronde van Drenthe,NL,1.WWT,One Day,2023/03/11,2023/03/11,GC,,,Cobbles
+2023,Women,Road,10430,Nokere Koerse,BE,1.Pro,One Day,2023/03/15,2023/03/15,GC,,,Cobbles
+2023,Women,Road,18932,Tour de Normandie Féminin,FR,2.1,Stage Race,2023/03/17,2023/03/19,01,136.4,Argentan-Bagnoles-de-l'orne,Flat
+2023,Women,Road,18932,Tour de Normandie Féminin,FR,2.1,Stage Race,2023/03/17,2023/03/19,03,114.5,St.Pierre-en-auge-Caen,Flat
+2023,Women,Road,18932,Tour de Normandie Féminin,FR,2.1,Stage Race,2023/03/17,2023/03/19,02,103.2,Le Have-Flamanville,Hilly MTF
+2023,Women,Road,9046,Trofeo Alfredo Binda,IT,1.WWT,One Day,2023/03/19,2023/03/19,GC,,,Hilly
+2023,Women,Road,9047,Classic Brugge-De Panne,BE,1.WWT,One Day,2023/03/23,2023/03/23,GC,,,Flat
+2023,Women,Road,9048,Gent - Wevelgem,BE,1.WWT,One Day,2023/03/26,2023/03/26,GC,,,Cobbles
+2023,Women,Road,9309,Dwars door Vlaanderen,BE,1.Pro,One Day,2023/03/29,2023/03/29,GC,,,Cobbles
+2023,Women,Road,9349,Oceania ITT,,CCTT,One Day,2023/03/30,2023/03/30,GC,,,Flat ITT
+2023,Women,Road,9350,Oceania ITT-U23,,CCUT,One Day,2023/03/30,2023/03/30,GC,,,Flat ITT
+2023,Women,Road,9049,Ronde van Vlaanderen,BE,1.WWT,One Day,2023/04/02,2023/04/02,GC,,,Cobbles
+2023,Women,Road,14856,Scheldeprijs Vrouwen Elite,BE,1.1,One Day,2023/04/05,2023/04/05,GC,,,Flat
+2023,Women,Road,13853,Paris-Roubaix Femmes,FR,1.WWT,One Day,2023/04/08,2023/04/08,GC,,,Cobbles
+2023,Women,Road,13593,Ronde de Mouscron,BE,1.1,One Day,2023/04/10,2023/04/10,GC,,,Flat
+2023,Women,Road,9400,Brabantse Pijl,BE,1.Pro,One Day,2023/04/12,2023/04/12,GC,,,Hilly
+2023,Women,Road,11501,Central American Championship ITT,,1.2,One Day,2023/04/14,2023/04/14,GC,,,Flat ITT
+2023,Women,Road,9050,Amstel Gold Race,NL,1.WWT,One Day,2023/04/16,2023/04/16,GC,,,Hilly
+2023,Women,Road,14581,GP Féminin de Chambéry,FR,1.1,One Day,2023/04/16,2023/04/16,GC,,,Hilly
+2023,Women,Road,9615,Pan-America ITT,,CCTT,One Day,2023/04/18,2023/04/18,GC,,,Flat ITT
+2023,Women,Road,9051,La Flèche Wallonne,BE,1.WWT,One Day,2023/04/19,2023/04/19,GC,,,Hilly MTF
+2023,Women,Road,9441,Omloop van Borsele,NL,1.1,One Day,2023/04/22,2023/04/22,GC,,,Flat
+2023,Women,Road,9052,Liege-Bastogne-Liege Femmes,BE,1.WWT,One Day,2023/04/23,2023/04/23,GC,,,Hilly MTF
+2023,Women,Road,9458,GP della Liberazione PINK,IT,1.2,One Day,2023/04/25,2023/04/25,GC,,,Flat
+2023,Women,Road,9548,Tour of the Gila,US,2.2,Stage Race,2023/04/26,2023/04/30,04,43.5,Silver City-Silver City,Flat
+2023,Women,Road,9548,Tour of the Gila,US,2.2,Stage Race,2023/04/26,2023/04/30,02,119.3,Fort Bayard-Fort Bayard,Hilly
+2023,Women,Road,9548,Tour of the Gila,US,2.2,Stage Race,2023/04/26,2023/04/30,01,114.3,Silver City-Mogollon Climb,Mountain MTF
+2023,Women,Road,9548,Tour of the Gila,US,2.2,Stage Race,2023/04/26,2023/04/30,05,106.1,Silver City-Piños Altos,Mountain MTF
+2023,Women,Road,9548,Tour of the Gila,US,2.2,Stage Race,2023/04/26,2023/04/30,03,26,Tyrone-Tyrone,Flat ITT
+2023,Women,Road,9549,Gracia Orlová,CZ,2.2,Stage Race,2023/04/27,2023/04/30,05,101.6,Orlová-Orlová,Flat
+2023,Women,Road,9549,Gracia Orlová,CZ,2.2,Stage Race,2023/04/27,2023/04/30,01,104,Orlová-Štramberk,Hilly MTF
+2023,Women,Road,9549,Gracia Orlová,CZ,2.2,Stage Race,2023/04/27,2023/04/30,02,100,Lichnov-Lichnov,Hilly
+2023,Women,Road,9549,Gracia Orlová,CZ,2.2,Stage Race,2023/04/27,2023/04/30,04,68.5,Detmarovice-Orlová,Hilly
+2023,Women,Road,9549,Gracia Orlová,CZ,2.2,Stage Race,2023/04/27,2023/04/30,03,13.5,Havírov-Havírov,Flat ITT
+2023,Women,Road,16506,Leiedal Koerse,BE,1.2,One Day,2023/04/29,2023/04/29,GC,,,Cobbles
+2023,Women,Road,9460,Festival Elsy Jacobs,LU,2.Pro,Stage Race,2023/04/29,2023/04/30,01,111.1,Luxembourg-Steinfort,Hilly
+2023,Women,Road,9460,Festival Elsy Jacobs,LU,2.Pro,Stage Race,2023/04/29,2023/04/30,02,115.8,Luxembourg-Garnich,Hilly
+2023,Women,Road,9058,Vuelta España Femenina,ES,2.WWT,Stage Race,2023/05/01,2023/05/07,02,105.8,Orihuela-Pilar de la Horadada,Flat
+2023,Women,Road,9058,Vuelta España Femenina,ES,2.WWT,Stage Race,2023/05/01,2023/05/07,03,157.8,Elche de la Sierra-La Roda,Flat
+2023,Women,Road,9058,Vuelta España Femenina,ES,2.WWT,Stage Race,2023/05/01,2023/05/07,05,129.2,La Cabrera-Mirador de Peñas Llanas. Riaza,Hilly MTF
+2023,Women,Road,9058,Vuelta España Femenina,ES,2.WWT,Stage Race,2023/05/01,2023/05/07,04,133.1,Cuenca-Guadalajara,Hilly
+2023,Women,Road,9058,Vuelta España Femenina,ES,2.WWT,Stage Race,2023/05/01,2023/05/07,06,106.1,Castro-Urdiales-Laredo,Hilly
+2023,Women,Road,9058,Vuelta España Femenina,ES,2.WWT,Stage Race,2023/05/01,2023/05/07,07,93.7,Pola de Siero-Lagos de Covadonga,Mountain MTF
+2023,Women,Road,9058,Vuelta España Femenina,ES,2.WWT,Stage Race,2023/05/01,2023/05/07,01,14.5,Torrevieja-Torrevieja | TTT,TTT
+2023,Women,Road,9731,La Classique Morbihan,FR,1.1,One Day,2023/05/05,2023/05/05,GC,,,Hilly MTF
+2023,Women,Road,14582,GP Eco-Struct,BE,1.1,One Day,2023/05/06,2023/05/06,GC,,,Flat
+2023,Women,Road,9732,GP de Plumelec-Morbihan,FR,1.1,One Day,2023/05/06,2023/05/06,GC,,,Hilly MTF
+2023,Women,Road,9613,Trofee Maarten Wynants,BE,1.1,One Day,2023/05/07,2023/05/07,GC,,,Flat
+2023,Women,Road,10433,Bretagne Ladies Tour,FR,2.1,Stage Race,2023/05/09,2023/05/13,01,123.9,Kerlouan-Kerlouan,Flat
+2023,Women,Road,10433,Bretagne Ladies Tour,FR,2.1,Stage Race,2023/05/09,2023/05/13,02,120.7,Plemet-Saint Meen-Le-Grand,Flat
+2023,Women,Road,10433,Bretagne Ladies Tour,FR,2.1,Stage Race,2023/05/09,2023/05/13,05,127.7,Plouharnel-Saint Jean Brévelay,Hilly MTF
+2023,Women,Road,10433,Bretagne Ladies Tour,FR,2.1,Stage Race,2023/05/09,2023/05/13,04,136.6,Mur de Bretagne-Kervignac,Hilly
+2023,Women,Road,10433,Bretagne Ladies Tour,FR,2.1,Stage Race,2023/05/09,2023/05/13,03,19.4,Plouay-Plouay,Flat ITT
+2023,Women,Road,12195,Navarra Elite Classics,ES,1.Pro,One Day,2023/05/10,2023/05/10,GC,,,Hilly
+2023,Women,Road,14244,Itzulia Women,ES,2.WWT,Stage Race,2023/05/12,2023/05/14,01,122.2,Etxebarria-Markina-Xemein,Hilly
+2023,Women,Road,14244,Itzulia Women,ES,2.WWT,Stage Race,2023/05/12,2023/05/14,02,133.2,Vitoria-Gasteiz-Amurrio,Hilly
+2023,Women,Road,14244,Itzulia Women,ES,2.WWT,Stage Race,2023/05/12,2023/05/14,03,114.8,Donostia-Donostia,Hilly
+2023,Women,Road,9600,Durango-Durango,ES,1.1,One Day,2023/05/16,2023/05/16,GC,,,Hilly
+2023,Women,Road,9427,Joe Martin Stage Race,US,2.2,Stage Race,2023/05/18,2023/05/21,04,31,Fayetteville-Fayetteville,Flat
+2023,Women,Road,9427,Joe Martin Stage Race,US,2.2,Stage Race,2023/05/18,2023/05/21,02,98.9,Fayetteville-Mount Sequoyah,Hilly MTF
+2023,Women,Road,9427,Joe Martin Stage Race,US,2.2,Stage Race,2023/05/18,2023/05/21,01,109.2,Fayetteville-Fayetteville,Hilly
+2023,Women,Road,9427,Joe Martin Stage Race,US,2.2,Stage Race,2023/05/18,2023/05/21,03,4.8,Devil's Den State Park-Devil's Den State Park,Mountain ITT
+2023,Women,Road,10428,Vuelta a Burgos Feminas,ES,2.WWT,Stage Race,2023/05/18,2023/05/21,01,115,Quintanaortuno-Medina de pomar,Flat
+2023,Women,Road,10428,Vuelta a Burgos Feminas,ES,2.WWT,Stage Race,2023/05/18,2023/05/21,02,119,Sotresgudo-Lerma,Flat
+2023,Women,Road,10428,Vuelta a Burgos Feminas,ES,2.WWT,Stage Race,2023/05/18,2023/05/21,03,112,Caleruega-Aranda de Duero,Flat
+2023,Women,Road,10428,Vuelta a Burgos Feminas,ES,2.WWT,Stage Race,2023/05/18,2023/05/21,04,121,Tordomar-Lagunas de Neila,Mountain MTF
+2023,Women,Road,9907,Veenendaal-Veenendaal,NL,1.1,One Day,2023/05/19,2023/05/19,GC,,,Flat
+2023,Women,Road,16507,ZLM Omloop der Kempen Ladies,NL,1.2,One Day,2023/05/20,2023/05/20,GC,,,Flat
+2023,Women,Road,18930,Antwerp Port Epic Ladies,BE,1.1,One Day,2023/05/21,2023/05/21,GC,,,Cobbles
+2023,Women,Road,9810,Thüringen Ladies Tour,DE,2.Pro,Stage Race,2023/05/23,2023/05/28,02,153.5,Gera-Gera,Hilly
+2023,Women,Road,9810,Thüringen Ladies Tour,DE,2.Pro,Stage Race,2023/05/23,2023/05/28,03,94.6,Schmölln-Schmölln,Hilly
+2023,Women,Road,9810,Thüringen Ladies Tour,DE,2.Pro,Stage Race,2023/05/23,2023/05/28,04,133.7,Gotha-Gotha,Hilly
+2023,Women,Road,9810,Thüringen Ladies Tour,DE,2.Pro,Stage Race,2023/05/23,2023/05/28,05,132.6,Schmalkalden-Schmalkalden,Hilly
+2023,Women,Road,9810,Thüringen Ladies Tour,DE,2.Pro,Stage Race,2023/05/23,2023/05/28,06,126.2,Mühlhausen-Mühlhausen,Hilly
+2023,Women,Road,9810,Thüringen Ladies Tour,DE,2.Pro,Stage Race,2023/05/23,2023/05/28,01,9.1,Schleiz-Schleiz | TTT,TTT
+2023,Women,Road,9912,Tour de Feminin,CZ,2.2,Stage Race,2023/05/25,2023/05/28,02,105.1,Krásná Lípa-Krásná Lípa,Flat
+2023,Women,Road,9912,Tour de Feminin,CZ,2.2,Stage Race,2023/05/25,2023/05/28,03,110.7,Rumburk-Rumburk,Hilly
+2023,Women,Road,9912,Tour de Feminin,CZ,2.2,Stage Race,2023/05/25,2023/05/28,04,114.6,Varnsdorf-Krásná Lípa,Hilly
+2023,Women,Road,9912,Tour de Feminin,CZ,2.2,Stage Race,2023/05/25,2023/05/28,01,12.6,Krásná Lípa-Krásná Lípa,Flat ITT
+2023,Women,Road,9054,RideLondon Classique,GB,2.WWT,Stage Race,2023/05/26,2023/05/28,01,146.4,Saffron Walden-Colchester,Flat
+2023,Women,Road,9054,RideLondon Classique,GB,2.WWT,Stage Race,2023/05/26,2023/05/28,03,91.2,London-London,Flat
+2023,Women,Road,9054,RideLondon Classique,GB,2.WWT,Stage Race,2023/05/26,2023/05/28,02,133.1,Maldon-Maldon,Hilly
+2023,Women,Road,16508,Ladies Tour of Estonia,EE,1.2,One Day,2023/05/27,2023/05/27,GC,,,Flat
+2023,Women,Road,13594,GP Ciudad de Eibar,ES,1.1,One Day,2023/05/28,2023/05/28,GC,,,Hilly
+2023,Women,Road,17077,GP Mazda Schelkens,BE,1.2,One Day,2023/05/29,2023/05/29,GC,,,Flat
+2023,Women,Road,16502,Vuelta a Andalucia Ruta Del Sol,ES,2.1,Stage Race,2023/05/31,2023/06/04,04,90.9,Pizarra-Mijas,Flat
+2023,Women,Road,16502,Vuelta a Andalucia Ruta Del Sol,ES,2.1,Stage Race,2023/05/31,2023/06/04,02,83.6,Salobreña-Cómpeta,Hilly MTF
+2023,Women,Road,16502,Vuelta a Andalucia Ruta Del Sol,ES,2.1,Stage Race,2023/05/31,2023/06/04,03,101,Nerja-Álora,Hilly MTF
+2023,Women,Road,16502,Vuelta a Andalucia Ruta Del Sol,ES,2.1,Stage Race,2023/05/31,2023/06/04,01,116.9,Alcalá la Real-La Zubia,Hilly
+2023,Women,Road,16502,Vuelta a Andalucia Ruta Del Sol,ES,2.1,Stage Race,2023/05/31,2023/06/04,05,93.9,Estepona-Castellar de la Frontera,Hilly
+2023,Women,Road,15071,Belgrade GP Woman Tour,RS,2.2,Stage Race,2023/06/03,2023/06/04,01,-,-,Unknown
+2023,Women,Road,15071,Belgrade GP Woman Tour,RS,2.2,Stage Race,2023/06/03,2023/06/04,02,-,-,Unknown
+2023,Women,Road,9811,Dwars door de Westhoek,BE,1.1,One Day,2023/06/04,2023/06/04,GC,,,Hilly
+2023,Women,Road,9913,Vuelta femenina a Guatemala,GT,2.2,Stage Race,2023/06/07,2023/06/11,01,114.8,Parque de Parramos-Parque de Parramos,Flat
+2023,Women,Road,9913,Vuelta femenina a Guatemala,GT,2.2,Stage Race,2023/06/07,2023/06/11,02,121.2,El Caman-El Caman,Flat
+2023,Women,Road,9913,Vuelta femenina a Guatemala,GT,2.2,Stage Race,2023/06/07,2023/06/11,04,60,Ciudad de Guatemala-Ciudad de Guatemala,Flat
+2023,Women,Road,9913,Vuelta femenina a Guatemala,GT,2.2,Stage Race,2023/06/07,2023/06/11,03,118,Santa Lucía Utatlán-Santa Lucía Utatlán,Hilly
+2023,Women,Road,9913,Vuelta femenina a Guatemala,GT,2.2,Stage Race,2023/06/07,2023/06/11,00,1,Ciudad de Guatemala-Ciudad de Guatemala,Flat ITT
+2023,Women,Road,16505,CIC-Tour Féminin Pyrénées,FR,2.1,Stage Race,2023/06/09,2023/06/11,01,129.2,Argelès Gazost-Lourdes,Hilly
+2023,Women,Road,16505,CIC-Tour Féminin Pyrénées,FR,2.1,Stage Race,2023/06/09,2023/06/11,03,126.1,Coarraze-Arros de Nay,Hilly
+2023,Women,Road,16505,CIC-Tour Féminin Pyrénées,FR,2.1,Stage Race,2023/06/09,2023/06/11,02,95.9,Pierrefitte Nestalas-Hautacam,Mountain MTF
+2023,Women,Road,9343,Asia ITT,,CCTT,One Day,2023/06/10,2023/06/10,GC,,,Flat ITT
+2023,Women,Road,9345,Asia ITT-U23,,CCUT,One Day,2023/06/10,2023/06/10,GC,,,Flat ITT
+2023,Women,Road,15067,Dwars door het Hageland,BE,1.1,One Day,2023/06/10,2023/06/10,GC,,,Cobbles
+2023,Women,Road,9853,Flanders Diamond Tour,BE,1.1,One Day,2023/06/11,2023/06/11,GC,,,Flat
+2023,Women,Road,20776,Regiónom Nitrianskeho Kraja,SK,1.2,One Day,2023/06/17,2023/06/17,GC,,,Flat ITT
+2023,Women,Road,14577,Tour de Suisse,CH,2.WWT,Stage Race,2023/06/17,2023/06/20,01,56,Weinfelden-Weinfelden,Flat
+2023,Women,Road,14577,Tour de Suisse,CH,2.WWT,Stage Race,2023/06/17,2023/06/20,03,124.1,St. Gallen-Ebnat-Kappel,Hilly
+2023,Women,Road,14577,Tour de Suisse,CH,2.WWT,Stage Race,2023/06/17,2023/06/20,04,100.8,Ebnat-Kappel-Ebnat-Kappel,Hilly
+2023,Women,Road,14577,Tour de Suisse,CH,2.WWT,Stage Race,2023/06/17,2023/06/20,02,25.7,St. Gallen-Abtwil,Flat ITT
+2023,Women,Road,9064,Giro d'Italia Women,IT,2.WWT,Stage Race,2023/06/30,2023/07/09,03,116.2,Formigine-Modena,Flat
+2023,Women,Road,9064,Giro d'Italia Women,IT,2.WWT,Stage Race,2023/06/30,2023/07/09,06,102.4,Canelli-Canelli,Hilly MTF
+2023,Women,Road,9064,Giro d'Italia Women,IT,2.WWT,Stage Race,2023/06/30,2023/07/09,07,109.1,Albenga-Alassio,Hilly MTF
+2023,Women,Road,9064,Giro d'Italia Women,IT,2.WWT,Stage Race,2023/06/30,2023/07/09,02,102.1,Bagno a Ripoli-Marradi,Hilly
+2023,Women,Road,9064,Giro d'Italia Women,IT,2.WWT,Stage Race,2023/06/30,2023/07/09,04,134,Fidenza-Borgo Val di Taro,Hilly
+2023,Women,Road,9064,Giro d'Italia Women,IT,2.WWT,Stage Race,2023/06/30,2023/07/09,05,103.3,Salassa-Ceres,Hilly
+2023,Women,Road,9064,Giro d'Italia Women,IT,2.WWT,Stage Race,2023/06/30,2023/07/09,08,122.2,Nuoro-Sassari,Hilly
+2023,Women,Road,9064,Giro d'Italia Women,IT,2.WWT,Stage Race,2023/06/30,2023/07/09,09,126.8,Sassari-Olbia,Hilly
+2023,Women,Road,9064,Giro d'Italia Women,IT,2.WWT,Stage Race,2023/06/30,2023/07/09,01,4.4,Chianciano-Chianciano,Flat ITT
+2023,Women,Road,9064,Giro d'Italia Women,IT,2.WWT,Stage Race,2023/06/30,2023/07/09,,-,-,Unknown
+2023,Women,Road,20777,GP Mayor Žiar nad Hronom,SK,1.2,One Day,2023/07/01,2023/07/01,GC,,,Flat ITT
+2023,Women,Road,20778,Tour de Berlin Feminin,DE,1.2,One Day,2023/07/02,2023/07/02,GC,,,Flat
+2023,Women,Road,10227,Cent.America and Caribbean ITT,,RCTT,One Day,2023/07/05,2023/07/05,GC,,,Flat ITT
+2023,Women,Road,16511,Respect Ladies Race Slovakia,SK,1.2,One Day,2023/07/08,2023/07/08,GC,,,Hilly
+2023,Women,Road,13595,2 Districtenpijl - Ekeren-Deurne,BE,1.1,One Day,2023/07/09,2023/07/09,GC,,,Flat
+2023,Women,Road,21369,Pan Arab Games TTT,,RCTT,One Day,2023/07/09,2023/07/09,GC,,,TTT
+2023,Women,Road,21367,Pan Arab Games ITT,,RCTT,One Day,2023/07/11,2023/07/11,GC,,,Flat ITT
+2023,Women,Road,9904,Baloise Ladies Tour,BE,2.1,Stage Race,2023/07/12,2023/07/16,01,119.8,Zwevegem-Zwevegem,Flat
+2023,Women,Road,9904,Baloise Ladies Tour,BE,2.1,Stage Race,2023/07/12,2023/07/16,02,116.2,Zulte-Zulte,Flat
+2023,Women,Road,9904,Baloise Ladies Tour,BE,2.1,Stage Race,2023/07/12,2023/07/16,03,82.6,Knokke-Heist-Knokke-Heist,Flat
+2023,Women,Road,9904,Baloise Ladies Tour,BE,2.1,Stage Race,2023/07/12,2023/07/16,05,121.1,Deinze-Deinze,Flat
+2023,Women,Road,9904,Baloise Ladies Tour,BE,2.1,Stage Race,2023/07/12,2023/07/16,00,2.6, Vlissingen- Vlissingen,Flat ITT
+2023,Women,Road,9904,Baloise Ladies Tour,BE,2.1,Stage Race,2023/07/12,2023/07/16,04,17.1,Knokke-Heist-Knokke-Heist,Flat ITT
 2023,Women,Road,18938,Grand Prix Stuttgart & Region,DE,1.2,One Day,2023/07/16,2023/07/16,GC,,,Hilly
-2023,Women,Road,15687,Tour de France FemmesTour de France Femmes,FR,2.WWT,Stage Race,2023/07/23,2023/07/30,01,123.8,Clermont-Ferrand-Clermont-Ferrand,Hilly
-2023,Women,Road,10106,Vuelta a Colombia FemeninaVuelta a Colombia Femenina,CO,2.2,Stage Race,2023/07/26,2023/07/30,01,48.6,Tunja-Tunja,Flat
-2023,Women,Road,16504,Princess Anna Vasa TourPrincess Anna Vasa Tour,PL,2.2,Stage Race,2023/07/28,2023/07/30,01,111.5,Golub-Dobrzyn-Golub-Dobrzyn,Flat
-2023,Women,Road,9068,World Championship ITTWorld Championship ITT,,WCTT,One Day,2023/08/10,2023/08/10,GC,,,Flat ITT
-2023,Women,Road,12377,La Périgord LadiesLa Périgord Ladies,FR,1.2,One Day,2023/08/12,2023/08/12,GC,,,Hilly
-2023,Women,Road,12378,La Picto-CharentaiseLa Picto-Charentaise,FR,1.2,One Day,2023/08/13,2023/08/13,GC,,,Flat
-2023,Women,Road,17078,Grote Prijs Yvonne ReyndersGrote Prijs Yvonne Reynders,BE,1.2,One Day,2023/08/15,2023/08/15,GC,,,Flat
-2023,Women,Road,17781,Konvert Kortrijk KoerseKonvert Kortrijk Koerse,BE,1.1,One Day,2023/08/18,2023/08/18,GC,,,Flat
-2023,Women,Road,14770,GP OetingenGP Oetingen,BE,1.1,One Day,2023/08/19,2023/08/19,GC,,,Flat
-2023,Women,Road,20779,Egmont Cycling RaceEgmont Cycling Race,BE,1.2,One Day,2023/08/22,2023/08/22,GC,,,Flat
-2023,Women,Road,15688,Tour of ScandinaviaTour of Scandinavia,NO,2.WWT,Stage Race,2023/08/23,2023/08/27,01,124.5,Mysen-Halden,Hilly
-2023,Women,Road,9914,Giro Toscana Int. FemminileGiro Toscana Int. Femminile,IT,2.2,Stage Race,2023/08/24,2023/08/27,00,2.2,Campi Bisenzio-Campi Bisenzio,Flat ITT
-2023,Women,Road,18940,Tour de l'Avenir FemmesTour de l'Avenir Femmes,FR,2.2U,Stage Race,2023/08/28,2023/09/01,01,14.8,Saint-Vallier-Saint-Vallier,Flat ITT
-2023,Women,Road,9057,Classic Lorient AgglomérationClassic Lorient Agglomération,FR,1.WWT,One Day,2023/09/02,2023/09/02,GC,,,Hilly
-2023,Women,Road,13601,Grote Prijs BeerensGrote Prijs Beerens,BE,1.1,One Day,2023/09/03,2023/09/03,GC,,,Flat
-2023,Women,Road,9906,Tour Feminin l'ArdecheTour Feminin l'Ardeche,FR,2.1,Stage Race,2023/09/05,2023/09/11,01,105.7,Bourg-Saint-Andéol-Ruoms,Hilly
-2023,Women,Road,9066,Simac Ladies TourSimac Ladies Tour,NL,2.WWT,Stage Race,2023/09/05,2023/09/10,00,2.4,Ede-Ede,Flat ITT
-2023,Women,Road,17099,A Travers les Hauts de FranceA Travers les Hauts de France,FR,1.2,One Day,2023/09/09,2023/09/09,GC,,,Hilly
-2023,Women,Road,10950,GP Fourmies WomenGP Fourmies Women,FR,1.2,One Day,2023/09/10,2023/09/10,GC,,,Flat
-2023,Women,Road,17169,Grisette Grand Prix de WallonieGrisette Grand Prix de Wallonie,BE,1.1,One Day,2023/09/13,2023/09/13,GC,,,Hilly MTF
-2023,Women,Road,9852,Chrono de GatineauChrono de Gatineau,CA,1.1,One Day,2023/09/15,2023/09/15,GC,,,Flat ITT
-2023,Women,Road,13609,Watersley Womens ChallengeWatersley Womens Challenge,NL,2.2U,Stage Race,2023/09/15,2023/09/17,01,2.8,Sittard-Geleen-Sittard-Geleen,Flat ITT
-2023,Women,Road,16500,Tour de RomandieTour de Romandie,CH,2.WWT,Stage Race,2023/09/15,2023/09/17,01,144.1,Yverdon-les-Bains-Yverdon-les-Bains,Hilly
-2023,Women,Road,13600,AG Tour de la SemoisAG Tour de la Semois,BE,2.2,Stage Race,2023/09/15,2023/09/16,01,116.6,Vresse-sur-Semois-Vresse-sur-Semois,Hilly
-2023,Women,Road,9921,GP d'IsberguesGP d'Isbergues,FR,1.2,One Day,2023/09/17,2023/09/17,GC,,,Flat
-2023,Women,Road,9925,Europe ITT-U23Europe ITT-U23,,CCUT,One Day,2023/09/20,2023/09/20,GC,,,Flat ITT
-2023,Women,Road,9923,Europe ITTEurope ITT,,CCTT,One Day,2023/09/20,2023/09/20,GC,,,Flat ITT
-2023,Women,Road,9909,Giro dell'EmiliaGiro dell'Emilia,IT,1.Pro,One Day,2023/09/30,2023/09/30,GC,,,Hilly MTF
-2023,Women,Road,10242,Asian Games ITTAsian Games ITT,,CCTT,One Day,2023/10/03,2023/10/03,GC,,,Flat ITT
-2023,Women,Road,20975,Grand Tour de Ciclismo de SC FemeninaGrand Tour de Ciclismo de SC Femenina,BR,1.2,One Day,2023/10/03,2023/10/03,GC,,,Flat
-2023,Women,Road,13689,Tre Valli Varesine WomenTre Valli Varesine Women,IT,1.1,One Day,2023/10/03,2023/10/03,GC,,,Hilly
-2023,Women,Road,15070,Binche-Chimay-Binche pour DamesBinche-Chimay-Binche pour Dames,BE,1.1,One Day,2023/10/03,2023/10/03,GC,,,Flat
-2023,Women,Road,20976,GP Urubici de Ciclismo FemeninaGP Urubici de Ciclismo Femenina,BR,1.2,One Day,2023/10/04,2023/10/04,GC,,,Hilly MTF
-2023,Women,Road,20977,GP de Santa CatarinaGP de Santa Catarina,BR,1.2,One Day,2023/10/05,2023/10/05,GC,,,Flat
-2023,Women,Road,10435,Vuelta Costa RicaVuelta Costa Rica,CR,2.2,Stage Race,2023/10/12,2023/10/15,01,113.5,San Isidro-Peñas Blancas,Flat
-2023,Women,Road,9060,Tour of Chongming IslandTour of Chongming Island,CN,2.WWT,Stage Race,2023/10/12,2023/10/14,01,108.9,Chongxi-Chongxi,Flat
-2023,Women,Road,10567,Campeonato del Caribe ITTCampeonato del Caribe ITT,,1.2,One Day,2023/10/14,2023/10/14,GC,,,Flat ITT
-2023,Women,Road,9911,Chrono des NationsChrono des Nations,FR,1.1,One Day,2023/10/15,2023/10/15,GC,,,Flat ITT
-2023,Women,Road,9059,Tour of GuangxiTour of Guangxi,CN,1.WWT,One Day,2023/10/17,2023/10/17,GC,,,Flat
-2023,Women,Road,12535,Pan-American Games ITTPan-American Games ITT,,CCTT,One Day,2023/10/22,2023/10/22,GC,,,Flat ITT
+2023,Women,Road,15687,Tour de France Femmes,FR,2.WWT,Stage Race,2023/07/23,2023/07/30,03,147.2,Collonges-la-Rouge-Montignac-Lascaux,Flat
+2023,Women,Road,15687,Tour de France Femmes,FR,2.WWT,Stage Race,2023/07/23,2023/07/30,06,122.1,Albi-Blagnac,Flat
+2023,Women,Road,15687,Tour de France Femmes,FR,2.WWT,Stage Race,2023/07/23,2023/07/30,01,123.8,Clermont-Ferrand-Clermont-Ferrand,Hilly
+2023,Women,Road,15687,Tour de France Femmes,FR,2.WWT,Stage Race,2023/07/23,2023/07/30,02,151.2,Clermont-Ferrand-Mauriac,Hilly
+2023,Women,Road,15687,Tour de France Femmes,FR,2.WWT,Stage Race,2023/07/23,2023/07/30,04,177.1,Cahors-Rodez,Hilly
+2023,Women,Road,15687,Tour de France Femmes,FR,2.WWT,Stage Race,2023/07/23,2023/07/30,05,126.1,Onet-le-Château-Albi,Hilly
+2023,Women,Road,15687,Tour de France Femmes,FR,2.WWT,Stage Race,2023/07/23,2023/07/30,07,89.8,Lannemezan-Col du Tourmalet,Mountain MTF
+2023,Women,Road,15687,Tour de France Femmes,FR,2.WWT,Stage Race,2023/07/23,2023/07/30,08,22.6,Pau-Pau,Flat ITT
+2023,Women,Road,10106,Vuelta a Colombia Femenina,CO,2.2,Stage Race,2023/07/26,2023/07/30,01,48.6,Tunja-Tunja,Flat
+2023,Women,Road,10106,Vuelta a Colombia Femenina,CO,2.2,Stage Race,2023/07/26,2023/07/30,02,132.3,Tunja-Oiba,Flat
+2023,Women,Road,10106,Vuelta a Colombia Femenina,CO,2.2,Stage Race,2023/07/26,2023/07/30,04,102.6,Curití-Bucaramanga,Hilly
+2023,Women,Road,10106,Vuelta a Colombia Femenina,CO,2.2,Stage Race,2023/07/26,2023/07/30,05,98,Bucaramanga-Bucaramanga,Hilly
+2023,Women,Road,10106,Vuelta a Colombia Femenina,CO,2.2,Stage Race,2023/07/26,2023/07/30,03,21.3,San Gil-Barichara,Flat ITT
+2023,Women,Road,16504,Princess Anna Vasa Tour,PL,2.2,Stage Race,2023/07/28,2023/07/30,01,111.5,Golub-Dobrzyn-Golub-Dobrzyn,Flat
+2023,Women,Road,16504,Princess Anna Vasa Tour,PL,2.2,Stage Race,2023/07/28,2023/07/30,02,124,Golub-Dobrzyn-Golub-Dobrzyn,Flat
+2023,Women,Road,16504,Princess Anna Vasa Tour,PL,2.2,Stage Race,2023/07/28,2023/07/30,03,14,Golub-Dobrzyn-Golub-Dobrzyn,Flat ITT
+2023,Women,Road,9068,World Championship ITT,,WCTT,One Day,2023/08/10,2023/08/10,GC,,,Flat ITT
+2023,Women,Road,12377,La Périgord Ladies,FR,1.2,One Day,2023/08/12,2023/08/12,GC,,,Hilly
+2023,Women,Road,12378,La Picto-Charentaise,FR,1.2,One Day,2023/08/13,2023/08/13,GC,,,Flat
+2023,Women,Road,17078,Grote Prijs Yvonne Reynders,BE,1.2,One Day,2023/08/15,2023/08/15,GC,,,Flat
+2023,Women,Road,17781,Konvert Kortrijk Koerse,BE,1.1,One Day,2023/08/18,2023/08/18,GC,,,Flat
+2023,Women,Road,14770,GP Oetingen,BE,1.1,One Day,2023/08/19,2023/08/19,GC,,,Flat
+2023,Women,Road,20779,Egmont Cycling Race,BE,1.2,One Day,2023/08/22,2023/08/22,GC,,,Flat
+2023,Women,Road,15688,Tour of Scandinavia,NO,2.WWT,Stage Race,2023/08/23,2023/08/27,03,134.9,Kongsberg-Larvik,Hilly MTF
+2023,Women,Road,15688,Tour of Scandinavia,NO,2.WWT,Stage Race,2023/08/23,2023/08/27,01,124.5,Mysen-Halden,Hilly
+2023,Women,Road,15688,Tour of Scandinavia,NO,2.WWT,Stage Race,2023/08/23,2023/08/27,05,143.9, Middelfart- Haderslev,Hilly
+2023,Women,Road,15688,Tour of Scandinavia,NO,2.WWT,Stage Race,2023/08/23,2023/08/27,02,150.5,Vikersund-Norefjell,Mountain MTF
+2023,Women,Road,15688,Tour of Scandinavia,NO,2.WWT,Stage Race,2023/08/23,2023/08/27,04,16.5, Herning- Herning,Flat ITT
+2023,Women,Road,9914,Giro Toscana Int. Femminile,IT,2.2,Stage Race,2023/08/24,2023/08/27,01,99.4,Quarrata-Serravalle Pistoiese,Hilly MTF
+2023,Women,Road,9914,Giro Toscana Int. Femminile,IT,2.2,Stage Race,2023/08/24,2023/08/27,03,129.3,Lucca-Montecatini Alto,Hilly MTF
+2023,Women,Road,9914,Giro Toscana Int. Femminile,IT,2.2,Stage Race,2023/08/24,2023/08/27,02,116.8,Segromigno in Piano-Segromigno in Piano,Hilly
+2023,Women,Road,9914,Giro Toscana Int. Femminile,IT,2.2,Stage Race,2023/08/24,2023/08/27,00,2.2,Campi Bisenzio-Campi Bisenzio,Flat ITT
+2023,Women,Road,18940,Tour de l'Avenir Femmes,FR,2.2U,Stage Race,2023/08/28,2023/09/01,02,91.8,Charolles-Louhans Chateaurenaud,Flat
+2023,Women,Road,18940,Tour de l'Avenir Femmes,FR,2.2U,Stage Race,2023/08/28,2023/09/01,03,97.3,Val d’Epy-Saint-Didier-sur-Chalaronne,Hilly
+2023,Women,Road,18940,Tour de l'Avenir Femmes,FR,2.2U,Stage Race,2023/08/28,2023/09/01,04,79.8,Challes-les-Eaux-Megève,Hilly
+2023,Women,Road,18940,Tour de l'Avenir Femmes,FR,2.2U,Stage Race,2023/08/28,2023/09/01,05,98.3,Saint-Gervais Mont-Blanc-Sainte Foy Tarentaise,Mountain MTF
+2023,Women,Road,18940,Tour de l'Avenir Femmes,FR,2.2U,Stage Race,2023/08/28,2023/09/01,01,14.8,Saint-Vallier-Saint-Vallier,Flat ITT
+2023,Women,Road,9057,Classic Lorient Agglomération,FR,1.WWT,One Day,2023/09/02,2023/09/02,GC,,,Hilly
+2023,Women,Road,13601,Grote Prijs Beerens,BE,1.1,One Day,2023/09/03,2023/09/03,GC,,,Flat
+2023,Women,Road,9906,Tour Feminin l'Ardeche,FR,2.1,Stage Race,2023/09/05,2023/09/11,02,92.7,Nîmes-Nîmes,Flat
+2023,Women,Road,9906,Tour Feminin l'Ardeche,FR,2.1,Stage Race,2023/09/05,2023/09/11,03,119.6,Avignon-Avignon,Flat
+2023,Women,Road,9906,Tour Feminin l'Ardeche,FR,2.1,Stage Race,2023/09/05,2023/09/11,04,101.6,Saint-Rambert-d'Albon-Hauterives,Flat
+2023,Women,Road,9906,Tour Feminin l'Ardeche,FR,2.1,Stage Race,2023/09/05,2023/09/11,01,105.7,Bourg-Saint-Andéol-Ruoms,Hilly
+2023,Women,Road,9906,Tour Feminin l'Ardeche,FR,2.1,Stage Race,2023/09/05,2023/09/11,06,125.9,Saint-Félicien-Tain-l'Hermitage,Hilly
+2023,Women,Road,9906,Tour Feminin l'Ardeche,FR,2.1,Stage Race,2023/09/05,2023/09/11,05,100.3,Marvejols-Le Mont Lozère,Mountain MTF
+2023,Women,Road,9906,Tour Feminin l'Ardeche,FR,2.1,Stage Race,2023/09/05,2023/09/11,07,69.2,Beauchastel-Privas,Mountain
+2023,Women,Road,9066,Simac Ladies Tour,NL,2.WWT,Stage Race,2023/09/05,2023/09/10,01,139.6,Gennep-Gennep,Flat
+2023,Women,Road,9066,Simac Ladies Tour,NL,2.WWT,Stage Race,2023/09/05,2023/09/10,03,149,Emmeloord-Lelystad,Flat
+2023,Women,Road,9066,Simac Ladies Tour,NL,2.WWT,Stage Race,2023/09/05,2023/09/10,04,131.6,Valkenburg-Valkenburg,Hilly MTF
+2023,Women,Road,9066,Simac Ladies Tour,NL,2.WWT,Stage Race,2023/09/05,2023/09/10,05,150.5,Arnhem-Arnhem,Hilly
+2023,Women,Road,9066,Simac Ladies Tour,NL,2.WWT,Stage Race,2023/09/05,2023/09/10,00,2.4,Ede-Ede,Flat ITT
+2023,Women,Road,9066,Simac Ladies Tour,NL,2.WWT,Stage Race,2023/09/05,2023/09/10,02,7.1, Leuven- Leuven,Flat ITT
+2023,Women,Road,17099,A Travers les Hauts de France,FR,1.2,One Day,2023/09/09,2023/09/09,GC,,,Hilly
+2023,Women,Road,10950,GP Fourmies Women,FR,1.2,One Day,2023/09/10,2023/09/10,GC,,,Flat
+2023,Women,Road,17169,Grisette Grand Prix de Wallonie,BE,1.1,One Day,2023/09/13,2023/09/13,GC,,,Hilly MTF
+2023,Women,Road,9852,Chrono de Gatineau,CA,1.1,One Day,2023/09/15,2023/09/15,GC,,,Flat ITT
+2023,Women,Road,13609,Watersley Womens Challenge,NL,2.2U,Stage Race,2023/09/15,2023/09/17,02,122.6, Neerharen- Mopertingen,Flat
+2023,Women,Road,13609,Watersley Womens Challenge,NL,2.2U,Stage Race,2023/09/15,2023/09/17,03,133.9,Sittard-Geleen-Sittard-Geleen,Hilly
+2023,Women,Road,13609,Watersley Womens Challenge,NL,2.2U,Stage Race,2023/09/15,2023/09/17,01,2.8,Sittard-Geleen-Sittard-Geleen,Flat ITT
+2023,Women,Road,16500,Tour de Romandie,CH,2.WWT,Stage Race,2023/09/15,2023/09/17,01,144.1,Yverdon-les-Bains-Yverdon-les-Bains,Hilly
+2023,Women,Road,16500,Tour de Romandie,CH,2.WWT,Stage Race,2023/09/15,2023/09/17,03,131.9,Vernier-Nyon,Hilly
+2023,Women,Road,16500,Tour de Romandie,CH,2.WWT,Stage Race,2023/09/15,2023/09/17,02,110.8,Romont-Torgon,Mountain MTF
+2023,Women,Road,13600,AG Tour de la Semois,BE,2.2,Stage Race,2023/09/15,2023/09/16,01,116.6,Vresse-sur-Semois-Vresse-sur-Semois,Hilly
+2023,Women,Road,13600,AG Tour de la Semois,BE,2.2,Stage Race,2023/09/15,2023/09/16,02,119.9,Bertrix-Bertrix,Hilly
+2023,Women,Road,9921,GP d'Isbergues,FR,1.2,One Day,2023/09/17,2023/09/17,GC,,,Flat
+2023,Women,Road,9925,Europe ITT-U23,,CCUT,One Day,2023/09/20,2023/09/20,GC,,,Flat ITT
+2023,Women,Road,9923,Europe ITT,,CCTT,One Day,2023/09/20,2023/09/20,GC,,,Flat ITT
+2023,Women,Road,9909,Giro dell'Emilia,IT,1.Pro,One Day,2023/09/30,2023/09/30,GC,,,Hilly MTF
+2023,Women,Road,10242,Asian Games ITT,,CCTT,One Day,2023/10/03,2023/10/03,GC,,,Flat ITT
+2023,Women,Road,20975,Grand Tour de Ciclismo de SC Femenina,BR,1.2,One Day,2023/10/03,2023/10/03,GC,,,Flat
+2023,Women,Road,13689,Tre Valli Varesine Women,IT,1.1,One Day,2023/10/03,2023/10/03,GC,,,Hilly
+2023,Women,Road,15070,Binche-Chimay-Binche pour Dames,BE,1.1,One Day,2023/10/03,2023/10/03,GC,,,Flat
+2023,Women,Road,20976,GP Urubici de Ciclismo Femenina,BR,1.2,One Day,2023/10/04,2023/10/04,GC,,,Hilly MTF
+2023,Women,Road,20977,GP de Santa Catarina,BR,1.2,One Day,2023/10/05,2023/10/05,GC,,,Flat
+2023,Women,Road,10435,Vuelta Costa Rica,CR,2.2,Stage Race,2023/10/12,2023/10/15,01,113.5,San Isidro-Peñas Blancas,Flat
+2023,Women,Road,10435,Vuelta Costa Rica,CR,2.2,Stage Race,2023/10/12,2023/10/15,04,83.4,Escazú-Escazú,Flat
+2023,Women,Road,10435,Vuelta Costa Rica,CR,2.2,Stage Race,2023/10/12,2023/10/15,03,118.5,Palmares-Fátima,Hilly MTF
+2023,Women,Road,10435,Vuelta Costa Rica,CR,2.2,Stage Race,2023/10/12,2023/10/15,02,24.6,La Unión-General Viejo,Flat ITT
+2023,Women,Road,9060,Tour of Chongming Island,CN,2.WWT,Stage Race,2023/10/12,2023/10/14,01,108.9,Chongxi-Chongxi,Flat
+2023,Women,Road,9060,Tour of Chongming Island,CN,2.WWT,Stage Race,2023/10/12,2023/10/14,02,128.5,Chongdong-Chongdong,Flat
+2023,Women,Road,9060,Tour of Chongming Island,CN,2.WWT,Stage Race,2023/10/12,2023/10/14,03,112.3,Chongzhong-Chongzhong,Flat
+2023,Women,Road,10567,Campeonato del Caribe ITT,,1.2,One Day,2023/10/14,2023/10/14,GC,,,Flat ITT
+2023,Women,Road,9911,Chrono des Nations,FR,1.1,One Day,2023/10/15,2023/10/15,GC,,,Flat ITT
+2023,Women,Road,9059,Tour of Guangxi,CN,1.WWT,One Day,2023/10/17,2023/10/17,GC,,,Flat
+2023,Women,Road,12535,Pan-American Games ITT,,CCTT,One Day,2023/10/22,2023/10/22,GC,,,Flat ITT
