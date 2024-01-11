@@ -46,7 +46,10 @@ end_date = []
 
 
 
-for calendar_ingestion_count in range(0,22):
+for calendar_ingestion_count in range(0,
+                                      #2
+                                      22
+                                      ):
     file = open(setwd+'calendar_ingestion_files/souped_html_txt_files/'+cci_file_name_list[calendar_ingestion_count], 'r')
     file_read = file.read()
     file_soup = BeautifulSoup(file_read, "html.parser")
@@ -61,11 +64,17 @@ for calendar_ingestion_count in range(0,22):
             category.append('Road')
             calendar_ingestion_count_str.append(str(calendar_ingestion_count))
             first_cycling_race_id.append(str(columns[2].find_all('a')).split('r=')[1].split('&amp')[0])
+            if '&amp;' in str(columns[2].find_all('a')).split('title="')[1].split('">')[0]:
+                then: race_name.append(str(columns[2].find_all('a')).split('title="')[1].split('">')[0].split('amp;')[0]+str(columns[2].find_all('a')).split('title="')[1].split('">')[0].split('amp;')[-1])
+            else: race_name.append(str(columns[2].find_all('a')).split('title="')[1].split('">')[0])
             # race_name.append(str(columns[2].find_all('a')).split('title="')[1].split('">')[0])
-            try:
-                race_name.append(str(columns[2].find_all('a')).split('title="')[1].split('">')[0].split('amp;')[0]+str(columns[2].find_all('a')).split('title="')[1].split('">')[0].split('amp;')[-1])
-            except:
-                race_name.append(str(columns[2].find_all('a')).split('title="')[1].split('">')[0])
+            # try:
+            #     race_name.append(str(columns[2].find_all('a')).split('title="')[1].split('">')[0].split('amp;')[0]+str(columns[2].find_all('a')).split('title="')[1].split('">')[0].split('amp;')[-1])
+            # except:
+            #     try:
+            #         race_name.append(str(columns[2].find_all('a')).split('title="')[1].split('">')[0])
+            #     except:
+            #         race_name.append(str(columns[2].find_all('a')).split('title="')[1].split('">')[0])
             race_nationality.append(str(columns[2].find_all("span")).split("flag-")[1].split('"><')[0].upper())
             uci_race_classification.append(columns[1].text)
             stage_race_boolean.append(np.where(columns[1].text.startswith('2'),"Stage Race","One Day"))
@@ -190,7 +199,11 @@ for calendar_oneday_profiles_ingestion_count in tqdm(range(0,
 
     calendar_oneday_profiles_ingestion_count = calendar_oneday_profiles_ingestion_count + 1
 
-road_calendar_stage_profiles = road_calendar_stage_profiles.drop_duplicates(subset=['first_cycling_race_id'])
+# road_calendar_stage_profiles = road_calendar_stage_profiles.drop_duplicates(subset=['season','first_cycling_race_id','stage_number'])
+road_calendar_stage_profiles['concat'] = road_calendar_stage_profiles['season'].astype(str)+road_calendar_stage_profiles['first_cycling_race_id'].astype(str)+road_calendar_stage_profiles['stage_number'].astype(str)
+road_calendar_stage_profiles = road_calendar_stage_profiles.drop_duplicates(subset=['concat'])
+road_calendar_stage_profiles = road_calendar_stage_profiles.drop('concat',axis=1)
+road_calendar_stage_profiles
 
 # cci_file_name_list
 
@@ -205,6 +218,8 @@ stage_profile_category_mapping = pd.DataFrame({'stage_profile_category_first_cyc
 
 # stage_profile_category_mapping
 
+road_calendar_stage_profiles
+
 road_calendar_stage_profiles = road_calendar_stage_profiles.merge(stage_profile_category_mapping, on = 'stage_profile_category_first_cycling')
 
 road_calendar_stage_profiles = road_calendar_stage_profiles.drop(['stage_profile_category_first_cycling'],axis=1)  
@@ -212,8 +227,8 @@ road_calendar_stage_profiles = road_calendar_stage_profiles.drop(['stage_profile
 road_calendar_stage_profiles 
 
 # road_calendar_oneday_profiles2 = pd.read_csv(setwd+'road_calendar_oneday_profiles.csv')
-road_calendar_stage_profiles['season'] = road_calendar_stage_profiles['season'].astype(str)
-road_calendar_stage_profiles['first_cycling_race_id'] = road_calendar_stage_profiles['first_cycling_race_id'].astype(str)
+# road_calendar_stage_profiles['season'] = road_calendar_stage_profiles['season'].astype(str)
+# road_calendar_stage_profiles['first_cycling_race_id'] = road_calendar_stage_profiles['first_cycling_race_id'].astype(str)
 
 first_cycling_calendar_df = pd.read_csv(setwd+'first_cycling_calendar_df_master.csv')
 first_cycling_calendar_df['season'] = first_cycling_calendar_df['season'].astype(str)
