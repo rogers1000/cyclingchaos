@@ -69,6 +69,6 @@ cycling_chaos_ingestion = pd.DataFrame({'output':cci_output, 'output_details':cc
 
 cycling_chaos_ingestion = cycling_chaos_ingestion.drop_duplicates()
 
-cycling_chaos_ingestion.to_csv(setwd+'cycling_chaos_ingestion_df4.csv', index=False)
+cycling_chaos_ingestion.to_csv(setwd+'cycling_chaos_ingestion_df_master.csv', index=False)
 
 print(cycling_chaos_ingestion)
