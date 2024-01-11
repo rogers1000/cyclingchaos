@@ -1,75 +1,52 @@
-### Import Modules ###
+# Importing Modules required for code to work
 import pandas as pd
 import numpy as np
-import requests
-# from google.colab import data_table
 from datetime import datetime
+import requests
 import time
 from datetime import timedelta
 from tqdm import tqdm
 from bs4 import BeautifulSoup
-# from google.colab import files
 import os
 import re
 from time import sleep
 from random import randrange
-# data_table.enable_dataframe_formatter()
 
-### Team Details DF creation ###
+##### Making Code Possible to Put onto Github #####
 
-team_details_df = pd.DataFrame(columns=['season','first_cycling_team_id','team_name'])
+setwd = '/Users/zacrogers/Documents/cycling_chaos/python_code/'
 
 season = 2023
+fc_division_count = 1
+cci_output = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')['output'].to_list()
+cci_output_details = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')['output_details'].to_list()
+cci_file_name = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')['file_name'].to_list()
 
-uci_division_extract = 0
+for fc_division_count in tqdm(range(1,
+                                          10
+                                        )):
+    time.sleep(5)
+    url = 'https://firstcycling.com/team.php?y='+str(season)+'&d='+str(fc_division_count)
+    teamdetails_meta = requests.get(url)
+    teamdetails_meta_soup = BeautifulSoup(teamdetails_meta.content, "html.parser")
+    teamdetails_meta_soup_str = str(teamdetails_meta_soup)
+    file_name = 'cycling_chaos_code'+'_'+'team_details'+'_'+'all'+'_'+str(season)+'_'+str(fc_division_count)+'.txt'
+    with open(setwd+'calendar_ingestion_files/souped_html_txt_files/'+file_name, 'w') as writefile:
+    # with open(r'/Users/zacrogers/Documents/cycling_chaos/python_code/calendar_ingestion_files/souped_html_txt_files/'+file_name, 'w') as writefile:
+        writefile.write(teamdetails_meta_soup_str)
+        writefile.close()
+    cci_output.append('team_details')
+    cci_output_details.append('all')
+    cci_file_name.append(file_name)
 
-for team_count in tqdm(range(0,9)):
-  uci_division_extract = uci_division_extract + 1
-  uci_division = np.where(uci_division_extract == 1,"Men's World Tour",
-                          np.where(uci_division_extract == 2,"Men's ProConti",
-                                   np.where(uci_division_extract == 3,"Men's Conti",
-                                            np.where(uci_division_extract == 4,"Men's Junior",
-                                                     np.where(uci_division_extract == 5,"Men's Amateur",
-                                                              np.where(uci_division_extract == 6,"Women's World Tour",
-                                                                       np.where(uci_division_extract == 7,"Women's Conti",
-                                                                                np.where(uci_division_extract == 8,"Women's Other",
-                                                                                         np.where(uci_division_extract == 9,"Women's Junior",
-                                                                                                  "Error")))))))))
-  time.sleep(5)
-  url = 'https://firstcycling.com/team.php?d='+str(uci_division_extract)+'&y='+str(season)
-  team_rider_details_df_meta = requests.get(url)
-  team_rider_details_df_meta_soup = BeautifulSoup(team_rider_details_df_meta.content, "html.parser")
-  team_rider_details_df_meta_soup_part2 = team_rider_details_df_meta_soup.find_all('tbody')[0]
+    print('Ingested #'+str(fc_division_count+1)+' '+file_name)
 
-  for row in team_rider_details_df_meta_soup_part2.find_all('tr'):
-    columns = row.find_all('td')
+    fc_division_count = fc_division_count + 1
 
-    if(columns != []):
-      season = str(season)
-      team_logo = str(columns[0].find_all('span'))
-      first_cycling_team_id = str(columns[1].find_all('a')).split('?l=')[1].split('" style=')[0]
-      team_name = str(columns[1].find_all('a')).split('title="')[1].split('">')[0]
-      # team_nationality = str(columns[3].find_all('span'))
-      # team_bikes = columns[4].text
-      # uci_points = columns[5]
-      # test0 = columns[0]
-      # test1 = columns[1]
-      # test2 = columns[2]
-      # test3 = columns[3]
-      # test4 = columns[4]
-      # test5 = columns[5]
-      # test6 = columns[6]
+cycling_chaos_ingestion = pd.DataFrame({'output':cci_output, 'output_details':cci_output_details, 'file_name':cci_file_name})
 
-      team_details_df = team_details_df.append({
-        'season':season
-        ,'uci_division':uci_division
-        ,'first_cycling_team_id':first_cycling_team_id
-        ,'team_name':team_name
-        # ,'test0':test0
-        # ,'test1':test1
-        # ,'test2':test2
-        # ,'test3':test3
-        # ,'test4':test4
-        # ,'test5':test5
-        # ,'test6':test6
-          }, ignore_index=True)
+cycling_chaos_ingestion = cycling_chaos_ingestion.drop_duplicates()
+
+cycling_chaos_ingestion.to_csv(setwd+'cycling_chaos_ingestion_df_master.csv', index=False)
+
+print(cycling_chaos_ingestion)
