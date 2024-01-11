@@ -24,3 +24,4 @@ Future Work:
 - Look into aggregated data views for `Team Details()` (`UCI Points`, `Victories`, `Top3s`, `Top10s`, `Race Days`)
 - Look into data views for `Rider Details()` (`UCI Points`, `Victories`, `Top3s`, `Top10s`, `Race Days`)
 - Velogames Data
+- Cyclocross24
