@@ -514,7 +514,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
         cells_body(
           columns = c(rank,races_count))))|>
     tab_footnote(
-      footnote = "Data from FirstCycling.com"
+      footnote = "Data from FirstCycling.com | Bonus Seconds* calculated by GC Time on a Stage minus Stage Time"
     )
   
 }
