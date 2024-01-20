@@ -18,13 +18,19 @@ from random import randrange
 
 ##### Transforming Calendar Ingest #####
 
+##### Transforming Calendar Ingest #####
+
 # Making a list of files needing to be transformed
 
 cycling_chaos_ingestion = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')
 
-cci_file_name_list = cycling_chaos_ingestion.loc[cycling_chaos_ingestion['output'] == 'calendar']['file_name'].to_list()
+cycling_chaos_ingestion = cycling_chaos_ingestion.loc[(cycling_chaos_ingestion['output_details'] == 'men') | (cycling_chaos_ingestion['output_details'] == 'women')].reset_index()
 
-calendar_ingestion_count_limit = cycling_chaos_ingestion.loc[cycling_chaos_ingestion['output'] == 'calendar']['file_name'].nunique()
+cci_file_name_list = cycling_chaos_ingestion.loc[(cycling_chaos_ingestion['output_details'] == 'men') | (cycling_chaos_ingestion['output_details'] == 'women')]['file_name'].to_list()
+
+calendar_ingestion_count_limit = cycling_chaos_ingestion.loc[cycling_chaos_ingestion['output_details'] == 'men']['file_name'].nunique()
+
+# cci_file_name_list
 
 calendar_ingestion_count = 0
 
@@ -47,20 +53,30 @@ end_date = []
 
 
 for calendar_ingestion_count in range(0,
-                                      #2
-                                      22
+                                    #   2
+                                      calendar_ingestion_count_limit
                                       ):
     file = open(setwd+'calendar_ingestion_files/souped_html_txt_files/'+cci_file_name_list[calendar_ingestion_count], 'r')
     file_read = file.read()
     file_soup = BeautifulSoup(file_read, "html.parser")
-    file_soup_part2 = file_soup.find_all('tbody')[-1]
+    try:
+        file_soup_part2 = file_soup.find_all('tbody')[-1]
+    except:
+        file = open(setwd+'calendar_ingestion_files/souped_html_txt_files/'+cci_file_name_list[0], 'r')
+        file_read = file.read()
+        file_soup = BeautifulSoup(file_read, "html.parser")
+        file_soup_part2 = file_soup.find_all('tbody')[-1]
+        
 
     for row in file_soup_part2.find_all('tr'):
         columns = row.find_all('td')
 
         if(columns != []):
             year.append(str(cycling_chaos_ingestion.loc[cycling_chaos_ingestion['output'] == 'calendar']['file_name']).split('_')[5])
-            gender.append(cycling_chaos_ingestion.loc[cycling_chaos_ingestion['output'] == 'calendar']['output_details'][calendar_ingestion_count])
+            try:
+                gender.append(cycling_chaos_ingestion.loc[cycling_chaos_ingestion['output'] == 'calendar']['output_details'][calendar_ingestion_count])
+            except:
+                gender.append('Error')
             category.append('Road')
             calendar_ingestion_count_str.append(str(calendar_ingestion_count))
             first_cycling_race_id.append(str(columns[2].find_all('a')).split('r=')[1].split('&amp')[0])
@@ -158,7 +174,11 @@ for calendar_stage_profiles_ingestion_count in tqdm(range(0,
     
     calendar_stage_profiles_ingestion_count = calendar_stage_profiles_ingestion_count + 1
 
-road_calendar_stage_profiles.to_csv(setwd+'road_calendar_stage_profiles.csv',index=False)
+    road_calendar_stage_profiles
+
+# road_calendar_stage_profiles
+
+    road_calendar_stage_profiles.to_csv(setwd+'road_calendar_stage_profiles.csv',index=False)
 
 ##### Trying to get Route & Distance for One Day Races #####
 
@@ -199,6 +219,10 @@ for calendar_oneday_profiles_ingestion_count in tqdm(range(0,
 
     calendar_oneday_profiles_ingestion_count = calendar_oneday_profiles_ingestion_count + 1
 
+road_calendar_stage_profiles = pd.read_csv(setwd+'road_calendar_stage_profiles.csv')
+road_calendar_stage_profiles['season'] = road_calendar_stage_profiles['season'].astype(str)
+road_calendar_stage_profiles['first_cycling_race_id'] = road_calendar_stage_profiles['first_cycling_race_id'].astype(str)
+
 # road_calendar_stage_profiles = road_calendar_stage_profiles.drop_duplicates(subset=['season','first_cycling_race_id','stage_number'])
 road_calendar_stage_profiles['concat'] = road_calendar_stage_profiles['season'].astype(str)+road_calendar_stage_profiles['first_cycling_race_id'].astype(str)+road_calendar_stage_profiles['stage_number'].astype(str)
 road_calendar_stage_profiles = road_calendar_stage_profiles.drop_duplicates(subset=['concat'])
@@ -219,16 +243,6 @@ stage_profile_category_mapping = pd.DataFrame({'stage_profile_category_first_cyc
 # stage_profile_category_mapping
 
 road_calendar_stage_profiles
-
-road_calendar_stage_profiles = road_calendar_stage_profiles.merge(stage_profile_category_mapping, on = 'stage_profile_category_first_cycling')
-
-road_calendar_stage_profiles = road_calendar_stage_profiles.drop(['stage_profile_category_first_cycling'],axis=1)  
-
-road_calendar_stage_profiles 
-
-# road_calendar_oneday_profiles2 = pd.read_csv(setwd+'road_calendar_oneday_profiles.csv')
-# road_calendar_stage_profiles['season'] = road_calendar_stage_profiles['season'].astype(str)
-# road_calendar_stage_profiles['first_cycling_race_id'] = road_calendar_stage_profiles['first_cycling_race_id'].astype(str)
 
 first_cycling_calendar_df = pd.read_csv(setwd+'first_cycling_calendar_df_master.csv')
 first_cycling_calendar_df['season'] = first_cycling_calendar_df['season'].astype(str)
