@@ -55,12 +55,16 @@ calendar_function <- function(gc_or_stage_function) {
     mutate(race_tag_euro_champs = case_when(first_cycling_race_id == "4020" ~ "Euro Champs",
                                              first_cycling_race_id == "4019" ~ "Euro Champs",
                                              .default = "")) |>
-    
+    mutate(race_tag_mallorca4 = case_when(first_cycling_race_id == "100" ~ "Mallorca Warmup",
+                                          first_cycling_race_id == "271" ~ "Mallorca Warmup",
+                                          first_cycling_race_id == "274" ~ "Mallorca Warmup",
+                                          first_cycling_race_id == "83" ~ "Mallorca Warmup",
+                                            .default = "")) |>
     mutate(race_tags = paste(race_tag_monument,race_tag_world_tour,race_tag_big7,race_tag_grandtour,race_tag_cobbled_classic,
                              race_tag_ardennes,race_tag_cobbles_openingweekend,race_tag_aussie_kiwi_wt,race_tag_middle_east,race_tag_world_champs,
-                             race_tag_euro_champs,sep = " ")) |>
+                             race_tag_euro_champs,race_tag_mallorca4,sep = " ")) |>
     select(-c(race_tag_monument,race_tag_world_tour,race_tag_big7,race_tag_grandtour,race_tag_cobbled_classic,
               race_tag_ardennes,race_tag_cobbles_openingweekend,race_tag_aussie_kiwi_wt,race_tag_middle_east,race_tag_world_champs,
-              race_tag_euro_champs)) |>
+              race_tag_euro_champs,race_tag_mallorca4)) |>
     mutate(first_cycling_race_id = as.double(first_cycling_race_id))
 }
