@@ -1,15 +1,9 @@
 A place to put my planned work across a multiple iteration release schedule:
 
-Phase 5:
-- Redesign Race Calendar ETL
-- Redesign Race Results ETL
-- Redesign Team Details ETL
-- Start design for Rider Details ETL
-
-Phase 6:
-- Redesign `Pivot_Results()` with new ETL process
-
 Phase 7:
+- Add 2024 Data to existing capabilities
+
+Phase 8:
 - Look into UCI Website for Ingestion
 - Look into Olympics Website for Ingestion
 - Look into Paralympics Website for Ingestion
