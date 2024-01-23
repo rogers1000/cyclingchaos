@@ -10,9 +10,10 @@ Currently there is a seven phase iteration delivery process:
 - Phase 2 is building basic package functions (done)
 - Phase 3 is adding backend data capability (done)
 - Phase 4 is adding frontend data capability (done)
-- Phase 5 is rebuiling ingestion methodology (started on)
-- Phase 6 is adding frontend data capability (started on)
-- Phase 7 is getting ready for Olympics/Paralympics Games
+- Phase 5 is rebuiling ingestion methodology (done)
+- Phase 6 is adding frontend data capability (done)
+- Phase 7 is adding 2024 Data to existing capabilities (Started On)
+- Phase 8 is getting ready for Olympics/Paralympics Games
 
 Any questions, please don't hesistate to message me. 
 
