@@ -1,7 +1,7 @@
 library(tidyverse)
 
-calendar_function <- function(gc_or_stage_function) {
-    calendar_csv <- read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/backend_race_calendar/CyclingChaos_RaceCalendar_df_master.csv') |>
+calendar_function <- function() {
+  calendar_csv <- read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/backend_race_calendar/CyclingChaos_RaceCalendar_df_master.csv') |>
     mutate(first_cycling_race_id = as.character(first_cycling_race_id)) |>
     mutate(race_tag_monument = case_when(first_cycling_race_id == "4" ~ "Monument",
                                          first_cycling_race_id == "5" ~ "Monument",
@@ -42,9 +42,12 @@ calendar_function <- function(gc_or_stage_function) {
     mutate(race_tag_cobbles_openingweekend = case_when(first_cycling_race_id == "53" ~ "Cobbles Opening Weekend",
                                          first_cycling_race_id == "84" ~ "Cobbles Opening Weekend",
                                          .default = "")) |>
-    mutate(race_tag_aussie_kiwi_wt = case_when(first_cycling_race_id == "1" ~ "Aussie WT",
+    mutate(race_tag_aussie_wt = case_when(first_cycling_race_id == "1" ~ "Aussie WT",
                                                first_cycling_race_id == "1172" ~ "Aussie WT",
+                                               first_cycling_race_id == "9080" ~ "Aussie WT",
+                                               first_cycling_race_id == "9133" ~ "Aussie WT",
                                                .default = "")) |>
+    
     mutate(race_tag_middle_east = case_when(first_cycling_race_id == "868" ~ "Middle East Races",
                                             #first_cycling_race_id == "57" ~ "Middle East Races",
                                             first_cycling_race_id == "9800" ~ "Middle East Races",
@@ -55,16 +58,17 @@ calendar_function <- function(gc_or_stage_function) {
     mutate(race_tag_euro_champs = case_when(first_cycling_race_id == "4020" ~ "Euro Champs",
                                              first_cycling_race_id == "4019" ~ "Euro Champs",
                                              .default = "")) |>
-    mutate(race_tag_mallorca4 = case_when(first_cycling_race_id == "100" ~ "Mallorca Warmup",
-                                          first_cycling_race_id == "271" ~ "Mallorca Warmup",
-                                          first_cycling_race_id == "274" ~ "Mallorca Warmup",
-                                          first_cycling_race_id == "83" ~ "Mallorca Warmup",
-                                            .default = "")) |>
+    mutate(race_tag_challenge_mallorca = case_when(first_cycling_race_id == "100" ~ "Challenge Mallorca",
+                                          first_cycling_race_id == "271" ~ "Challenge Mallorca",
+                                          first_cycling_race_id == "274" ~ "Challenge Mallorca",
+                                          first_cycling_race_id == "83" ~ "Challenge Mallorca",
+                                          .default = "")) |>
+    
     mutate(race_tags = paste(race_tag_monument,race_tag_world_tour,race_tag_big7,race_tag_grandtour,race_tag_cobbled_classic,
-                             race_tag_ardennes,race_tag_cobbles_openingweekend,race_tag_aussie_kiwi_wt,race_tag_middle_east,race_tag_world_champs,
-                             race_tag_euro_champs,race_tag_mallorca4,sep = " ")) |>
+                             race_tag_ardennes,race_tag_cobbles_openingweekend,race_tag_aussie_wt,race_tag_middle_east,race_tag_world_champs,
+                             race_tag_euro_champs,race_tag_challenge_mallorca,sep = " ")) |>
     select(-c(race_tag_monument,race_tag_world_tour,race_tag_big7,race_tag_grandtour,race_tag_cobbled_classic,
-              race_tag_ardennes,race_tag_cobbles_openingweekend,race_tag_aussie_kiwi_wt,race_tag_middle_east,race_tag_world_champs,
-              race_tag_euro_champs,race_tag_mallorca4)) |>
+              race_tag_ardennes,race_tag_cobbles_openingweekend,race_tag_challenge_mallorca,race_tag_middle_east,race_tag_world_champs,
+              race_tag_euro_champs,race_tag_aussie_wt)) |>
     mutate(first_cycling_race_id = as.double(first_cycling_race_id))
 }
