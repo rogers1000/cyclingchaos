@@ -1,9 +1,12 @@
 library(tidyverse)
 
 results_pivot <- function(season_function,gender_function,detail_slicer_function,value_from_function,race_filter_function,uci_race_classification_function,
-                          race_location_function,stage_race_function) {
+                          race_location_function,stage_race_function,oneday_bonus_function) {
   results_pivot_filters <- results_function() |>
-    filter(season == season_function, gender == gender_function) |>
+    filter(season == season_function
+           , gender == gender_function
+    ) |>
+    #mutate(gender_test = case_when(gender == gender_function ~ "true",.default = gender_function))
     left_join(calendar_function() |> select(season,first_cycling_race_id,race_nationality,race_tags) |> unique(), by = c("season","first_cycling_race_id")) |>
     # uci_race_classification filter
     mutate(uci_race_classification_filter = case_when(str_detect(uci_race_classification,'UWT') & uci_race_classification_function == 'World Tour' ~ 1,
@@ -35,6 +38,11 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                                    gc_time_stage_position == "DNS" ~ 1200,
                                                    gc_time_stage_position == "DSQ" ~ 1300,
                                                    .default = as.double(gc_time_stage_position))) |>
+    mutate(gc_time_bonus_position_edit = case_when(gc_time_stage_position == "OOT" ~ 1000,
+                                                   gc_time_stage_position == "DNF" ~ 1100,
+                                                   gc_time_stage_position == "DNS" ~ 1200,
+                                                   gc_time_stage_position == "DSQ" ~ 1300,
+                                                   .default = as.double(gc_time_bonus_position))) |>
     mutate(gc_position_edit = case_when(gc_position == "OOT" ~ 1000,
                                         gc_position == "DNF" ~ 1100,
                                         gc_position == "DNS" ~ 1200,
@@ -109,6 +117,8 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
               gc_time = min(gc_time),
               gc_time_from_leader = min(gc_time_behind_first),
               gc_time_bonus = min(gc_time_bonus),
+              gc_time_bonus_position_edit = min(gc_time_bonus_position_edit),
+              gc_time_bonus_behind_first = min(gc_time_bonus_behind_first),
               victories = sum(victory),
               podiums = sum(podium),
               topfives = sum(topfive),
@@ -131,7 +141,9 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
       total_gc_time_stage = sum(gc_time_stage),
       # GC Time
       avg_position_gc = mean(gc_position_edit),
-      total_bonus_seconds = sum(gc_time_bonus),
+      # GC Time Bonus
+      total_gc_time_bonus = sum(gc_time_bonus),
+      avg_position_gc_time_bonus = mean(gc_time_bonus_position_edit),
       #total_gc_time = sum(gc_time),
       # Stage Results aggregations
       victories = sum(victories),
@@ -145,7 +157,10 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
     mutate(total_stage_time_from_leader = total_stage_time-min(total_stage_time, na.rm = TRUE)) |>
     mutate(total_gc_time_stage = case_when(races_finished != races_selected ~ NA,
                                            .default = total_gc_time_stage)) |>
+    mutate(total_gc_time_bonus = case_when(races_finished != races_selected ~ NA,
+                                           .default = total_gc_time_bonus)) |>
     mutate(total_gc_time_stage_from_leader = total_gc_time_stage-min(total_gc_time_stage, na.rm = TRUE)) |>
+    mutate(total_gc_time_bonus_from_leader = total_gc_time_bonus-min(total_gc_time_bonus, na.rm = TRUE)) |>
     left_join(results_pivot_races_count, by = "pivot_id")
   
   results_pivot_sort2 <- results_pivot_filters |>
@@ -162,7 +177,10 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
       gc_time_stage_behind_first = min(gc_time_stage_behind_first),
       # GC 
       gc_position_edit = min(gc_position_edit),
-      gc_time_bonus = min(gc_time_bonus)
+      gc_time_bonus = min(gc_time_bonus),
+      gc_time_bonus_behind_first = min(gc_time_bonus_behind_first),
+      # GC Time Bonus
+      gc_time_bonus_position_edit = min(gc_time_bonus_position_edit),
       
     ) |>
     ungroup() |>
@@ -185,11 +203,6 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
     ungroup() |>
     filter(stage_number_order == stage_number_order_all_races) |>
     select(-c(stage_number_order_all_races_max,stage_number_order))
-  
-  ### In process of building tally stage_number_order so tally totals don't show NAs for riders who did the first 2 races but didn't do 3 etc.
-  # Like Pog in Ardennes week. Should show tally from leader as him for first 2 races.
-  # Also tally sort works so that it orders riders in order of who did the most stages in stage_number_order before rest of filter
-  # probably need to move this up before a load of the sorts.
   
   entered_all_races_tally_workings <- results_pivot_sort2 |>
     left_join(calendar_function() |> select(season,first_cycling_race_id,stage_number,end_date), by = c("season","first_cycling_race_id","stage_number")) |>
@@ -237,8 +250,15 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
       gc_time_stage_position_edit == "1200" ~ "DNS",
       gc_time_stage_position_edit == "1300" ~ "DSQ",
       .default = as.character(gc_time_stage_position_edit))) |>
+    mutate(gc_time_bonus_position_edit = case_when(
+      gc_time_bonus_position_edit == "1000" ~ "OOT",
+      gc_time_bonus_position_edit == "1100" ~ "DNF",
+      gc_time_bonus_position_edit == "1200" ~ "DNS",
+      gc_time_bonus_position_edit == "1300" ~ "DSQ",
+      .default = as.character(gc_time_bonus_position_edit))) |>
     mutate(gc_time_stage_varchar = as.character(gc_time_stage)) |>
     mutate(gc_time_stage_from_leader_varchar = as.character(gc_time_stage_behind_first)) |>
+    mutate(gc_time_bonus_from_leader_varchar = as.character(gc_time_bonus_behind_first)) |>
     mutate(stage_number_int = as.double(stage_number)) |>
     arrange(first_cycling_race_id,pivot_id,stage_number) |>
     group_by(pivot_id,pivot_name) |>
@@ -248,15 +268,21 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
     mutate(tally_total_gc_time_stage = cumsum(gc_time_stage)) |>
     mutate(tally_total_gc_time_stage = case_when(stage_number_order_all_races_tally_percent != 1 ~ NA,
                                                  .default = tally_total_gc_time_stage)) |>
+    mutate(tally_total_gc_time_bonus = cumsum(gc_time_bonus)) |>
+    mutate(tally_total_gc_time_bonus = case_when(stage_number_order_all_races_tally_percent != 1 ~ NA,
+                                                 .default = tally_total_gc_time_bonus)) |>
     ungroup() |>
     group_by(first_cycling_race_id,stage_number) |>
     mutate(tally_total_stage_time_from_leader = tally_total_stage_time-min(tally_total_stage_time,na.rm = TRUE)) |>
     mutate(tally_total_gc_time_stage_from_leader = tally_total_gc_time_stage-min(tally_total_gc_time_stage,na.rm = TRUE)) |>
+    mutate(tally_total_gc_time_bonus_from_leader = max(tally_total_gc_time_bonus,na.rm = TRUE)-tally_total_gc_time_bonus) |>
     ungroup() |>
     mutate(tally_total_stage_time = as.character(tally_total_stage_time)) |>
     mutate(tally_total_stage_time_from_leader_varchar = as.character(tally_total_stage_time_from_leader)) |>
     mutate(tally_total_gc_time_stage = as.character(tally_total_gc_time_stage)) |>
-    mutate(tally_total_gc_time_stage_from_leader = as.character(tally_total_gc_time_stage_from_leader)) |>
+    mutate(tally_total_gc_time_stage_from_leader_varchar = as.character(tally_total_gc_time_stage_from_leader)) |>
+    mutate(tally_total_gc_time_bonus_from_leader_varchar = as.character(tally_total_gc_time_bonus_from_leader)) |>
+    mutate(tally_total_gc_time_bonus_varchar = as.character(tally_total_gc_time_bonus)) |>
     mutate(gc_time_bonus_varchar = as.character(gc_time_bonus))
   
   #?cumsum()
@@ -269,22 +295,41 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
     ungroup() |>
     select(-end_date)
   
+  #print(colnames(results_pivot_sort3b))
+  
   overall_leader_stage_tallied_pivot_id <- dplyr::pull(results_pivot_sort3b |>
                                                          filter(stage_number_order == races_selected) |>
-                                                         filter(tally_total_stage_time == min(tally_total_stage_time)),pivot_id)
+                                                         arrange(tally_total_stage_time,avg_position_stage,-victories,-podiums,-topfives,-toptens,total_gc_time_stage,-total_gc_time_bonus) |>
+                                                         filter(tally_total_stage_time == min(tally_total_stage_time)) |>
+                                                         select(pivot_id,pivot_name,tally_total_stage_time,avg_position_stage,victories,podiums,topfives,toptens,total_gc_time_stage,total_gc_time_bonus),pivot_id)[1]
   
   overall_leader_stage_tallied_time <- results_pivot_sort3b |>
     select(pivot_id,stage_number_order,tally_total_stage_time_overall_leader_time = tally_total_stage_time,stage_time_overall_leader_time = stage_time) |>
     filter(pivot_id == overall_leader_stage_tallied_pivot_id) |>
     select(-c(pivot_id))
   
+  #print(colnames(results_pivot_sort3b))
+  
   overall_leader_gc_time_stage_tallied_pivot_id <- dplyr::pull(results_pivot_sort3b |>
                                                                  filter(stage_number_order == races_selected) |>
-                                                                 filter(total_gc_time_stage == min(total_gc_time_stage)),pivot_id)
+                                                                 arrange(total_gc_time_stage,avg_position_gc_time_stage,-victories,-podiums,-topfives,-toptens) |>
+                                                                 filter(total_gc_time_stage == min(total_gc_time_stage)),pivot_id)[1]
+  
+  overall_leader_gc_time_bonus_tallied_pivot_id <- dplyr::pull(results_pivot_sort3b |>
+                                                                 filter(stage_number_order == races_selected) |>
+                                                                 arrange(-tally_total_gc_time_bonus,-victories,-podiums,-topfives,-toptens,avg_position_stage) |>
+                                                                 filter(total_gc_time_bonus == max(total_gc_time_bonus)),pivot_id)[1]
+  
+  ##### ABCDE WORKING ON BONUS FUNCTION 4. BONUS SECONDS FROM OVERALL BONUS SECONDS LEADER.
   
   overall_leader_gc_time_stage_tallied_time <- results_pivot_sort3b |>
     select(pivot_id,stage_number_order,tally_total_gc_time_stage_time_overall_leader_time = tally_total_gc_time_stage,gc_time_stage_time_overall_leader_time = gc_time_stage) |>
     filter(pivot_id == overall_leader_gc_time_stage_tallied_pivot_id) |>
+    select(-c(pivot_id))
+  
+  overall_leader_gc_time_bonus_tallied_time <- results_pivot_sort3b |>
+    select(pivot_id,stage_number_order,tally_total_gc_time_bonus_time_overall_leader_time = tally_total_gc_time_bonus,gc_time_bonus_time_overall_leader_time = gc_time_bonus) |>
+    filter(pivot_id == overall_leader_gc_time_bonus_tallied_pivot_id) |>
     select(-c(pivot_id))
   
   
@@ -317,21 +362,42 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
     mutate(tally_total_gc_time_stage_time_from_overall_leader = tally_total_gc_time_stage-tally_total_gc_time_stage_time_overall_leader_time) |>
     mutate(tally_total_gc_time_stage_time_from_overall_leader = case_when(stage_number_order_all_races_tally_percent != 1 ~ NA,
                                                                           .default = tally_total_gc_time_stage_time_from_overall_leader)) |>
-    mutate(tally_total_gc_time_stage_time_from_overall_leader_varchar = as.character(tally_total_gc_time_stage_time_from_overall_leader))
+    mutate(tally_total_gc_time_stage_time_from_overall_leader_varchar = as.character(tally_total_gc_time_stage_time_from_overall_leader)) |>
+    # GC Time Bonus
+    left_join(overall_leader_gc_time_bonus_tallied_time, by = c("stage_number_order")) |>
+    mutate(tally_total_gc_time_bonus_time_overall_leader_time = as.double(tally_total_gc_time_bonus_time_overall_leader_time)) |>
+    mutate(gc_time_bonus_time_from_overall_leader = gc_time_bonus-gc_time_bonus_time_overall_leader_time) |>
+    mutate(gc_time_bonus_time_from_overall_leader = case_when(stage_number_order_all_races_tally_percent != 1 ~ NA,
+                                                              .default = gc_time_bonus_time_from_overall_leader)) |>
+    mutate(gc_time_bonus_time_from_overall_leader_varchar = as.character(gc_time_bonus_time_from_overall_leader)) |>
+    mutate(tally_total_gc_time_bonus_time_overall_leader_time = as.double(tally_total_gc_time_bonus_time_overall_leader_time)) |>
+    mutate(tally_total_gc_time_bonus = as.double(tally_total_gc_time_bonus)) |>
+    mutate(tally_total_gc_time_bonus_varchar = as.character(tally_total_gc_time_bonus)) |>
+    mutate(tally_total_gc_time_bonus_time_from_overall_leader = tally_total_gc_time_bonus_time_overall_leader_time-tally_total_gc_time_bonus) |>
+    mutate(tally_total_gc_time_bonus_time_from_overall_leader = case_when(stage_number_order_all_races_tally_percent != 1 ~ NA,
+                                                                          .default = tally_total_gc_time_bonus_time_from_overall_leader)) |>
+    mutate(tally_total_gc_time_bonus_time_from_overall_leader_varchar = as.character(tally_total_gc_time_bonus_time_from_overall_leader))
   
   final_stage_tally_total <- results_pivot_sort3c |>
     filter(stage_number_order == races_selected) |>
     select(pivot_id,
            final_stage_total_gc_time_stage_from_overall_leader = tally_total_gc_time_stage_time_from_overall_leader,
-           final_stage_total_stage_from_overall_leader = tally_total_stage_time_from_overall_leader) |>
+           final_stage_total_stage_from_overall_leader = tally_total_stage_time_from_overall_leader,
+           final_stage_total_gc_time_bonus_from_overall_leader = tally_total_gc_time_bonus_time_from_overall_leader) |>
     mutate(final_stage_total_gc_time_stage_from_overall_leader_varchar = as.character(final_stage_total_gc_time_stage_from_overall_leader),
-           final_stage_total_stage_from_overall_leader_varchar = as.character(final_stage_total_stage_from_overall_leader))
+           final_stage_total_stage_from_overall_leader_varchar = as.character(final_stage_total_stage_from_overall_leader),
+           final_stage_total_gc_time_bonus_from_overall_leader_varchar = as.character(final_stage_total_gc_time_bonus_from_overall_leader),
+    )
   
   results_pivot_sort3d <- results_pivot_sort3c |>
     left_join(final_stage_tally_total, by = "pivot_id") |>
     left_join(entered_all_races_tally_sort, by = "pivot_id") |>
     mutate(tally_stage_number_sort = case_when(is.na(tally_stage_number_sort) == TRUE ~ 0,
                                                .default = tally_stage_number_sort))
+  
+  #?fill
+  
+  value_from_function <- "S7"
   
   results_pivot_sort4 <- results_pivot_sort3d |>
     mutate(value_from = case_when(
@@ -342,43 +408,55 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
       # 5 = Tallied Individual Stage Metric
       # 6 = Tallied Individual Stage Metric from Tallied Individual Stage Leader
       # 7 = Tallied Individual Stage Metric from Overall Tallied Stage Leader
-      value_from_function == "Stage - 1" ~ stage_time_varchar,
-      value_from_function == "Stage - 2" ~ stage_position_varchar,
-      value_from_function == "Stage - 3" ~ stage_time_from_leader_varchar,
-      value_from_function == "Stage - 4" ~ stage_time_from_overall_leader_varchar,
-      value_from_function == "Stage - 5" ~ tally_total_stage_time_varchar,
-      value_from_function == "Stage - 6" ~ tally_total_stage_time_from_leader_varchar,
-      value_from_function == "Stage - 7" ~ tally_total_stage_time_from_overall_leader_varchar,
-      value_from_function == "GC - 1" ~ gc_time_stage_varchar,
-      value_from_function == "GC - 2" ~ gc_time_stage_position_edit,
-      value_from_function == "GC - 3" ~ gc_time_stage_from_leader_varchar,
-      value_from_function == "GC - 4" ~ gc_time_stage_time_from_overall_leader_varchar,
-      value_from_function == "GC - 5" ~ tally_total_gc_time_stage_varchar,
-      value_from_function == "GC - 6" ~ tally_total_gc_time_stage_from_leader,
-      value_from_function == "GC - 7" ~ tally_total_gc_time_stage_time_from_overall_leader_varchar,
-      value_from_function == "GC - 8" ~ gc_time_bonus_varchar,
+      value_from_function == "S1" ~ stage_time_varchar,
+      value_from_function == "S2" ~ stage_position_varchar,
+      value_from_function == "S3" ~ stage_time_from_leader_varchar,
+      value_from_function == "S4" ~ stage_time_from_overall_leader_varchar,
+      value_from_function == "S5" ~ tally_total_stage_time_varchar,
+      value_from_function == "S6" ~ tally_total_stage_time_from_leader_varchar,
+      value_from_function == "S7" ~ tally_total_stage_time_from_overall_leader_varchar,
+      value_from_function == "GC1" ~ gc_time_stage_varchar,
+      value_from_function == "GC2" ~ gc_time_stage_position_edit,
+      value_from_function == "GC3" ~ gc_time_stage_from_leader_varchar,
+      value_from_function == "GC4" ~ gc_time_stage_time_from_overall_leader_varchar,
+      value_from_function == "GC5" ~ tally_total_gc_time_stage_varchar,
+      value_from_function == "GC6" ~ tally_total_gc_time_stage_from_leader_varchar,
+      value_from_function == "GC7" ~ tally_total_gc_time_stage_time_from_overall_leader_varchar,
+      value_from_function == "B1" ~ gc_time_bonus_varchar,
+      value_from_function == "B2" ~ gc_time_bonus_position_edit,
+      value_from_function == "B3" ~ gc_time_bonus_from_leader_varchar,
+      value_from_function == "B4" ~ gc_time_bonus_time_from_overall_leader_varchar,
+      value_from_function == "B5" ~ tally_total_gc_time_bonus_varchar,
+      value_from_function == "B6" ~ tally_total_gc_time_bonus_from_leader_varchar,
+      value_from_function == "B7" ~ tally_total_gc_time_bonus_time_from_overall_leader_varchar,
       .default = stage_position_varchar)) |>
     mutate(value_from_metric = case_when(
       # Aggregated Metrics
-      value_from_function == "Stage - 1" ~ total_stage_time,
-      value_from_function == "Stage - 2" ~ avg_position_stage,
-      value_from_function == "Stage - 3" ~ total_stage_time_from_leader,
-      value_from_function == "Stage - 4" ~ final_stage_total_stage_from_overall_leader,
-      value_from_function == "Stage - 5" ~ total_stage_time,
-      value_from_function == "Stage - 6" ~ total_stage_time_from_leader,
-      value_from_function == "Stage - 7" ~ final_stage_total_stage_from_overall_leader,
-      value_from_function == "GC - 1" ~ total_gc_time_stage,
-      value_from_function == "GC - 2" ~ avg_position_gc_time_stage,
-      value_from_function == "GC - 3" ~ total_gc_time_stage_from_leader,
-      value_from_function == "GC - 4" ~ final_stage_total_gc_time_stage_from_overall_leader,
-      value_from_function == "GC - 5" ~ total_gc_time_stage,
-      value_from_function == "GC - 6" ~ total_gc_time_stage_from_leader,
-      value_from_function == "GC - 7" ~ final_stage_total_gc_time_stage_from_overall_leader,
-      value_from_function == "GC - 8" ~ total_bonus_seconds*-1,
+      value_from_function == "S1" ~ total_stage_time,
+      value_from_function == "S2" ~ avg_position_stage,
+      value_from_function == "S3" ~ total_stage_time_from_leader,
+      value_from_function == "S4" ~ final_stage_total_stage_from_overall_leader,
+      value_from_function == "S5" ~ total_stage_time,
+      value_from_function == "S6" ~ total_stage_time_from_leader,
+      value_from_function == "S7" ~ final_stage_total_stage_from_overall_leader,
+      value_from_function == "GC1" ~ total_gc_time_stage,
+      value_from_function == "GC2" ~ avg_position_gc_time_stage,
+      value_from_function == "GC3" ~ total_gc_time_stage_from_leader,
+      value_from_function == "GC4" ~ final_stage_total_gc_time_stage_from_overall_leader,
+      value_from_function == "GC5" ~ total_gc_time_stage,
+      value_from_function == "GC6" ~ total_gc_time_stage_from_leader,
+      value_from_function == "GC7" ~ final_stage_total_gc_time_stage_from_overall_leader,
+      value_from_function == "B1" ~ total_gc_time_bonus*-1,
+      value_from_function == "B2" ~ avg_position_gc_time_bonus,
+      value_from_function == "B3" ~ total_gc_time_bonus_from_leader*-1,
+      value_from_function == "B4" ~ final_stage_total_gc_time_bonus_from_overall_leader,
+      value_from_function == "B5" ~ total_gc_time_bonus*-1,
+      value_from_function == "B6" ~ total_gc_time_bonus_from_leader*-1,
+      value_from_function == "B7" ~ final_stage_total_gc_time_bonus_from_overall_leader,
       .default = avg_position_stage
       
     )) |>
-    left_join(calendar_function(""), by = c("season","first_cycling_race_id","stage_number")) |>
+    left_join(calendar_function(), by = c("season","first_cycling_race_id","stage_number")) |>
     mutate(names_from = paste0(season, " | ",race_name," | ",stage_number," | ",stage_profile_category_mapping_eng)) |>
     mutate(stg_number = as.double(stage_number)) |>
     arrange(start_date,stg_number) |>
@@ -416,6 +494,15 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
               ,final_stage_total_gc_time_stage_from_overall_leader_varchar
               ,final_stage_total_stage_from_overall_leader,final_stage_total_stage_from_overall_leader_varchar
               ,stage_number_order_all_races_tally_percent
+              ,tally_total_gc_time_bonus,tally_total_gc_time_bonus_varchar
+              ,gc_time_bonus_position_edit,avg_position_gc_time_bonus,gc_time_bonus_behind_first
+              ,total_gc_time_bonus_from_leader,gc_time_bonus_from_leader_varchar,
+              tally_total_gc_time_bonus_time_overall_leader_time,gc_time_bonus_time_overall_leader_time,
+              gc_time_bonus_time_from_overall_leader,gc_time_bonus_time_from_overall_leader_varchar,
+              tally_total_gc_time_bonus_time_from_overall_leader,tally_total_gc_time_bonus_time_from_overall_leader_varchar,
+              final_stage_total_gc_time_bonus_from_overall_leader,final_stage_total_gc_time_bonus_from_overall_leader_varchar
+              ,tally_total_gc_time_bonus_from_leader,tally_total_gc_time_stage_from_leader_varchar,tally_total_gc_time_bonus_from_leader,
+              tally_total_gc_time_bonus_from_leader_varchar
               #,avg_position_gc
     ))
   #relocate(time_from_leader,total_stage_time) |>
@@ -478,12 +565,13 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
   
   #results_pivot_gt <- results_pivot(2023,"Men","Rider","Tallied Stage Time from Leader","Down Under Races","","","") |>
   results_pivot_gt <- results_pivot_sort7 |>
+    
     mutate(avg_position_stage = round(avg_position_stage,1)) |>
     gt() |>
     cols_align(align = c("center")) |>
     cols_move_to_start(rank) |>
     cols_move(value_from_metric,total_gc_time_stage) |>
-    cols_move(total_bonus_seconds,total_gc_time_stage) |>
+    cols_move(total_gc_time_bonus,total_gc_time_stage) |>
     #cols_move(total_stage_time_from_leader,total_stage_time) |>
     #cols_move(gc_rank,avg_position_stage) |>
     cols_label(
@@ -495,7 +583,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
       #           "pivot_id" = "ID",
       "races_finished" = "Races Finished",
       "races_count" = "Race Startlist",
-      total_bonus_seconds = "Bonus Seconds*",
+      total_gc_time_bonus = "Bonus Seconds*",
       value_from_metric = "Metric"
       #           "gc_rank" = "GC Rank"
     ) |>
@@ -514,9 +602,9 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
         cells_body(
           columns = c(rank,races_count))))|>
     tab_footnote(
-      footnote = "Data from FirstCycling.com | Bonus Seconds* calculated by GC Time on a Stage minus Stage Time"
+      footnote = "Data from FirstCycling.com"
     )
   
 }
 
-print(results_pivot(2023,"Men","Rider","GC - 8","Aussie WT","","",""))
+print(results_pivot(2024,"women","Rider","GC7","Aussie WT","","","",1))
