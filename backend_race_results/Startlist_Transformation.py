@@ -16,108 +16,86 @@ from random import randrange
 
 #setwd = WorkingDirectory
 
-##### Startlist Transformation #####
+# read in calendar df
 
-cycling_chaos_ingestion = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')
+first_cycling_calendar_df = pd.read_csv(setwd+'first_cycling_calendar_df_master.csv')
 
-cci_file_name_list = cycling_chaos_ingestion.loc[cycling_chaos_ingestion['output'] == 'startlist']['file_name'].to_list()
+# ##### 2024 DATA INGEST BOTCH JOB
 
-startlist_count_limit = cycling_chaos_ingestion.loc[cycling_chaos_ingestion['output'] == 'startlist']['file_name'].nunique()
+# set season that you want to ingest
+season = 2024
 
-startlist_count = 0
+# create new column to make start_date compatible for comparing to date fields
+# if statement for if start_date is smaller than today's date then ingest file.
+# filter calendar dataframe to only include 2024 data
+# filter calendar dataframe to only include historic races
 
-cci_file_name_list
+## Should look into ingestion field to work out if data has been ingested before.
+## Probably need it for all code and do a complete re-design. 
 
-bib_number = []
-first_cycling_rider_id = []
-first_cycling_rider_name = []
-first_cycling_team_id = []
-team_name_invitational = []
-season_teams = []
-season_riders = []
-first_cycling_race_id_teams = []
-first_cycling_race_id_riders = []
-bib_number_order_teams_str = []
-bib_number_order_riders_team_count_str = []
+first_cycling_calendar_df['today_date'] = datetime.today()
 
-for startlist_count in tqdm(range(0,
-                                    #   2
-                                      startlist_count_limit
-                                      )):
-    ib_number_order = 0
-    bib_number_order_teams = -1
-    bib_number_order_riders = 0
-    bib_number_order_riders_team_count = 0
-    file = open(setwd+'calendar_ingestion_files/souped_html_txt_files/'+cci_file_name_list[startlist_count], 'r')
-    file_read = file.read()
-    file_soup = BeautifulSoup(file_read, "html.parser")
-    
-    for row in file_soup.find_all('table')[2:]:
-        columns = row.find_all('th')
-        bib_number_order_teams = bib_number_order_teams + 1
+first_cycling_calendar_df['start_date_date'] = pd.to_datetime(first_cycling_calendar_df['start_date'],infer_datetime_format=True)
 
-        if(columns != []):
-            season_teams.append(str(cci_file_name_list[startlist_count]).split('_')[5].split('.')[0])
-            first_cycling_race_id_teams.append(str(cci_file_name_list[startlist_count]).split('_')[6].split('.')[0])
-            bib_number_order_teams_str.append(str(bib_number_order_teams))
-            first_cycling_team_id.append(np.where(str(columns[0]).split('l=')[-1].split('" ')[0].startswith('<th'),
-                        #  str(columns[0]).split('l=')[-1].split('" ')[0].split('">')[-1].split('</th')[0]
-                         None
-                         ,str(columns[0]).split('l=')[-1].split('" ')[0]))
-            team_name_invitational.append(np.where(str(columns[0]).split('l=')[-1].split('" ')[0].startswith('<th'),
-                         str(columns[0]).split('l=')[-1].split('" ')[0].split('">')[-1].split('</th')[0]
-                        #  ,str(columns[0]).split('l=')[-1].split('" ')[0]
-                                        , None))
-        
-            startlist_df_teams = pd.DataFrame({
-                'season':season_teams
-                ,'first_cycling_race_id':first_cycling_race_id_teams
-                ,'bib_number_order':bib_number_order_teams_str
-                ,'first_cycling_team_id':first_cycling_team_id
-                ,'team_name_invitational':team_name_invitational
-            })
+first_cycling_calendar_df['start_date_filter'] = np.where(first_cycling_calendar_df['start_date_date'] < first_cycling_calendar_df['today_date'],
+                                                                   "Ingest","Wait")
 
-    # startlist_count = startlist_count + 1
+first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['season'] == season]
 
-    startlist_df_teams['bib_number_order']
+first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['start_date_filter'] == 'Ingest']
 
-    startlist_df_number_of_teams_in_race = int(startlist_df_teams['bib_number_order'][-1:])+1
+##### END OF BOTCH JOB
 
-    # startlist_count = -1
+# create unique list of race_id 
+race_id_list = first_cycling_calendar_df['first_cycling_race_id'].drop_duplicates().to_list()
 
-    for bib_number_order_riders_team_count in range(0,startlist_df_number_of_teams_in_race):
-        file_soup_part2 = file_soup.find_all('tbody')[bib_number_order_riders_team_count]
+# count of unique race_id
+race_count_limit = first_cycling_calendar_df['first_cycling_race_id'].nunique()
 
-        for row in file_soup_part2.find_all('tr'):
-            columns = row.find_all('td')
-            bib_number_order_riders = bib_number_order_riders + 1
+season = 2024
+# ingestion count
+calendar_df_stage_races_race_id_extract = 0
 
-            if(columns != []):
-                try:
-                    season_riders.append(str(cci_file_name_list[startlist_count]).split('_')[5].split('.')[0])
-                except: season_riders.append('Error')
-                try:
-                    first_cycling_race_id_riders.append(str(cci_file_name_list[startlist_count]).split('_')[6].split('.')[0])
-                except: first_cycling_race_id_riders.append('Error')
-                bib_number_order_riders_team_count_str.append(str(bib_number_order_riders_team_count))
-                bib_number.append(columns[0].text)
-                first_cycling_rider_id.append(str(columns[1].find_all('a')).split('r=')[1].split('&amp')[0])
-                first_cycling_rider_name.append(str(columns[1].find_all('a')).split('title="')[1].split('"><')[0])
+# create lists for ingestion tracker so it can be appended with new ingestions
+cci_output = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')['output'].to_list()
+cci_output_details = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')['output_details'].to_list()
+cci_file_name = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')['file_name'].to_list()
 
-                startlist_df_riders = pd.DataFrame({
-                'season':season_riders,
-                'first_cycling_race_id':first_cycling_race_id_riders,
-                'bib_number_order':bib_number_order_riders_team_count_str
-                ,'bib_number':bib_number
-                ,'first_cycling_rider_id':first_cycling_rider_id
-                ,'first_cycling_rider_name':first_cycling_rider_name
-                })
-    startlist_count = startlist_count + 1
+race_id_extract_count = 0
 
-startlist_df = startlist_df_riders.merge(startlist_df_teams,on = ['season','first_cycling_race_id','bib_number_order'])
+# ingestion loop
 
-startlist_df = startlist_df.drop(['bib_number_order'],axis=1)
+for race_id_extract_count in tqdm(range(0,
+                                        #   10
+                                        race_count_limit
+                                        )):
+# get code to sleep for 5 seconds to not overload website.
+# probably should look at making this dynamic and more random
+    time.sleep(5)
+# url = base website + race_id + season. 'K=8' is start lists
+    url = 'https://firstcycling.com/race.php?r='+str(race_id_list[race_id_extract_count])+'&y='+str(season)+'&k=8'
+# beautiful soup to ingest html file
+    raceresults_gc_meta = requests.get(url)
+    raceresults_gc_meta_soup = BeautifulSoup(raceresults_gc_meta.content, "html.parser")
+    raceresults_gc_meta_soup_str = str(raceresults_gc_meta_soup)
+# create file_name and write to disk
+    file_name = 'cycling_chaos_code'+'_'+'startlist'+'_'+'all'+'_'+str(season)+'_'+str(race_id_list[race_id_extract_count])+'.txt'
+    with open(setwd+'calendar_ingestion_files/souped_html_txt_files/'+file_name, 'w') as writefile:
+        writefile.write(raceresults_gc_meta_soup_str)
+        writefile.close()
+# append ingestion tracker lists, convert to dataframe and write to disk
+    cci_output.append('startlist')
+    cci_output_details.append('all')
+    cci_file_name.append(file_name)
 
-startlist_df
+    print('Ingested #'+str(race_id_extract_count+1)+' '+file_name)
 
-startlist_df.to_csv('startlist_df.csv',index=False)
+    race_id_extract_count = race_id_extract_count + 1
+
+cycling_chaos_ingestion = pd.DataFrame({'output':cci_output, 'output_details':cci_output_details, 'file_name':cci_file_name})
+
+cycling_chaos_ingestion = cycling_chaos_ingestion.drop_duplicates()
+
+cycling_chaos_ingestion.to_csv(setwd+'cycling_chaos_ingestion_df_master.csv', index=False)
+
+print(cycling_chaos_ingestion)
