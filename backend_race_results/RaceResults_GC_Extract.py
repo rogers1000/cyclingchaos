@@ -16,36 +16,80 @@ from random import randrange
 
 #setwd = WorkingDirectory
 
+##### One Day / GC Results #####
+
+
+# set season that you want to ingest
+season = 2024
+
+# load calendar data
+
 first_cycling_calendar_df = pd.read_csv(setwd+'first_cycling_calendar_df_master.csv')
-# race_id_list = first_cycling_calendar_df['first_cycling_race_id']
+
+##### 2024 DATA INGEST BOTCH JOB
+
+# create column for today's date
+
+first_cycling_calendar_df['today_date'] = datetime.today()
+
+# create new column to make start_date compatible for comparing to date fields
+# if statement for if start_date is smaller than today's date then ingest file.
+# filter calendar dataframe to only include 2024 data
+# filter calendar dataframe to only include historic races
+
+## Should look into ingestion field to work out if data has been ingested before.
+## Probably need it for all code and do a complete re-design. 
+
+first_cycling_calendar_df['start_date_date'] = pd.to_datetime(first_cycling_calendar_df['start_date'],infer_datetime_format=True)
+
+first_cycling_calendar_df['start_date_filter'] = np.where(first_cycling_calendar_df['start_date_date'] < first_cycling_calendar_df['today_date'],
+                                                                   "Ingest","Wait")
+
+first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['season'] == season]
+
+first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['start_date_filter'] == 'Ingest']
+
+first_cycling_calendar_df
+
+##### END OF BOTCH JOB
+
+# create list of first_cycling_race_id that need to be ingested
+# count how many races need to be ingested
+
 race_id_list = first_cycling_calendar_df['first_cycling_race_id'].drop_duplicates().to_list()
-
-race_id_list
 race_count_limit = first_cycling_calendar_df['first_cycling_race_id'].nunique()
-
-season = 2023
 calendar_df_stage_races_race_id_extract = 0
+race_id_extract_count = 0
+
+# make list of ingestion tracker to append during ingestions
+
 cci_output = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')['output'].to_list()
 cci_output_details = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')['output_details'].to_list()
 cci_file_name = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')['file_name'].to_list()
 
-race_id_extract_count = 0
+# ingestion loop
 
 for race_id_extract_count in tqdm(range(0,
                                         #   10
                                         race_count_limit
                                         )):
+# get code to sleep for 5 seconds to not overload website.
+# probably should look at making this dynamic and more random
     time.sleep(5)
-    url = 'https://firstcycling.com/race.php?r='+str(race_id_list[race_id_extract_count])+'&y='+str(season)+'&k=8'
+# base website + race_id and season to get gc results
+    url = 'https://firstcycling.com/race.php?r='+str(race_id_list[race_id_extract_count])+'&y='+str(season)
+# beautiful soup to open html file
     raceresults_gc_meta = requests.get(url)
     raceresults_gc_meta_soup = BeautifulSoup(raceresults_gc_meta.content, "html.parser")
     raceresults_gc_meta_soup_str = str(raceresults_gc_meta_soup)
-    file_name = 'cycling_chaos_code'+'_'+'startlist'+'_'+'all'+'_'+str(season)+'_'+str(race_id_list[race_id_extract_count])+'.txt'
+# write file name and write to disk
+    file_name = 'cycling_chaos_code'+'_'+'raceresults'+'_'+'gc'+'_'+str(season)+'_'+str(race_id_list[race_id_extract_count])+'.txt'
     with open(setwd+'calendar_ingestion_files/souped_html_txt_files/'+file_name, 'w') as writefile:
         writefile.write(raceresults_gc_meta_soup_str)
         writefile.close()
-    cci_output.append('startlist')
-    cci_output_details.append('all')
+# append ingestion tracker list and write to disk
+    cci_output.append('raceresults')
+    cci_output_details.append('GC')
     cci_file_name.append(file_name)
 
     print('Ingested #'+str(race_id_extract_count+1)+' '+file_name)
@@ -56,6 +100,6 @@ cycling_chaos_ingestion = pd.DataFrame({'output':cci_output, 'output_details':cc
 
 cycling_chaos_ingestion = cycling_chaos_ingestion.drop_duplicates()
 
-cycling_chaos_ingestion.to_csv(setwd+'cycling_chaos_ingestion_df4.csv', index=False)
+cycling_chaos_ingestion.to_csv(setwd+'cycling_chaos_ingestion_df_master.csv', index=False)
 
 print(cycling_chaos_ingestion)
