@@ -1,8 +1,12 @@
 library(tidyverse)
-
+# no pre-built filters
 calendar_function <- function() {
-  calendar_csv <- read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/backend_race_calendar/CyclingChaos_RaceCalendar_df_master.csv') |>
+  # load csv from transformation using python
+  #calendar_csv <- read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/backend_race_calendar/CyclingChaos_RaceCalendar_df_master.csv') |>
+  calendar_csv <- read.csv('/Users/zacrogers/Documents/cycling_chaos/python_code/first_cycling_calendar_df_master.csv') |>
+    # ensure that first_cycling_race_id is a string
     mutate(first_cycling_race_id = as.character(first_cycling_race_id)) |>
+    # create race_tags for race blocks
     mutate(race_tag_monument = case_when(first_cycling_race_id == "4" ~ "Monument",
                                          first_cycling_race_id == "5" ~ "Monument",
                                          first_cycling_race_id == "8" ~ "Monument",
@@ -63,12 +67,14 @@ calendar_function <- function() {
                                           first_cycling_race_id == "274" ~ "Challenge Mallorca",
                                           first_cycling_race_id == "83" ~ "Challenge Mallorca",
                                           .default = "")) |>
-    
+    # race_tags column = all race blocks within one column
     mutate(race_tags = paste(race_tag_monument,race_tag_world_tour,race_tag_big7,race_tag_grandtour,race_tag_cobbled_classic,
                              race_tag_ardennes,race_tag_cobbles_openingweekend,race_tag_aussie_wt,race_tag_middle_east,race_tag_world_champs,
                              race_tag_euro_champs,race_tag_challenge_mallorca,sep = " ")) |>
+    # hide race tags column creation columns
     select(-c(race_tag_monument,race_tag_world_tour,race_tag_big7,race_tag_grandtour,race_tag_cobbled_classic,
               race_tag_ardennes,race_tag_cobbles_openingweekend,race_tag_challenge_mallorca,race_tag_middle_east,race_tag_world_champs,
               race_tag_euro_champs,race_tag_aussie_wt)) |>
+    # make race_id as double
     mutate(first_cycling_race_id = as.double(first_cycling_race_id))
 }
