@@ -90,7 +90,7 @@ for race_id_extract_count in tqdm(range(0,
         writefile.close()
 # append ingestion tracker list and write to disk
     cci_output.append('raceresults')
-    cci_output_details.append('GC')
+    cci_output_details.append('gc')
     cci_file_name.append(file_name)
 
     print('Ingested #'+str(race_id_extract_count+1)+' '+file_name)
