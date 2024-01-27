@@ -47,7 +47,37 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                         gc_position == "DNF" ~ 1100,
                                         gc_position == "DNS" ~ 1200,
                                         gc_position == "DSQ" ~ 1300,
-                                        .default = as.double(gc_position)))
+                                        .default = as.double(gc_position))) |>
+    mutate(gc_time_bonus_oneday = case_when(stage_position == 1 & stage_race_boolean == "One Day" ~ 10 * oneday_bonus_function,
+                                            stage_position == 2 & stage_race_boolean == "One Day" ~ 6 * oneday_bonus_function,
+                                            stage_position == 3 & stage_race_boolean == "One Day" ~ 4 * oneday_bonus_function,
+                                            .default = 0)) |>
+    # merging traditional gc_time_bonus with one day bonus time
+    mutate(gc_time_bonus = gc_time_bonus+gc_time_bonus_oneday) |>
+    # updating gc_time_stage_behind_first to reflect new bonus seconds
+    mutate(gc_time = gc_time-gc_time_bonus_oneday) |>
+    mutate(gc_time_stage = gc_time_stage-gc_time_bonus_oneday) |>
+    mutate(gc_time_stage_behind_first = gc_time_stage_behind_first-gc_time_bonus_oneday) |>
+    mutate(gc_time_behind_first = gc_time_behind_first-gc_time_bonus_oneday) |>
+    mutate(gc_time_bonus_behind_first = gc_time_bonus_behind_first-gc_time_bonus_oneday) |>
+    group_by(season,first_cycling_race_id,stage_number) |>
+    # if min time is below 0, add the difference to everyone
+    mutate(gc_time_stage = case_when(min(gc_time_stage, na.rm = TRUE) < 0 ~ min(gc_time_stage, na.rm = TRUE)*-1+gc_time_stage,
+                                     .default = gc_time_stage)) |>
+    # if min time is below 0, add the difference to everyone
+    mutate(gc_time_stage_behind_first = case_when(min(gc_time_stage_behind_first, na.rm = TRUE) < 0 ~ min(gc_time_stage_behind_first, na.rm = TRUE)*-1+gc_time_stage_behind_first,
+                                                  .default = gc_time_stage_behind_first)) |>
+    # if min time is below 0, add the difference to everyone
+    mutate(gc_time = case_when(min(gc_time, na.rm = TRUE) < 0 ~ min(gc_time, na.rm = TRUE)*-1+gc_time,
+                               .default = gc_time)) |>
+    # if min time is below 0, add the difference to everyone
+    mutate(gc_time_behind_first = case_when(min(gc_time_behind_first, na.rm = TRUE) < 0 ~ min(gc_time_behind_first, na.rm = TRUE)*-1+gc_time_behind_first,
+                                            .default = gc_time_behind_first)) |>
+    # if min time is below 0, add the difference to everyone
+    mutate(gc_time_bonus_behind_first = case_when(min(gc_time_bonus_behind_first, na.rm = TRUE) < 0 ~ min(gc_time_bonus_behind_first, na.rm = TRUE)*-1+gc_time_bonus_behind_first,
+                                                  .default = gc_time_bonus_behind_first)) |>
+    ungroup()
+  
   
   results_pivot_filters_rider_calendar <- dplyr::pull(results_pivot_filters |> 
                                                         mutate(race_filter_rider = case_when(str_detect(race_filter_function,"Rider")
@@ -320,8 +350,6 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
                                                                  arrange(-tally_total_gc_time_bonus,-victories,-podiums,-topfives,-toptens,avg_position_stage) |>
                                                                  filter(total_gc_time_bonus == max(total_gc_time_bonus)),pivot_id)[1]
   
-  ##### ABCDE WORKING ON BONUS FUNCTION 4. BONUS SECONDS FROM OVERALL BONUS SECONDS LEADER.
-  
   overall_leader_gc_time_stage_tallied_time <- results_pivot_sort3b |>
     select(pivot_id,stage_number_order,tally_total_gc_time_stage_time_overall_leader_time = tally_total_gc_time_stage,gc_time_stage_time_overall_leader_time = gc_time_stage) |>
     filter(pivot_id == overall_leader_gc_time_stage_tallied_pivot_id) |>
@@ -397,7 +425,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
   
   #?fill
   
-  value_from_function <- "S7"
+  #value_from_function <- "GC7"
   
   results_pivot_sort4 <- results_pivot_sort3d |>
     mutate(value_from = case_when(
@@ -457,7 +485,8 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
       
     )) |>
     left_join(calendar_function(), by = c("season","first_cycling_race_id","stage_number")) |>
-    mutate(names_from = paste0(season, " | ",race_name," | ",stage_number," | ",stage_profile_category_mapping_eng)) |>
+    #mutate(names_from = paste0(season, " | ",race_name," | ",stage_number," | ",stage_profile_category_mapping_eng)) |>
+    mutate(names_from = paste0(race_name," | ",stage_number," | ",stage_profile_category_mapping_eng)) |>
     mutate(stg_number = as.double(stage_number)) |>
     arrange(start_date,stg_number) |>
     select(-c(stage_time_varchar,stage_time_from_leader_varchar,stage_time,
@@ -565,6 +594,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
   
   #results_pivot_gt <- results_pivot(2023,"Men","Rider","Tallied Stage Time from Leader","Down Under Races","","","") |>
   results_pivot_gt <- results_pivot_sort7 |>
+    head(20) |>
     
     mutate(avg_position_stage = round(avg_position_stage,1)) |>
     gt() |>
@@ -589,7 +619,8 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
     ) |>
     cols_hide(value_from_metric) |>
     #gt_badge(palette = c("1" = "gold","2" = "#A7A7AD", "3" = "#A77044")) |>
-    tab_header(title = md("**Cycling Analysis by CyclingChaos.co.uk**")) |>
+    tab_header(title = md("**Aussie Women's WT Race Block | GC Time from Best Rider on each Stage**"),
+               subtitle = md("Tour Down Under & Deakin University Road Race | CyclingChaos.co.uk")) |>
     tab_style(
       style = list(
         cell_borders(
@@ -602,9 +633,16 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
         cells_body(
           columns = c(rank,races_count))))|>
     tab_footnote(
-      footnote = "Data from FirstCycling.com"
+      footnote = "Data from FirstCycling.com | Bonus Seconds* are GC Time minus total Stage Time & Added Bonus Seconds to One Day Races"
     )
   
 }
 
-print(results_pivot(2024,"women","Rider","GC7","Aussie WT","","","",1))
+# 1 = Individual Stage Metric | avg time/score
+# 2 = Individual Stage Position | avg position
+# 3 = Individual Stage Metric from Stage Leader | avg time/score
+# 4 = Individual Stage Metric from Overall Leader | avg time/score
+# 5 = Tallied Individual Stage Metric | avg time/score
+# 6 = Tallied Individual Stage Metric from Tallied Individual Stage Leader | avg time/score
+# 7 = Tallied Individual Stage Metric from Overall Tallied Stage Leader | avg time/score
+print(results_pivot(2024,"women","Rider","GC6","Aussie WT","","","",1))
