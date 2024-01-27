@@ -57,6 +57,7 @@ first_cycling_calendar_df
 # count how many races need to be ingested
 
 race_id_list = first_cycling_calendar_df['first_cycling_race_id'].drop_duplicates().to_list()
+# race_id_list = ['9133']
 race_count_limit = first_cycling_calendar_df['first_cycling_race_id'].nunique()
 calendar_df_stage_races_race_id_extract = 0
 race_id_extract_count = 0
@@ -70,7 +71,7 @@ cci_file_name = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')['file
 # ingestion loop
 
 for race_id_extract_count in tqdm(range(0,
-                                        #   10
+                                        #   1
                                         race_count_limit
                                         )):
 # get code to sleep for 5 seconds to not overload website.
@@ -84,7 +85,7 @@ for race_id_extract_count in tqdm(range(0,
     raceresults_gc_meta_soup_str = str(raceresults_gc_meta_soup)
 # write file name and write to disk
     file_name = 'cycling_chaos_code'+'_'+'raceresults'+'_'+'gc'+'_'+str(season)+'_'+str(race_id_list[race_id_extract_count])+'.txt'
-    with open(setwd+'calendar_ingestion_files/souped_html_txt_files/'+file_name, 'w') as writefile:
+    with open(setwd+'souped_html_txt_files/'+file_name, 'w') as writefile:
         writefile.write(raceresults_gc_meta_soup_str)
         writefile.close()
 # append ingestion tracker list and write to disk
