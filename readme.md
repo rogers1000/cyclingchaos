@@ -13,7 +13,7 @@ Currently there is a seven phase iteration delivery process:
 - Phase 5 is rebuiling ingestion methodology (done)
 - Phase 6 is adding frontend data capability (done)
 - Phase 7 is adding 2024 Data to existing capabilities (Started On)
-- Phase 8 is getting ready for Olympics/Paralympics Games
+- Phase 8 is getting ready for Olympics/Paralympics Games (Started On)
 
 Any questions, please don't hesistate to message me. 
 
@@ -23,3 +23,4 @@ Current Functions:
 - `Rider_Name_Mapping()`
 - `Team_Details()`
 - `Results_Pivot()`
+- `Startlist_heamap()`
