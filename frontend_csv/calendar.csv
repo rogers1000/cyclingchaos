@@ -1,4 +1,4 @@
-"","season","gender","category","first_cycling_race_id","race_name","race_nationality","uci_race_classification","stage_race_boolean","start_date","end_date","stage_number","distance","route","stage_profile_category_mapping_eng","race_tags"
+"","season","gender","category","first_cycling_race_id","race_name","race_nationality","uci_race_classification","stage_race_boolean","start_date","end_date","stage_number","distance","route","stage_profile","race_tags"
 "1",2023,"men","Road",677,"Giro del Sol San Juan","AR","2.2","Stage Race","2023/01/06","2023/01/08","01","153","Plaza 25 de Mayo-Circuito San Juan Villicum","Flat","            "
 "2",2023,"men","Road",677,"Giro del Sol San Juan","AR","2.2","Stage Race","2023/01/06","2023/01/08","02","134.3","Circuito San Juan Villicum-Circuito San Juan Villicum","Flat","            "
 "3",2023,"men","Road",677,"Giro del Sol San Juan","AR","2.2","Stage Race","2023/01/06","2023/01/08","03","179.9","Circuito San Juan Villicum-Circuito San Juan Villicum","Flat","            "
