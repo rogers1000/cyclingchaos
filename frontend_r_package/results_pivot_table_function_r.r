@@ -1,10 +1,26 @@
 library(tidyverse)
+library(gt)
+library(gtExtras)
+library(ggplot2)
+library(ggtext)
 
 ##### RESULTS_PIVOT #####
 
 # pre-built filters for low-code capability
 results_pivot <- function(season_function,gender_function,detail_slicer_function,value_from_function,race_filter_function,uci_race_classification_function,
                           race_location_function,stage_race_function,oneday_bonus_function, head_count_function,template_user_function) {
+  # making Stages function within race_filter_function not dependent on capitalisation
+  race_filter_function <- case_when(str_detect(str_to_title(race_filter_function),'Stages') == TRUE ~ str_to_title(race_filter_function),
+            .default = race_filter_function)
+  # making gender all lowercase
+  gender_function <- str_to_lower(gender_function)
+  # making detail_slicer_function (rider/team) into title case
+  detail_slicer_function <- str_to_title(detail_slicer_function)
+  # making value_from_function into upper case
+  value_from_function <- str_to_upper(value_from_function)
+  
+  
+  
   # read cleaned results csv from github
   results_pivot_filters <- results_function() |>
     # filter to selected season and gender
@@ -12,7 +28,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
            , gender == gender_function
     ) |>
     # join in calendar csv to add in capability for filtering to race_nationality and race_tags 
-    left_join(calendar_function() |> select(season,first_cycling_race_id,race_nationality,race_tags) |> unique(), by = c("season","first_cycling_race_id")) |>
+    left_join(read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/frontend_csv/calendar.csv') |> select(season,first_cycling_race_id,race_nationality,race_tags) |> unique(), by = c("season","first_cycling_race_id")) |>
     # uci_race_classification filter
     mutate(uci_race_classification_filter = case_when(str_detect(uci_race_classification,'UWT') & uci_race_classification_function == 'World Tour' ~ 1,
                                                       str_detect(uci_race_classification,'WWT') & uci_race_classification_function == 'World Tour' ~ 1,
@@ -234,7 +250,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
   # working out correct order for stages to make tally counting work
   entered_all_races <- results_pivot_sort_stage |>
     # join in github csv for calendar. Look for end_date and stage_number
-    left_join(calendar_function() |> select(season,first_cycling_race_id,stage_number,end_date), by = c("season","first_cycling_race_id","stage_number")) |>
+    left_join(read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/frontend_csv/calendar.csv') |> select(season,first_cycling_race_id,stage_number,end_date), by = c("season","first_cycling_race_id","stage_number")) |>
     # group by rider/team
     group_by(pivot_id) |>
     arrange(end_date,stage_number) |>
@@ -261,7 +277,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
   # join from stage level metadata
   entered_all_races_tally_workings <- results_pivot_sort_stage |>
     # join in from github calendar csv. Look at stage_number and final date for stage
-    left_join(calendar_function() |> select(season,first_cycling_race_id,stage_number,end_date), by = c("season","first_cycling_race_id","stage_number")) |>
+    left_join(read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/frontend_csv/calendar.csv') |> select(season,first_cycling_race_id,stage_number,end_date), by = c("season","first_cycling_race_id","stage_number")) |>
     # join in dataframe for what it looks like if you entered all races
     left_join(entered_all_races, by = c("first_cycling_race_id","stage_number")) |>
     # group by rider/team and sort in order of races and count the order of the races each entered.
@@ -360,7 +376,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
   
   results_pivot_sort_stage <- results_pivot_sort_stage |>
     # left join calendar csv from github for stage_number and end_date
-    left_join(calendar_function() |> select(season,first_cycling_race_id,stage_number,end_date), by = c("season","first_cycling_race_id","stage_number")) |>
+    left_join(read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/frontend_csv/calendar.csv') |> select(season,first_cycling_race_id,stage_number,end_date), by = c("season","first_cycling_race_id","stage_number")) |>
     # create stage_number_order for each rider/team
     group_by(pivot_id) |>
     arrange(end_date,stage_number) |>
@@ -561,11 +577,11 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
       .default = avg_position_stage
     )) |>
     # joining in calendar function to put stage profile category into pivot table field names
-    left_join(calendar_function(), by = c("season","first_cycling_race_id","stage_number")) |>
+    left_join(read.csv('https://raw.githubusercontent.com/rogers1000/cyclingchaos/main/frontend_csv/calendar.csv'), by = c("season","first_cycling_race_id","stage_number")) |>
     # place holder incase I want to look at multiple seasons of certain races
     # concat race_name, stage number and stage profile together.
-    #mutate(names_from = paste0(season, " | ",race_name," | ",stage_number," | ",stage_profile_category_mapping_eng)) |>
-    mutate(names_from = paste0(race_name," | ",stage_number," | ",stage_profile_category_mapping_eng)) |>
+    #mutate(names_from = paste0(season, " | ",race_name," | ",stage_number," | ",stage_profile)) |>
+    mutate(names_from = paste0(race_name," | ",stage_number," | ",stage_profile)) |>
     # ensure that the data is ordered on a start_date and stage number basis so the table is in date order.
     mutate(stg_number = as.double(stage_number)) |>
     arrange(start_date,stg_number) |>
@@ -574,7 +590,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
               stage_time_behind_first
               #,gc_time_stage_from_overall_leader_stage_time
               #,gc_time_stage_overall_leader_stage_time
-              ,first_cycling_race_id,season,stage_profile_category_mapping_eng,stage_number,race_name,
+              ,first_cycling_race_id,season,stage_profile,stage_number,race_name,
               start_date,stg_number,
               race_nationality,gender,category,uci_race_classification,stage_race_boolean,
               end_date,
@@ -611,6 +627,7 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
               final_stage_total_gc_time_bonus_from_overall_leader,final_stage_total_gc_time_bonus_from_overall_leader_varchar
               ,tally_total_gc_time_bonus_from_leader,tally_total_gc_time_stage_from_leader_varchar,tally_total_gc_time_bonus_from_leader,
               tally_total_gc_time_bonus_from_leader_varchar
+              ,X
     ))
   
   
@@ -776,3 +793,4 @@ results_pivot <- function(season_function,gender_function,detail_slicer_function
 # 6 = Tallied Individual Stage Metric from Tallied Individual Stage Leader | avg time/score
 # 7 = Tallied Individual Stage Metric from Overall Tallied Stage Leader | avg time/score
 print(results_pivot(2023,"men","Rider","GC7","Stages - 17","","","",1,20,"CyclingChaos.co.uk"))
+
