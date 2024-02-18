@@ -16,6 +16,8 @@ from random import randrange
 
 #setwd = WorkingDirectory
 
+latest_ingest_date = '18/02/2024'
+
 # read in calendar df
 
 first_cycling_calendar_df = pd.read_csv(setwd+'first_cycling_calendar_df_master.csv')
@@ -35,19 +37,74 @@ season = 2024
 
 first_cycling_calendar_df['today_date'] = datetime.today()
 
-first_cycling_calendar_df['start_date_date'] = pd.to_datetime(first_cycling_calendar_df['start_date'],infer_datetime_format=True)
+first_cycling_calendar_df['last_ingest_date'] = pd.to_datetime(latest_ingest_date, infer_datetime_format=True)
 
-first_cycling_calendar_df['start_date_filter'] = np.where(first_cycling_calendar_df['start_date_date'] < first_cycling_calendar_df['today_date'],
+first_cycling_calendar_df['end_date_date'] = pd.to_datetime(first_cycling_calendar_df['end_date'],infer_datetime_format=True)
+
+first_cycling_calendar_df['start_date_filter_historic'] = np.where(first_cycling_calendar_df['end_date_date'] < first_cycling_calendar_df['today_date'],
                                                                    "Ingest","Wait")
+
+first_cycling_calendar_df['start_date_filter_ingested'] = np.where(latest_ingest_date < first_cycling_calendar_df['end_date_date'],
+                                                                   "Ingest","Ingested")
 
 first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['season'] == season]
 
-first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['start_date_filter'] == 'Ingest']
+# broken
+
+first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['start_date_filter_historic'] == 'Ingest']
+
+first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['start_date_filter_ingested'] == 'Ingest']
+
+# first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['first_cycling_race_id'] == 868]
+
+first_cycling_calendar_df
+
+# read in calendar df
+
+first_cycling_calendar_df = pd.read_csv(setwd+'first_cycling_calendar_df_master.csv')
+
+# ##### 2024 DATA INGEST BOTCH JOB
+
+# set season that you want to ingest
+season = 2024
+
+# create new column to make start_date compatible for comparing to date fields
+# if statement for if start_date is smaller than today's date then ingest file.
+# filter calendar dataframe to only include 2024 data
+# filter calendar dataframe to only include historic races
+
+## Should look into ingestion field to work out if data has been ingested before.
+## Probably need it for all code and do a complete re-design. 
+
+first_cycling_calendar_df['today_date'] = datetime.today()
+
+first_cycling_calendar_df['last_ingest_date'] = pd.to_datetime(latest_ingest_date, infer_datetime_format=True)
+
+first_cycling_calendar_df['end_date_date'] = pd.to_datetime(first_cycling_calendar_df['end_date'],infer_datetime_format=True)
+
+first_cycling_calendar_df['start_date_filter_historic'] = np.where(first_cycling_calendar_df['end_date_date'] < first_cycling_calendar_df['today_date'],
+                                                                   "Ingest","Wait")
+
+first_cycling_calendar_df['start_date_filter_ingested'] = np.where(latest_ingest_date < first_cycling_calendar_df['end_date_date'],
+                                                                   "Ingest","Ingested")
+
+first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['season'] == season]
+
+# broken
+
+first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['start_date_filter_historic'] == 'Ingest']
+
+first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['start_date_filter_ingested'] == 'Ingest']
+
+# first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['first_cycling_race_id'] == 868]
+
+first_cycling_calendar_df
 
 ##### END OF BOTCH JOB
 
 # create unique list of race_id 
 race_id_list = first_cycling_calendar_df['first_cycling_race_id'].drop_duplicates().to_list()
+# race_id_list = ['9133']
 
 # count of unique race_id
 race_count_limit = first_cycling_calendar_df['first_cycling_race_id'].nunique()
@@ -66,7 +123,7 @@ race_id_extract_count = 0
 # ingestion loop
 
 for race_id_extract_count in tqdm(range(0,
-                                        #   10
+                                        #   1
                                         race_count_limit
                                         )):
 # get code to sleep for 5 seconds to not overload website.
@@ -80,7 +137,7 @@ for race_id_extract_count in tqdm(range(0,
     raceresults_gc_meta_soup_str = str(raceresults_gc_meta_soup)
 # create file_name and write to disk
     file_name = 'cycling_chaos_code'+'_'+'startlist'+'_'+'all'+'_'+str(season)+'_'+str(race_id_list[race_id_extract_count])+'.txt'
-    with open(setwd+'calendar_ingestion_files/souped_html_txt_files/'+file_name, 'w') as writefile:
+    with open(setwd+'souped_html_txt_files/'+file_name, 'w') as writefile:
         writefile.write(raceresults_gc_meta_soup_str)
         writefile.close()
 # append ingestion tracker lists, convert to dataframe and write to disk
