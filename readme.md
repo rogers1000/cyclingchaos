@@ -23,4 +23,4 @@ Current Functions:
 - `Rider_Name_Mapping()`
 - `Team_Details()`
 - `Results_Pivot()`
-- `Startlist_heamap()`
+- `Startlist_heatmap()`
