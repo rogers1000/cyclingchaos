@@ -16,6 +16,8 @@ from random import randrange
 
 #setwd = WorkingDirectory
 
+latest_ingest_date = '18/02/2024'
+
 ##### One Day / GC Results #####
 
 
@@ -40,14 +42,19 @@ first_cycling_calendar_df['today_date'] = datetime.today()
 ## Should look into ingestion field to work out if data has been ingested before.
 ## Probably need it for all code and do a complete re-design. 
 
-first_cycling_calendar_df['start_date_date'] = pd.to_datetime(first_cycling_calendar_df['start_date'],infer_datetime_format=True)
+first_cycling_calendar_df['last_ingest_date'] = pd.to_datetime(latest_ingest_date, infer_datetime_format=True)
 
-first_cycling_calendar_df['start_date_filter'] = np.where(first_cycling_calendar_df['start_date_date'] < first_cycling_calendar_df['today_date'],
+first_cycling_calendar_df['end_date_date'] = pd.to_datetime(first_cycling_calendar_df['end_date'],infer_datetime_format=True)
+
+first_cycling_calendar_df['end_date_filter'] = np.where(first_cycling_calendar_df['end_date_date'] < first_cycling_calendar_df['today_date'],
                                                                    "Ingest","Wait")
 
 first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['season'] == season]
 
-first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['start_date_filter'] == 'Ingest']
+first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar_df['end_date_filter'] == 'Ingest']
+
+first_cycling_calendar_df['end_date_filter_ingested'] = np.where(latest_ingest_date < first_cycling_calendar_df['end_date_date'],
+                                                                   "Ingest","Ingested")
 
 first_cycling_calendar_df
 
@@ -57,7 +64,7 @@ first_cycling_calendar_df
 # count how many races need to be ingested
 
 race_id_list = first_cycling_calendar_df['first_cycling_race_id'].drop_duplicates().to_list()
-# race_id_list = ['9133']
+# race_id_list = ['1172']
 race_count_limit = first_cycling_calendar_df['first_cycling_race_id'].nunique()
 calendar_df_stage_races_race_id_extract = 0
 race_id_extract_count = 0
