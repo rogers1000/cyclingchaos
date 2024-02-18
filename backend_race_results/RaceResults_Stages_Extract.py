@@ -16,6 +16,7 @@ from random import randrange
 
 #setwd = WorkingDirectory
 
+latest_ingest_date = '18/02/2024'
 ##### Trying to create a list of races that needs to be ingested
 
 
@@ -29,6 +30,8 @@ first_cycling_calendar_stages_list = pd.read_csv(setwd+'first_cycling_calendar_d
 # filter to only show stages within stage races
 
 first_cycling_calendar_stages_list = first_cycling_calendar_stages_list.loc[first_cycling_calendar_stages_list['stage_race_boolean'] == 'Stage Race']
+
+first_cycling_calendar_stages_list['season_race_id_stagenumber'] = first_cycling_calendar_stages_list['season'].astype(str)+first_cycling_calendar_stages_list['first_cycling_race_id'].astype(str)+first_cycling_calendar_stages_list['stage_number'].astype(str)
 
 ##### 2024 DATA INGEST BOTCH JOB
 
@@ -44,18 +47,21 @@ first_cycling_calendar_stages_list['today_date'] = datetime.today()
 ## Should look into ingestion field to work out if data has been ingested before.
 ## Probably need it for all code and do a complete re-design. 
 
+first_cycling_calendar_stages_list['last_ingest_date'] = pd.to_datetime(latest_ingest_date, infer_datetime_format=True)
 
+first_cycling_calendar_stages_list['end_date_date'] = pd.to_datetime(first_cycling_calendar_stages_list['end_date'],infer_datetime_format=True)
 
-first_cycling_calendar_stages_list['start_date_date'] = pd.to_datetime(first_cycling_calendar_stages_list['start_date'],infer_datetime_format=True)
-
-first_cycling_calendar_stages_list['start_date_filter'] = np.where(first_cycling_calendar_stages_list['start_date_date'] < first_cycling_calendar_stages_list['today_date'],
+first_cycling_calendar_stages_list['end_date_filter'] = np.where(first_cycling_calendar_stages_list['end_date_date'] < first_cycling_calendar_stages_list['today_date'],
                                                                    "Ingest","Wait")
 
 first_cycling_calendar_stages_list = first_cycling_calendar_stages_list.loc[first_cycling_calendar_stages_list['season'] == season]
 
-first_cycling_calendar_stages_list = first_cycling_calendar_stages_list.loc[first_cycling_calendar_stages_list['start_date_filter'] == 'Ingest']
+first_cycling_calendar_stages_list = first_cycling_calendar_stages_list.loc[first_cycling_calendar_stages_list['end_date_filter'] == 'Ingest']
 
-first_cycling_calendar_stages_list = first_cycling_calendar_stages_list.drop(['start_date_date','today_date'],axis=1)
+first_cycling_calendar_stages_list['end_date_filter_ingested'] = np.where(latest_ingest_date < first_cycling_calendar_stages_list['end_date_date'],
+                                                                   "Ingest","Ingested")
+
+first_cycling_calendar_stages_list
 
 ##### END OF BOTCH JOB
 
@@ -69,84 +75,11 @@ race_results_df_master['concat'] = race_results_df_master['season'].astype(str)+
 
 race_results_df_master_list = race_results_df_master['concat'].drop_duplicates().to_list()
 
-# first_cycling_calendar_stages_list 
-
-# race_results_df_master_list
-
-# read in calendar data
-# filter to just Stage Races
-# create colum for unique ID for season+race_id+stage_number
-
-first_cycling_calendar_stages_list = pd.read_csv(setwd+'first_cycling_calendar_df_master.csv')
-
-first_cycling_calendar_stages_list = first_cycling_calendar_stages_list.loc[first_cycling_calendar_stages_list['stage_race_boolean'] == 'Stage Race']
-
-first_cycling_calendar_stages_list['season_race_id_stagenumber'] = first_cycling_calendar_stages_list['season'].astype(str)+first_cycling_calendar_stages_list['first_cycling_race_id'].astype(str)+first_cycling_calendar_stages_list['stage_number'].astype(str)
-
-##### 2024 DATA INGEST BOTCH JOB
-
-
-# create new column to make start_date compatible for comparing to date fields
-# if statement for if start_date is smaller than today's date then ingest file.
-# filter calendar dataframe to only include 2024 data
-# filter calendar dataframe to only include historic races
-
-## Should look into ingestion field to work out if data has been ingested before.
-## Probably need it for all code and do a complete re-design. 
-
-first_cycling_calendar_stages_list['today_date'] = datetime.today()
-
-first_cycling_calendar_stages_list['start_date_date'] = pd.to_datetime(first_cycling_calendar_stages_list['start_date'],infer_datetime_format=True)
-
-first_cycling_calendar_stages_list['start_date_filter'] = np.where(first_cycling_calendar_stages_list['start_date_date'] < first_cycling_calendar_stages_list['today_date'],
-                                                                   "Ingest","Wait")
-
-first_cycling_calendar_stages_list = first_cycling_calendar_stages_list.loc[first_cycling_calendar_stages_list['season'] == 2024]
-
-first_cycling_calendar_stages_list = first_cycling_calendar_stages_list.loc[first_cycling_calendar_stages_list['start_date_filter'] == 'Ingest']
-
-##### END OF 2024 BOTCH JOB
-
-first_cycling_calendar_stages_list['stage_number'] = first_cycling_calendar_stages_list['stage_number'].astype(int)
-
-first_cycling_calendar_stages_list
-
-# read in calendar data
-# filter to Stage Races
-# create colum for unique ID for season+race_id+stage_number
-
-first_cycling_calendar_stages_list = pd.read_csv(setwd+'first_cycling_calendar_df_master.csv')
-
-first_cycling_calendar_stages_list = first_cycling_calendar_stages_list.loc[first_cycling_calendar_stages_list['stage_race_boolean'] == 'Stage Race']
-
-first_cycling_calendar_stages_list['season_race_id_stagenumber'] = first_cycling_calendar_stages_list['season'].astype(str)+first_cycling_calendar_stages_list['first_cycling_race_id'].astype(str)+first_cycling_calendar_stages_list['stage_number'].astype(str)
-
-##### 2024 DATA INGEST BOTCH JOB
-
-# create new column to make start_date compatible for comparing to date fields
-# if statement for if start_date is smaller than today's date then ingest file.
-# filter calendar dataframe to only include 2024 data
-# filter calendar dataframe to only include historic races
-
-## Should look into ingestion field to work out if data has been ingested before.
-## Probably need it for all code and do a complete re-design. 
-
-first_cycling_calendar_stages_list['today_date'] = datetime.today()
-
-first_cycling_calendar_stages_list['start_date_date'] = pd.to_datetime(first_cycling_calendar_stages_list['start_date'],infer_datetime_format=True)
-
-first_cycling_calendar_stages_list['start_date_filter'] = np.where(first_cycling_calendar_stages_list['start_date_date'] < first_cycling_calendar_stages_list['today_date'],
-                                                                   "Ingest","Wait")
-
-first_cycling_calendar_stages_list = first_cycling_calendar_stages_list.loc[first_cycling_calendar_stages_list['season'] == 2024]
-
-first_cycling_calendar_stages_list = first_cycling_calendar_stages_list.loc[first_cycling_calendar_stages_list['start_date_filter'] == 'Ingest']
-
 ##### END OF BOTCH JOB
 
 # change stage_number type `int`
 
-first_cycling_calendar_stages_list['stage_number'] = first_cycling_calendar_stages_list['stage_number'].astype(int)
+# first_cycling_calendar_stages_list['stage_number'] = first_cycling_calendar_stages_list['stage_number'].astype(int)
 
 # count of unique season,race_id, stage_number
 
@@ -197,7 +130,7 @@ for calendar_df_stage_races_race_id_extract in tqdm(range(0,
   raceresults_stages_meta_soup_str = str(raceresults_stages_meta_soup)
 # create file_name and write to disk
   file_name = 'cycling_chaos_code'+'_'+'raceresults'+'_'+'stages'+'_'+str(season)+'_'+str(first_cycling_calendar_stages_count_race_id[calendar_df_stage_races_race_id_extract])+'_'+str(first_cycling_calendar_stages_count_stagenumber[calendar_df_stage_races_race_id_extract])+'.txt'
-  with open(setwd+'calendar_ingestion_files/souped_html_txt_files/'+file_name, 'w') as writefile:
+  with open(setwd+'souped_html_txt_files/'+file_name, 'w') as writefile:
     writefile.write(raceresults_stages_meta_soup_str)
     writefile.close()
 # add ingestions to ingestion tracker and write to disk
