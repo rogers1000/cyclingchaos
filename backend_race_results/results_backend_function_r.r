@@ -264,5 +264,21 @@ results_function <- function() {
     # remove rider_name and join in name mapping function to get most recent name for the rider.
     select(-first_cycling_rider_name) |>
     left_join(rider_name_mapping_df_function() |> select(first_cycling_rider_id,first_cycling_rider_name), by = "first_cycling_rider_id")
-  
+
+  # moving columns to make more sense to read
+  results_csv <- results_csv |>
+    select(season,first_cycling_race_id,paralympics_race_id,race_name,
+           category,gender,uci_race_classification,stage_race_boolean,start_date,end_date,
+           stage_number,stage_number_int,stage_number_order,
+           distance,route,stage_profile,
+           first_cycling_rider_id,first_cycling_rider_name,
+           first_cycling_team_id,team_name,bib_number,
+           gc_position,gc_time,gc_time_behind_first,
+           stage_position,stage_time,stage_time_behind_first,
+           gc_time_stage_position,gc_time_stage,gc_time_stage_behind_first,
+           gc_time_bonus_position,gc_time_bonus,gc_time_bonus_first,gc_time_bonus_behind_first,
+           youth_position,youth_time_raw,
+           kom_position,kom_score_raw,
+           team_position,team_time_raw
+           )
 }
