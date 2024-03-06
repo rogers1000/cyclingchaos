@@ -16,7 +16,9 @@ from random import randrange
 
 #setwd = WorkingDirectory
 
-latest_ingest_date = '18/02/2024'
+latest_ingest_date = '25/02/2024'
+##### Trying to create a list of races that needs to be ingested
+
 ##### Trying to create a list of races that needs to be ingested
 
 
@@ -61,6 +63,8 @@ first_cycling_calendar_stages_list = first_cycling_calendar_stages_list.loc[firs
 first_cycling_calendar_stages_list['end_date_filter_ingested'] = np.where(latest_ingest_date < first_cycling_calendar_stages_list['end_date_date'],
                                                                    "Ingest","Ingested")
 
+first_cycling_calendar_stages_list = first_cycling_calendar_stages_list.loc[first_cycling_calendar_stages_list['end_date_filter_ingested'] == 'Ingest']
+
 first_cycling_calendar_stages_list
 
 ##### END OF BOTCH JOB
@@ -90,6 +94,12 @@ first_cycling_calendar_stages_count_limit = first_cycling_calendar_stages_list['
 first_cycling_calendar_stages_count_season = first_cycling_calendar_stages_list['season'].to_list()
 first_cycling_calendar_stages_count_race_id = first_cycling_calendar_stages_list['first_cycling_race_id'].to_list()
 first_cycling_calendar_stages_count_stagenumber = first_cycling_calendar_stages_list['stage_number'].to_list()
+
+# first_cycling_calendar_stages_count_season = ['2024','2024','2024','2024']
+# first_cycling_calendar_stages_count_race_id = ['9189','9189','9189','9189']
+# first_cycling_calendar_stages_count_stagenumber = ['01','02','03','04']
+
+# first_cycling_calendar_stages_count_limit = 4
 
 # create empty lists for fields required for dataframes
 
@@ -123,13 +133,14 @@ for calendar_df_stage_races_race_id_extract in tqdm(range(0,
   season = first_cycling_calendar_stages_count_season[calendar_df_stage_races_race_id_extract]
   race_id = first_cycling_calendar_stages_count_race_id[calendar_df_stage_races_race_id_extract]
   stage_number = first_cycling_calendar_stages_count_stagenumber[calendar_df_stage_races_race_id_extract]
+  stage_number_int = int(stage_number)
 # beautiful soup to ingest html file
   calendar_stage_race_stages_df_meta = requests.get(url)
   raceresults_stages_meta = requests.get(url)
   raceresults_stages_meta_soup = BeautifulSoup(raceresults_stages_meta.content, "html.parser")
   raceresults_stages_meta_soup_str = str(raceresults_stages_meta_soup)
 # create file_name and write to disk
-  file_name = 'cycling_chaos_code'+'_'+'raceresults'+'_'+'stages'+'_'+str(season)+'_'+str(first_cycling_calendar_stages_count_race_id[calendar_df_stage_races_race_id_extract])+'_'+str(first_cycling_calendar_stages_count_stagenumber[calendar_df_stage_races_race_id_extract])+'.txt'
+  file_name = 'cycling_chaos_code'+'_'+'raceresults'+'_'+'stages'+'_'+str(season)+'_'+str(first_cycling_calendar_stages_count_race_id[calendar_df_stage_races_race_id_extract])+'_'+str(stage_number_int)+'.txt'
   with open(setwd+'souped_html_txt_files/'+file_name, 'w') as writefile:
     writefile.write(raceresults_stages_meta_soup_str)
     writefile.close()
