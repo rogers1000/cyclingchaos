@@ -59,7 +59,7 @@ for month_extract in tqdm(range(0,
   calendar_mens_road_df_meta_soup_str = str(calendar_mens_road_df_meta_soup)
   file_name = 'cycling_chaos_code'+'_'+'calendar'+'_'+'men'+'_'+str(season)+'_'+str(month_str)+'.txt'
 # write file to disk
-  with open(setwd+'calendar_ingestion_files/'+file_name, 'w') as writefile:
+  with open(setwd+'souped_html_txt_files/'+file_name, 'w') as writefile:
     writefile.write(calendar_mens_road_df_meta_soup_str)
     writefile.close()
 # add ingest details to ingestion master tracker
@@ -114,7 +114,7 @@ for month_extract in tqdm(range(0,
   calendar_womens_road_df_meta_soup_str = str(calendar_womens_road_df_meta_soup)
   file_name = 'cycling_chaos_code'+'_'+'calendar'+'_'+'women'+'_'+str(season)+'_'+str(month_str)+'.txt'
 # write to disk
-  with open(setwd+'calendar_ingestion_files/'+file_name, 'w') as writefile:
+  with open(setwd+'souped_html_txt_files/'+file_name, 'w') as writefile:
     writefile.write(calendar_womens_road_df_meta_soup_str)
     writefile.close()
 # add ingest details to ingestion master tracker
@@ -132,5 +132,3 @@ cycling_chaos_ingestion.to_csv(setwd+'cycling_chaos_ingestion_df.csv', index=Fal
 
 # check ingestion master is working
 print(cycling_chaos_ingestion)
-
-
