@@ -33,10 +33,11 @@ first_cycling_calendar_df = first_cycling_calendar_df.loc[first_cycling_calendar
 first_cycling_calendar_df_stages = first_cycling_calendar_df.loc[first_cycling_calendar_df['stage_race_boolean'] == 'Stage Race']
 
 # create list of first_cycling_race_ids
-first_cycling_stage_races_race_id_list = first_cycling_calendar_df_stages['first_cycling_race_id'].to_list()
+# first_cycling_stage_races_race_id_list = first_cycling_calendar_df_stages['first_cycling_race_id'].to_list()
 
 # Botch job that is commented out if I want to just ingestion selected races
-## first_cycling_stage_races_race_id_list = ['9080']
+# first_cycling_stage_races_race_id_list = ['9189']
+# calendar_df_stage_races_race_id_count = 1
 
 # Count number of stage_races that are currently ingested.
 calendar_df_stage_races_race_id_count = first_cycling_calendar_df_stages['first_cycling_race_id'].nunique()
@@ -65,7 +66,7 @@ for calendar_df_stage_races_race_id_extract in tqdm(range(0,
     calendar_stage_race_stages_df_meta_soup_str = str(calendar_stage_race_stages_df_meta_soup)
 # create file name and write to disk
     file_name = 'cycling_chaos_code'+'_'+'calendar'+'_'+'stage_profile'+'_'+str(season)+'_'+str(first_cycling_stage_races_race_id_list[calendar_df_stage_races_race_id_extract])+'.txt'
-    with open(setwd+'calendar_ingestion_files/souped_html_txt_files/'+file_name, 'w') as writefile:
+    with open(setwd+'souped_html_txt_files/'+file_name, 'w') as writefile:
         writefile.write(calendar_stage_race_stages_df_meta_soup_str)
         writefile.close()
 # add new ingestion to ingestion tracker lists 
