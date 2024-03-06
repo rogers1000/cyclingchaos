@@ -17,14 +17,13 @@ from random import randrange
 ##### Making Code Possible to Put onto Github #####
 
 # setwd = Working Directory
-
 # load ingestion tracker, filter to startlists files and create list of file_names and count of file_names
 
 cycling_chaos_ingestion = pd.read_csv(setwd+'cycling_chaos_ingestion_df_master.csv')
 
-cci_file_name_list = cycling_chaos_ingestion.loc[(cycling_chaos_ingestion['output_details'] == 'paralympics') & (cycling_chaos_ingestion['output'] == 'raceresults')]['file_name'].to_list()
+cci_file_name_list = cycling_chaos_ingestion.loc[(cycling_chaos_ingestion['output_details'] == 'paralympics') & (cycling_chaos_ingestion['output'] == 'results')]['file_name'].to_list()
 
-paralympics_count_limit = cycling_chaos_ingestion.loc[(cycling_chaos_ingestion['output_details'] == 'paralympics') & (cycling_chaos_ingestion['output'] == 'raceresults')]['file_name'].nunique()
+paralympics_count_limit = cycling_chaos_ingestion.loc[(cycling_chaos_ingestion['output_details'] == 'paralympics') & (cycling_chaos_ingestion['output'] == 'results')]['file_name'].nunique()
 
 # creating empty lists for dataframe
 
@@ -51,7 +50,7 @@ games_results_count = 0
 
 for games_results_count in tqdm(range(
                                       0,
-                                      # 1
+                                      # 250,
                                       paralympics_count_limit
                                     )):
   file = open(setwd+'souped_html_txt_files/'+cci_file_name_list[games_results_count], 'r')
@@ -80,11 +79,10 @@ for games_results_count in tqdm(range(
                                     ):
             if 'data-label="Rank"' in str(columns[rank_column_count]):
               rank_column = rank_column_count
-              # rank.append(columns[rank_column_count].text)
             else: 
               'Not in column '+str(rank_column_count)
             rank_column_count = rank_column_count + 1
-          rank.append(str(columns[rank_column]))
+          rank.append(re.sub("[^0-9]","",str(columns[rank_column].text)))
 
         #    nationality
           nationality_column_count = 0
@@ -94,7 +92,6 @@ for games_results_count in tqdm(range(
                                     ):
             if 'data-label="NPC"' in str(columns[nationality_column_count]):
               nationality_column = nationality_column_count
-              # nationality.append(columns[nationality_column_count].text)
             else:
               'Not in column '+str(nationality_column_count)
             nationality_column_count = nationality_column_count + 1
@@ -123,7 +120,6 @@ for games_results_count in tqdm(range(
                                     ):
             if 'data-label="Athlete"' in str(columns[rider_name_column_count]):
               rider_name_column = rider_name_column_count
-              # rider_name.append(columns[rider_name_column_count].text)
             else:
               'Not in column '+str(rider_name_column_count)
             rider_name_column_count = rider_name_column_count + 1
@@ -137,50 +133,53 @@ for games_results_count in tqdm(range(
                                     ):
             if 'data-label="Time1"' in str(columns[race_time_column_count]):
               race_time_column = race_time_column_count
-              # race_time.append(columns[race_time_column_count].text)
             else:
               'Not in column '+str(race_time_column_count)
-            # elif 'data-label="Time"' in str(columns[race_time_column_count]):
-            #   race_time.append(columns[race_time_column_count].text)
             race_time_column_count = race_time_column_count + 1
           race_time.append(columns[race_time_column].text)
         #    race_results_info
           race_results_info_column_count = 0
+          race_results_info_column_list = []
           for column_count in range(0,
-                                    # 7
                                     len(columns)
                                     ):
-            if 'data-label="note"' in str(columns[race_results_info_column_count]):
-              race_info_column = race_results_info_column_count
-            elif 'data-label="Info"' in str(columns[race_results_info_column_count]):
-              race_info_column = race_results_info_column_count
+            if 'data-label="Info"' in str(columns[race_results_info_column_count]):
+              # race_results_info_column = race_results_info_column_count
+              # print(race_results_info_column_count)
+              race_results_info_column_list.append(race_results_info_column_count)
+            elif 'data-label="note"' in str(columns[race_results_info_column_count]):
+              # print(race_results_info_column_count)
+              # race_results_info_column = race_results_info_column_count
+              race_results_info_column_list.append(race_results_info_column_count)
             else:
-              'Not in column '+str(race_results_info_column_count)
-              race_info_column = 'error' 
-              # race_results_info.append(columns[race_results_info_column_count].text)
-            # elif 'data-label="note"' in str(columns[race_results_info_column_count]):
-            #   race_results_info.append(columns[race_results_info_column_count].text)
-            race_results_info_column_count = race_results_info_column_count + 1
-          if race_info_column == 'error':
-            race_results_info.append('Error')
-          else: race_results_info.append(columns[race_info_column].text)
+              # race_results_info_column = -1
+              race_results_info_column_list.append(-1)
+          race_results_info_column_count = race_results_info_column_count + 1
+          # print(list_test)
+          race_results_info_column = max(race_results_info_column_list)
+          if race_results_info_column == -1:
+            'Error'
+          else:
+            print(race_results_info_column)
+          if race_results_info_column < 0:
+            race_results_info.append('')
+          else:
+            race_results_info.append(columns[race_results_info_column].text)
         #    irm
           irm_column_count = 0
           for column_count in range(0,
-                                    # 7
                                     len(columns)
                                     ):
             if 'data-label="IRM"' in str(columns[irm_column_count]):
               race_irm_column = irm_column_count
-              # race_irm.append(columns[irm_column_count].text)
             elif 'data-label="irm"' in str(columns[irm_column_count]):
               race_irm_column = irm_column_count
             else:
               race_irm_column = 'error'
-              # race_irm.append(columns[irm_column_count].text)
+              # print(race_irm_column)
             irm_column_count = irm_column_count + 1
           if race_irm_column == 'error':
-            race_irm.append('Error')
+            race_irm.append('')
           else: race_irm.append(columns[race_irm_column].text)
             
         paralympics_calendar_results = pd.DataFrame({
@@ -191,14 +190,22 @@ for games_results_count in tqdm(range(
             'rider_id':rider_id,
             'rider_name':rider_name,
             'race_time':race_time,
+            # 'race_date':race_date,
             'race_results_info':race_results_info,
             'race_irm':race_irm
+            # ,'test':test,
+            # ,'test1':test1
+            # 'test2':test2,
+            # 'test3':test3,
+            # 'test4':test4,
+            # 'test5':test5,
+            # 'test6':test6,
           })
         table_count_ingestion = table_count_ingestion + 1
 games_results_count = games_results_count + 1
 
 paralympics_calendar_results.to_csv(setwd+'test_csv.csv')
 
-paralympics_calendar_results
+# paralympics_calendar_results = paralympics_calendar_results.loc[paralympics_calendar_results['paralympics_race_id'] == 'london-2012_mens-1-km-time-trial-c4-5']
 
-# print(rider_name)
+paralympics_calendar_results
