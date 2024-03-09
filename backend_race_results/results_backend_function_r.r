@@ -10,6 +10,13 @@ results_function <- function() {
     unique() |>
     # rename column for gc_time_raw
     mutate(gc_time_raw_secs = gc_time_raw) |>
+    # gc_position is the edited version, gc_position_raw is non-edited
+    mutate(gc_position_raw = gc_position) |>
+    mutate(gc_position = case_when(gc_position == "OOT" ~ 1000,
+                                        gc_position == "DNF" ~ 1100,
+                                        gc_position == "DNS" ~ 1200,
+                                        gc_position == "DSQ" ~ 1300,
+                                        .default = as.double(gc_position))) |>
     # creating time behind leader column. If gc_position is 1 then 0.
     # time_raw is normally "+ [n]" [n] meaning time behind formatted to hours:mins:seconds.
     mutate(gc_time_behind_leader_secs = case_when(gc_position == "1" ~ "0",
@@ -77,6 +84,75 @@ results_function <- function() {
               gc_time_raw
               #,future_race
     )) |>
+    # rename column for youth_time_raw
+    mutate(youth_time_raw_secs = youth_time_raw) |>
+    # creating time behind leader column. If youth_position is 1 then 0.
+    # time_raw is normally "+ [n]" [n] meaning time behind formatted to hours:mins:seconds.
+    mutate(youth_time_behind_leader_secs = case_when(youth_position == "1" ~ "0",
+                                                     youth_position != "1" ~ str_remove(youth_time_raw_secs,'\\+ '),
+                                                     .default = "0"
+    )) |>
+    # work out youth_time behind leader in hours, minutes and seconds. Convert each into seconds.
+    # the only race where time is displayed properly is the leader
+    # split hours:mins:seconds by the colon count.
+    # for hours, check if the rider is hours behind by counting colons.
+    # If yes, then only look at number of hours times by seconds in an hour (3600)
+    # default is that the rider is not hours behind.
+    mutate(youth_time_behind_leader_hours = case_when(str_count(youth_time_behind_leader_secs,':') == 2 ~ as.double(str_split_i(youth_time_behind_leader_secs,':',1))*3600,
+                                                      .default = 0)) |>
+    # for minutes, check if the rider is hours behind. That will impact where to split the answer to just pull minutes behind.
+    # times minutes behind by number of seconds within a minute (60)
+    # default is that the rider is not minutes behind.
+    mutate(youth_time_behind_leader_mins = case_when(str_count(youth_time_behind_leader_secs,':') == 1 ~ as.double(str_split_i(youth_time_behind_leader_secs,':',1))*60,
+                                                     str_count(youth_time_behind_leader_secs,':') == 2 ~ as.double(str_split_i(youth_time_behind_leader_secs,':',2))*60,
+                                                     .default = 0)) |>
+    # for seconds, check if the rider is hours behind, that will impact where the split the text to just pull seconds behind.
+    # default is that to pull number of seconds.
+    mutate(youth_time_behind_leader_secs = case_when(str_count(youth_time_behind_leader_secs,':') == 1 ~ as.double(str_split_i(youth_time_behind_leader_secs,':',2)),
+                                                     str_count(youth_time_behind_leader_secs,':') == 2 ~ as.double(str_split_i(youth_time_behind_leader_secs,':',3)),
+                                                     .default = as.double(youth_time_behind_leader_secs))) |>
+    # add all three columns into a single column which is time behind leaders in seconds
+    mutate(youth_time_behind_leader = youth_time_behind_leader_hours+youth_time_behind_leader_mins+youth_time_behind_leader_secs) |>
+    # make a new column for youth_position which is an int
+    mutate(youth_position_int = as.double(youth_position)) |>
+    # sort by season, race and youth_position 
+    arrange(-season,first_cycling_race_id,youth_position_int) |>
+    group_by(season,first_cycling_race_id,stage_number) |>
+    # first row = winner. 
+    mutate(first_place_youth_time = youth_time_raw[1]) |>
+    ungroup() |>
+    # group by individual stage (season, race_id, stage_number)
+    group_by(season,first_cycling_race_id,stage_number) |>
+    # the only race where time is displayed properly is the leader
+    # split hours:mins:seconds by the colon count.
+    # Check if the race was over an hour long. If yes, then only look at number of hours times by seconds in an hour (3600)
+    # default is that race was not an hour long.
+    mutate(youth_time_raw_hours = case_when(str_count(youth_time_raw_secs[1][1],':') == 2 ~ as.double(str_split_i(youth_time_raw_secs[1],':',1))*3600,
+                                            .default = 0)) |>
+    # Check if the race was over an hour long. This looks at how to split the string to pull just the minutes column
+    # If yes, then only look at number of minutes times by seconds in an hour (60)
+    # default is that race was not a minute long.
+    
+    mutate(youth_time_raw_mins = case_when(str_count(youth_time_raw_secs[1],':') == 1 ~ as.double(str_split_i(youth_time_raw_secs[1],':',1))*60,
+                                           str_count(youth_time_raw_secs[1],':') == 2 ~ as.double(str_split_i(youth_time_raw_secs[1],':',2))*60,
+                                           .default = 0)) |>
+    # for seconds, check if the race is over an hour long behind, that will impact where the split the text to just pull seconds
+    # default is that to pull number of seconds.
+    mutate(youth_time_raw_secs_2 = case_when(str_count(youth_time_raw_secs[1],':') == 1 ~ as.double(str_split_i(youth_time_raw_secs[1],':',2)),
+                                             str_count(youth_time_raw_secs[1],':') == 2 ~ as.double(str_split_i(youth_time_raw_secs[1],':',3)),
+                                             .default = as.double(youth_time_raw_secs[1]))) |>
+    # add hours (in seconds), minutes (in seconds) and seconds of the leader together
+    mutate(youth_time_raw = youth_time_raw_hours+youth_time_raw_mins+youth_time_raw_secs_2) |>
+    ungroup() |>
+    # youth_time is time for the leader in seconds plus the number of seconds behind the leader 
+    mutate(youth_time = youth_time_raw+youth_time_behind_leader) |>
+    # deselect all columns which are built to create output
+    select(-c(youth_time_raw_hours,youth_time_raw_mins,youth_time_raw_secs_2,
+              youth_time_behind_leader_hours,youth_time_behind_leader_mins,
+              youth_time_behind_leader_secs,first_place_youth_time,youth_time_behind_leader,youth_time_raw_secs,
+              youth_time_raw
+              #,future_race
+    )) |>
     # left join team details to get team name
     left_join(team_details <- team_details_function(), by = c('season','first_cycling_team_id' = "first_cycling_team_id")) |>
     # create a single team_name field. Teams can be created for the race and are called "Invitational Teams".
@@ -104,6 +180,20 @@ results_function <- function() {
     left_join(results_function_gc_time_behind_first, by = c("season","first_cycling_race_id","stage_number")) |>
     mutate(gc_time_behind_first = gc_time - gc_time_first) |>
     select(-gc_time_first)
+  
+  # create csv which looks into how quick the first rider for each stage was.
+  results_function_youth_time_behind_first <- results_csv |>
+    filter(!is.na(youth_time)) |>
+    group_by(season,first_cycling_race_id,stage_number) |>
+    summarise(youth_time_first = min(youth_time)) |>
+    ungroup()
+  
+  # join how quick first rider for each stage was to main results_csv
+  # this is to create youth_time_behind_first field
+  results_csv <- results_csv |>
+    left_join(results_function_youth_time_behind_first, by = c("season","first_cycling_race_id","stage_number")) |>
+    mutate(youth_time_behind_first = youth_time - youth_time_first) |>
+    select(-youth_time_first)
   
   ##### Stage #####
   # replicate what was produced for gc_time for stage_time.
@@ -199,7 +289,7 @@ results_function <- function() {
     mutate(stage_time_behind_first = stage_time - stage_time_first) |>
     select(-c(stage_time_first))
   
-
+  
   results_csv <- results_csv |>
     # change type of rider_id, team_id, race_id to double.
     mutate(first_cycling_rider_id = as.double(first_cycling_rider_id)) |>
@@ -219,6 +309,8 @@ results_function <- function() {
       stage_number == "GC" ~ gc_time,
       # Missing Stages from Transform
       stage_number_order < stage_number ~ NA,
+      # gc_time is NA
+      is.na(gc_position) ~ NA,
       # If first stage of stage race then gc_time
       stage_number_order == 1 ~ gc_time,
       # GC time minus previous stage gc time
@@ -226,7 +318,8 @@ results_function <- function() {
       .default = NA
     )) |>
     # gc_time_bonus is stage_time minus gc_time for each stage
-    mutate(gc_time_bonus = stage_time-gc_time_stage) |>
+    mutate(gc_time_bonus = case_when(!is.na(gc_position) ~ stage_time-gc_time_stage,
+                                     .default = NA)) |>
     ungroup() |>
     arrange(season,start_date,end_date,first_cycling_race_id,stage_number,stage_position_int,gc_position_int) |>
     # deselect fields used to build output
@@ -263,13 +356,17 @@ results_function <- function() {
     ungroup() |>
     # remove rider_name and join in name mapping function to get most recent name for the rider.
     select(-first_cycling_rider_name) |>
-    left_join(rider_name_mapping_df_function() |> select(first_cycling_rider_id,first_cycling_rider_name), by = "first_cycling_rider_id")
-
+    left_join(rider_name_mapping_df_function() |> select(first_cycling_rider_id,first_cycling_rider_name), by = "first_cycling_rider_id") |>
+    # cleaning gc_position
+    mutate(gc_position = case_when(gc_position >= 1000 ~ gc_position_raw,
+                                         .default = as.character(gc_position)))
+  
   # moving columns to make more sense to read
   results_csv <- results_csv |>
     select(season,first_cycling_race_id,paralympics_race_id,race_name,
            category,gender,uci_race_classification,stage_race_boolean,start_date,end_date,
-           stage_number,stage_number_int,stage_number_order,
+           stage_number,
+           stage_number_int,stage_number_order,
            distance,route,stage_profile,
            first_cycling_rider_id,first_cycling_rider_name,
            first_cycling_team_id,team_name,bib_number,
@@ -277,8 +374,10 @@ results_function <- function() {
            stage_position,stage_time,stage_time_behind_first,
            gc_time_stage_position,gc_time_stage,gc_time_stage_behind_first,
            gc_time_bonus_position,gc_time_bonus,gc_time_bonus_first,gc_time_bonus_behind_first,
-           youth_position,youth_time_raw,
+           youth_position,youth_time,youth_time_behind_first,
+           points_position,points_score_raw,
            kom_position,kom_score_raw,
            team_position,team_time_raw
-           )
+    )
+  
 }
