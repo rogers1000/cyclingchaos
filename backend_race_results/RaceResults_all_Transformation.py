@@ -1126,7 +1126,7 @@ for raceresults_stage_count in tqdm(range(0,
         file_read = file.read()
         file_soup = BeautifulSoup(file_read, "html.parser")
         # tbody[2] = kom
-        file_soup_part2 = file_soup.find_all('tbody')[3]
+        file_soup_part2 = file_soup.find_all('tbody')[4]
     except:
         print('Error in '+raceresults_df_kom_stage_racelist_list[raceresults_stage_count])
         raceresults_stage_count = raceresults_stage_count + 1
@@ -1134,7 +1134,7 @@ for raceresults_stage_count in tqdm(range(0,
         file_read = file.read()
         file_soup = BeautifulSoup(file_read, "html.parser")
         # tbody[2] = kom
-        file_soup_part2 = file_soup.find_all('tbody')[2]
+        file_soup_part2 = file_soup.find_all('tbody')[3]
 
     for row in file_soup_part2.find_all('tr'):
         columns = row.find_all('td')
