@@ -6,6 +6,7 @@ library(tidyverse)
 results_function <- function() {
   # read results_csv from python transformation
   results_csv <- read.csv('/Users/zacrogers/Documents/cycling_chaos/python_code/cyclingchaos_raceresults_df_master.csv') |>
+    filter(stage_race_boolean != '') |>
     # make data unique
     unique() |>
     # rename column for gc_time_raw
@@ -277,6 +278,28 @@ results_function <- function() {
   
   # create df which looks into how quick the first rider for each stage was.
   results_function_stage_time_behind_first <- results_csv |>
+    # TTT Stage Time Transformation
+    group_by(season,first_cycling_race_id,first_cycling_rider_id) |>
+    arrange(season,first_cycling_race_id,stage_number) |>
+    # work out stage_number_order by doing cumsum of stages
+    mutate(stage_number_order = 1) |>
+    mutate(stage_number_order = cumsum(stage_number_order)) |>
+    mutate(gc_time_stage = case_when(
+      stage_number == "GC" ~ gc_time,
+      # Missing Stages from Transform
+      stage_number_order < stage_number ~ NA,
+      # gc_time is NA
+      is.na(gc_position) ~ NA,
+      # If first stage of stage race then gc_time
+      stage_number_order == 1 ~ gc_time,
+      # GC time minus previous stage gc time
+      stage_number_order-lag(stage_number_order,1) == 1 ~ gc_time - lag(gc_time,1),
+      .default = NA
+    )) |>
+    mutate(stage_time = case_when(
+      stage_profile == 'TTT' ~ gc_time_stage,
+      .default = stage_time)) |>
+    ungroup() |>
     filter(!is.na(stage_time)) |>
     group_by(season,first_cycling_race_id,stage_number) |>
     summarise(stage_time_first = min(stage_time)) |>
@@ -285,10 +308,31 @@ results_function <- function() {
   # join how quick first rider for each stage was to main results_csv
   # this is to create stage_time_behind_first field
   results_csv <- results_csv |>
+    # TTT Stage Time Transformation
+    group_by(season,first_cycling_race_id,first_cycling_rider_id) |>
+    # work out stage_number_order by doing cumsum of stages
+    mutate(stage_number_order = 1) |>
+    arrange(season,first_cycling_race_id,stage_number) |>
+    mutate(stage_number_order = cumsum(stage_number_order)) |>
+    mutate(gc_time_stage = case_when(
+      stage_number == "GC" ~ gc_time,
+      # Missing Stages from Transform
+      stage_number_order < stage_number ~ NA,
+      # gc_time is NA
+      is.na(gc_position) ~ NA,
+      # If first stage of stage race then gc_time
+      stage_number_order == 1 ~ gc_time,
+      # GC time minus previous stage gc time
+      stage_number_order-lag(stage_number_order,1) == 1 ~ gc_time - lag(gc_time,1),
+      .default = NA
+    )) |>
+    mutate(stage_time = case_when(
+      stage_profile == 'TTT' ~ gc_time_stage,
+      .default = stage_time)) |>
+    ungroup() |>
     left_join(results_function_stage_time_behind_first, by = c("season","first_cycling_race_id","stage_number")) |>
     mutate(stage_time_behind_first = stage_time - stage_time_first) |>
     select(-c(stage_time_first))
-  
   
   results_csv <- results_csv |>
     # change type of rider_id, team_id, race_id to double.
@@ -304,7 +348,7 @@ results_function <- function() {
     mutate(stage_number_order = 1) |>
     mutate(stage_number_order = cumsum(stage_number_order)) |>
     # create field that makes gc_time for each stage
-    # ngl so confused
+    # ngl so confused - gc_time_stage
     mutate(gc_time_stage = case_when(
       stage_number == "GC" ~ gc_time,
       # Missing Stages from Transform
@@ -315,6 +359,38 @@ results_function <- function() {
       stage_number_order == 1 ~ gc_time,
       # GC time minus previous stage gc time
       stage_number_order-lag(stage_number_order,1) == 1 ~ gc_time - lag(gc_time,1),
+      .default = NA
+    )) |>
+    # ngl so confused - points_score
+    mutate(points_score_raw_double = case_when(points_score_raw == '' ~ 0,
+                                               is.na(points_score_raw) ~ 0,
+                                               .default = as.double(points_score_raw))) |>
+    mutate(points_score = case_when(
+      stage_number == "GC" ~ points_score_raw_double,
+      # Missing Stages from Transform
+      stage_number_order < stage_number ~ NA,
+      # gc_time is NA
+      is.na(gc_position) ~ NA,
+      # If first stage of stage race then gc_time
+      stage_number_order == 1 ~ points_score_raw_double,
+      # GC time minus previous stage gc time
+      stage_number_order-lag(stage_number_order,1) == 1 ~ points_score_raw_double - lag(points_score_raw_double,1),
+      .default = NA
+    )) |>
+    # ngl so confused - kom_score
+    mutate(kom_score_raw_double = case_when(kom_score_raw == '' ~ 0,
+                                            is.na(kom_score_raw) ~ 0,
+                                            .default = as.double(kom_score_raw))) |>
+    mutate(kom_score = case_when(
+      stage_number == "GC" ~ kom_score_raw_double,
+      # Missing Stages from Transform
+      stage_number_order < stage_number ~ NA,
+      # gc_time is NA
+      is.na(gc_position) ~ NA,
+      # If first stage of stage race then gc_time
+      stage_number_order == 1 ~ kom_score_raw_double,
+      # GC time minus previous stage gc time
+      stage_number_order-lag(stage_number_order,1) == 1 ~ kom_score_raw_double - lag(kom_score_raw_double,1),
       .default = NA
     )) |>
     # gc_time_bonus is stage_time minus gc_time for each stage
@@ -361,6 +437,36 @@ results_function <- function() {
     mutate(gc_position = case_when(gc_position >= 1000 ~ gc_position_raw,
                                          .default = as.character(gc_position)))
   
+  # TTT Transformation
+  
+  results_csv <- results_csv |>
+    mutate(stage_time = case_when(
+      stage_profile == 'TTT' ~ gc_time_stage,
+      .default = stage_time)) |>
+    mutate(gc_time_bonus = case_when(
+      stage_profile == 'TTT' ~ 0,
+      .default = gc_time_bonus)) |>
+    mutate(gc_time_bonus = case_when(
+      stage_profile == 'TTT' ~ 0,
+      .default = gc_time_bonus)) |>
+    mutate(gc_time_bonus_first = case_when(
+      stage_profile == 'TTT' ~ 0,
+      .default = gc_time_bonus_first)) |>
+    mutate(gc_time_bonus_behind_first = case_when(
+      stage_profile == 'TTT' ~ 0,
+      .default = gc_time_bonus_behind_first)) |>
+    group_by(season,first_cycling_race_id,stage_number,first_cycling_team_id) |>
+    mutate(stage_time = case_when(
+      stage_profile == 'TTT' ~ min(stage_time),
+      .default = stage_time
+    )) |>
+    ungroup() |>
+    group_by(season,first_cycling_race_id,stage_number) |>
+    mutate(stage_position = case_when(
+      stage_profile == 'TTT' ~ as.character(dense_rank(stage_time)),
+      .default = stage_position
+    ))
+  
   # moving columns to make more sense to read
   results_csv <- results_csv |>
     select(season,first_cycling_race_id,paralympics_race_id,race_name,
@@ -375,9 +481,12 @@ results_function <- function() {
            gc_time_stage_position,gc_time_stage,gc_time_stage_behind_first,
            gc_time_bonus_position,gc_time_bonus,gc_time_bonus_first,gc_time_bonus_behind_first,
            youth_position,youth_time,youth_time_behind_first,
-           points_position,points_score_raw,
-           kom_position,kom_score_raw,
+           points_position,points_score,
+           kom_position,kom_score,
            team_position,team_time_raw
     )
   
 }
+
+
+test_results_function <- results_function()
