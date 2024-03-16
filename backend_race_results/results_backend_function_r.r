@@ -1,7 +1,6 @@
 library(tidyverse)
 
 ##### RESULTS FUNCTION #####
-
 #No pre-built filters
 results_function <- function() {
   # read results_csv from python transformation
@@ -417,6 +416,34 @@ results_function <- function() {
            gc_time_bonus_behind_first = gc_time_bonus_first - gc_time_bonus) |>
     select(-c(gc_time_stage_first))
   
+  # create csv which looks into max kom score for each stage was.
+  results_function_kom_score_behind_first <- results_csv |>
+    filter(!is.na(kom_score)) |>
+    group_by(season,first_cycling_race_id,stage_number) |>
+    summarise(kom_score_first = max(kom_score)) |>
+    ungroup()
+  
+  # join how quick first rider for each stage was to main results_csv
+  # this is to create kom_score_behind_first field
+  results_csv <- results_csv |>
+    left_join(results_function_kom_score_behind_first, by = c("season","first_cycling_race_id","stage_number")) |>
+    mutate(kom_score_behind_first = kom_score_first - kom_score) |>
+    select(-kom_score_first)
+  
+  # create csv which looks into max points score for each stage was.
+  results_function_points_score_behind_first <- results_csv |>
+    filter(!is.na(points_score)) |>
+    group_by(season,first_cycling_race_id,stage_number) |>
+    summarise(points_score_first = max(points_score)) |>
+    ungroup()
+  
+  # join how quick first rider for each stage was to main results_csv
+  # this is to create points_score_behind_first field
+  results_csv <- results_csv |>
+    left_join(results_function_points_score_behind_first, by = c("season","first_cycling_race_id","stage_number")) |>
+    mutate(points_score_behind_first = points_score_first - points_score) |>
+    select(-points_score_first)
+  
   # create gc_time for each stage position
   # create gc_time_bonus for each stage position
   results_csv <- results_csv |>
@@ -481,12 +508,14 @@ results_function <- function() {
            gc_time_stage_position,gc_time_stage,gc_time_stage_behind_first,
            gc_time_bonus_position,gc_time_bonus,gc_time_bonus_first,gc_time_bonus_behind_first,
            youth_position,youth_time,youth_time_behind_first,
-           points_position,points_score,
-           kom_position,kom_score,
+           points_position,points_score,points_score_behind_first,
+           kom_position,kom_score,kom_score_behind_first,
            team_position,team_time_raw
     )
   
 }
+
+test_results_function <- results_function()
 
 
 test_results_function <- results_function()
