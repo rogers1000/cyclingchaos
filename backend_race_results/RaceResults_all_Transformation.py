@@ -338,8 +338,8 @@ youth_time_raw_overall = []
 # transformation loop
 
 for raceresults_stagerace_count in tqdm(range(
-                                            #   0,
-                                              526,
+                                              0,
+                                            #   526,
                                             #   526
                                               raceresults_stagerace_count_limit
                                               )):
@@ -450,8 +450,6 @@ for raceresults_df_youth_overall_count in range(0,raceresults_df_youth_overall_c
     else: 'Error'
 
 raceresults_df_youth_overall_count = raceresults_df_youth_overall_count + 1
-    
-raceresults_df_youth_overall_count = raceresults_df_youth_overall_count + 1
 
 raceresults_df_youth_overall
 
@@ -469,9 +467,17 @@ raceresults_df_youth_overall_racelist
 
 calendar_df = pd.read_csv(setwd+'frontend_csv/calendar.csv')
 
-calendar_df['season_race_id'] = calendar_df['season'].astype(str)+'_'+calendar_df['first_cycling_race_id'].astype(str)
+calendar_df['race_id_nan'] = np.isnan(calendar_df.first_cycling_race_id.values)
+
+calendar_df = calendar_df.loc[calendar_df['race_id_nan'] == False]
+
+calendar_df['season_race_id'] = calendar_df['season'].astype(str)+'_'+(calendar_df['first_cycling_race_id'].astype(int)).astype(str)
 
 raceresults_df_youth_stage_racelist_df = calendar_df[calendar_df['season_race_id'].isin(raceresults_df_youth_overall_racelist)]
+
+calendar_df
+
+raceresults_df_youth_stage_racelist_df
 
 raceresults_df_youth_stage_racelist_df['stg_number_float'] = raceresults_df_youth_stage_racelist_df['stage_number'].astype(int)
 
@@ -552,14 +558,14 @@ for raceresults_stage_count in tqdm(range(0,
                     youth_time_raw_stage.append(columns[5].text)
                 except: youth_time_raw_stage.append('Error')
             
-            raceresults_stage_df_youth = pd.DataFrame({
+    raceresults_stage_df_youth = pd.DataFrame({
                 'season':season
                 ,'first_cycling_race_id':first_cycling_race_id
                 ,'stage_number':stage_number
                 ,'youth_position':youth_position_stage
                 ,'first_cycling_rider_id':first_cycling_rider_id_stage
                 ,'youth_time_raw':youth_time_raw_stage
-            })
+    })
 raceresults_stage_count = raceresults_stage_count + 1
 
 # raceresult_stage_count_limit
