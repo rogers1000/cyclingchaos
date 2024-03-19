@@ -5,7 +5,7 @@ A cycling data package built by CyclingChaos (CyclingChaos.co.uk) where you will
 - Team Rosters
 - Rider Details
 
-Currently there is a seven phase iteration delivery process:
+Currently there is a nine phase iteration delivery process:
 - Phase 1 is basics (done)
 - Phase 2 is building basic package functions (done)
 - Phase 3 is adding backend data capability (done)
