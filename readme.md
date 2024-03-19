@@ -12,8 +12,9 @@ Currently there is a seven phase iteration delivery process:
 - Phase 4 is adding frontend data capability (done)
 - Phase 5 is rebuiling ingestion methodology (done)
 - Phase 6 is adding frontend data capability (done)
-- Phase 7 is adding 2024 Data to existing capabilities (Started On)
-- Phase 8 is getting ready for Olympics/Paralympics Games (Started On)
+- Phase 7 is adding 2024 Data to existing capabilities (done)
+- Phase 8 is getting ready for Paralympics Games (Started On)
+- Phase 9 is adding data capability to results_pivot() function (Started On)
 
 Any questions, please don't hesistate to message me. 
 
